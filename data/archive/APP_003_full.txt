@@ -1,0 +1,27 @@
+[Project_ID] APP_003
+[Project_Name] 大量交織+地球公物 (MEGAWEAVING + Earth Goods)
+[Applicant] 蕭有志 (Yu-Chih Hsiao)
+[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+
+[Core_Concept]
+將擁有 9,800+ 成員的 Facebook 資源共享社團轉化為具備 Web3 存證功能的資料庫。將共享物件（相機、筆電等）註冊為「地球公物」(Earth Goods)，永久記錄於區塊鏈。
+
+[Execution_Details]
+- Platform: Mobile-first web platform syncing FB posts.
+- Search System: Tagging and searching available items (Art/Tech focus).
+- Blockchain: NFT-based identity on Zora/Polygon.
+- Story Tracking: Record donor, donation date, borrowing history, and associated artistic projects.
+- Borrowing: Users submit short motivation statements to borrow.
+
+[Budget_Plan] Total 60,000 NTD
+- Web/UI Design: 25,000
+- Blockchain Minting (NFT): 10,000
+- FB Content Integration: 7,000
+- Documentation/Video: 6,000
+- Hosting/Domain: 4,000
+- Project Management: 8,000
+
+[Expected_Outputs]
+- Open infrastructure for shared resources.
+- Permanent record of object life cycles.
+- Transparent circulation of creative tools.

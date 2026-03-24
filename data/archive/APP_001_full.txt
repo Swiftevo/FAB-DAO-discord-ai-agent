@@ -1,0 +1,32 @@
+[Project_ID] APP_001
+[Project_Name] Web3 羽球社 (Web3 Badminton Club)
+[Applicant] 許明恩 (hi@blocktrend.today)
+[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+
+[Core_Concept]
+結合運動與 Web3 技術的社群實驗，呼應 Ethereum Localism。透過羽球降低 Web3 入門門檻，將區塊鏈工具（錢包、支付、POAP）融入日常生活。
+
+[Technical_Stack]
+- Framework: Next.js, React
+- Web3: WagmiConnect, Web3Modal, MetaMask, WalletConnect
+- Tools: TailwindCSS, Luma API (Event management), Signal (Communication)
+- On-chain: Ethereum (POAP), USDT/USDC/ETH (Payments)
+
+[Execution_Details]
+- Weekly Events: 2-hour sessions, doubles matches.
+- Entry Barrier: Must use Signal group; only crypto payments accepted (250 NTD equivalent).
+- Rewards: POAPs for attendance; accumulated POAPs redeem limited team uniforms.
+- Governance: Future DAO integration for club decisions.
+
+[Budget_Plan] Total 30,000 NTD
+- Tournament prizes/venue: 3,000
+- Professional coaching: 4,000 (2 sessions)
+- Team uniforms: 10,000 (30 pcs)
+- Refreshments: 3,000
+- Manager allowance: 10,000
+
+[Expected_Outputs]
+- 12+ event records/photos
+- POAP series design
+- Open-source "Web3 Sports Club" operation manual
+- Active Signal community

@@ -1,0 +1,25 @@
+[Project_ID] APP_005
+[Project_Name] Matters Choice 星光藝術計劃
+[Applicant] Swift Evo
+[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+
+[Core_Concept]
+擴大 Matters 平台藝術內容（音樂、美術、NFT）的曝光度。透過獎勵金機制激勵推薦者（Curators）與創作者（Creators），探索公共藝術社群的永續運作。
+
+[Execution_Details]
+- Reward Mechanism: 
+  - Curator (fab_dao_artbank): 5 USDT per recommendation.
+  - Creator: 5 USDT for being recommended.
+  - Total 10U per article.
+- Targets: 10 high-quality art articles in 1-3 months.
+- Platform: Matters Choice (avg. 200 monthly IP readers).
+- Publication: Sync results to Matters and FAB DAO Discord.
+
+[Budget_Plan] Total 150 USD (approx. 4,800 NTD)
+- Article rewards (Creators): 50
+- Curator rewards (Art Bank): 50
+- Operational support (Swift Evo): 50
+
+[Expected_Outputs]
+- 10优質藝術文章推薦。
+- Strengthened link between Web3 and traditional art communities.

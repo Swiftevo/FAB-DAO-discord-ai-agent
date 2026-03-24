@@ -1,0 +1,22 @@
+[Project_ID] APP_004
+[Project_Name] 事水 (Matter of Water)
+[Applicant] 事水團隊
+[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+
+[Core_Concept]
+以「水環境」為主題的 IG 自媒體計畫。透過內容創作提升大眾對環境議題的基本素養，將台灣水環境（河流、污水處理、再生水）置於國際脈絡中觀察，反思數位治理的可能性。
+
+[Execution_Details]
+- Content Format: 150-300 words + 3-4 slides + 20s video per post.
+- Topics: Science (turbidity, science facts), Global (Singapore, Spain water issues), History (Kaohsiung Love River), and Memory.
+- Locations for Research: Taitung (groundwater), Taichung (leakage rates), Matsu (desalination), Yilan (no reservoirs).
+- Goals: 10 posts in 6 months, aiming for 50 shares per post.
+
+[Budget_Plan] Total 25,000 NTD
+- Preparation/Positioning: 3,000
+- Mid-term Execution (Travel, Interviews, Operations): 19,000
+- Final Analysis/Fan Interaction: 3,000
+
+[Expected_Outputs]
+- 10 high-quality environmental education posts.
+- Exploration of digital governance (e.g., Tamsui River transparency platform).

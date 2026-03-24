@@ -1,0 +1,22 @@
+[Project_ID] APP_002
+[Project_Name] 你拒絕，我給錢：文字勞動者(藝評)支持計畫
+[Applicant] FAB DAO 藝評小組成員
+[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+
+[Core_Concept]
+仿效「罷工基金」，爭取合理稿酬（目標一字 3 元）。針對目前公部門及刊物稿酬過低（一字 1-1.5 元）的現狀，鼓勵評論人勇敢拒絕不合理勞動，維護專業尊嚴。
+
+[Execution_Details]
+- Mechanism 1: Refuse low-pay commission + No writing = Pay 50% of min. word count at 2 NTD/word.
+- Mechanism 2: Refuse low-pay commission + Write & Publish on this project site = Pay full min. word count at 2 NTD/word.
+- Platform: Separate Web3 wallet and writing platform for transparency.
+- Scope: Visual and Performing Arts criticism.
+
+[Budget_Plan] Total 30,000 NTD
+- Writer compensation: 24,000 (Target: 3 cases, estimated 8,000 per person)
+- Administrative fee: 6,000 (2,000 per case)
+
+[Expected_Outputs]
+- Encourage critics to use Web3 wallets for rewards.
+- Social experiment: Compare quality between low-pay and fair-pay articles on same topics.
+- Raise awareness of labor rights within the art community.

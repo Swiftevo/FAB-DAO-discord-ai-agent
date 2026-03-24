@@ -1,0 +1,7 @@
+[
+  {"id": "APP_001", "project": "Web3 羽球社", "applicant": "許明恩", "total_milestones": 3, "current_phase": 1, "next_deadline": "2025-04-15", "status": "Active"},
+  {"id": "APP_002", "project": "你拒絕，我給錢", "applicant": "藝評支持計畫", "total_milestones": 1, "current_phase": 0, "next_deadline": "2026-03-21", "status": "Pending"},
+  {"id": "APP_003", "project": "大量交織+地球公物", "applicant": "蕭有志", "total_milestones": 3, "current_phase": 1, "next_deadline": "2026-04-21", "status": "Active"},
+  {"id": "APP_004", "project": "事水", "applicant": "事水團隊", "total_milestones": 3, "current_phase": 1, "next_deadline": "2026-03-29", "status": "Active"},
+  {"id": "APP_005", "project": "星光藝術計劃", "applicant": "Swift Evo", "total_milestones": 2, "current_phase": 1, "next_deadline": "2026-04-21", "status": "Active"}
+]

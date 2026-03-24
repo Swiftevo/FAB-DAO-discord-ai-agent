@@ -1,54 +1,103 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { OpenAI } = require('openai');
-const cron = require('node-cron');
 const fs = require('fs');
 const path = require('path');
 
-const client = new Client({ 
+const client = new Client({
     intents: [
-        GatewayIntentBits.Guilds, 
-        GatewayIntentBits.GuildMessages, 
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
         GatewayIntentBits.MessageContent
-    ] 
+    ]
 });
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+// 讀取 Prompt 設定檔的函式
 function getPrompt(fileName) {
     const filePath = path.join(__dirname, 'prompts', fileName);
     return fs.readFileSync(filePath, 'utf8');
 }
 
+client.once('ready', () => {
+    console.log(`✅ 快樂鼠機器人已上線：${client.user.tag}`);
+});
+
 // --- 訊息處理邏輯 ---
 client.on('messageCreate', async (message) => {
-    // 偵錯用：看看機器人有沒有聽到聲音
-    console.log(`收到訊息 [${message.author.tag}]: ${message.content}`);
-
     if (message.author.bot) return;
 
+    // 只有在提到機器人時才觸發回應
     if (message.mentions.has(client.user)) {
-        const userPrompt = message.content.replace(/<@!\d+>/g, '').trim();
+        console.log(`收到來自 [${message.author.tag}] 的召喚: ${message.content}`);
         
+        // 移除 Mention 標籤，取得純文字指令
+        const userPrompt = message.content.replace(/<@!?\d+>/g, '').trim();
+        const REVIEWER_ROLE_NAME = "行動客廳小組";
+
         try {
-            const systemContent = getPrompt('happy_rat.txt');
+            // 1. 取得基本個性設定
+            const baseSystemContent = getPrompt('happy_rat.txt');
+
+            // 2. 初始化動態資料庫 (databaseContext)
+            let databaseContext = "";
+
+            // --- 第一層：讀取摘要 (固定載入) ---
+            const summaryPath = path.join(__dirname, 'data', 'summary.json');
+            if (fs.existsSync(summaryPath)) {
+                const summaryData = fs.readFileSync(summaryPath, 'utf8');
+                databaseContext += `\n【目前所有申請案摘要】：\n${summaryData}\n`;
+            }
+
+            // --- 第二層：偵測專案 ID (提到 APP_XXX 才載入細節) ---
+            const appIdMatch = userPrompt.match(/APP_\d+/i);
+            if (appIdMatch) {
+                const appId = appIdMatch[0].toUpperCase();
+                const recordPath = path.join(__dirname, 'data', 'records', `${appId}.json`);
+                
+                if (fs.existsSync(recordPath)) {
+                    const record = fs.readFileSync(recordPath, 'utf8');
+                    databaseContext += `\n【${appId} 里程碑細節】：\n${record}\n`;
+                }
+
+                // --- 第三層：權限檢查（查看原始檔案） ---
+                if (userPrompt.includes("查看原始檔案") || userPrompt.includes("深度分析")) {
+                    const isReviewer = message.member.roles.cache.some(role => role.name === REVIEWER_ROLE_NAME);
+                    
+                    if (isReviewer) {
+                        const archivePath = path.join(__dirname, 'data', 'archive', `${appId}_full.txt`);
+                        if (fs.existsSync(archivePath)) {
+                            const fullText = fs.readFileSync(archivePath, 'utf8');
+                            databaseContext += `\n【管理員授權：${appId} 原始全文內容】：\n${fullText}\n`;
+                            await message.reply(`🔍 **權限確認**：正在為「${REVIEWER_ROLE_NAME}」成員調閱 ${appId} 的原始卷宗...`);
+                        }
+                    } else {
+                        return message.reply(`❌ **存取失敗**：查看原始檔案僅限「${REVIEWER_ROLE_NAME}」成員使用。`);
+                    }
+                }
+            }
+
+            // 3. 呼叫 OpenAI API
             const completion = await openai.chat.completions.create({
                 model: "gpt-4o",
                 messages: [
-                    { role: "system", content: systemContent },
+                    { 
+                        role: "system", 
+                        content: `${baseSystemContent}\n\n實時資料庫內容：\n${databaseContext}` 
+                    },
                     { role: "user", content: userPrompt }
                 ],
             });
-            message.reply(completion.choices[0].message.content);
+
+            // 4. 回傳 AI 答案
+            await message.reply(completion.choices[0].message.content);
+
         } catch (error) {
-            console.error("錯誤:", error);
-            message.reply("抱歉，我現在連不上大腦...");
+            console.error("❌ 快樂鼠運行出錯：", error);
+            await message.reply("哎呀，我的腦袋打結了（讀取資料或 API 出錯），請稍後再試！");
         }
     }
-});
-
-client.once('ready', () => {
-    console.log(`✅ 快樂鼠機器人已上線：${client.user.tag}`);
 });
 
 client.login(process.env.DISCORD_TOKEN);
