@@ -66,11 +66,11 @@ client.on('messageCreate', async (message) => {
                     const isReviewer = message.member.roles.cache.some(role => role.name === REVIEWER_ROLE_NAME);
                     
                     if (isReviewer) {
-                        const archivePath = path.join(__dirname, 'data', 'archive', `${appId}_full.txt`);
-                        if (fs.existsSync(archivePath)) {
-                            const fullText = fs.readFileSync(archivePath, 'utf8');
+                        const arcPath = path.join(__dirname, 'data', 'archive', `${appId}_full.txt`);
+                        if (fs.existsSync(arcPath)) {
+                            const fullText = fs.readFileSync(arcPath, 'utf8');
                             databaseContext += `\n【管理員授權：${appId} 原始全文內容】：\n${fullText}\n`;
-                            await message.reply(`🔍 **權限確認**：正在為「${REVIEWER_ROLE_NAME}」成員調閱 ${appId} 的原始卷宗...`);
+                            return await message.reply(`🔍 **權限確認**：已為您調閱 ${appId} 原始全文：\n\n${fullText.substring(0, 1500)}...`);
                         }
                     } else {
                         return message.reply(`❌ **存取失敗**：查看原始檔案僅限「${REVIEWER_ROLE_NAME}」成員使用。`);
