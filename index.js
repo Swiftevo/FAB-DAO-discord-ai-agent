@@ -26,6 +26,7 @@ client.once('ready', () => {
 
 // --- 訊息處理邏輯 ---
 client.on('messageCreate', async (message) => {
+    console.log(`收到訊息 ID: ${message.id} | 作者: ${message.author.tag} | 是Bot: ${message.author.bot}`);
     if (message.author.bot) return;
 
     // 只有在提到機器人時才觸發回應
