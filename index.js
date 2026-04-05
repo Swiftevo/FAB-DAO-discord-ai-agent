@@ -92,7 +92,12 @@ client.on('messageCreate', async (message) => {
             });
 
             // 4. 回傳 AI 答案
-            await message.reply(completion.choices[0].message.content);
+            const replyContent = completion.choices[0].message.content;
+if (replyContent.length > 1900) {
+    await message.reply(replyContent.substring(0, 1900) + "\n\n（回答過長，已截斷）");
+} else {
+    await message.reply(replyContent);
+}
 
         } catch (error) {
             console.error("❌ 快樂鼠運行出錯：", error);
