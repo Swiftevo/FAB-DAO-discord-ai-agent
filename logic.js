@@ -26,7 +26,13 @@ function getPrompt(fileName) {
 function getOrganizationContext() {
     try {
         const orgPath = path.join(__dirname, 'data', 'org_profile.json');
-        if (!fs.existsSync(orgPath)) return "";
+        // 新增這行來除錯
+        console.log("嘗試讀取組織設定檔路徑:", orgPath);
+
+            if (!fs.existsSync(orgPath)) {
+            console.warn("⚠️ 找不到組織設定檔，請檢查路徑:", orgPath);
+            return "";
+        }
 
         const data = JSON.parse(fs.readFileSync(orgPath, 'utf8'));
         let context = `\n【組織背景：${data.organization.name}】\n`;
