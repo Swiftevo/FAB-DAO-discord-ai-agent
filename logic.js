@@ -34,11 +34,17 @@ function getOrganizationContext() {
             return "";
         }
 
-        const data = JSON.parse(fs.readFileSync(orgPath, 'utf8'));
-        let context = `\n【組織背景：${data.organization.name}】\n`;
+        const rawData = fs.readFileSync(orgPath, 'utf8');
+        // 🌟 新增：檢查原始字串長度
+        console.log("原始 JSON 長度:", rawData.length);
+
+        const data = JSON.parse(rawData);
+        // 🌟 新增：確認解析後的組織名稱
+        console.log("解析成功，組織名稱:", data.organization.name);
+
+        let context = `\n【重要：你是 ${data.organization.name} 的專屬助理】\n`;
         context += `願景：${data.organization.vision}\n`;
         context += `核心原則：${data.organization.core_principles.join('、')}\n\n`;
-        
         context += `各部門介紹與連結：\n`;
         data.departments.forEach(dept => {
             context += `- ${dept.name}：${dept.description}\n`;
@@ -117,7 +123,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n${orgContext}\n\n實時資料庫內容：\n${databaseContext}`
+                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### 實時資料庫內容：\n${databaseContext}`
                 },
                 { role: "user", content: userPrompt }
             ],
