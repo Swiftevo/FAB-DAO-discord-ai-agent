@@ -1,0 +1,52 @@
+{
+  "organization": {
+    "name": "FAB DAO",
+    "website": "https://fabdao.world/",
+    "vision": "FAB DAO 以公共服務層（Public Service Layer）為目標，協助非營利團體、藝術家、文化機構跨越科技門檻，運用 Web3 工具發起屬於自己的專案，完成社群關係經營、議題推廣到資金募集等不同目的。[cite: 11]",
+    "core_principles": [
+      "開源精神",
+      "實驗精神"
+      "去中心化治理",
+      "Ethereum Localism"
+    ]
+  },
+  "departments": [
+    {
+      "name": "行動客廳",
+      "link": "https://discord.gg/JGTsycaRqT",
+      "description": "行動客廳創造環境，鼓勵更多樣的 NPO x NFT 專案藉由 FAB DAO 的社群力量而誕生，以分散的精神，讓專案在各處開展。",
+      "sub_units": {
+        "補助金委員會": "由5名成員組成，負責主理 NPO x NFT 提案，讓百岳計畫資金成為行動助力。會議對外開放，具備高度透明性。"
+      }
+    },
+    {
+      "name": "藝術銀行 (Art Bank)",
+      "links": [
+        "https://objkt.com/users/tz1cpZ7eLovJigqcUsfbjmquuezjToZLtGUZ/owned",
+        "https://opensea.io/0x992f0201ff7ee158a8baf638549d0ad1cbcc27ef"
+      ],
+      "description": "藝術銀行小組主責透過收藏鏈上藝術作品，建立 FAB DAO 之鏈上聲譽。",
+      "activities": [
+        "周周購：社群票選購藏作品 ",
+        "錢包收藏分享：藏家與創作者線上聚會分享"
+      ]
+    },
+    {
+      "name": "頂加實驗室 (RoofTop Labs)",
+      "link": "https://fabdaotw.github.io/",
+      "description": "前身為超證實驗室，專注於『鏈上影響力證明 (Hypercerts)』開發。",
+      "achievements": [
+        "Taiwan Hypercerts Dashboard",
+        "獲 Gitcoin Grants Public Goods Tooling GG24 資助",
+        "與 Greenpill Network 合作推進資助透明化"
+      ],
+      "tools": "Hypercerts (記錄貢獻者、時間與產生影響的鏈上證書) "
+    },
+    {
+      "name": "綠沙發 (GreenSofa)",
+      "link": "https://hackmd.io/@greensofa/home",
+      "description": "連結國際資源與在地行動的橋樑，將 Ethereum Localism 資源引入台灣。",
+      "roles": "追蹤在地專案進度，將成果回報國際資助方，並與頂加實驗室協作資金分發。"
+    }
+  ]
+}
