@@ -21,6 +21,39 @@ function getPrompt(fileName) {
 }
 
 /**
+ * 輔助函式：將 org_profile.json 轉換為 AI 系統背景
+ */
+function getOrganizationContext() {
+    try {
+        const orgPath = path.join(__dirname, 'data', 'org_profile.json');
+        if (!fs.existsSync(orgPath)) return "";
+
+        const data = JSON.parse(fs.readFileSync(orgPath, 'utf8'));
+        let context = `\n【組織背景：${data.organization.name}】\n`;
+        context += `願景：${data.organization.vision}\n`;
+        context += `核心原則：${data.organization.core_principles.join('、')}\n\n`;
+        
+        context += `各部門介紹與連結：\n`;
+        data.departments.forEach(dept => {
+            context += `- ${dept.name}：${dept.description}\n`;
+            if (dept.link) context += `  🔗 官方連結：${dept.link}\n`;
+            if (dept.links) context += `  🔗 相關連結：${dept.links.join(', ')}\n`;
+            if (dept.sub_units) {
+                for (let unit in dept.sub_units) {
+                    context += `  * ${unit}：${dept.sub_units[unit]}\n`;
+                }
+            }
+        });
+        return context;
+    } catch (err) {
+        console.error("無法讀取 org_profile.json:", err);
+        return "";
+    }
+}
+
+
+
+/**
  * 核心 AI 處理函數 (支援雙平台共用)
  * @param {string} userPrompt 使用者輸入的文字
  * @param {boolean} isReviewer 是否具備管理員權限
@@ -32,6 +65,10 @@ async function handleAIRequest(userPrompt, isReviewer) {
     try {
         // 1. 取得基本個性設定 (來自 happy_rat.txt)
         const baseSystemContent = getPrompt('happy_rat.txt');
+
+
+        // 2. 取得組織背景
+        const orgContext = getOrganizationContext();
 
         // --- 第一層：讀取基礎摘要 (固定載入) ---
         const summaryPath = path.join(__dirname, 'data', 'summary.json');
@@ -51,7 +88,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
                 databaseContext += `\n【${appId} 里程碑細節】：\n${record}\n`;
             }
 
-            // --- 第三層：權限檢查 (查看原始檔案 / 深度分析) ---
+        // --- 第三層：權限檢查 (查看原始檔案 / 深度分析) ---
             if (userPrompt.includes("查看原始檔案") || userPrompt.includes("深度分析")) {
                 if (isReviewer) {
                     const arcPath = path.join(__dirname, 'data', 'archive', `${appId}_full.txt`);
@@ -74,7 +111,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n\n實時資料庫內容：\n${databaseContext}` 
+                    content: `${baseSystemContent}\n${orgContext}\n\n實時資料庫內容：\n${databaseContext}`
                 },
                 { role: "user", content: userPrompt }
             ],
