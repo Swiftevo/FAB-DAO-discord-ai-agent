@@ -1,7 +1,57 @@
 [
-  {"id": "APP_001", "project": "Web3 羽球社", "applicant": "許明恩", "total_milestones": 3, "current_phase": 1, "next_deadline": "2025-04-15", "status": "Active"},
-  {"id": "APP_002", "project": "你拒絕，我給錢", "applicant": "藝評支持計畫", "total_milestones": 1, "current_phase": 0, "next_deadline": "2026-03-21", "status": "Pending"},
-  {"id": "APP_003", "project": "大量交織+地球公物", "applicant": "蕭有志", "total_milestones": 3, "current_phase": 1, "next_deadline": "2026-04-21", "status": "Active"},
-  {"id": "APP_004", "project": "事水", "applicant": "事水團隊", "total_milestones": 3, "current_phase": 1, "next_deadline": "2026-03-29", "status": "Active"},
-  {"id": "APP_005", "project": "星光藝術計劃", "applicant": "Swift Evo", "total_milestones": 2, "current_phase": 1, "next_deadline": "2026-04-21", "status": "Active"}
+  {
+    "id": "APP_001",
+    "project": "Web3 羽球社",
+    "applicant": "許明恩",
+    "total_milestones": 3,
+    "current_phase": 1,
+    "status": "Active",
+    "budget": "30,000 NTD",
+    "timeline": "2025-01至2025-04",
+    "milestone_summary": "M1(2025-01): 啟動每週活動與Signal社群; M2(2025-03): 實作加密支付與POAP簽到; M3(2025-04): 發布開源營運手冊 [cite: 1, 4]"
+  },
+  {
+    "id": "APP_002",
+    "project": "你拒絕，我給錢",
+    "applicant": "藝評支持計畫",
+    "total_milestones": 1,
+    "current_phase": 0,
+    "status": "Pending",
+    "budget": "30,000 NTD",
+    "timeline": "2026-03至2026-06",
+    "milestone_summary": "M1(2026-03): 建立Web3支付與寫作平台; M2(2026-05): 完成3件支持案例; M3(2026-06): 發布勞動權益實驗報告 [cite: 5, 8]"
+  },
+  {
+    "id": "APP_003",
+    "project": "大量交織+地球公物",
+    "applicant": "蕭有志",
+    "total_milestones": 3,
+    "current_phase": 1,
+    "status": "Active",
+    "budget": "60,000 NTD",
+    "timeline": "2026-02至2026-04",
+    "milestone_summary": "M1(2026-02): 平台開發與FB資料同步; M2(2026-03): NFT身分與故事追蹤系統; M3(2026-04): 共享設施正式上線 [cite: 11, 20]"
+  },
+  {
+    "id": "APP_004",
+    "project": "事水",
+    "applicant": "一峻",
+    "total_milestones": 3,
+    "current_phase": 1,
+    "status": "Active",
+    "budget": "25,000 NTD",
+    "timeline": "2026-01至2026-06",
+    "milestone_summary": "M1(2026-01): 主題定位與前期研究; M2(2026-03): 實地訪查與內容創作; M3(2026-06): 完成10篇環境教育貼文 [cite: 16, 20]"
+  },
+  {
+    "id": "APP_005",
+    "project": "星光藝術計劃",
+    "applicant": "Swift Evo",
+    "total_milestones": 2,
+    "current_phase": 1,
+    "status": "Active",
+    "budget": "150 USD",
+    "timeline": "2026-02至2026-04",
+    "milestone_summary": "M1(2026-02): 啟動策展人與創作者獎勵機制; M2(2026-03): 完成10篇優質藝術文章推薦; M3(2026-04): 社群成果發布 [cite: 22, 26]"
+  }
 ]
