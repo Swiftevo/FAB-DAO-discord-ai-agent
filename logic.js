@@ -111,7 +111,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n${orgContext}\n\n實時資料庫內容：\n${databaseContext}`
+                    content: `${baseSystemContent}\n${orgContext}\n\n實時資料庫內容：\n${databaseContext}\n\指令：請優先根據組織背景回答。若涉及特定部門，請務必提供連結。`
                 },
                 { role: "user", content: userPrompt }
             ],
