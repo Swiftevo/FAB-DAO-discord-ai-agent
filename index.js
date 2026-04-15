@@ -45,4 +45,8 @@ client.on('messageCreate', async (message) => {
     }
 });
 
+// 啟動 Discord
 client.login(process.env.DISCORD_TOKEN);
+
+// --- 啟動 Telegram ---
+require('./telegram.js');
