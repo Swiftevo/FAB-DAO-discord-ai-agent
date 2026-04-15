@@ -12,28 +12,40 @@ const WHITE_LIST = ['swiftevo'];
 bot.on('text', async (ctx) => {
     if (ctx.from.is_bot) return; // 忽略來自其他機器人的訊息
 
-    // 取得發言者的資訊
+    // 🌟 必須先定義這兩個變數
+    const botUsername = ctx.botInfo.username;
+    let userPrompt = ctx.message.text;
     const username = ctx.from.username || ctx.from.first_name;
-    const userPrompt = ctx.message.text;
+
+    // 檢查是否在群組中
+    const isGroup = ctx.chat.type === 'group' || ctx.chat.type === 'supergroup';
+
+    // 🌟 修正：處理標記邏輯
+    if (isGroup) {
+        if (!userPrompt.includes(`@${botUsername}`)) {
+            return; // 沒標記就完全不理會，也不會留 log
+        }
+    // 移除標記字串，讓 AI 只收到純問題 (例如從 "@bot 你好" 變成 "你好")
+        userPrompt = userPrompt.replace(`@${botUsername}`, '').trim();
+    }
+
+    console.log(`[Telegram] 收到來自 @${username} 的訊息: ${userPrompt}`);
 
     // 判斷是否為白名單成員
     const isReviewer = WHITE_LIST.includes(username);
 
-    console.log(`[Telegram] 收到來自 @${username} 的訊息: ${userPrompt}`);
-
     try {
-        // 在 Telegram 頂部顯示「正在輸入...」的狀態
+        // 在 Telegram 頂部顯示「正在輸入...」的狀熊
         await ctx.sendChatAction('typing');
-
-        // 🧠 將邏輯外包給 logic.js 處理
+        
+        // 🧠 傳送乾淨的 userPrompt 給logic.js
         const response = await handleAIRequest(userPrompt, isReviewer);
-
-        // 回覆訊息 (建議使用預設格式，避免 Markdown 語法解析錯誤導致發不出訊息)
+        
+        // 回覆訊息，response 為預設格式
         await ctx.reply(response);
-
     } catch (error) {
         console.error("❌ Telegram 運行出錯：", error);
-        await ctx.reply("哎呀，我的 Telegram 接收器有點問題，請稍後再試！");
+        await ctx.reply("唉呀，我的 Telegram 接收器有點問題，請稍後再試！");
     }
 });
 
