@@ -1,3 +1,13 @@
+// 為了讓 Render 保持運行而加入的簡易伺服器
+const http = require('http');
+const port = process.env.PORT || 3000;
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Happy Rat is running!\n');
+}).listen(port, () => {
+  console.log(`Web server listening on port ${port}`);
+});
+
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { OpenAI } = require('openai');const fs = require('fs');
