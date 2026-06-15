@@ -97,13 +97,15 @@ npm start
 
 ## 部署狀態
 
-代碼中同時留下 Railway 與 Render 的歷史痕跡：
+目前正式部署平台是 Render。
+
+Railway 曾經使用過，但目前已過期，不再是正式部署平台。代碼中仍可看到兩個平台的歷史痕跡：
 
 - README 舊版與里程碑曾提到 Railway
 - `index.js` 有為 Render keep-alive 加入的 HTTP server 註解
 - 目前 repo 沒有 `railway.json`、`render.yaml`、`Procfile` 或 `Dockerfile`
 
-因此當前正式部署平台需要再由維護者確認。文件暫不宣稱唯一部署平台。
+維護部署時，應以 Render 的服務設定與環境變數為準。
 
 ## 目前最高優先事項
 

@@ -53,7 +53,9 @@
 - `index.js` 有 Render keep-alive server 註解
 - repo 沒有 `railway.json`、`render.yaml`、`Procfile` 或 `Dockerfile`
 
-結論：需要從部署平台 dashboard 或維護者記憶確認目前正式平台。文件暫不宣稱唯一平台。
+初步結論：需要從部署平台 dashboard 或維護者記憶確認目前正式平台。文件暫不宣稱唯一平台。
+
+後續確認：維護者確認 Railway 是曾經使用的平台，目前已過期；現在正式部署平台是 Render。後續部署檢查、環境變數與啟動指令應以 Render 為準。
 
 ### 本次文件更新
 

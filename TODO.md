@@ -18,7 +18,7 @@
 - [ ] 測試 reviewer 查詢 APP_001，確認權限判斷符合預期
 - [ ] 確認錯誤回覆不會洩漏 token、stack trace 或私隱資訊
 - [ ] 確認雲端部署環境有 `DISCORD_TOKEN`、`TELEGRAM_TOKEN`、`OPENAI_API_KEY`
-- [ ] 確認目前正式部署平台是 Render 還是 Railway
+- [x] 確認目前正式部署平台是 Render，Railway 已過期並列為歷史平台
 
 ## P1 - 文件與治理邊界
 
