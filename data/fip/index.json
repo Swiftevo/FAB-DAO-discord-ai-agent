@@ -1,0 +1,35 @@
+[
+  {
+    "id": "FIP_1",
+    "title": "FIP-1 - DAO 化工程",
+    "snapshot_url": "https://snapshot.org/#/s:fabdao.eth/proposal/0x8d10709297c7f530543ddd7550c72f585169d519b18884bab92710284c003769",
+    "period": "2023-04-07 to 2023-04-17",
+    "state": "closed",
+    "result": "Passed: For 710, Against 8, Abstain 0; 64 votes; total score 718.",
+    "raw_file": "data/fip/raw/FIP_1.md",
+    "summary_file": "data/fip/summaries/FIP_1.md",
+    "one_line_summary": "FAB DAO 的 DAO 化起點，確立 Web3 公共生活場域、善的入口、客廳 / 廚房架構，以及行動客廳、藝術銀行、超證應用等初始小組。"
+  },
+  {
+    "id": "FIP_2",
+    "title": "FIP-2, 2nd Formosa Art Bank DAO Improvement Proposals",
+    "snapshot_url": "https://snapshot.org/#/s:fabdao.eth/proposal/0x558c5f9d54faa17d0cc0f4c4f0160c6b2f7f088b8a02e2733ab6aa102c5bfdc6",
+    "period": "2023-11-13 to 2023-11-19",
+    "state": "closed",
+    "result": "Passed: For 424, Against 0, Abstain 0; 32 votes; total score 424.",
+    "raw_file": "data/fip/raw/FIP_2.md",
+    "summary_file": "data/fip/summaries/FIP_2.md",
+    "one_line_summary": "補完 FIP-1 要求的百岳資金使用原則、工作組授權、任期與多簽管理，並正式定義行動客廳補助金委員會。"
+  },
+  {
+    "id": "FIP_3",
+    "title": "FIP-3, 3rd Formosa Art Bank DAO Improvement Proposals",
+    "snapshot_url": "https://snapshot.org/#/s:fabdao.eth/proposal/0x6f5f6ff4312778e64a31abd9292033acb68496f5a2427b92691268a69e922693",
+    "period": "2026-05-21 to 2026-05-28",
+    "state": "closed",
+    "result": "Passed: For 167, Against 0, Abstain 0; 11 votes; total score 167.",
+    "raw_file": "data/fip/raw/FIP_3.md",
+    "summary_file": "data/fip/summaries/FIP_3.md",
+    "one_line_summary": "將 FAB DAO 從擴張導向轉為永續導向，更新工作組、資金池、年度預算與聯絡人會議制度，並新增 GreenSofa 綠沙發。"
+  }
+]

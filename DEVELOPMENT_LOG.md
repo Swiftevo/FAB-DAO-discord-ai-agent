@@ -93,3 +93,29 @@
 ### 後續
 
 部署此修正後，若 Discord 再回傳 `Missing Access`，Render 應只記錄錯誤，不應讓 Node process crash。仍需在 Render 部署後再次於一般文字頻道與 thread 各測一次 mention 回覆。
+
+## 2026-06-16 FIP 里程碑資料庫
+
+### 背景
+
+使用者要求 agent 具備 FAB DAO 過往歷史、相關部門與價值脈絡，並指定三份重要 Snapshot 里程碑文件：
+
+- FIP-1 - DAO 化工程
+- FIP-2, 2nd Formosa Art Bank DAO Improvement Proposals
+- FIP-3, 3rd Formosa Art Bank DAO Improvement Proposals
+
+### 處理
+
+- 從 Snapshot GraphQL API 讀取 FIP-1、FIP-2、FIP-3 proposal body 與 metadata
+- 建立 `data/fip/raw/`，存放 Snapshot proposal body 原文
+- 建立 `data/fip/metadata/`，存放 Snapshot proposal metadata
+- 建立 `data/fip/summaries/`，整理三份 agent 可讀概要
+- 建立 `data/fip/index.json`，作為 FIP 里程碑索引
+- 更新 `logic.js`，讓 agent 固定讀取 FIP index 與 summaries
+- 當使用者指定 FIP-1/2/3 並要求原文、全文、深度或細節查找時，agent 會讀取本地 `data/fip/raw/` 原文，不需再依賴 Snapshot
+
+### 里程碑理解
+
+- FIP-1：建立 FAB DAO 的 DAO 化工程、組織精神、客廳 / 廚房架構、行動客廳、藝術銀行、超證應用等初始小組。
+- FIP-2：補完百岳資金使用原則、工作組授權、任期、多簽管理，並正式定義行動客廳補助金委員會。
+- FIP-3：將 FAB DAO 轉向永續導向，更新資金池、年度預算、聯絡人會議制度，並加入頂加實驗室與 GreenSofa 綠沙發脈絡。

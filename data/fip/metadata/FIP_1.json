@@ -1,0 +1,29 @@
+{
+    "key":  "FIP_1",
+    "snapshot_url":  "https://snapshot.org/#/s:fabdao.eth/proposal/0x8d10709297c7f530543ddd7550c72f585169d519b18884bab92710284c003769",
+    "snapshot_id":  "0x8d10709297c7f530543ddd7550c72f585169d519b18884bab92710284c003769",
+    "title":  "FIP-1 - DAO 化工程",
+    "space":  {
+                  "id":  "fabdao.eth",
+                  "name":  "FAB DAO"
+              },
+    "author":  "0x952936E60B9a9E2E9B2950599694aFE9Ff8a8a4a",
+    "state":  "closed",
+    "choices":  [
+                    "For",
+                    "Against",
+                    "Abstain"
+                ],
+    "scores":  [
+                   710,
+                   8,
+                   0
+               ],
+    "scores_total":  718,
+    "votes":  64,
+    "start":  1680880128,
+    "end":  1681744128,
+    "created":  1680880132,
+    "snapshot_block":  16997393,
+    "raw_file":  "data/fip/raw/FIP_1.md"
+}
