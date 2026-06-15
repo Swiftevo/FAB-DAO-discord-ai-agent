@@ -1,94 +1,122 @@
-# 快樂鼠 HappyRat - FAB DAO 專案治理與分配助手 (AI Agent)
+# 快樂鼠 HappyRat - FAB DAO 補助金 FAQ 助手
 
-## 🎯 專案簡介
-本專案是為 FAB DAO (Formosa Art Bank DAO) 社群量身打造的 AI Agent，旨在解決資助計畫中「專案追蹤」與「信息透明度」的高摩擦問題。透過分層記憶檢索技術，幫助社群成員快速掌握專案進度。
+快樂鼠 HappyRat 是為 FAB DAO 行動客廳補助金設計的 Discord / Telegram AI 助手。現階段的產品定位是「補助金 FAQ 助手」：協助社群成員理解補助金規則、查詢已整理的申請案摘要與進度，減少人工重複回覆。
 
-在 FAB DAO 社區，我們正推行一個名為「行動客廳補助金」的計劃。希望由補助金，讓有行動力的建設者推動不同專案的啟動，讓有趣的人和事都聚集起來。
+重要原則：快樂鼠不能替委員會做決定，也不能宣告申請案通過或不通過。遇到審查、核准、資金撥付等判斷時，必須回到 FAB DAO 補助金委員會審查。
 
-🐭 補助級距
-快樂鼠｜5,000 NTD (150 USD) 以下
-小鼠｜5,000 - 30,000 NTD (150 - 900 USD)
-大鼠｜30,000 - 60,000 NTD (900 - 1800 USD)
-累鼠｜60,000 NTD (1800 USD) 以上，單案最高 10 萬 NTD！
-＊請評估行動規模，申請對應之補助級距
+## 目前範圍
 
-⏰ 申請時間：每月 1 日開放提案，25 日審核，快樂鼠隨到隨審！2/1 - 2/25 為 Round4，期待大家的投件！
+目前只維持既有功能與文件整理，不加入新功能。
 
-🙌 更多資訊請參照申請辦法：
-https://docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0/edit?usp=sharing
-✍️ 申請超簡單！只要完成提案表單：
-https://bit.ly/fabdaogrant
+- 回答補助金 FAQ
+- 回答申請流程、級距、時程、基本規則
+- 根據資料庫摘要回覆申請案狀態
+- 對一般使用者提供摘要化、去私隱化資訊
+- 對具權限者提供較完整的卷宗資訊
+- Discord 與 Telegram 長期並行支援
 
-這個 AI Agent 目前希望先由快樂鼠級別協助人類評審，例如回應關於補助金的問題、跟進已通過專案的進度，減輕在 Public Goods Funding 上的行政時間。
-期望未來，我們將一步步按需求，把 AI Agent 的資料庫及靈魂進一步深化，可以做出專業級別的評審。
+暫時不做：
 
-## 🚀 重要里程碑
-[2026-04-12] 成功達成雙平台同步部署：透過 Railway 雲端伺服器，解決了本地 Telegram API 連線限制。
+- 不自動做審查決定
+- 不保留跨回合對話記憶
+- 不擴充新指令或新工作流
+- 不在此階段實作 Discord 訊息資料庫同步
 
-大腦與身體分離 (Logic Decoupling)：成功將 AI 處理邏輯抽離至 logic.js，實現了一套程式碼、多個介面的高效率開發模式。
+## 核心使用情境
 
-權限管理系統：實作了 Discord 身分組（行動客廳小組）與 Telegram 白名單（swiftevo）雙軌權限控制。
+預期常見問題包括：
 
-資料庫整合：完整串接 summary.json 與 archive/ 資料夾，讓 AI 具備即時讀取申請案卷宗的能力。
+- 查 APP_001 進度
+- 列出待審案
+- 幫我初審這份申請
+- 產生委員會摘要
+- 提醒某案快到 deadline
 
-## 🛠️ 核心功能
-1. 跨平台智慧對話
-Discord：在標記（Mention）機器人後觸發。
+其中「初審」與「委員會摘要」只能作為資料整理與提醒，不得取代委員會判斷。
 
-Telegram：支援直接私訊或在群組中對話。
+## 系統架構
 
-共享邏輯：無論在平台詢問，得到的資訊都是最新、一致的。
+```text
+index.js                 Discord 入口，處理 mention、角色權限與回覆
+telegram.js              Telegram 入口，處理私訊、群組 tag 與白名單
+logic.js                 共用 AI 邏輯，讀取 prompt、資料檔並呼叫 OpenAI
+prompts/happy_rat.txt    快樂鼠角色與補助金規則設定
+data/org_profile.json    FAB DAO 組織背景
+data/summary.json        申請案摘要總表
+data/records/            單一申請案里程碑資料
+data/archive/            原始卷宗文字檔
+package.json             Node.js 啟動與依賴設定
+```
 
-2. 管理員卷宗讀取權限
-摘要回覆：一般使用者詢問時，AI 僅根據 summary.json 提供簡短摘要。
+更完整的架構說明請見 [ARCHITECTURE.md](ARCHITECTURE.md)。
 
-原始檔案讀取：具備管理員權限者，可要求 AI 讀取 archive/ 內的完整 Markdown 卷宗。
+## 資料與引用原則
 
-字數自動優化：當卷宗內容過長時（超過 1900 字），系統會自動進行二次摘要，確保不超過通訊軟體的訊息長度限制。
+快樂鼠回答時應優先根據以下資料來源：
 
-3. 專案進度追蹤
-AI 能根據 summary.json 中的各個標籤（如 APP_001）回報專案當前的審查進度與狀態。
+1. `prompts/happy_rat.txt` 的補助金規則與語氣設定
+2. `data/org_profile.json` 的 FAB DAO 背景
+3. `data/summary.json` 的申請案摘要
+4. `data/records/APP_xxx.json` 的里程碑資料
+5. `data/archive/APP_xxx_full.txt` 的原始卷宗
 
-## 🏗️ 系統架構
-Plaintext
-├── index.js        # Discord 介面層：處理訊息監聽與權限判斷
-├── telegram.js     # Telegram 介面層：處理訊息監聽與白名單過濾
-├── logic.js        # 核心大腦：負責檔案讀取、OpenAI API 串接與內容優化
-├── package.json    # 啟動腳本配置 (node index.js & node telegram.js)
-├── prompts/        # 存儲 AI 的人格與角色設定檔
-└── archive/        # 存放所有申請案的原始 Markdown 卷宗
+未來回答應盡量標示資料來源，例如：`來源：data/summary.json` 或 `來源：data/records/APP_001.json`。一般使用者查詢時，應避免輸出個人聯絡方式、完整原始卷宗或其他私隱資訊。
 
-## 🛠️ 技術架構
-- **開發語言**：Node.js
-- **AI 大腦**：OpenAI GPT-4o
-- **部署平台**：Railway
-- **記憶模式**：三層結構化資料檢索 (Summary / Records / Archive)
+## 權限原則
 
-## 📖 安裝與部署
-環境變數配置：
-在 .env 或雲端平台（如 Railway）中設定：
+目前：
 
-DISCORD_TOKEN
+- Discord 使用角色名稱 `行動客廳小組` 判斷是否具備 reviewer 權限
+- Telegram 使用白名單 `swiftevo`
 
-TELEGRAM_TOKEN
+未來需要更細的權限模型，但暫時列入 TODO，不在本階段實作。
 
-OPENAI_API_KEY
+## 安裝與執行
 
-## 本地執行：
+需要環境變數：
 
-Bash
+```bash
+DISCORD_TOKEN=
+TELEGRAM_TOKEN=
+OPENAI_API_KEY=
+```
+
+安裝依賴：
+
+```bash
 npm install
-node index.js & node telegram.js
+```
 
-## 雲端部署：
-將代碼推送到 GitHub，並確保啟動指令為 npm start。
+本地執行：
 
-## 👥 維護者
+```bash
+npm start
+```
+
+目前 `npm start` 執行 `node index.js`；`index.js` 內會同時載入 `telegram.js`，因此 Discord 與 Telegram 會一起啟動。
+
+## 部署狀態
+
+代碼中同時留下 Railway 與 Render 的歷史痕跡：
+
+- README 舊版與里程碑曾提到 Railway
+- `index.js` 有為 Render keep-alive 加入的 HTTP server 註解
+- 目前 repo 沒有 `railway.json`、`render.yaml`、`Procfile` 或 `Dockerfile`
+
+因此當前正式部署平台需要再由維護者確認。文件暫不宣稱唯一部署平台。
+
+## 目前最高優先事項
+
+詳見 [TODO.md](TODO.md)。目前最高優先是：成功把快樂鼠 agent 加入 FAB DAO Discord，並完成最小可用測試。
+
+## 更新日記
+
+本項目從 2026-06-15 起開始記錄更新日記，方便日後系統升級、回溯架構決策與理解每次變更目的。詳見 [DEVELOPMENT_LOG.md](DEVELOPMENT_LOG.md)。
+
+## 維護者
+
 核心開發：swiftevo
 
-未來預期︰
-在正式投入 FAB DAO 的治理使用的三個月內，先按需要作出調整。
-三個月後，將深化快樂鼠的提示詞，形成更細緻關於 Public Goods 的認知以及更新關於 FAB DAO 的背景。
+## 開源許可
 
-## 📜 開源許可
 本專案採用 [MIT License](LICENSE) 授權。
