@@ -1,0 +1,29 @@
+{
+    "key":  "FIP_3",
+    "snapshot_url":  "https://snapshot.org/#/s:fabdao.eth/proposal/0x6f5f6ff4312778e64a31abd9292033acb68496f5a2427b92691268a69e922693",
+    "snapshot_id":  "0x6f5f6ff4312778e64a31abd9292033acb68496f5a2427b92691268a69e922693",
+    "title":  "FIP-3, 3rd Formosa Art Bank DAO Improvement Proposals",
+    "space":  {
+                  "id":  "fabdao.eth",
+                  "name":  "FAB DAO"
+              },
+    "author":  "0xab51AD23d222fD0afB4e29F3244402af9aa3C420",
+    "state":  "closed",
+    "choices":  [
+                    "For",
+                    "Against",
+                    "Abstain"
+                ],
+    "scores":  [
+                   167,
+                   0,
+                   0
+               ],
+    "scores_total":  167,
+    "votes":  11,
+    "start":  1779358002,
+    "end":  1779973602,
+    "created":  1779358002,
+    "snapshot_block":  25142910,
+    "raw_file":  "data/fip/raw/FIP_3.md"
+}

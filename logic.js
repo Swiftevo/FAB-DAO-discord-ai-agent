@@ -63,6 +63,54 @@ function getOrganizationContext() {
     }
 }
 
+/**
+ * 輔助函式：讀取 FAB DAO FIP 里程碑資料庫
+ */
+function getFipContext(userPrompt) {
+    let context = "";
+
+    try {
+        const fipDir = path.join(__dirname, 'data', 'fip');
+        const indexPath = path.join(fipDir, 'index.json');
+
+        if (!fs.existsSync(indexPath)) {
+            return "";
+        }
+
+        const fipIndex = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+        context += `\n【FAB DAO 里程碑文件索引】:\n${JSON.stringify(fipIndex, null, 2)}\n`;
+
+        fipIndex.forEach(fip => {
+            const summaryPath = path.join(__dirname, fip.summary_file);
+            if (fs.existsSync(summaryPath)) {
+                const summary = fs.readFileSync(summaryPath, 'utf8');
+                context += `\n【${fip.id} 概要】:\n${summary}\n`;
+            }
+        });
+
+        const fipMatch = userPrompt.match(/FIP[-_\s]?([123])/i);
+        const deepLookup = /原文|全文|完整|深度|細節|raw/i.test(userPrompt);
+
+        if (fipMatch && deepLookup) {
+            const fipId = `FIP_${fipMatch[1]}`;
+            const selectedFip = fipIndex.find(fip => fip.id === fipId);
+
+            if (selectedFip) {
+                const rawPath = path.join(__dirname, selectedFip.raw_file);
+                if (fs.existsSync(rawPath)) {
+                    const rawText = fs.readFileSync(rawPath, 'utf8');
+                    context += `\n【${fipId} 原始全文】:\n${rawText}\n`;
+                }
+            }
+        }
+
+        return context;
+    } catch (err) {
+        console.error("無法讀取 FIP 里程碑資料庫:", err);
+        return "";
+    }
+}
+
 
 
 /**
@@ -81,6 +129,9 @@ async function handleAIRequest(userPrompt, isReviewer) {
 
         // 2. 取得組織背景
         const orgContext = getOrganizationContext();
+
+        // 2.5 取得 FAB DAO FIP 里程碑脈絡
+        const fipContext = getFipContext(userPrompt);
 
         // --- 第一層：讀取基礎摘要 (固定載入) ---
         const summaryPath = path.join(__dirname, 'data', 'summary.json');
@@ -123,7 +174,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### 實時資料庫內容：\n${databaseContext}`
+                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### FAB DAO 里程碑文件資料庫(必須優先參考):\n${fipContext}\n\n### 實時資料庫內容：\n${databaseContext}`
                 },
                 { role: "user", content: userPrompt }
             ],

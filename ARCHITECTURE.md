@@ -71,6 +71,11 @@ Telegram 入口。
 data/
   org_profile.json       FAB DAO 組織背景、部門、連結與原則
   summary.json           所有申請案的摘要索引
+  fip/
+    index.json           FAB DAO FIP 1/2/3 里程碑索引
+    summaries/           FIP 1/2/3 概要，供 agent 日常回答使用
+    raw/                 Snapshot 提案原文，供深層查找使用
+    metadata/            Snapshot proposal metadata
   records/
     APP_001.json         單案里程碑資料
   archive/
@@ -96,6 +101,15 @@ data/
 ### `data/archive/`
 
 原始卷宗。包含更完整的專案背景、來源連結、技術細節、預算等。這一層應被視為較高敏感度資料，一般使用者查詢時應摘要化、去私隱化。
+
+### `data/fip/`
+
+FAB DAO 里程碑資料庫。包含 FIP-1、FIP-2、FIP-3 的 Snapshot 原始正文、metadata 與 agent 可讀概要。
+
+- `index.json`：提案標題、Snapshot URL、投票期間、結果、原始檔與概要檔路徑。
+- `summaries/`：人工整理的治理脈絡概要，讓 agent 理解 FAB DAO 歷史、部門與價值。
+- `raw/`：從 Snapshot proposal body 擷取的一字不改原文。當使用者需要原文、全文、深度或細節查找時，agent 應讀取本地 raw 檔，不需再依賴 Snapshot。
+- `metadata/`：Snapshot API 回傳的 proposal metadata，如投票結果、分數、作者與區塊資訊。
 
 ## 權限與私隱
 
