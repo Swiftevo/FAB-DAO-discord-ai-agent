@@ -25,6 +25,20 @@ client.once('ready', () => {
     console.log(`✅ 快樂鼠機器人已上線：${client.user.tag}`);
 });
 
+async function safeReply(message, content) {
+    try {
+        await message.reply(content);
+    } catch (replyError) {
+        console.error("❌ Discord reply failed:", {
+            code: replyError.code,
+            status: replyError.status,
+            message: replyError.message,
+            channelId: message.channelId,
+            guildId: message.guildId
+        });
+    }
+}
+
 // --- 訊息處理邏輯 ---
 client.on('messageCreate', async (message) => {
     console.log(`收到訊息 ID: ${message.id} | 作者: ${message.author.tag} | 是Bot: ${message.author.bot}`);
@@ -46,11 +60,11 @@ client.on('messageCreate', async (message) => {
             const response = await handleAIRequest(userPrompt, isReviewer);
 
             // 回傳結果
-            await message.reply(response);
+            await safeReply(message, response);
 
         } catch (error) {
             console.error("❌ 快樂鼠運行出錯：", error);
-            await message.reply("哎呀，我的腦袋打結了（讀取資料或 API 出錯），請稍後再試！");
+            await safeReply(message, "哎呀，我的腦袋打結了（讀取資料或 API 出錯），請稍後再試！");
         }
     }
 });

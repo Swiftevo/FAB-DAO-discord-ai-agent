@@ -19,6 +19,9 @@
 - [ ] 確認錯誤回覆不會洩漏 token、stack trace 或私隱資訊
 - [ ] 確認雲端部署環境有 `DISCORD_TOKEN`、`TELEGRAM_TOKEN`、`OPENAI_API_KEY`
 - [x] 確認目前正式部署平台是 Render，Railway 已過期並列為歷史平台
+- [x] 使用包含 `bot` scope 的 invite link 將 bot 加入 FAB DAO Discord
+- [x] 補上 `Send Messages in Threads` 權限，讓 bot 可在討論串 / forum post 回覆
+- [ ] 部署 `safeReply` 修正，避免 Discord 回覆失敗時造成 Render instance crash
 
 ## P1 - 文件與治理邊界
 
