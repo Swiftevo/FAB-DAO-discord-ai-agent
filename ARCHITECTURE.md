@@ -126,7 +126,7 @@ data/
 - README 舊版提到 Railway
 - repo 內沒有 `railway.json`、`render.yaml`、`Procfile`、`Dockerfile`
 
-結論：代碼本身無法確認目前正式平台是 Railway 還是 Render，只能確認兩者都有歷史痕跡。需要由部署帳號或平台 dashboard 再確認。
+維護者已確認：Railway 是曾經使用的平台，目前已過期；現在正式部署平台是 Render。後續部署與環境變數檢查應以 Render 為準。
 
 ## 目前主要風險
 
@@ -142,6 +142,6 @@ data/
 短期不擴功能。先完成：
 
 1. 文件收斂：明確定位為 FAQ 助手
-2. 部署確認：釐清 Render / Railway 哪一個是正式平台
+2. Render 部署確認：檢查 Render service、環境變數與啟動指令
 3. Discord 接入：成功把 agent 加入 FAB DAO Discord 並完成 mention 測試
 4. 私隱與來源：在後續版本加入更明確的引用與遮蔽策略
