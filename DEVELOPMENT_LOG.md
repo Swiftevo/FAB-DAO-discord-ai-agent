@@ -73,3 +73,23 @@
 - 一般成員看到摘要化回答
 - reviewer 權限判斷正確
 - 雲端部署 token 與平台狀態清楚
+
+## 2026-06-15 Discord 接入修正
+
+### 問題
+
+使用原始 Discord OAuth URL 授權時，Discord 顯示成功，但 bot 沒有實際以機器人成員身份加入 FAB DAO Discord。後續改用包含 `bot` 與 `applications.commands` scope 的 invite URL 後，bot 成功加入 server。
+
+之後在 Discord tag bot 時，Render log 顯示 bot 已收到使用者訊息，也已讀取資料並準備回覆，但 Discord API 回傳 `DiscordAPIError[50001]: Missing Access`。log 中出現 `ThreadChannel.send`，判斷測試位置是 Discord thread / forum post，bot 缺少 `Send Messages in Threads` 權限。
+
+### 處理
+
+- 使用包含 `bot` scope 的 invite URL 重新授權
+- 補上 `Send Messages in Threads` 權限
+- 確認 bot 已加入 FAB DAO Discord 並在線
+- 釐清 `Missing Access` 不是 OpenAI、Render token 或 Message Content Intent 問題，而是 Discord channel/thread 權限問題
+- 在 `index.js` 加入 `safeReply`，避免回覆失敗時 catch 區塊再次回覆失敗，導致 Render instance crash
+
+### 後續
+
+部署此修正後，若 Discord 再回傳 `Missing Access`，Render 應只記錄錯誤，不應讓 Node process crash。仍需在 Render 部署後再次於一般文字頻道與 thread 各測一次 mention 回覆。
