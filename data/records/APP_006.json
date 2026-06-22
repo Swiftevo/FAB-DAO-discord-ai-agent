@@ -1,0 +1,144 @@
+{
+  "id": "APP_006",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
+  "project_name": "Ghost Object 不可能物件_2026 展覽計畫",
+  "round": 5,
+  "declared_tier": {
+    "id": "cumulative_rat",
+    "name": "累鼠",
+    "amount": "1600 U",
+    "normalized_amount_usd": 1600
+  },
+  "decision_status": "approved",
+  "applicant": {
+    "display_name": "實踐老師_Alvis",
+    "discord_user_id": "878882589899907102"
+  },
+  "fab_dao_project_contact": {
+    "display_name": "FL YANG",
+    "discord_user_id": "892936872567898122"
+  },
+  "links": {
+    "original_proposal": "https://drive.google.com/file/d/1WUZAILvCPgqKpYV5RPtKfSqJAv0_oSaS/view?usp=drive_open",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1508844786948509707"
+  },
+  "venue": "the median 未來道場，台北",
+  "exhibition_period": "2026-10 至 2026-11 左右",
+  "curatorial_team": [
+    "劉乃廷 (19)",
+    "彭冠傑 (Jay)",
+    "劉承杰",
+    "李祥裕 (Alvis)"
+  ],
+  "project_goals": [
+    "探索生成藝術與推測設計的交會",
+    "延續 Web3 亞洲生成藝術社群的連結",
+    "建立學生、設計、藝術與亞洲 Web3 生成藝術社群的對話基礎",
+    "促進 FAB DAO 藝術銀行購藏台灣藝術家作品與鏈上評論文章",
+    "以 POA 留存參與者的 Web3 藝文活動在場證明",
+    "促成 FAB DAO、藝術銀行、新生代社群與參展藝術家的焦點討論"
+  ],
+  "workstreams": [
+    "生成藝術與推測設計展覽",
+    "台日數位藝術評論交流",
+    "教育現場與學生講座",
+    "兩場後 Web3 時代焦點討論",
+    "POA 參與證明",
+    "藝術銀行作品與鏈上文章購藏合作"
+  ],
+  "timeline": [
+    {
+      "period": "2026-03 第 2 週",
+      "task": "場地勘查、展覽硬體與設備需求評估",
+      "status": "reported_complete"
+    },
+    {
+      "period": "2026-04 第 3 週",
+      "task": "前期共識會議，擬定名單、檔期與合作方式",
+      "status": "status_not_provided"
+    },
+    {
+      "period": "2026-06 第 1 至 3 週",
+      "task": "活動與社群規劃、作品論述彙整、軟硬體與輸出品籌備",
+      "status": "status_not_provided"
+    },
+    {
+      "period": "2026-08 第 3 至 4 週",
+      "task": "社群資訊發布與新聞稿釋出",
+      "status": "planned"
+    },
+    {
+      "period": "2026-09 第 1 至 2 週",
+      "task": "展場輸出製作、設備確認、展前測試與動線安排",
+      "status": "planned"
+    },
+    {
+      "period": "2026-10 至 2026-11 左右",
+      "task": "舉辦展覽、公開講座與焦點討論",
+      "status": "planned"
+    }
+  ],
+  "budget": {
+    "declared_grant_tier_usd": 1600,
+    "approved_grant": {
+      "amount": 1600,
+      "token": "USDT"
+    },
+    "initial_disbursement": {
+      "status": "disbursed",
+      "percentage": 60,
+      "amount": 960,
+      "token": "USDT",
+      "network": "Optimism",
+      "recipient_wallet": "0x23c80576ebd82e99c6f4781c0a8f93688956e6e4",
+      "source_safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "safe_transaction_id": "multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
+      "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
+      "verification_status": "maintainer_confirmed"
+    },
+    "proposal_table": {
+      "estimated_total_ntd": 228000,
+      "fab_dao_grant_ntd": 97500,
+      "artist_contribution_ntd": 130500,
+      "estimated_total_usd": 7257,
+      "fab_dao_grant_usd": 3100,
+      "artist_contribution_usd": 4157
+    },
+    "art_bank_focus_meeting": {
+      "estimated_total_ntd": 15000,
+      "art_bank_funding_ntd": 7500,
+      "artist_contribution_ntd": 7500,
+      "estimated_total_usd": 476,
+      "art_bank_funding_usd": 238,
+      "artist_contribution_usd": 238
+    },
+    "art_bank_collaboration": {
+      "approval_status": "not_approved",
+      "focus_meeting_funding": "not_approved",
+      "artwork_acquisition": "not_approved"
+    },
+    "artwork_acquisition_amount": "未核定",
+    "verification_note": "補助金委員會正式核准 Grant 1,600 USDT，960 USDT 啟動資金已撥付。企劃預算表的 97,500 NTD / 3,100 USD 保留為原提案資料，不視為額外核定。藝術銀行合作及購藏尚未核定，亦不併入 Grant 核定額。"
+  },
+  "expected_outputs": {
+    "artists": {
+      "taiwan": 4,
+      "japan_invited": 4,
+      "korea_invited": 4
+    },
+    "artworks": 14,
+    "events": "3 至 4 場",
+    "exhibition_days": 18,
+    "expected_visitors": "300 至 500 人",
+    "expected_students": "100 至 200 人",
+    "web3_mechanisms": ["POA 參與證明", "鏈上文章", "NFT 或實體作品購藏"]
+  },
+  "collaborating_group_ids": ["art_bank"],
+  "raw_source": "data/archive/APP_006_full.md",
+  "update_sources": ["data/archive/APP_006_update_2026-06-22.md"],
+  "source_type": "maintainer_provided_project_text",
+  "last_updated_on": "2026-06-22"
+}

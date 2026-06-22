@@ -78,5 +78,28 @@
     "budget": "150 USD",
     "timeline": "2026-02至2026-04",
     "milestone_summary": "M1(2026-02): 啟動策展人與創作者獎勵機制; M2(2026-03): 完成10篇優質藝術文章推薦; M3(2026-04): 社群成果發布 [cite: 22, 26]"
+  },
+  {
+    "id": "APP_006",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
+    "project": "Ghost Object 不可能物件_2026 展覽計畫",
+    "applicant": "實踐老師_Alvis",
+    "applicant_discord_id": "878882589899907102",
+    "responsible_person": "FL YANG（FAB DAO 專案聯絡人）",
+    "responsible_discord_id": "892936872567898122",
+    "round": 5,
+    "tier": "累鼠",
+    "total_milestones": 6,
+    "current_phase": 1,
+    "status": "Approved - initial funding disbursed",
+    "budget": "核准 1,600 USDT；已撥啟動資金 960 USDT（60%）",
+    "timeline": "2026-03 至 2026-11 左右",
+    "milestone_summary": "展前規劃與製作、台日評論交流、學生講座、3 至 4 場活動、POA 參與證明、藝術銀行焦點討論與購藏合作",
+    "source": "data/archive/APP_006_full.md",
+    "latest_update_date": "2026-06-22",
+    "latest_update_summary": "補助金已核准，並由行動客廳 Optimism Safe 撥付 960 USDT 啟動資金；藝術銀行合作及購藏尚未核定。"
   }
 ]

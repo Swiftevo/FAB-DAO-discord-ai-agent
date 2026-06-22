@@ -47,6 +47,37 @@
       "import_status": "imported",
       "raw_file": "data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-04-21.md",
       "summary_file": "data/groups/action_living_room/grant_program.md"
+    },
+    {
+      "id": "app_006_ghost_object_proposal",
+      "type": "google_drive_file",
+      "title": "Ghost Object 不可能物件_2026 展覽計畫原企劃書",
+      "url": "https://drive.google.com/file/d/1WUZAILvCPgqKpYV5RPtKfSqJAv0_oSaS/view?usp=drive_open",
+      "project_id": "APP_006",
+      "import_status": "maintainer_text_preserved",
+      "raw_file": "data/archive/APP_006_full.md"
+    },
+    {
+      "id": "app_006_discord_channel",
+      "type": "discord_channel",
+      "title": "Ghost Object 不可能物件_2026 展覽計畫討論頻道",
+      "url": "https://discord.com/channels/909473182598193272/1508844786948509707",
+      "project_id": "APP_006"
+    },
+    {
+      "id": "app_006_approval_update_2026_06_22",
+      "type": "local_file",
+      "title": "APP_006 核准、啟動款與申請者更新",
+      "path": "data/archive/APP_006_update_2026-06-22.md",
+      "project_id": "APP_006"
+    },
+    {
+      "id": "app_006_initial_disbursement_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_006 960 USDT 啟動資金 Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
+      "project_id": "APP_006",
+      "verification_status": "maintainer_confirmed"
     }
   ]
 }
