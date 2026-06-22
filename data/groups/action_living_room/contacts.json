@@ -1,0 +1,30 @@
+{
+  "group_id": "action_living_room",
+  "visibility": "public_governance_data",
+  "multisig_managers": [
+    {
+      "display_name": "天天晴朗 - penghui",
+      "discord_user_id": "956196791064358942"
+    },
+    {
+      "display_name": "青苔Yian",
+      "discord_user_id": "631868335230943263"
+    },
+    {
+      "display_name": "很睏宜品（台灣人）",
+      "discord_user_id": "691572839014465578"
+    },
+    {
+      "display_name": "當我開始 - 偷偷",
+      "discord_user_id": "851885408571621386"
+    },
+    {
+      "display_name": "FL YANG",
+      "discord_user_id": "892936872567898122"
+    }
+  ],
+  "grant_committee_members": [],
+  "notes": "多簽管理人與補助金委員會成員是不同治理角色。補助金委員名單待後續提供。",
+  "last_verified_on": "2026-06-22",
+  "source": "FAB DAO maintainer-provided data"
+}

@@ -76,6 +76,9 @@ data/
     summaries/           FIP 1/2/3 概要，供 agent 日常回答使用
     raw/                 Snapshot 提案原文，供深層查找使用
     metadata/            Snapshot proposal metadata
+  groups/
+    index.json           四個 FAB DAO 工作組索引
+    action_living_room/  行動客廳背景、摘要、聯絡人、錢包、資助計畫與來源
   records/
     APP_001.json         單案里程碑資料
   archive/
@@ -110,6 +113,23 @@ FAB DAO 里程碑資料庫。包含 FIP-1、FIP-2、FIP-3 的 Snapshot 原始正
 - `summaries/`：人工整理的治理脈絡概要，讓 agent 理解 FAB DAO 歷史、部門與價值。
 - `raw/`：從 Snapshot proposal body 擷取的一字不改原文。當使用者需要原文、全文、深度或細節查找時，agent 應讀取本地 raw 檔，不需再依賴 Snapshot。
 - `metadata/`：Snapshot API 回傳的 proposal metadata，如投票結果、分數、作者與區塊資訊。
+
+### `data/groups/`
+
+FAB DAO 工作組資料庫。`index.json` 記錄行動客廳、藝術銀行、頂加實驗室與 GreenSofa 綠沙發的穩定 ID、名稱、別名及資料庫狀態。
+
+目前先啟用 `action_living_room/`：
+
+- `profile.md`：行動客廳歷史、使命、職責及治理背景。
+- `summary.md`：目前重點、資料狀態與回答限制。
+- `contacts.json`：多簽管理人與補助金委員會角色資料。
+- `wallets.json`：Optimism Safe 地址、3/5 threshold 與核對狀態。
+- `programs.json`：FAB DAO Grant、Bounty 與補助金委員會的結構化關聯。
+- `sources.json`：Notion、FIP 及其他資料來源。
+- `records/`：經人工確認的會議、決議、進度及里程碑。
+- `raw/`：未修改的 Notion 匯出、逐字稿及其他原始資料。
+
+`logic.js` 每次只固定載入工作組索引；使用者提到行動客廳、補助金、Grant、Bounty、多簽、錢包或 APP 編號時，才載入行動客廳詳細資料。
 
 ## 權限與私隱
 

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "action_living_room",
+    "name": "行動客廳",
+    "aliases": ["行動客廳小組", "Action Living Room"],
+    "database_status": "active",
+    "profile_file": "data/groups/action_living_room/profile.md",
+    "summary_file": "data/groups/action_living_room/summary.md"
+  },
+  {
+    "id": "art_bank",
+    "name": "藝術銀行",
+    "aliases": ["藝術銀行小組", "Art Bank"],
+    "database_status": "planned"
+  },
+  {
+    "id": "rooftop_labs",
+    "name": "頂加實驗室",
+    "aliases": ["超證實驗室", "超證實驗小組", "Rooftop Labs"],
+    "database_status": "planned"
+  },
+  {
+    "id": "greensofa",
+    "name": "GreenSofa 綠沙發",
+    "aliases": ["GreenSofa", "綠沙發"],
+    "database_status": "planned"
+  }
+]

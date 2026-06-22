@@ -1,5 +1,9 @@
 {
   "id": "APP_005",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
   "project_name": "星光藝術計劃",
   "milestones": [
     {

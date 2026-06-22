@@ -1,6 +1,10 @@
 [
   {
     "id": "APP_001",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
     "project": "Web3 羽球社",
     "applicant": "許明恩",
     "total_milestones": 3,
@@ -12,6 +16,10 @@
   },
   {
     "id": "APP_002",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
     "project": "你拒絕，我給錢",
     "applicant": "藝評支持計畫",
     "total_milestones": 1,
@@ -23,6 +31,10 @@
   },
   {
     "id": "APP_003",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
     "project": "大量交織+地球公物",
     "applicant": "蕭有志",
     "total_milestones": 3,
@@ -34,6 +46,10 @@
   },
   {
     "id": "APP_004",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
     "project": "事水",
     "applicant": "一峻",
     "total_milestones": 3,
@@ -45,6 +61,10 @@
   },
   {
     "id": "APP_005",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
     "project": "星光藝術計劃",
     "applicant": "Swift Evo",
     "total_milestones": 2,

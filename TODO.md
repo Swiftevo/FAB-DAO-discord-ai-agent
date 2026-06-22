@@ -30,11 +30,34 @@
 - [x] 建立架構文件
 - [x] 建立更新日記
 - [x] 建立 FAB DAO FIP 1/2/3 里程碑資料庫
+- [x] 建立行動客廳 group database 骨架
+- [x] 將 APP_001 至 APP_005 結構化連接至行動客廳、FAB DAO Grant 與補助金委員會
 - [ ] 補充「AI 回答陌生人時應摘要化、去私隱化」的具體例子
 - [ ] 補充「回答需要引用來源」的格式規範
 - [ ] 補充維護者如何更新 `data/summary.json`、`records`、`archive`
 
-## P2 - 未來資料同步
+## P2 - 行動客廳資料補全
+
+- [ ] 由 Notion 舊會議記錄頁面選擇 `Export → Markdown & CSV`
+- [ ] Notion 匯出時勾選 `Include subpages`，保留原始頁面與資料庫內容
+- [ ] 將 Notion 匯出 ZIP 匯入 `data/groups/action_living_room/raw/`
+- [ ] 從 Notion 原文建立會議 index、摘要、決議與待辦 records
+- [ ] 補充目前補助金委員會成員名單與 Discord ID
+- [ ] 補充行動客廳 Bounty 規則、項目及進度資料
+- [ ] 定期核對 Optimism Safe 的餘額、owner、3/5 threshold 與重要交易
+- [ ] 在 `wallets.json` 更新 `balance_last_checked_at` 與核對結果
+
+## P3 - Discord 語音會議 AI 記錄
+
+- [ ] 制定錄音前的參與者知情與同意流程
+- [ ] 選定 Discord 語音錄音與轉錄方式
+- [ ] 每場會議記錄 Discord guild / voice channel / thread ID、日期與參與者
+- [ ] 保存未修改的 raw transcript，並標示資料可見性與保存期限
+- [ ] 由 AI 產生會議摘要、決議、待辦、負責人及期限
+- [ ] 人工確認會議記錄後才寫入正式 records
+- [ ] 定義錄音、逐字稿及個人資料的存取權限
+
+## P4 - 未來資料同步
 
 目前不做，只記錄方向。
 
@@ -44,7 +67,7 @@
 - [ ] 定義資料清洗、摘要、引用來源與版本紀錄
 - [ ] 定義申請人、委員、一般成員的資料可見範圍
 
-## P3 - 未來權限模型
+## P5 - 未來權限模型
 
 目前不做，只記錄方向。
 
@@ -56,7 +79,7 @@
 - [ ] Discord role 與 bot 權限對應表
 - [ ] Telegram 長期支援下的身份映射方式
 
-## P4 - 未來操作能力
+## P6 - 未來操作能力
 
 目前不做，只記錄需求。
 

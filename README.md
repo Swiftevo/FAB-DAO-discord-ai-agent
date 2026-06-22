@@ -43,6 +43,7 @@ logic.js                 共用 AI 邏輯，讀取 prompt、資料檔並呼叫 O
 prompts/happy_rat.txt    快樂鼠角色與補助金規則設定
 data/org_profile.json    FAB DAO 組織背景
 data/fip/                FAB DAO FIP 1/2/3 里程碑資料庫
+data/groups/             FAB DAO 工作組資料庫
 data/summary.json        申請案摘要總表
 data/records/            單一申請案里程碑資料
 data/archive/            原始卷宗文字檔
@@ -58,10 +59,11 @@ package.json             Node.js 啟動與依賴設定
 1. `prompts/happy_rat.txt` 的補助金規則與語氣設定
 2. `data/org_profile.json` 的 FAB DAO 背景
 3. `data/fip/index.json` 與 `data/fip/summaries/` 的 FAB DAO 里程碑文件概要
-4. `data/summary.json` 的申請案摘要
-5. `data/records/APP_xxx.json` 的里程碑資料
-6. `data/archive/APP_xxx_full.txt` 的原始卷宗
-7. `data/fip/raw/` 的 FIP 1/2/3 Snapshot 原文
+4. `data/groups/` 的 FAB DAO 工作組背景、聯絡人、錢包、資助計畫與來源
+5. `data/summary.json` 的申請案摘要
+6. `data/records/APP_xxx.json` 的里程碑資料
+7. `data/archive/APP_xxx_full.txt` 的原始卷宗
+8. `data/fip/raw/` 的 FIP 1/2/3 Snapshot 原文
 
 未來回答應盡量標示資料來源，例如：`來源：data/summary.json` 或 `來源：data/records/APP_001.json`。一般使用者查詢時，應避免輸出個人聯絡方式、完整原始卷宗或其他私隱資訊。
 

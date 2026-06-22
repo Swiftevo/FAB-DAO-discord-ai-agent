@@ -119,3 +119,42 @@
 - FIP-1：建立 FAB DAO 的 DAO 化工程、組織精神、客廳 / 廚房架構、行動客廳、藝術銀行、超證應用等初始小組。
 - FIP-2：補完百岳資金使用原則、工作組授權、任期、多簽管理，並正式定義行動客廳補助金委員會。
 - FIP-3：將 FAB DAO 轉向永續導向，更新資金池、年度預算、聯絡人會議制度，並加入頂加實驗室與 GreenSofa 綠沙發脈絡。
+
+## 2026-06-22 行動客廳資料庫
+
+### 背景
+
+開始以 `data/groups/` 結構建立四個 FAB DAO 工作組資料庫，第一個實作組別為行動客廳。
+
+### 資料
+
+- Optimism Safe：`0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4`
+- Safe URL：`https://app.safe.global/home?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4`
+- 簽署門檻：3/5
+- 多簽管理人：天天晴朗 - penghui、青苔Yian、很睏宜品（台灣人）、當我開始 - 偷偷、FL YANG
+
+地址與 Discord ID 以 `public_governance_data` 標記存入公開 repo。不得在 repo 儲存私鑰、助記詞、Bot token 或 Safe 簽署憑證。
+
+### 結構化連接
+
+- 建立行動客廳 profile、summary、contacts、wallets、programs、sources、records 與 raw 結構。
+- 將 `APP_001` 至 `APP_005` 標記為行動客廳轄下 `fab_dao_grant` 補助金專案。
+- 將 Grant 連接至 `grant_committee`，並標明最終決策只能由人類委員會作出。
+- 建立 Bounty placeholder，等待後續資料。
+- 更新 `logic.js`，只在相關問題出現時載入行動客廳詳細資料。
+
+### 後續
+
+- Notion 舊會議記錄需由維護者匯出 Markdown & CSV，再匯入 raw 與 records。
+- Discord 語音會議不會自然保留內容；需要知情同意、錄音、轉錄、AI 摘要及人工確認流程。
+- 多簽目前採人工核對，未來再評估鏈上監測。
+
+### 今日完成紀錄
+
+- 維護者確認行動客廳 Optimism Safe 地址與五名多簽管理人的 Discord ID 均屬公開治理資料，可存入公開 GitHub repo。
+- 驗證 11 份相關 JSON 可正常解析，`logic.js` 通過 Node 語法檢查。
+- 確認 `APP_001` 至 `APP_005` 均已連接至 `action_living_room → fab_dao_grant → grant_committee`。
+- Commit：`3e42c97 feat: add action living room database`
+- Branch：`codex/add-action-living-room-database`
+- 建立 draft PR：`https://github.com/Swiftevo/FAB-DAO-discord-ai-agent/pull/5`
+- GitHub CLI `gh` 開 PR 流程已驗證可用；後續可由 Codex 完成 commit、push 與 draft PR，merge 仍由維護者決定。

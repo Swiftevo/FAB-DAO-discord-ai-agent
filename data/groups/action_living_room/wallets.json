@@ -1,0 +1,22 @@
+{
+  "group_id": "action_living_room",
+  "visibility": "public_governance_data",
+  "wallets": [
+    {
+      "id": "action_living_room_multisig",
+      "type": "Safe multisig",
+      "network": "Optimism",
+      "chain_prefix": "oeth",
+      "address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "safe_url": "https://app.safe.global/home?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "threshold": 3,
+      "owner_count": 5,
+      "threshold_display": "3/5",
+      "monitoring": "manual",
+      "balance": null,
+      "balance_last_checked_at": null,
+      "last_verified_on": "2026-06-22",
+      "source": "FAB DAO maintainer-provided data"
+    }
+  ]
+}
