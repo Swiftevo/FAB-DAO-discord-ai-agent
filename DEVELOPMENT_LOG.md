@@ -158,3 +158,18 @@
 - Branch：`codex/add-action-living-room-database`
 - 建立 draft PR：`https://github.com/Swiftevo/FAB-DAO-discord-ai-agent/pull/5`
 - GitHub CLI `gh` 開 PR 流程已驗證可用；後續可由 Codex 完成 commit、push 與 draft PR，merge 仍由維護者決定。
+
+## 2026-06-22 Web3 羽球社資料更新
+
+### 更新內容
+
+- 補充專案負責人 MN 與公開 Discord ID。
+- 記錄營運模式由自行租場、揪人及收款，改為參加運動中心既有羽球暢打團。
+- 保留 Web3 元素：加密貨幣 / 法幣付款選項、Fluidkey 收款、POAP 出席紀錄與裝備獎勵方向。
+- 記錄 Signal 群組、275 NTD 參加費用、台北市大同運動中心及 2026-06-12 條件式活動資訊。
+- 更新 `APP_001` 結構化 record、申請案 summary 及行動客廳 sources。
+- 將維護者提供的原始文字保存於 `data/archive/APP_001_update_2026-06-12.md`。
+
+### 資料判斷
+
+更新文字只說明若大同運動中心於 6/11 開團，負責人才會替成員報名；沒有提供 6/12 最終成團或活動完成結果。因此資料庫暫標記為 `outcome_unconfirmed`，並加入 TODO 等待確認。

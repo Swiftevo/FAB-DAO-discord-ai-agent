@@ -23,6 +23,13 @@
       "id": "fip_3",
       "type": "local_file",
       "path": "data/fip/raw/FIP_3.md"
+    },
+    {
+      "id": "app_001_update_2026_06_12",
+      "type": "local_file",
+      "title": "Web3 羽球社營運模式與 6/12 活動更新",
+      "path": "data/archive/APP_001_update_2026-06-12.md",
+      "project_id": "APP_001"
     }
   ]
 }

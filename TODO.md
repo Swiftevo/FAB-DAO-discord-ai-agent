@@ -38,6 +38,7 @@
 
 ## P2 - 行動客廳資料補全
 
+- [ ] 確認 Web3 羽球社 2026-06-12 大同運動中心場次是否成團及實際舉辦
 - [ ] 由 Notion 舊會議記錄頁面選擇 `Export → Markdown & CSV`
 - [ ] Notion 匯出時勾選 `Include subpages`，保留原始頁面與資料庫內容
 - [ ] 將 Notion 匯出 ZIP 匯入 `data/groups/action_living_room/raw/`

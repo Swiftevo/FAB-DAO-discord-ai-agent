@@ -7,12 +7,17 @@
     "governance_body_id": "grant_committee",
     "project": "Web3 羽球社",
     "applicant": "許明恩",
+    "responsible_person": "MN",
+    "responsible_discord_id": "702193431270653982",
     "total_milestones": 3,
     "current_phase": 1,
     "status": "Active",
     "budget": "30,000 NTD",
-    "timeline": "2025-01至2025-04",
-    "milestone_summary": "M1(2025-01): 啟動每週活動與Signal社群; M2(2025-03): 實作加密支付與POAP簽到; M3(2025-04): 發布開源營運手冊 [cite: 1, 4]"
+    "timeline": "2025-01至今",
+    "current_stage": "營運模式調整與活動重啟",
+    "latest_update_date": "2026-06-12",
+    "latest_update_summary": "由自行租場改為參加運動中心羽球暢打團，降低租場、確認人數與流團的營運負擔；保留加密貨幣支付、POAP 出席紀錄與裝備獎勵。6/12 大同運動中心場次是否實際成團及舉辦仍待確認。",
+    "milestone_summary": "M1: 啟動活動與 Signal 社群; M2: 實作加密支付與 POAP 出席紀錄; M3: 整理活動、照片、POAP 與持續參與獎勵機制。"
   },
   {
     "id": "APP_002",
