@@ -222,8 +222,12 @@ async function handleAIRequest(userPrompt, isReviewer) {
         // --- 第三層：權限檢查 (查看原始檔案 / 深度分析) ---
             if (userPrompt.includes("查看原始檔案") || userPrompt.includes("深度分析")) {
                 if (isReviewer) {
-                    const arcPath = path.join(__dirname, 'data', 'archive', `${appId}_full.txt`);
-                    if (fs.existsSync(arcPath)) {
+                    const archiveCandidates = [
+                        path.join(__dirname, 'data', 'archive', `${appId}_full.txt`),
+                        path.join(__dirname, 'data', 'archive', `${appId}_full.md`)
+                    ];
+                    const arcPath = archiveCandidates.find(candidate => fs.existsSync(candidate));
+                    if (arcPath) {
                         const fullText = fs.readFileSync(arcPath, 'utf8');
                         // 管理員直接回傳全文，不經過 AI 總結，避免重複回覆
                         return `📜 **${appId} 原始卷宗全文**：\n\n${fullText.substring(0, 1500)}...`;
