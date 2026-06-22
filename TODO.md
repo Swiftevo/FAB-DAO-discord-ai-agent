@@ -38,6 +38,8 @@
 
 ## P2 - 行動客廳資料補全
 
+- [ ] 確認 FAB DAO Grant 官方級距在 150 USD 與 900 USD 邊界的歸類方式
+- [ ] 確認 Google Form 是否可提供不需登入的公開填寫 URL
 - [ ] 確認 Web3 羽球社 2026-06-12 大同運動中心場次是否成團及實際舉辦
 - [ ] 由 Notion 舊會議記錄頁面選擇 `Export → Markdown & CSV`
 - [ ] Notion 匯出時勾選 `Include subpages`，保留原始頁面與資料庫內容

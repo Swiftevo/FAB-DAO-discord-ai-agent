@@ -173,3 +173,24 @@
 ### 資料判斷
 
 更新文字只說明若大同運動中心於 6/11 開團，負責人才會替成員報名；沒有提供 6/12 最終成團或活動完成結果。因此資料庫暫標記為 `outcome_unconfirmed`，並加入 TODO 等待確認。
+
+## 2026-06-22 FAB DAO Grant 官方來源
+
+### 資料來源
+
+- 行動客廳 GRANTS 補助金申請表：Google Form URL。
+- `FAB DAO Grant 行動客廳補助金｜申請辦法`：Google Docs，2026-04-21 修定版。
+
+### 處理
+
+- 將 Google Docs 公開匯出的申請辦法原文保存到 `data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-04-21.md`。
+- 建立 `grant_program.md` 作為 Agent 日常載入的官方規則摘要。
+- 擴充 `programs.json`，加入總經費、三個級距、審核門檻、60/40 撥款、申請入口及官方來源。
+- 更新 `sources.json`，記錄 Google Form 與 Google Docs。
+- 更新 `happy_rat.txt`，移除只適用快樂鼠 5,000 NTD 的舊規則，改用 2026-04-21 官方規則，並再次強調 Agent 不得替委員會決策。
+- 更新 `logic.js`，相關問題載入 Grant summary；使用者要求原文、全文或深度細節時才載入本地 raw 規則。
+
+### 待確認
+
+- 官方文字在 150 USD 與 900 USD 的級距邊界有重疊，Agent 不應自行判斷邊界個案。
+- Google Form 對無 Google session 的程式讀取回傳未授權，待確認是否有另一個公開填寫 URL。
