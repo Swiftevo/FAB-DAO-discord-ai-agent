@@ -7,6 +7,42 @@
       "program_type": "grant",
       "governance_body_id": "grant_committee",
       "status": "active",
+      "rules_version": "2026-04-21",
+      "total_budget_usd": 1600,
+      "maximum_per_project_usd": 1600,
+      "tier_boundary_note": "官方原文在 150 USD 與 900 USD 邊界有重疊；邊界個案需由補助金委員會確認。",
+      "tiers": [
+        {
+          "id": "happy_rat",
+          "name": "快樂鼠",
+          "maximum_usd": 150,
+          "review_mode": "rolling"
+        },
+        {
+          "id": "big_rat",
+          "name": "大鼠",
+          "minimum_usd": 150,
+          "maximum_usd": 900
+        },
+        {
+          "id": "cumulative_rat",
+          "name": "累鼠",
+          "minimum_usd": 900,
+          "maximum_usd": 1600
+        }
+      ],
+      "application_open_day": 1,
+      "application_deadline_day": 25,
+      "committee_size": 5,
+      "approval_threshold": 3,
+      "disbursement": {
+        "initial_percent": 60,
+        "completion_percent": 40
+      },
+      "application_form_url": "https://docs.google.com/forms/d/1AGjmuaDiQUnwSk88MloVrt2VaCYToPdFk20Tm9kPbbY/viewform?edit_requested=true",
+      "rules_url": "https://docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0/edit?tab=t.0#heading=h.9hr25oz2cr64",
+      "summary_file": "data/groups/action_living_room/grant_program.md",
+      "raw_rules_file": "data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-04-21.md",
       "project_ids": ["APP_001", "APP_002", "APP_003", "APP_004", "APP_005"]
     },
     {

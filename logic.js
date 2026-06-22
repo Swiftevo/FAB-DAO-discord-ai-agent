@@ -142,6 +142,7 @@ function getGroupContext(userPrompt) {
             const files = [
                 ['profile.md', '組別背景'],
                 ['summary.md', '目前摘要'],
+                ['grant_program.md', 'FAB DAO Grant 官方規則摘要'],
                 ['contacts.json', '聯絡人與治理角色'],
                 ['wallets.json', '錢包資料'],
                 ['programs.json', '資助計畫與治理關聯'],
@@ -155,6 +156,17 @@ function getGroupContext(userPrompt) {
                     context += `\n【${group.name} - ${label}】:\n${content}\n`;
                 }
             });
+
+            const deepGrantLookup = /原文|全文|完整|深度|細節|raw/i.test(userPrompt)
+                && /補助金|grant|申請辦法|級距|審核|撥款/i.test(userPrompt);
+
+            if (group.id === 'action_living_room' && deepGrantLookup) {
+                const rawRulesPath = path.join(groupDir, 'raw', 'FAB_DAO_Grant_application_rules_2026-04-21.md');
+                if (fs.existsSync(rawRulesPath)) {
+                    const rawRules = fs.readFileSync(rawRulesPath, 'utf8');
+                    context += `\n【FAB DAO Grant 申請辦法原文】:\n${rawRules}\n`;
+                }
+            }
         });
 
         return context;

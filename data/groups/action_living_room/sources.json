@@ -30,6 +30,23 @@
       "title": "Web3 羽球社營運模式與 6/12 活動更新",
       "path": "data/archive/APP_001_update_2026-06-12.md",
       "project_id": "APP_001"
+    },
+    {
+      "id": "fab_dao_grant_application_form",
+      "type": "google_form",
+      "title": "行動客廳 GRANTS 補助金申請表",
+      "url": "https://docs.google.com/forms/d/1AGjmuaDiQUnwSk88MloVrt2VaCYToPdFk20Tm9kPbbY/viewform?edit_requested=true",
+      "access_status": "requires_google_authorization"
+    },
+    {
+      "id": "fab_dao_grant_rules_2026_04_21",
+      "type": "google_document",
+      "title": "FAB DAO Grant 行動客廳補助金｜申請辦法",
+      "url": "https://docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0/edit?tab=t.0#heading=h.9hr25oz2cr64",
+      "document_version": "2026-04-21",
+      "import_status": "imported",
+      "raw_file": "data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-04-21.md",
+      "summary_file": "data/groups/action_living_room/grant_program.md"
     }
   ]
 }
