@@ -4,6 +4,42 @@
   "funding_program_id": "fab_dao_grant",
   "program_type": "grant",
   "governance_body_id": "grant_committee",
+  "project_name": "Web3 羽球社",
+  "project_lead": {
+    "display_name": "MN",
+    "discord_user_id": "702193431270653982"
+  },
+  "community": {
+    "platform": "Signal",
+    "invite_url": "https://signal.group/#CjQKIOrZiULlesKEM9ziVF1m9qBu7OuMMv0lbsdXCB57oTUfEhAoKeJaz_UuNj43AVDCAfMw"
+  },
+  "current_stage": "營運模式調整與活動重啟",
+  "operating_model": {
+    "previous": "自行租場地、招募參加者、收款，並把加密貨幣支付與 POAP 整合進活動。",
+    "current": "參加運動中心既有羽球暢打團，由運動中心處理場地及開團，Web3 羽球社整合參加者報名、加密貨幣支付與 POAP。",
+    "reason_for_change": "自行處理租場、確認人數與避免流團造成過高的線下營運負擔，與加密貨幣技術本身無關。"
+  },
+  "participation_model": {
+    "fee": "275 NTD",
+    "includes": ["場地", "羽球"],
+    "payment_options": ["加密貨幣", "法幣"],
+    "crypto_payment_tool": "Fluidkey",
+    "attendance_record": "每次活動發放 POAP",
+    "reward_direction": "以 POAP、照片與參與紀錄作為持續參與及羽球裝備獎勵依據"
+  },
+  "recent_updates": [
+    {
+      "update_date": "2026-06-12",
+      "event_title": "久違 Web3 羽球社活動（跟運動中心暢打團）",
+      "scheduled_time": "2026-06-12 13:00-16:00",
+      "location": "台北市大同運動中心",
+      "event_status": "outcome_unconfirmed",
+      "booking_condition": "大同運動中心通常於前一天決定是否開團；若 6/11 開團，負責人會替成員一起報名。",
+      "historical_group_formation_rate": "約 60%，依 2025-10 至 2026-06 的觀察紀錄",
+      "signup_method": "Signal 群組留言 +1",
+      "raw_source": "data/archive/APP_001_update_2026-06-12.md"
+    }
+  ],
   "milestones": [
     {"phase": 1, "task": "首場活動測試、發放 POAP、建置宣傳網站", "deadline": "2025-04-15"},
     {"phase": 2, "task": "建立每週節奏、核心成員達100人、製作專屬隊服", "deadline": "2025-10-15"},
