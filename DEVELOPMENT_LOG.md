@@ -148,3 +148,13 @@
 - Notion 舊會議記錄需由維護者匯出 Markdown & CSV，再匯入 raw 與 records。
 - Discord 語音會議不會自然保留內容；需要知情同意、錄音、轉錄、AI 摘要及人工確認流程。
 - 多簽目前採人工核對，未來再評估鏈上監測。
+
+### 今日完成紀錄
+
+- 維護者確認行動客廳 Optimism Safe 地址與五名多簽管理人的 Discord ID 均屬公開治理資料，可存入公開 GitHub repo。
+- 驗證 11 份相關 JSON 可正常解析，`logic.js` 通過 Node 語法檢查。
+- 確認 `APP_001` 至 `APP_005` 均已連接至 `action_living_room → fab_dao_grant → grant_committee`。
+- Commit：`3e42c97 feat: add action living room database`
+- Branch：`codex/add-action-living-room-database`
+- 建立 draft PR：`https://github.com/Swiftevo/FAB-DAO-discord-ai-agent/pull/5`
+- GitHub CLI `gh` 開 PR 流程已驗證可用；後續可由 Codex 完成 commit、push 與 draft PR，merge 仍由維護者決定。
