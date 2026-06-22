@@ -1,0 +1,30 @@
+{
+  "group_id": "action_living_room",
+  "programs": [
+    {
+      "id": "fab_dao_grant",
+      "name": "FAB DAO Grant",
+      "program_type": "grant",
+      "governance_body_id": "grant_committee",
+      "status": "active",
+      "project_ids": ["APP_001", "APP_002", "APP_003", "APP_004", "APP_005"]
+    },
+    {
+      "id": "action_living_room_bounty",
+      "name": "行動客廳任務懸賞",
+      "program_type": "bounty",
+      "status": "awaiting_data",
+      "project_ids": []
+    }
+  ],
+  "governance_bodies": [
+    {
+      "id": "grant_committee",
+      "name": "補助金委員會",
+      "owner_group_id": "action_living_room",
+      "role": "主理 FAB DAO Grant 的申請、資料整理與人類委員會審查",
+      "decision_authority": "human_committee_only",
+      "current_members": []
+    }
+  ]
+}

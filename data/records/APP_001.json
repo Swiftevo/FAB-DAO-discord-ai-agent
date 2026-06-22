@@ -1,5 +1,9 @@
 {
   "id": "APP_001",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
   "milestones": [
     {"phase": 1, "task": "首場活動測試、發放 POAP、建置宣傳網站", "deadline": "2025-04-15"},
     {"phase": 2, "task": "建立每週節奏、核心成員達100人、製作專屬隊服", "deadline": "2025-10-15"},

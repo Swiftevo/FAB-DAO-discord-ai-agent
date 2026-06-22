@@ -1,5 +1,9 @@
 {
   "id": "APP_003",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
   "project_name": "大量交織+地球公物",
   "milestones": [
     {

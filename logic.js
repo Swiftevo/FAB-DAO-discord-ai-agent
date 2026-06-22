@@ -111,6 +111,59 @@ function getFipContext(userPrompt) {
     }
 }
 
+/**
+ * 輔助函式：依問題載入 FAB DAO 工作組資料
+ */
+function getGroupContext(userPrompt) {
+    let context = "";
+
+    try {
+        const groupsDir = path.join(__dirname, 'data', 'groups');
+        const indexPath = path.join(groupsDir, 'index.json');
+
+        if (!fs.existsSync(indexPath)) {
+            return "";
+        }
+
+        const groupIndex = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+        context += `\n【FAB DAO 工作組索引】:\n${JSON.stringify(groupIndex, null, 2)}\n`;
+
+        const actionLivingRoomLookup = /行動客廳|補助金|補助金委員會|grant|bounty|懸賞|多簽|錢包|APP_\d+/i.test(userPrompt);
+        const selectedGroups = groupIndex.filter(group => {
+            if (group.database_status !== 'active') return false;
+            if (group.id === 'action_living_room' && actionLivingRoomLookup) return true;
+
+            return [group.name, ...(group.aliases || [])]
+                .some(alias => userPrompt.toLowerCase().includes(alias.toLowerCase()));
+        });
+
+        selectedGroups.forEach(group => {
+            const groupDir = path.join(groupsDir, group.id);
+            const files = [
+                ['profile.md', '組別背景'],
+                ['summary.md', '目前摘要'],
+                ['contacts.json', '聯絡人與治理角色'],
+                ['wallets.json', '錢包資料'],
+                ['programs.json', '資助計畫與治理關聯'],
+                ['sources.json', '資料來源']
+            ];
+
+            files.forEach(([fileName, label]) => {
+                const filePath = path.join(groupDir, fileName);
+                if (fs.existsSync(filePath)) {
+                    const content = fs.readFileSync(filePath, 'utf8');
+                    context += `\n【${group.name} - ${label}】:\n${content}\n`;
+                }
+            });
+        });
+
+        return context;
+    } catch (err) {
+        console.error("無法讀取工作組資料庫:", err);
+        return "";
+    }
+}
+
 
 
 /**
@@ -132,6 +185,9 @@ async function handleAIRequest(userPrompt, isReviewer) {
 
         // 2.5 取得 FAB DAO FIP 里程碑脈絡
         const fipContext = getFipContext(userPrompt);
+
+        // 2.6 依問題取得 FAB DAO 工作組脈絡
+        const groupContext = getGroupContext(userPrompt);
 
         // --- 第一層：讀取基礎摘要 (固定載入) ---
         const summaryPath = path.join(__dirname, 'data', 'summary.json');
@@ -174,7 +230,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### FAB DAO 里程碑文件資料庫(必須優先參考):\n${fipContext}\n\n### 實時資料庫內容：\n${databaseContext}`
+                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### FAB DAO 里程碑文件資料庫(必須優先參考):\n${fipContext}\n\n### FAB DAO 工作組資料庫(依問題載入):\n${groupContext}\n\n### 實時資料庫內容：\n${databaseContext}`
                 },
                 { role: "user", content: userPrompt }
             ],

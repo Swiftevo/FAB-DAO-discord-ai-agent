@@ -1,0 +1,28 @@
+{
+  "group_id": "action_living_room",
+  "sources": [
+    {
+      "id": "legacy_meeting_records_notion",
+      "type": "notion_database",
+      "title": "舊有行動客廳會議記錄",
+      "url": "https://brash-droplet-903.notion.site/10d1e435385b4738984892e2127d7f35?v=ae754f7f430a48bb9742426cc51f5f86",
+      "import_status": "pending_export",
+      "notes": "目前無法由 agent 直接讀取；待由 Notion 匯出 Markdown & CSV 後匯入 raw/。"
+    },
+    {
+      "id": "fip_1",
+      "type": "local_file",
+      "path": "data/fip/raw/FIP_1.md"
+    },
+    {
+      "id": "fip_2",
+      "type": "local_file",
+      "path": "data/fip/raw/FIP_2.md"
+    },
+    {
+      "id": "fip_3",
+      "type": "local_file",
+      "path": "data/fip/raw/FIP_3.md"
+    }
+  ]
+}
