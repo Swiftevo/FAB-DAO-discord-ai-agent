@@ -15,7 +15,7 @@
     "currency": "USD"
   },
   "decision_status": "approved",
-  "current_status": "active",
+  "current_status": "active - funding transferred",
   "applicant": {
     "name": "Swift Evo"
   },
@@ -69,7 +69,18 @@
         "currency": "USDT",
         "description": "Swift Evo 營運支援"
       }
-    ]
+    ],
+    "disbursement": {
+      "status": "transferred",
+      "amount": 150,
+      "currency": "USDT",
+      "transfer_date": "2025-08-19",
+      "network": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
+      "verification_status": "maintainer_confirmed",
+      "note": "維護者確認此筆交易為星光藝術計劃 Round 4 快樂鼠 150 USDT 轉帳記錄。"
+    }
   },
   "timeline": [
     {
@@ -152,5 +163,18 @@
       "relationship": "另一個 Matters / Public Goods 內容激勵方案，與星光藝術計劃不同，不應混同。"
     }
   ],
-  "raw_source": "data/archive/APP_005_full.txt"
+  "safe_transactions": [
+    {
+      "type": "grant_transfer",
+      "amount": 150,
+      "currency": "USDT",
+      "date": "2025-08-19",
+      "network": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
+      "verification_status": "maintainer_confirmed"
+    }
+  ],
+  "raw_source": "data/archive/APP_005_full.txt",
+  "transfer_update_source": "data/archive/APP_005_transfer_2025-08-19.md"
 }

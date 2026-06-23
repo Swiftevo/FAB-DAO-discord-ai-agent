@@ -89,12 +89,12 @@
     "tier": "快樂鼠",
     "total_milestones": 2,
     "current_phase": 1,
-    "status": "Active",
-    "budget": "Round 4 快樂鼠 150 USD；50 U 作者獎勵、50 U fab_dao_artbank、50 U Matters Choice / Swift Evo 營運支援",
+    "status": "Active - funding transferred",
+    "budget": "Round 4 快樂鼠 150 USD；50 U 作者獎勵、50 U fab_dao_artbank、50 U Matters Choice / Swift Evo 營運支援；已於 2025-08-19 轉帳 150 USDT",
     "timeline": "申請通過後立即啟動；約 1 - 3 個月，每月預計推薦 2 - 3 篇",
     "current_stage": "Matters Choice 藝術類文章推薦與獎勵機制",
     "latest_update_date": "2026-06-23",
-    "latest_update_summary": "已記錄 9 筆推薦文章 / collection 連結，其中第 8、9 筆 URL 相同；原始記錄保留。計畫目標為至少 10 篇藝術類優質文章被推薦並曝光 FAB DAO Art Bank。",
+    "latest_update_summary": "已記錄 9 筆推薦文章 / collection 連結，其中第 8、9 筆 URL 相同；原始記錄保留。維護者確認 2025-08-19 已由行動客廳 Optimism Safe 轉帳 150 USDT，對應 Round 4 快樂鼠全額補助。",
     "milestone_summary": "M1: 由 fab_dao_artbank 於 Matters Choice 推薦藝術類文章並派發推薦 / 作者獎勵; M2: 至少推薦 10 篇藝術類優質文章，成果同步公開於 Matters 與 FAB DAO Discord。"
   },
   {
