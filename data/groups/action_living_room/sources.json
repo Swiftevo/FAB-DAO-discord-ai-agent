@@ -146,6 +146,22 @@
       "project_id": "APP_005"
     },
     {
+      "id": "app_005_transfer_update_2025_08_19",
+      "type": "local_file",
+      "title": "APP_005 星光藝術計劃 2025-08-19 轉帳記錄",
+      "path": "data/archive/APP_005_transfer_2025-08-19.md",
+      "project_id": "APP_005",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_005_transfer_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_005 星光藝術計劃 150 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
+      "project_id": "APP_005",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
       "id": "fab_dao_grant_application_form",
       "type": "google_form",
       "title": "行動客廳 GRANTS 補助金申請表",
