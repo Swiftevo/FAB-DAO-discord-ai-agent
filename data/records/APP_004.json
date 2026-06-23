@@ -5,21 +5,129 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "事水",
+  "round": 4,
+  "declared_tier": {
+    "name": "小鼠",
+    "amount": "25,000 NTD"
+  },
+  "decision_status": "approved",
+  "current_status": "active",
+  "applicant": {
+    "name": "一峻",
+    "legal_or_full_name": "黃一峻",
+    "discord_id": "1191653182238109709",
+    "background": "台大生物環境系統工程學系五年級，目前在環境顧問公司實習"
+  },
+  "fab_dao_contact": {
+    "name": "青苔Yian",
+    "discord_id": "631868335230943263"
+  },
+  "links": {
+    "original_proposal": "https://drive.google.com/file/d/1z414efpO6V3NNn8sA_JdMXFQ9VhOsznx/view",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1477867968380796969",
+    "instagram_account": null
+  },
+  "summary": "事水是以水環境為主軸的 IG 自媒體計畫，目標是用環境教育、國際案例、歷史記憶與水治理觀察，提升一般大眾理解水源、污染、污水處理、再生水、都市水岸與數位治理的基本素養。",
+  "goals": [
+    "半年內完成 10 篇水環境內容",
+    "以 10 篇內容合計達到 50 則轉發為目標",
+    "用 150 至 300 字、3 至 4 頁圖文與約 20 秒影片，降低水環境議題理解門檻",
+    "從台灣水環境出發，連接國際案例、城市治理、歷史記憶與日常生活"
+  ],
+  "audiences": [
+    "國高中生",
+    "長輩",
+    "對環境議題、水治理、城市空間或國際案例有興趣的一般讀者",
+    "希望理解新聞事件背後水務脈絡的社群讀者"
+  ],
+  "content_themes": [
+    "自來水、濁度與颱風斷水風險",
+    "農業用水比例與水資源數字感",
+    "污水處理、再生水廠與污泥去向",
+    "新加坡、西班牙、芝加哥、墨西哥等國際水環境案例",
+    "台灣河川、地下水、都市水岸與透明淡水河等數位治理案例",
+    "高雄愛河、淡水河等水岸歷史記憶"
+  ],
+  "current_content_pipeline": {
+    "latest_update_date": "2026-06-23",
+    "may_plan": "先完成 1 篇貼文與 1 組短影音",
+    "june_to_august_plan": "先以每個月 1 篇為目標；若順利會再增加",
+    "support": "一峻已找到可教學平面設計與短影音剪輯的 2 位朋友",
+    "candidate_topics": [
+      "農業用了七成的水，真的是七成嗎",
+      "污水處理廠偷排污水，有其他解釋的可能嗎？",
+      "為何颱風來的時候自來水有斷水風險？桃園市怎麼解決的呢？",
+      "西班牙需要的一千個再生水廠是誰在用？",
+      "你知道要用海水才種的出又脆又甜的蓮霧嗎？"
+    ]
+  },
+  "budget": {
+    "approved_amount": {
+      "amount": 25000,
+      "currency": "NTD"
+    },
+    "planned_use": [
+      {
+        "item": "前期計畫：粉專定位、版面規格、排版技術與露面錄影練習",
+        "amount": 3000,
+        "currency": "NTD"
+      },
+      {
+        "item": "中期執行：交通、關鍵人士、訪談餐費、作業費",
+        "amount": 19000,
+        "currency": "NTD"
+      },
+      {
+        "item": "反思時程：IG 未來方向、粉絲問卷或限動留言互動",
+        "amount": 3000,
+        "currency": "NTD"
+      }
+    ],
+    "initial_disbursement": {
+      "percentage": 60,
+      "amount": 361.89,
+      "currency": "USDT",
+      "status": "pending_transfer",
+      "note": "維護者於 2026-06-23 確認 60% 啟動資金 361.89 USDT 仍未轉帳。"
+    }
+  },
+  "timeline": [
+    {
+      "period": "2026-02-25 to 2026-03-15",
+      "task": "明確粉專定位、版面規格、排版技術與練習露面錄影說話"
+    },
+    {
+      "period": "2026-05",
+      "task": "完成 1 篇貼文與 1 組短影音"
+    },
+    {
+      "period": "2026-06 to 2026-08",
+      "task": "每月 1 篇內容為目標，順利時增加產出"
+    },
+    {
+      "period": "2026-07-19 to 2026-08-19",
+      "task": "確立 IG 未來方向，透過問卷、限動或留言互動理解粉絲需求"
+    }
+  ],
   "milestones": [
     {
       "phase": 1,
-      "task": "明確粉專定位、排版技術練習，並完成首波 3 篇發文",
-      "deadline": "2026-03-29"
+      "task": "明確粉專定位、排版技術練習，並完成首波內容",
+      "deadline": "2026-03-15"
     },
     {
       "phase": 2,
-      "task": "累積完成 10 篇多元內容發布（包含國際、歷史、學科視角）",
+      "task": "累積多元內容發布，包含國際、歷史、學科與時事視角",
       "deadline": "2026-07-19"
     },
     {
       "phase": 3,
-      "task": "確立未來營運方向，完成粉絲問卷調查與互動分析報告",
+      "task": "確立未來營運方向，完成粉絲問卷或互動分析",
       "deadline": "2026-08-19"
     }
+  ],
+  "raw_source": "data/archive/APP_004_full.txt",
+  "update_sources": [
+    "data/archive/APP_004_update_2026-06-23.md"
   ]
 }

@@ -41,6 +41,8 @@
 - [ ] 確認 FAB DAO Grant 官方級距在 150 USD 與 900 USD 邊界的歸類方式
 - [ ] 確認 Google Form 是否可提供不需登入的公開填寫 URL
 - [ ] 確認 Web3 羽球社 2026-06-12 大同運動中心場次是否成團及實際舉辦
+- [ ] 補充 `APP_004` 事水 Instagram 帳號連結
+- [ ] 追蹤 `APP_004` 事水 361.89 USDT 啟動資金是否完成轉帳
 - [ ] 追蹤 `APP_006` 藝術銀行合作、焦點聚會補助與作品購藏是否另行核定
 - [ ] 由 Notion 舊會議記錄頁面選擇 `Export → Markdown & CSV`
 - [ ] Notion 匯出時勾選 `Include subpages`，保留原始頁面與資料庫內容

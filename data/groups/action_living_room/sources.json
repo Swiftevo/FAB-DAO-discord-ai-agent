@@ -32,6 +32,37 @@
       "project_id": "APP_001"
     },
     {
+      "id": "app_004_original_proposal",
+      "type": "google_drive_file",
+      "title": "事水原企劃書",
+      "url": "https://drive.google.com/file/d/1z414efpO6V3NNn8sA_JdMXFQ9VhOsznx/view",
+      "project_id": "APP_004",
+      "import_status": "maintainer_text_preserved",
+      "raw_file": "data/archive/APP_004_full.txt"
+    },
+    {
+      "id": "app_004_discord_channel",
+      "type": "discord_channel",
+      "title": "事水 Discord 討論頻道",
+      "url": "https://discord.com/channels/909473182598193272/1477867968380796969",
+      "project_id": "APP_004"
+    },
+    {
+      "id": "app_004_instagram_account",
+      "type": "instagram_account",
+      "title": "事水 Instagram 帳號",
+      "url": null,
+      "project_id": "APP_004",
+      "import_status": "pending_url"
+    },
+    {
+      "id": "app_004_update_2026_06_23",
+      "type": "local_file",
+      "title": "APP_004 事水進度、聯絡人與撥款狀態更新",
+      "path": "data/archive/APP_004_update_2026-06-23.md",
+      "project_id": "APP_004"
+    },
+    {
       "id": "fab_dao_grant_application_form",
       "type": "google_form",
       "title": "行動客廳 GRANTS 補助金申請表",
