@@ -63,6 +63,35 @@
       "project_id": "APP_004"
     },
     {
+      "id": "app_005_star_art_proposal",
+      "type": "local_file",
+      "title": "星光藝術計劃原計劃書",
+      "path": "data/archive/APP_005_full.txt",
+      "project_id": "APP_005",
+      "import_status": "maintainer_text_preserved"
+    },
+    {
+      "id": "app_005_matters_choice",
+      "type": "matters_account",
+      "title": "Matters Choice",
+      "url": "https://matters.town/@matters_choice",
+      "project_id": "APP_005"
+    },
+    {
+      "id": "app_005_fab_dao_artbank_collection",
+      "type": "matters_collection",
+      "title": "星光藝術計畫好文推薦 - fab_dao_artbank - Matters",
+      "url": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0",
+      "project_id": "APP_005"
+    },
+    {
+      "id": "app_005_metrics_spreadsheet",
+      "type": "google_spreadsheet",
+      "title": "Matters Choice 過往數據佐證",
+      "url": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
+      "project_id": "APP_005"
+    },
+    {
       "id": "fab_dao_grant_application_form",
       "type": "google_form",
       "title": "行動客廳 GRANTS 補助金申請表",

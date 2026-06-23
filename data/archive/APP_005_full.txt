@@ -1,25 +1,101 @@
-[Project_ID] APP_005
-[Project_Name] Matters Choice 星光藝術計劃
-[Applicant] Swift Evo
-[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+Matters Choice 星光藝術計劃
+FAB DAO 行動客廳補助金｜快樂鼠級別（150 USD）
+計畫名稱
+「星光藝術計劃」—— Web3 藝術創作內容激勵方案
+計畫目標
+擴大 fab_dao_artbank 在 Matters 平台的曝光度及影響力，同時推動 Matters 平台提昇藝術類內容（音樂/美術/舞蹈/NFT）的數量與品質
+透過補助金獎勵機制，吸引更多創作者與推薦者參與藝術領域討論
+結合 Web3 工具（如穩定幣獎勵），探索公共藝術社群的永續運作模式
 
-[Core_Concept]
-擴大 Matters 平台藝術內容（音樂、美術、NFT）的曝光度。透過獎勵金機制激勵推薦者（Curators）與創作者（Creators），探索公共藝術社群的永續運作。
+計畫內容與執行方式
+1. 獎勵機制
+藝術類文章推薦獎勵：
+由 fab_dao_artbank 於 Matters Choice 推薦藝術相關文章，每篇推薦，fab_dao_artbank 派發 5 U 以補償閱讀及推薦時的工作付出（由 FAB DAO 補助金資助。由藝術銀行在 Matters 平台的帳戶派發給與作者。）
+Matters Choice https://matters.town/@matters_choice
+Matters 平台上被推薦的文章的作者，每篇可獲 5 U（由 FAB DAO 補助金資助，由 Matters Choice 派發）
+現有非藝術類推薦維持 1 USDT （由 Matters Choice 資助)
+激勵額度：總預算 150 U，預計推動 10 篇優質藝術文章
+50 U 給與 fab_dao_artbank
+50 U 給與十篇藝術類作者
+50 U Matters Choice 營運分攤
+2. 執行流程
+由 fab_dao_artbank 在Matters 平台中篩選符合資格的藝術類文章，並於Matters Choice 留言區推薦 該文章，經審核後發放推薦獎勵及作者獎勵。
+每期成果同步公開於 Matters 與 FAB DAO Discord 頻道。
 
-[Execution_Details]
-- Reward Mechanism: 
-  - Curator (fab_dao_artbank): 5 USDT per recommendation.
-  - Creator: 5 USDT for being recommended.
-  - Total 10U per article.
-- Targets: 10 high-quality art articles in 1-3 months.
-- Platform: Matters Choice (avg. 200 monthly IP readers).
-- Publication: Sync results to Matters and FAB DAO Discord.
+3. 預算分配
+項目
+金額 (USD)
+說明
+藝術文章獎勵
+50
+10 篇 × 5 USDT
+fab_dao_artbank
+50
+10 篇 × 5 USDT
+星光藝術計劃
+50
+ Swift Evo 營運支援
+總計
+150
+快樂鼠級別全額申請
 
-[Budget_Plan] Total 150 USD (approx. 4,800 NTD)
-- Article rewards (Creators): 50
-- Curator rewards (Art Bank): 50
-- Operational support (Swift Evo): 50
 
-[Expected_Outputs]
-- 10优質藝術文章推薦。
-- Strengthened link between Web3 and traditional art communities.
+計畫時程
+申請通過後：立即啟動，資金用罄後提交成果報告，並申請下一期。
+執行週期：約 1 - 3 個月，每月預計推薦 2 - 3 篇（依文章產出速度調整）。
+
+預期影響與產出
+量化成果：
+至少 10 篇藝術類優質文章被推薦及曝光 FAB DAO Art Bank
+
+1
+為什麼綠色是電影裡最孤獨的顏色？
+https://matters.town/a/xnxcrtwtrvqg
+
+2
+墨的兩種呼吸方式 袁慧莉.Two methods of ink respiration Yuan Hui-Li
+https://matters.town/a/bshvu62li42z
+
+3
+你可能不知道，他們才是原唱
+
+https://matters.town/a/rh6pgozvl690
+
+4
+星光藝術計畫好文推薦2025/12
+https://matters.town/a/d6vhytiyhbwe
+
+5
+星光藝術計畫好文推薦2026/1
+https://matters.town/a/407cvasaaoz5
+
+6
+星光藝術計畫好文推薦2026/02
+https://matters.town/a/iye8da91wybr
+
+7
+星光藝術計畫好文推薦 - fab_dao_artbank - Matters
+https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0
+
+8
+星光藝術計畫好文推薦2026/05 - fab_dao_artbank - Matters
+https://matters.town/a/j0abkqtbjb0k
+
+9.
+https://matters.town/a/j0abkqtbjb0k
+
+
+
+
+
+
+生態貢獻：
+強化 Web3 與藝術社群的連結，實踐 FAB DAO「公共生活場域」願景。
+
+過往數據佐證
+根據 Matters Choice 過去 10 期數據：
+
+Jul 2024 - Apr 2025，每月流量 200 ，平均每月推薦 23 篇文章、每月 200 獨立 IP 讀者。
+現有獎勵機制為（7-40 USD/月），每位推薦者每篇僅獲 1U 獎勵。
+詳細數據
+https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing

@@ -5,16 +5,152 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "星光藝術計劃",
-  "milestones": [
+  "full_title": "「星光藝術計劃」—— Web3 藝術創作內容激勵方案",
+  "round": 4,
+  "declared_tier": {
+    "id": "happy_rat",
+    "name": "快樂鼠",
+    "amount": "150 USD",
+    "normalized_amount": 150,
+    "currency": "USD"
+  },
+  "decision_status": "approved",
+  "current_status": "active",
+  "applicant": {
+    "name": "Swift Evo"
+  },
+  "partner_or_executor": {
+    "name": "fab_dao_artbank",
+    "role": "於 Matters Choice 推薦藝術相關文章，並補償閱讀及推薦工作"
+  },
+  "links": {
+    "matters_choice": "https://matters.town/@matters_choice",
+    "metrics_spreadsheet": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
+    "fab_dao_artbank_collection": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0"
+  },
+  "summary": "星光藝術計劃透過 fab_dao_artbank 與 Matters Choice，在 Matters 平台推薦藝術相關內容，並以 150 USD 快樂鼠補助金支持藝術文章作者、fab_dao_artbank 推薦工作與 Matters Choice 營運分攤。",
+  "goals": [
+    "擴大 fab_dao_artbank 在 Matters 平台的曝光度及影響力",
+    "提升 Matters 平台藝術類內容（音樂、美術、舞蹈、NFT）的數量與品質",
+    "透過補助金獎勵機制吸引更多創作者與推薦者參與藝術領域討論",
+    "結合穩定幣獎勵等 Web3 工具，探索公共藝術社群的永續運作模式"
+  ],
+  "execution": {
+    "platform": "Matters Choice",
+    "reward_mechanism": [
+      "fab_dao_artbank 在 Matters 平台篩選符合資格的藝術類文章",
+      "fab_dao_artbank 於 Matters Choice 留言區推薦文章",
+      "經審核後發放推薦獎勵及作者獎勵",
+      "每期成果同步公開於 Matters 與 FAB DAO Discord 頻道"
+    ],
+    "non_art_recommendation_note": "現有非藝術類推薦維持 1 USDT，由 Matters Choice 資助。"
+  },
+  "budget": {
+    "approved_amount": {
+      "amount": 150,
+      "currency": "USD"
+    },
+    "planned_use": [
+      {
+        "item": "藝術文章獎勵",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "10 篇 × 5 USDT，給予 Matters 平台上被推薦的藝術類文章作者"
+      },
+      {
+        "item": "fab_dao_artbank",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "10 篇 × 5 USDT，補償閱讀及推薦時的工作付出"
+      },
+      {
+        "item": "星光藝術計劃 / Matters Choice 營運分攤",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "Swift Evo 營運支援"
+      }
+    ]
+  },
+  "timeline": [
     {
-      "phase": 1,
-      "task": "正式啟動推薦機制，派發首批 5U 藝術推廣獎勵金",
-      "deadline": "2026-04-21"
+      "period": "申請通過後",
+      "task": "立即啟動"
     },
     {
-      "phase": 2,
-      "task": "累計推薦並推廣 10 篇優質文章，提交社群擴散成果報告",
-      "deadline": "2026-06-21"
+      "period": "1 - 3 個月",
+      "task": "每月預計推薦 2 - 3 篇，依文章產出速度調整"
+    },
+    {
+      "period": "資金用罄後",
+      "task": "提交成果報告，並申請下一期"
     }
-  ]
+  ],
+  "expected_outputs": [
+    "至少 10 篇藝術類優質文章被推薦",
+    "曝光 FAB DAO Art Bank",
+    "強化 Web3 與藝術社群的連結"
+  ],
+  "recommended_articles": [
+    {
+      "index": 1,
+      "title": "為什麼綠色是電影裡最孤獨的顏色？",
+      "url": "https://matters.town/a/xnxcrtwtrvqg"
+    },
+    {
+      "index": 2,
+      "title": "墨的兩種呼吸方式 袁慧莉.Two methods of ink respiration Yuan Hui-Li",
+      "url": "https://matters.town/a/bshvu62li42z"
+    },
+    {
+      "index": 3,
+      "title": "你可能不知道，他們才是原唱",
+      "url": "https://matters.town/a/rh6pgozvl690"
+    },
+    {
+      "index": 4,
+      "title": "星光藝術計畫好文推薦2025/12",
+      "url": "https://matters.town/a/d6vhytiyhbwe"
+    },
+    {
+      "index": 5,
+      "title": "星光藝術計畫好文推薦2026/1",
+      "url": "https://matters.town/a/407cvasaaoz5"
+    },
+    {
+      "index": 6,
+      "title": "星光藝術計畫好文推薦2026/02",
+      "url": "https://matters.town/a/iye8da91wybr"
+    },
+    {
+      "index": 7,
+      "title": "星光藝術計畫好文推薦 - fab_dao_artbank - Matters",
+      "url": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0"
+    },
+    {
+      "index": 8,
+      "title": "星光藝術計畫好文推薦2026/05 - fab_dao_artbank - Matters",
+      "url": "https://matters.town/a/j0abkqtbjb0k"
+    },
+    {
+      "index": 9,
+      "title": "星光藝術計畫好文推薦2026/05 - fab_dao_artbank - Matters",
+      "url": "https://matters.town/a/j0abkqtbjb0k",
+      "note": "維護者提供的第 9 筆與第 8 筆 URL 相同，保留原始記錄。"
+    }
+  ],
+  "background_metrics": {
+    "period": "2024-07 to 2025-04",
+    "monthly_traffic": 200,
+    "average_monthly_recommended_articles": 23,
+    "monthly_unique_ip_readers": 200,
+    "previous_reward_range_usd_per_month": "7-40",
+    "previous_reward_per_recommender_per_article": "1 U"
+  },
+  "related_projects": [
+    {
+      "project_name": "孤勇者計劃",
+      "relationship": "另一個 Matters / Public Goods 內容激勵方案，與星光藝術計劃不同，不應混同。"
+    }
+  ],
+  "raw_source": "data/archive/APP_005_full.txt"
 }
