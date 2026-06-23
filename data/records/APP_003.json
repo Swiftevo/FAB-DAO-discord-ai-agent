@@ -5,21 +5,140 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "大量交織+地球公物",
-  "milestones": [
+  "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
+  "decision_status": "approved",
+  "current_status": "active",
+  "applicant": {
+    "name": "蕭有志",
+    "english_name": "Yu-Chih Hsiao",
+    "website": "https://yuchih-hsiao.net/"
+  },
+  "links": {
+    "facebook_group": "https://www.facebook.com/share/g/14DuoMUvodr/"
+  },
+  "summary": "大量交織+地球公物旨在將 Facebook 資源共享社群轉化為可搜尋、具資料庫架構的手機優先平台，讓共享物件可被標籤、查詢、借用，並將部分物件註冊為鏈上 Earth Goods，永久保存其捐贈、借用與公共活動故事。",
+  "goals": [
+    "把大量交織 Facebook 社群的資源共享行動轉化為可搜尋資料庫平台",
+    "橋接全球免費資源，並將部分資源註冊為地球公物",
+    "用鏈上身份系統透明記錄創作工具與日常資源流通",
+    "以開放協作方式邀請 FAB DAO 成員共同開發"
+  ],
+  "execution": {
+    "platform": "mobile-first web platform",
+    "source_community": "大量交織 Facebook 社團，申請書記錄成員超過 9,800 人",
+    "components": [
+      "同步部分 Facebook 社團貼文至可搜尋資料系統",
+      "使用者可上傳、分類標籤、搜尋可用物件",
+      "以相機、筆電、繪圖板等藝術相關資源為起點",
+      "部分具故事性的物件以 Zora / Polygon NFT 註冊為 Earth Goods",
+      "建置即時可及性模組，顯示是否可取用或預約日期",
+      "每件物件建立故事頁面，記錄捐贈者、捐贈日期、借用紀錄、公共或藝術專案關聯",
+      "開放使用者以簡述使用動機提出借用請求"
+    ],
+    "collaboration_note": "申請書明確說明本案不是單一技術團隊主導，而是邀請 FAB DAO 具程式、設計與 Web3 能力的成員共同參與開發。"
+  },
+  "budget": {
+    "requested_amount": {
+      "amount": 60000,
+      "currency": "TWD"
+    },
+    "planned_use": [
+      {
+        "item": "網站與 UI 設計",
+        "amount": 25000,
+        "currency": "TWD",
+        "description": "手機優先平台設計與篩選系統"
+      },
+      {
+        "item": "區塊鏈註冊 NFT",
+        "amount": 10000,
+        "currency": "TWD",
+        "description": "使用 Zora / Polygon 的鑄造費用"
+      },
+      {
+        "item": "社群內容整合",
+        "amount": 7000,
+        "currency": "TWD",
+        "description": "Facebook 選文與標籤整合"
+      },
+      {
+        "item": "成果紀錄與影片製作",
+        "amount": 6000,
+        "currency": "TWD",
+        "description": "拍攝與整理故事影片素材"
+      },
+      {
+        "item": "網域與雲端空間",
+        "amount": 4000,
+        "currency": "TWD",
+        "description": "網址與雲端儲存空間"
+      },
+      {
+        "item": "專案協調與備用費",
+        "amount": 8000,
+        "currency": "TWD",
+        "description": "測試協調、推廣大量交織社群與地球公物理念，以及彈性支出"
+      }
+    ],
+    "first_round_funding": {
+      "amount": 1010,
+      "currency": "USDT",
+      "exchange_rate_date": "2025-07-19",
+      "exchange_rate_twd_per_usdt": 29.714,
+      "converted_amount_twd": 30011.14,
+      "requested_budget_twd": 60000,
+      "percentage_of_requested_budget": 50.02,
+      "status": "first_round_funding",
+      "relationship_to_requested_budget": "partial_funding_not_full_budget",
+      "note": "維護者確認此為大量交織 + 地球公物第一輪資助。1010 USDT 依匯率約 30,011.14 TWD，接近 60,000 TWD 申請額的一半；不應記為全額撥款，也不是 60% 啟動款。"
+    }
+  },
+  "safe_transaction": {
+    "chain": "Optimism",
+    "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+    "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
+    "verification_status": "maintainer_confirmed"
+  },
+  "timeline": [
     {
       "phase": 1,
-      "task": "建立資料庫原型，完成 FB 貼文連結與標籤分類系統",
-      "deadline": "2026-04-21"
+      "period": "第 1 月",
+      "task": "建立資料庫原型、連結 Facebook 貼文與標籤系統"
     },
     {
       "phase": 2,
-      "task": "NFT 鑄造與鏈上測試，進行社群小規模實測與意見回饋",
-      "deadline": "2026-05-21"
+      "period": "第 2 月",
+      "task": "NFT 鑄造與鏈上測試；社群小規模實測開始"
     },
     {
       "phase": 3,
-      "task": "完成故事展示頁面設計，舉辦線上公開成果分享會",
-      "deadline": "2026-06-21"
+      "period": "第 3 月",
+      "task": "完成故事頁設計；舉辦線上公開成果分享與錄影記錄"
     }
+  ],
+  "milestones": [
+    {
+      "phase": 1,
+      "task": "建立資料庫原型，完成 Facebook 貼文連結與標籤分類系統"
+    },
+    {
+      "phase": 2,
+      "task": "NFT 鑄造與鏈上測試，進行社群小規模實測與意見回饋"
+    },
+    {
+      "phase": 3,
+      "task": "完成故事展示頁面設計，舉辦線上公開成果分享會"
+    }
+  ],
+  "expected_impact": [
+    "提供 Web3 共享資源進入門檻低、介面友善的實作樣本",
+    "永久保存捐贈者名字與物件生命歷程，建立參與式敘事價值",
+    "藉由鏈上身份系統透明流通創作工具與日常資源",
+    "強化平台在照顧與文化支持上的基礎建設角色",
+    "讓地球公物成為長期參與式藝術計畫"
+  ],
+  "raw_source": "data/archive/APP_003_full.txt",
+  "update_sources": [
+    "data/archive/APP_003_update_2026-06-23.md"
   ]
 }

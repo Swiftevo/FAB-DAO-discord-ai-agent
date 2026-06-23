@@ -32,6 +32,36 @@
       "project_id": "APP_001"
     },
     {
+      "id": "app_003_megaweaving_proposal",
+      "type": "local_file",
+      "title": "大量交織+地球公物原申請書",
+      "path": "data/archive/APP_003_full.txt",
+      "project_id": "APP_003",
+      "import_status": "maintainer_text_preserved"
+    },
+    {
+      "id": "app_003_megaweaving_facebook_group",
+      "type": "facebook_group",
+      "title": "大量交織 Facebook 社團",
+      "url": "https://www.facebook.com/share/g/14DuoMUvodr/",
+      "project_id": "APP_003"
+    },
+    {
+      "id": "app_003_first_round_funding_update_2026_06_23",
+      "type": "local_file",
+      "title": "APP_003 第一輪資助與匯率換算更新",
+      "path": "data/archive/APP_003_update_2026-06-23.md",
+      "project_id": "APP_003"
+    },
+    {
+      "id": "app_003_first_round_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_003 1010 USDT 第一輪資助 Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
       "id": "app_004_original_proposal",
       "type": "google_drive_file",
       "title": "事水原企劃書",

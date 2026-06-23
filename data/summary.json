@@ -42,12 +42,16 @@
     "governance_body_id": "grant_committee",
     "project": "大量交織+地球公物",
     "applicant": "蕭有志",
+    "round": "first_round_funding_recorded",
     "total_milestones": 3,
     "current_phase": 1,
-    "status": "Active",
-    "budget": "60,000 NTD",
-    "timeline": "2026-02至2026-04",
-    "milestone_summary": "M1(2026-02): 平台開發與FB資料同步; M2(2026-03): NFT身分與故事追蹤系統; M3(2026-04): 共享設施正式上線 [cite: 11, 20]"
+    "status": "Active - first round funding recorded",
+    "budget": "申請書預算 60,000 NTD；第一輪資助 1010 USDT，按 2025-07-19 匯率約 30,011.14 TWD，約為申請額 50.02%",
+    "timeline": "3 個月：資料庫原型、NFT 鑄造與鏈上測試、故事頁與公開成果分享",
+    "current_stage": "第一輪資助資料已記錄",
+    "latest_update_date": "2026-06-23",
+    "latest_update_summary": "維護者確認 1010 USDT 是大量交織 + 地球公物第一輪資助；金額與 60,000 NTD 申請額不等額，應記為 partial funding，不應記為全額撥款或 60% 啟動款。",
+    "milestone_summary": "M1: 建立資料庫原型、連結 Facebook 貼文與標籤系統; M2: NFT 鑄造與鏈上測試、社群小規模實測; M3: 完成故事頁設計並舉辦線上公開成果分享。"
   },
   {
     "id": "APP_004",

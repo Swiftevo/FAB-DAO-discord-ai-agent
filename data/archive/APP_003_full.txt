@@ -1,27 +1,148 @@
-[Project_ID] APP_003
-[Project_Name] 大量交織+地球公物 (MEGAWEAVING + Earth Goods)
-[Applicant] 蕭有志 (Yu-Chih Hsiao)
-[Source_Link] https://docs.google.com/spreadsheets/d/1XMtMJdOXo6vaXZiiZ0hfqqZRdh-BUSCGXq8dmFqC-BI/edit#gid=872891188
+✅ 提案名稱
+大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化
 
-[Core_Concept]
-將擁有 9,800+ 成員的 Facebook 資源共享社團轉化為具備 Web3 存證功能的資料庫。將共享物件（相機、筆電等）註冊為「地球公物」(Earth Goods)，永久記錄於區塊鏈。
+✅ 計畫摘要
+本計畫旨在將「大量交織」這個原本運作於 Facebook 社群的資源共享行動(目前社團已有超過
+9,800 名成員),轉化為一個可搜尋、具資料庫架構的網頁平台。社團連結:
+https://www.facebook.com/share/g/14DuoMUvodr/
+此平台將能橋接全球的免費資源,並將其中部分資源註冊為「地球公物」(Earth Goods),成為永
+久記錄於區塊鏈上的公共財產。
+使用者可以搜尋共享物件(例如筆電、相機、繪圖板),查詢其是否可用(如:「使用中,預計 2025
+年 5 月 23 日釋出」),並追蹤其過往使用紀錄。每件物品將記錄其捐贈者姓名、捐贈時間、借用紀
+錄,以及其參與過的藝術或社區活動。
+計畫目標是打造一個去中心化、具包容性的共享資源基礎設施,確保無論出生地或家庭背景,人
+人皆可獲得基本的支持。
 
-[Execution_Details]
-- Platform: Mobile-first web platform syncing FB posts.
-- Search System: Tagging and searching available items (Art/Tech focus).
-- Blockchain: NFT-based identity on Zora/Polygon.
-- Story Tracking: Record donor, donation date, borrowing history, and associated artistic projects.
-- Borrowing: Users submit short motivation statements to borrow.
+✅ 執行計畫
+本專案將以開放協作方式推動,而非由單一技術團隊主導。提案人並不具備程式開發專業,因此
+此提案同時也是一項邀請:希望 FAB DAO 中具備程式與設計能力的成員共同參與開發,透過共
+創實現「大量交織+地球公物」平台。
+● 開發手機優先介面的網站,將部分 Facebook 社團貼文同步至可搜尋的資料系統中。
+● 使用者可上傳、分類標籤、搜尋可用物件(以藝術相關資源為起點,如相機、筆電、繪圖
+板)。
+● 部分具故事性的物件將註冊為區塊鏈 NFT(以 Zora 和 Polygon 為基礎),成為「地球公
+物」。
+● 建置可即時查詢的物件可及性模組(如是否可取用、預約日期)。
+● 每件物建立專屬故事頁面,包含:
+○ 捐贈者姓名
+○ 捐贈日期
+○ 借用紀錄(含使用者與地點)
+○ 參與的公共或藝術專案紀錄
+● 開放借用申請:使用者可簡述使用動機提出借用請求。
 
-[Budget_Plan] Total 60,000 NTD
-- Web/UI Design: 25,000
-- Blockchain Minting (NFT): 10,000
-- FB Content Integration: 7,000
-- Documentation/Video: 6,000
-- Hosting/Domain: 4,000
-- Project Management: 8,000
+✅ 預計時程
+月份 任務內容
+第 1 月 建立資料庫原型、連結 Facebook 貼文與標籤系統
+第 2 月 NFT 鑄造與鏈上測試;社群小規模實測開始
+第 3 月 完成故事頁設計;舉辦線上公開成果分享與錄影記錄
 
-[Expected_Outputs]
-- Open infrastructure for shared resources.
-- Permanent record of object life cycles.
-- Transparent circulation of creative tools.
+✅ 預算申請金額:60,000 新台幣(目前補助級距上限;亦可接受審查委員建議之任何申請金額)
+項目 金額(新台幣) 說明
+網站與 UI 設計 25,000 手機優先平台設計與篩選系統
+區塊鏈註冊(NFT) 10,000 使用 Zora/Polygon 的鑄造費用
+社群內容整合 7,000 Facebook 選文與標籤整合
+成果紀錄與影片製作 6,000 拍攝與整理故事影片素材
+網域與雲端空間 4,000 網址與雲端儲存空間
+專案協調與備用費 8,000 測試協調、推廣「大量交織」社群與「地球公物」理念,以及彈性支出
+
+✅ 預期影響
+● 提供 Web3 共享資源進入門檻極低、介面友善的實作樣本。
+● 捐贈者名字與物件生命歷程被永久保存,具參與式敘事價值。
+● 藉由鏈上身份系統透明流通創作工具與日常資源。
+● 未來每位新生兒都有機會受益於全球共享的「地球公共物件」。
+● 強化平台在照顧與文化支持上的基礎建設角色。
+● 「地球公物」本身將成為一項長期的參與式藝術計畫:每件物因其歷史與象徵性而昇華,透
+過參與各種專案與人生經歷而留下記錄,最終這些故事將彼此交織,成為一張人類情感與
+連結的敘事網絡。
+
+✅ 提案者簡介
+蕭有志 Yu-Chih Hsiao — 空間創作者、策展人、實踐大學建築設計學系副教授,倡議「大量交織」
+共享行動並經營同名 Facebook 社團,長期致力於結合社會設計、資源系統與互利共享的公共基
+礎設施建構。現任社團法人看守台灣協會理事、台北藝術大學新媒體藝術學系碩士班兼任副教
+授。個人網站:https://yuchih-hsiao.net/
+
+✅ Proposal Title
+MEGAWEAVING + Earth Goods: Bridging Resources through Blockchain Commons
+
+✅ Project Summary
+This project seeks to transform the "MEGAWEAVING" resource-sharing ecosystem — originally
+launched from a Facebook community that currently has over 9,800 members — see the
+Facebook group here: https://www.facebook.com/share/g/14DuoMUvodr/ — into a searchable,
+database-driven web platform. It will bridge global free resources and publicly register certain
+items as Earth Goods — permanent, blockchain-based commons.
+The platform allows users to search for community-shared items (such as laptops, cameras, or
+drawing tablets), check availability (e.g., “in use until May 23, 2025”), and trace their usage
+history. Each object is recorded with its donor’s name, donation date, usage history, and any
+contribution to artworks or public activities.
+The aim is to create a decentralized, inclusive infrastructure of shared resources to ensure that
+no person is excluded from essential support simply due to birthplace or family background.
+
+✅ Execution Plan
+This project is envisioned as a participatory collaboration, not just a technical implementation.
+As the proposer does not specialize in programming or web development, the intent of
+submitting this grant is to invite FAB DAO members — developers, designers, and Web3
+builders — to co-create this system together. Through open collaboration, we aim to collectively
+shape and realize the MEGAWEAVING + Earth Goods platform.
+● Develop a mobile-first web platform to sync selected Facebook posts into a tagged,
+filterable database.
+● Allow users to upload, tag, and search for available resources within art-related
+categories (e.g. camera, laptop, tablet, etc.).
+● Design a blockchain identity system (NFT-based on Zora and Polygon) for selected
+items to become "Earth Goods."
+● Implement a real-time availability module to indicate whether an item is usable or
+reserved.
+● Create dedicated item story pages that include:
+○ donor name
+○ donation date
+○ timeline of borrowings (user + location)
+○ public/artistic project associations
+● Allow users to request to borrow, with a short statement explaining use.
+
+✅ Timeline
+Month Task
+Month 1 Launch database prototype, connect with Facebook post archive, build tagging UI
+
+Month 2 Begin NFT minting for selected items on Zora + Polygon; user testing begins
+
+Month 3 Finalize object story displays, host online sharing event with video documentation
+
+✅ Budget Requested: 60,000 NTD (maximum amount allowed per tier; flexible and open to any
+funding amount suggested by the review committee)
+Item Amount (NTD) Description
+
+Web development + UI/UX 25,000 Mobile-first platform interface design + filter system
+
+Blockchain registration (NFT) 10,000 Zora + Polygon usage, minting costs
+
+Facebook content integration 7,000 Post selection, metadata tagging, content flow setup
+
+Documentation + video 6,000 Project journey, public storytelling, visual material
+
+Web domain & cloud hosting 4,000 Domain name registration + cloud-based database & hosting service
+
+Project management / contingency 8,000 Testing, coordination, promotion of the MEGAWEAVING community and Earth Goods concept, and miscellaneous costs
+
+✅ Expected Impact
+● Provide a practical, beautifully designed entry point for Web3-based resource sharing.
+● Record donor names, histories, and contributions permanently, emphasizing
+participatory storytelling.
+● Enable transparent circulation of creative tools and everyday equipment via blockchain
+identity.
+● Allow any child born anywhere to benefit from a growing commons of global shared
+tools.
+● Reinforce the role of open platforms in building material infrastructures of care and
+cultural support.
+● Earth Goods itself will evolve into a compelling participatory art project, where each
+object is elevated by its history and symbolic value. As these objects are passed from
+hand to hand, participating in different projects and lives, their stories will be
+continuously recorded. Over time, these storylines will interweave, becoming a collective
+tapestry of human connection and inspiration.
+
+✅ Applicant Bio
+Yu-Chih Hsiao — Artist, curator, and Associate Professor in the Department of Architecture at
+Shih Chien University, and Adjunct Associate Professor in the Graduate Institute of New Media
+Art at Taipei National University of the Arts. He is the initiator of the MEGAWEAVING (大量交織)
+commons movement and moderator of its namesake Facebook group, with a long-term
+commitment to integrating social design, resource systems, and mutually supportive public
+infrastructure. He also serves as a board member of the Taiwan Watch Institute (社團法人看守
+台灣協會). You can learn more about his work at: https://yuchih-hsiao.net/
