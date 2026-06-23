@@ -5,6 +5,25 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "你拒絕，我給錢",
+  "aliases": ["拒然不要"],
+  "project_lead": {
+    "display_name": "寶成",
+    "wallet_address": "0xb91976da670ed088b8ccaef3e70621e0ea93c159"
+  },
+  "funding_transfers": [
+    {
+      "type": "grant_transfer",
+      "recorded_date": "2026-06-23",
+      "amount": 1010,
+      "currency": "USDT",
+      "recipient_name": "寶成",
+      "recipient_wallet": "0xb91976da670ed088b8ccaef3e70621e0ea93c159",
+      "network": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x1baed26bd93d3e4b5e274243093c1eceea036c5c153e8cc5b4bebd64ee45040f",
+      "verification_status": "maintainer_confirmed"
+    }
+  ],
   "milestones": [
     {
       "phase": 1,
