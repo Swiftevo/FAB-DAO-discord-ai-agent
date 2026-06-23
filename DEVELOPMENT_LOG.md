@@ -219,7 +219,7 @@
 ### 更新內容
 
 - 補全 `APP_004` 事水的 Round 4 小鼠資料，核定額為 25,000 NTD。
-- 補充專案負責人一峻 / 黃一峻與公開 Discord ID。
+- 補充專案負責人一峻與公開 Discord ID。
 - 補充 FAB DAO 專案聯絡人青苔Yian 與公開 Discord ID。
 - 將維護者提供的事水原企劃書全文保存到 `data/archive/APP_004_full.txt`，取代原本非全文的摘要檔，讓深層查找可讀到原文。
 - 新增 `data/archive/APP_004_update_2026-06-23.md`，記錄目前內容產出計畫、候選題目與撥款狀態。
@@ -230,3 +230,8 @@
 - 本案目前標記為 active。
 - 60% 啟動資金 361.89 USDT 仍未轉帳，Agent 回答時不得說成已撥款。
 - Instagram 帳號目前只知道存在，尚未提供實際 URL，列入 TODO。
+
+### Privacy redaction
+
+- 依維護者要求，從 `APP_004` raw 原文與結構化 record 移除專案負責人的個人背景資料。
+- 後續公開資料只保留專案使用名、公開 Discord ID、專案內容與補助金進度。
