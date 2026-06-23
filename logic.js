@@ -176,6 +176,27 @@ function getGroupContext(userPrompt) {
     }
 }
 
+function isGrantSourceRequired(userPrompt) {
+    return /補助金|grant|申請規範|申請方法|申請辦法|申請表|級距|審核|撥款|成果報告/i.test(userPrompt);
+}
+
+function ensureGrantSources(userPrompt, replyContent) {
+    if (!isGrantSourceRequired(userPrompt)) {
+        return replyContent;
+    }
+
+    const hasOfficialRules = replyContent.includes('docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0')
+        || replyContent.includes('data/groups/action_living_room/grant_program.md');
+    const hasApplicationForm = replyContent.includes('docs.google.com/forms/d/1AGjmuaDiQUnwSk88MloVrt2VaCYToPdFk20Tm9kPbbY')
+        || replyContent.includes('bit.ly/fabdaogrant');
+
+    if (hasOfficialRules && hasApplicationForm) {
+        return replyContent;
+    }
+
+    return `${replyContent.trim()}\n\n資料來源：\n- FAB DAO Grant 行動客廳補助金｜申請辦法（2026-04-21）：https://docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0/edit?tab=t.0#heading=h.9hr25oz2cr64\n- 申請表：https://docs.google.com/forms/d/1AGjmuaDiQUnwSk88MloVrt2VaCYToPdFk20Tm9kPbbY/viewform?edit_requested=true`;
+}
+
 
 
 /**
@@ -254,6 +275,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
         });
 
         let replyContent = completion.choices[0].message.content;
+        replyContent = ensureGrantSources(userPrompt, replyContent);
 
         // --- 第五層：輸出處理 (1900字截斷機制) ---
         if (replyContent.length > 1900) {
