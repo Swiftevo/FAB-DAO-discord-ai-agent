@@ -11,7 +11,8 @@
   "applicant": {
     "name": "蕭有志",
     "english_name": "Yu-Chih Hsiao",
-    "website": "https://yuchih-hsiao.net/"
+    "website": "https://yuchih-hsiao.net/",
+    "wallet_address": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04"
   },
   "links": {
     "facebook_group": "https://www.facebook.com/share/g/14DuoMUvodr/"
@@ -189,6 +190,14 @@
       "verification_status": "maintainer_confirmed"
     }
   ],
+  "wallet_records": [
+    {
+      "type": "recipient_wallet",
+      "recorded_date": "2026-06-23",
+      "wallet_address": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04",
+      "verification_status": "maintainer_confirmed"
+    }
+  ],
   "timeline": [
     {
       "phase": 1,
@@ -238,6 +247,7 @@
   "update_sources": [
     "data/archive/APP_003_update_2026-06-23.md",
     "data/archive/APP_003_round2_2026-02-24.md",
-    "data/archive/APP_003_update_2026-02-28.md"
+    "data/archive/APP_003_update_2026-02-28.md",
+    "data/archive/APP_003_wallet_2026-06-23.md"
   ]
 }

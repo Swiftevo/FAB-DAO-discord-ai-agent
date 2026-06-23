@@ -32,6 +32,38 @@
       "project_id": "APP_001"
     },
     {
+      "id": "app_001_transfer_update_2026_06_23",
+      "type": "local_file",
+      "title": "APP_001 Web3 羽球社 1010 USDT 轉帳與錢包記錄",
+      "path": "data/archive/APP_001_transfer_2026-06-23.md",
+      "project_id": "APP_001",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_001_transfer_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_001 Web3 羽球社 1010 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x2e4574502a433d138c2610b9e147b8ee1dd014607f9db11597235874618c1719",
+      "project_id": "APP_001",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_002_transfer_update_2026_06_23",
+      "type": "local_file",
+      "title": "APP_002 你拒絕，我給錢 1010 USDT 轉帳與錢包記錄",
+      "path": "data/archive/APP_002_transfer_2026-06-23.md",
+      "project_id": "APP_002",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_002_transfer_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_002 你拒絕，我給錢 1010 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x1baed26bd93d3e4b5e274243093c1eceea036c5c153e8cc5b4bebd64ee45040f",
+      "project_id": "APP_002",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
       "id": "app_003_megaweaving_proposal",
       "type": "local_file",
       "title": "大量交織+地球公物原申請書",
@@ -82,6 +114,14 @@
       "type": "optimism_safe_transaction",
       "title": "APP_003 第二輪 60% 啟動款 1142.802 USDT Safe 交易",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_003_wallet_update_2026_06_23",
+      "type": "local_file",
+      "title": "APP_003 大量交織錢包記錄",
+      "path": "data/archive/APP_003_wallet_2026-06-23.md",
       "project_id": "APP_003",
       "verification_status": "maintainer_confirmed"
     },

@@ -7,7 +7,9 @@
   "project_name": "Web3 羽球社",
   "project_lead": {
     "display_name": "MN",
-    "discord_user_id": "702193431270653982"
+    "legal_or_chinese_name": "明恩",
+    "discord_user_id": "702193431270653982",
+    "wallet_address": "0x32bd3113918d67fc9f447dac5c53f2a549b453e6"
   },
   "community": {
     "platform": "Signal",
@@ -38,6 +40,20 @@
       "historical_group_formation_rate": "約 60%，依 2025-10 至 2026-06 的觀察紀錄",
       "signup_method": "Signal 群組留言 +1",
       "raw_source": "data/archive/APP_001_update_2026-06-12.md"
+    }
+  ],
+  "funding_transfers": [
+    {
+      "type": "grant_transfer",
+      "recorded_date": "2026-06-23",
+      "amount": 1010,
+      "currency": "USDT",
+      "recipient_name": "明恩",
+      "recipient_wallet": "0x32bd3113918d67fc9f447dac5c53f2a549b453e6",
+      "network": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x2e4574502a433d138c2610b9e147b8ee1dd014607f9db11597235874618c1719",
+      "verification_status": "maintainer_confirmed"
     }
   ],
   "milestones": [
