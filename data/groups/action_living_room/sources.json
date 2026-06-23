@@ -138,6 +138,43 @@
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
       "project_id": "APP_006",
       "verification_status": "maintainer_confirmed"
+    },
+    {
+      "id": "app_007_lone_brave_proposal",
+      "type": "google_drive_file",
+      "title": "孤勇者計劃原企劃書",
+      "url": "https://drive.google.com/file/d/19Yyuduo46GikwU6kbs4AC61lFo1IVoKT/view",
+      "project_id": "APP_007",
+      "import_status": "maintainer_text_preserved",
+      "raw_file": "data/archive/APP_007_full.md"
+    },
+    {
+      "id": "app_007_lone_brave_notion",
+      "type": "notion_page",
+      "title": "「孤勇者計劃」—— Matters 優質台灣 Public Goods 創作內容激勵方案",
+      "url": "https://app.notion.com/p/Matters-Public-Goods-3113ad5edf5c80d48fa2dcdc0db5ea96?pvs=21",
+      "project_id": "APP_007"
+    },
+    {
+      "id": "app_007_discord_channel",
+      "type": "discord_channel",
+      "title": "孤勇者計劃 Discord 討論頻道",
+      "url": "https://discord.com/channels/909473182598193272/1477867744530792529",
+      "project_id": "APP_007"
+    },
+    {
+      "id": "app_007_matters_choice",
+      "type": "matters_account",
+      "title": "Matters Choice",
+      "url": "https://matters.town/@matters_choice",
+      "project_id": "APP_007"
+    },
+    {
+      "id": "app_007_metrics_spreadsheet",
+      "type": "google_spreadsheet",
+      "title": "Matters Choice 過往數據佐證",
+      "url": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
+      "project_id": "APP_007"
     }
   ]
 }

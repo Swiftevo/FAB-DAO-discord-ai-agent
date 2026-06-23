@@ -115,5 +115,27 @@
     "source": "data/archive/APP_006_full.md",
     "latest_update_date": "2026-06-22",
     "latest_update_summary": "補助金已核准，並由行動客廳 Optimism Safe 撥付 960 USDT 啟動資金；藝術銀行合作及購藏尚未核定。"
+  },
+  {
+    "id": "APP_007",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
+    "project": "孤勇者計劃",
+    "full_title": "「孤勇者計劃」—— Matters 優質台灣 Public Goods 創作內容激勵方案",
+    "applicant": "Swift",
+    "responsible_person": "Swift（FAB DAO 專案聯絡人）",
+    "round": 4,
+    "tier": "快樂鼠",
+    "total_milestones": 2,
+    "current_phase": 1,
+    "status": "Active",
+    "budget": "Round 4 快樂鼠 150 U",
+    "timeline": "申請通過後立即啟動；約 3 - 6 個月，每 1 - 2 月預計推薦 1 篇",
+    "current_stage": "Matters Choice 台灣 Public Goods 文章推薦與獎勵機制",
+    "latest_update_date": "2026-06-23",
+    "latest_update_summary": "計劃透過 Matters Choice 推薦台灣 Public Goods 文章，150 U 分為作者獎勵、推薦者獎勵與 Matters Choice 營運分攤。2026 年 5 月更新後，文章發掘不再限於百岳 NFT holders，仍開放 FAB DAO 成員參與。",
+    "milestone_summary": "M1: 建立 Matters Choice 推薦與獎勵流程; M2: 推動至少 10 篇台灣 Public Goods 文章被推薦，並同步公開於 Matters 與 FAB DAO Discord。"
   }
 ]

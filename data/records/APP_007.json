@@ -1,0 +1,110 @@
+{
+  "id": "APP_007",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
+  "project_name": "孤勇者計劃",
+  "full_title": "「孤勇者計劃」—— Matters 優質台灣 Public Goods 創作內容激勵方案",
+  "round": 4,
+  "declared_tier": {
+    "id": "happy_rat",
+    "name": "快樂鼠",
+    "amount": "150 U",
+    "normalized_amount": 150,
+    "currency": "USD"
+  },
+  "decision_status": "approved",
+  "current_status": "active",
+  "applicant": {
+    "name": "Swift"
+  },
+  "fab_dao_contact": {
+    "name": "Swift"
+  },
+  "links": {
+    "original_proposal": "https://drive.google.com/file/d/19Yyuduo46GikwU6kbs4AC61lFo1IVoKT/view",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1477867744530792529",
+    "matters_choice": "https://matters.town/@matters_choice",
+    "notion_page": "https://app.notion.com/p/Matters-Public-Goods-3113ad5edf5c80d48fa2dcdc0db5ea96?pvs=21",
+    "metrics_spreadsheet": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing"
+  },
+  "summary": "孤勇者計劃透過 Matters Choice 在 Matters 平台推薦台灣 Public Goods 相關文章，並以 150 U 快樂鼠補助金獎勵作者、推薦者及 Matters Choice 營運支援，目標是提升台灣 Public Goods 內容數量與品質，擴大 FAB DAO 與百岳 NFT 的曝光。",
+  "goals": [
+    "擴大 FAB DAO 在 Matters 平台的曝光度及影響力",
+    "提升 Matters 平台台灣 Public Goods 內容的數量與品質",
+    "透過補助金獎勵機制吸引創作者與推薦者參與台灣 Public Goods 討論",
+    "結合穩定幣獎勵等 Web3 工具，探索台灣 Public Goods 社群永續運作模式"
+  ],
+  "execution": {
+    "platform": "Matters Choice",
+    "reward_mechanism": [
+      "推薦台灣 Public Goods 相關文章",
+      "推薦者需於 FAB DAO 專屬孤勇者計劃討論區公示文章連結與不少於 100 字的推薦語",
+      "公示一個月後若無反對意見，Matters Choice 可在 Matters 月刊推薦該文章",
+      "經審核後由 Matters Choice 錢包發放推薦獎勵，並在 Matters 發放作者獎勵",
+      "每期月刊同步公開於 Matters 與 FAB DAO Discord 頻道"
+    ],
+    "may_2026_adjustment": "2026 年 5 月更新後，孤勇者計劃由 Matters Choice 挑選合適的 Matters 用戶進行台灣 Public Goods 文章發掘，不再局限於百岳 NFT 持有者；同時仍開放 FAB DAO 成員繼續參與。"
+  },
+  "budget": {
+    "approved_amount": {
+      "amount": 150,
+      "currency": "USD"
+    },
+    "planned_use": [
+      {
+        "item": "台灣 Public Goods 文章獎勵",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "10 篇 × 5 USDT，給予文章作者"
+      },
+      {
+        "item": "推薦者獎勵",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "10 篇 × 5 USDT，原方案為百岳 NFT holder 推薦者；2026 年 5 月更新後不限於百岳 NFT holder"
+      },
+      {
+        "item": "Matters Choice 營運分攤",
+        "amount": 50,
+        "currency": "USDT",
+        "description": "Swift Evo / Matters Choice 營運支援"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "period": "申請通過後",
+      "task": "立即啟動"
+    },
+    {
+      "period": "3 - 6 個月",
+      "task": "每 1 - 2 月預計推薦 1 篇，依文章產出速度調整"
+    },
+    {
+      "period": "資金用罄後",
+      "task": "提交成果報告，並申請下一期"
+    }
+  ],
+  "expected_outputs": [
+    "至少 10 篇台灣 Public Goods 類優質文章被推薦",
+    "提高 FAB DAO 和百岳 NFT 在 Matters 平台曝光",
+    "強化 Web3、台灣 Public Goods 社群與 FAB DAO 的連結"
+  ],
+  "background_metrics": {
+    "period": "2024-07 to 2025-04",
+    "monthly_traffic": 200,
+    "average_monthly_recommended_articles": 23,
+    "monthly_unique_ip_readers": 200,
+    "previous_reward_range_usd_per_month": "7-40",
+    "previous_reward_per_recommender_per_article": "1 U"
+  },
+  "related_projects": [
+    {
+      "project_name": "星光藝術計劃",
+      "relationship": "原文提及藝術銀行合作的星光藝術計劃正順利推進中；此為另一個獨立計劃，不應與孤勇者計劃混同。"
+    }
+  ],
+  "raw_source": "data/archive/APP_007_full.md"
+}
