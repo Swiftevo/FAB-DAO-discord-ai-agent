@@ -62,6 +62,30 @@
       "verification_status": "maintainer_confirmed"
     },
     {
+      "id": "app_003_round2_application_2026_02_24",
+      "type": "local_file",
+      "title": "APP_003 大量交織第二份申請書",
+      "path": "data/archive/APP_003_round2_2026-02-24.md",
+      "project_id": "APP_003",
+      "import_status": "maintainer_text_preserved"
+    },
+    {
+      "id": "app_003_progress_update_2026_02_28",
+      "type": "local_file",
+      "title": "APP_003 大量交織 2026-02-28 進度更新",
+      "path": "data/archive/APP_003_update_2026-02-28.md",
+      "project_id": "APP_003",
+      "import_status": "maintainer_text_preserved"
+    },
+    {
+      "id": "app_003_second_round_initial_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_003 第二輪 60% 啟動款 1142.802 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
       "id": "app_004_original_proposal",
       "type": "google_drive_file",
       "title": "事水原企劃書",

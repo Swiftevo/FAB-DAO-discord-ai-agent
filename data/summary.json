@@ -45,13 +45,13 @@
     "round": "first_round_funding_recorded",
     "total_milestones": 3,
     "current_phase": 1,
-    "status": "Active - first round funding recorded",
-    "budget": "申請書預算 60,000 NTD；第一輪資助 1010 USDT，按 2025-07-19 匯率約 30,011.14 TWD，約為申請額 50.02%",
-    "timeline": "3 個月：資料庫原型、NFT 鑄造與鏈上測試、故事頁與公開成果分享",
-    "current_stage": "第一輪資助資料已記錄",
+    "status": "Active - second round approved and 60% disbursed",
+    "budget": "第一輪資助 1010 USDT，按 2025-07-19 匯率約 30,011.14 TWD，約為第一份申請書 60,000 NTD 的 50.02%；第二輪申請通過 60,000 TWD，已轉帳 60% 1142.802 USDT",
+    "timeline": "第一份申請：3 個月資料庫原型、NFT 鑄造與鏈上測試、故事頁與公開成果分享；第二份申請：2026-02 至 2026-03 UIUX、私訊、蓋板教學、例會與再生設計提案",
+    "current_stage": "第二輪申請已通過並已撥 60% 啟動款",
     "latest_update_date": "2026-06-23",
-    "latest_update_summary": "維護者確認 1010 USDT 是大量交織 + 地球公物第一輪資助；金額與 60,000 NTD 申請額不等額，應記為 partial funding，不應記為全額撥款或 60% 啟動款。",
-    "milestone_summary": "M1: 建立資料庫原型、連結 Facebook 貼文與標籤系統; M2: NFT 鑄造與鏈上測試、社群小規模實測; M3: 完成故事頁設計並舉辦線上公開成果分享。"
+    "latest_update_summary": "維護者確認第一輪只發 1010 USDT；第二輪申請亦通過 60,000 TWD，並已轉帳 GRANTS round4 大量交織＋地球公物 60% 款項 1142.802 USDT。2026-02-28 更新指出冬至測試後已優化首頁、蓋板教學、通知、個人頁與發文流程，後續重點是 UX flow 與私訊功能。",
+    "milestone_summary": "第一份申請：資料庫原型、Facebook 貼文與標籤系統、NFT 鑄造與故事頁。第二份申請：使用者體驗優化、2月/3月例會、私訊與蓋板教學設計開發、再生設計提案。"
   },
   {
     "id": "APP_004",

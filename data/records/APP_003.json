@@ -7,7 +7,7 @@
   "project_name": "大量交織+地球公物",
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
   "decision_status": "approved",
-  "current_status": "active",
+  "current_status": "active - second round approved and 60 percent disbursed",
   "applicant": {
     "name": "蕭有志",
     "english_name": "Yu-Chih Hsiao",
@@ -91,14 +91,104 @@
       "status": "first_round_funding",
       "relationship_to_requested_budget": "partial_funding_not_full_budget",
       "note": "維護者確認此為大量交織 + 地球公物第一輪資助。1010 USDT 依匯率約 30,011.14 TWD，接近 60,000 TWD 申請額的一半；不應記為全額撥款，也不是 60% 啟動款。"
+    },
+    "second_round_application": {
+      "application_date": "2026-02-24",
+      "applicant_or_contact_note": "cyrus",
+      "approved_amount": {
+        "amount": 60000,
+        "currency": "TWD"
+      },
+      "status": "approved",
+      "focus": "依據前期使用者測試結果優化 UI/UX，推進私訊與蓋板教學的設計、原型與開發，並維持每週例會與協作。",
+      "milestones": [
+        {
+          "month": "2026-02",
+          "type": "achievement",
+          "name": "使用者體驗優化",
+          "description": "依據元宵使用者測試結果優化 UIUX",
+          "condition": "完成網頁調整",
+          "amount": 15000,
+          "currency": "TWD"
+        },
+        {
+          "month": "2026-02",
+          "type": "routine",
+          "name": "2月例會",
+          "description": "每週固定專案會議與協作討論",
+          "condition": "會議紀錄",
+          "amount": 8000,
+          "currency": "TWD"
+        },
+        {
+          "month": "2026-02",
+          "type": "achievement",
+          "name": "私訊、蓋板教學設計",
+          "description": "工作拆解、時程與方向確認",
+          "condition": "文件完成並內部確認",
+          "amount": 12000,
+          "currency": "TWD"
+        },
+        {
+          "month": "2026-03",
+          "type": "routine",
+          "name": "3月例會",
+          "description": "進度追蹤、協作執行",
+          "condition": "會議紀錄",
+          "amount": 8000,
+          "currency": "TWD"
+        },
+        {
+          "month": "2026-03",
+          "type": "achievement",
+          "name": "私訊、蓋板教學開發",
+          "description": "初版功能/原型製作",
+          "condition": "網頁功能開發",
+          "amount": 14000,
+          "currency": "TWD"
+        },
+        {
+          "month": "再生設計",
+          "type": "routine",
+          "name": "提案",
+          "description": "再生設計提案",
+          "condition": "至少一件設計提案",
+          "amount": 3000,
+          "currency": "TWD"
+        }
+      ],
+      "milestone_total_twd": 60000,
+      "initial_disbursement": {
+        "label": "GRANTS round4 大量交織＋地球公物 (60%)",
+        "amount": 1142.802,
+        "currency": "USDT",
+        "percentage": 60,
+        "status": "transferred",
+        "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
+        "verification_status": "maintainer_confirmed"
+      }
     }
   },
-  "safe_transaction": {
-    "chain": "Optimism",
-    "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
-    "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
-    "verification_status": "maintainer_confirmed"
-  },
+  "safe_transactions": [
+    {
+      "round": "first_round",
+      "chain": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "amount": 1010,
+      "currency": "USDT",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
+      "verification_status": "maintainer_confirmed"
+    },
+    {
+      "round": "second_round_initial_60_percent",
+      "chain": "Optimism",
+      "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "amount": 1142.802,
+      "currency": "USDT",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
+      "verification_status": "maintainer_confirmed"
+    }
+  ],
   "timeline": [
     {
       "phase": 1,
@@ -137,8 +227,17 @@
     "強化平台在照顧與文化支持上的基礎建設角色",
     "讓地球公物成為長期參與式藝術計畫"
   ],
+  "progress_updates": [
+    {
+      "date": "2026-02-28",
+      "source_file": "data/archive/APP_003_update_2026-02-28.md",
+      "summary": "團隊將每月同步例會紀錄。2025-12-21 冬至測試會後，主要回饋包含網站用途與流程不夠清楚、通知系統不足、留言與互動介面不夠直覺、交織狀態與操作回饋不明確。2025/12-2026/2 已優化首頁、蓋板教學、通知系統、貼文按鈕辨識、個人頁頭像設定、圖片追加與 location 自動帶出；下一階段重點為調整 UX flow 與新增私訊功能。"
+    }
+  ],
   "raw_source": "data/archive/APP_003_full.txt",
   "update_sources": [
-    "data/archive/APP_003_update_2026-06-23.md"
+    "data/archive/APP_003_update_2026-06-23.md",
+    "data/archive/APP_003_round2_2026-02-24.md",
+    "data/archive/APP_003_update_2026-02-28.md"
   ]
 }
