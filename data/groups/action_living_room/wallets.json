@@ -18,8 +18,8 @@
       "monitoring": "Safe API read-only on demand",
       "balance": null,
       "balance_last_checked_at": null,
-      "last_verified_on": "2026-06-22",
-      "source": "FAB DAO maintainer-confirmed action living room Safe, 2026-10-17"
+      "last_verified_on": "2026-10-17",
+      "source": "FAB DAO maintainer-confirmed address, Optimism Safe API verified 2026-10-17"
     }
   ]
 }
