@@ -299,6 +299,12 @@
       "reported_period": "2026-06-02 to 2026-06-30",
       "source_file": "data/archive/APP_003_update_2026-06-02_to_06-30.md",
       "summary": "06/02 例會稱第三期資金申請未通過，未提供申請編號、決議文件或金額，與先前已核實的 Round 4 啟動款及 Earth Day 資助分開。六月討論 Jumbo 收錄地球日內容、UI 與私訊圖示、再生設計定價及販售平台架構／命名、網站開發任務懸賞。06/30 核對第一輪、第二輪和地球日的達成率及進帳率，但未提供實際百分比或結果。"
+    },
+    {
+      "reported_period": "2026-07 to 2026-08",
+      "date_precision": "month_only; individual meeting dates not supplied",
+      "source_file": "data/archive/APP_003_update_2026-07_to_08.md",
+      "summary": "團隊回報圖片縮放與主系統解耦、前後端 Docker 化完成、首頁版面比例完成調整、網站錯誤回報表單已建立但尚無回應；水平擴充、負載平衡、交織對話、向量搜尋、推薦排序及 Facebook 內容匯入等仍在推進或測試，沒有部署或效能數據。再生設計平台的點數、社區貨幣及廣告／贊助屬初步討論。團隊另稱 Facebook 群組約 13,000 人、核心團隊 7 人；不是網站或 FAB DAO bot 活躍用戶數，未獨立核實。網站 MVP 聚焦免費 Share／Wish，目標 2026 年底前公開推出。"
     }
   ],
   "earth_day_funding": {
@@ -346,6 +352,7 @@
     "data/archive/APP_003_earth_day_followup_2026-10-18.md",
     "data/archive/APP_003_update_2026-04-14_to_04-28.md",
     "data/archive/APP_003_update_2026-06-02_to_06-30.md",
+    "data/archive/APP_003_update_2026-07_to_08.md",
     "data/archive/APP_003_round4_wallet_confirmation_2026-05.md",
     "data/archive/APP_003_earth_day_funds_2026-06.md",
     "data/archive/APP_003_wallet_2026-06-23.md",
