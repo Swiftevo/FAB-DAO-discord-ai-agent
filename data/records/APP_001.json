@@ -31,7 +31,8 @@
   },
   "recent_updates": [
     {
-      "update_date": "2026-06-12",
+      "update_date": "2026-06-05",
+      "source_posted_at": "2026-06-05 15:35",
       "event_title": "久違 Web3 羽球社活動（跟運動中心暢打團）",
       "scheduled_time": "2026-06-12 13:00-16:00",
       "location": "台北市大同運動中心",
@@ -39,6 +40,12 @@
       "booking_condition": "大同運動中心通常於前一天決定是否開團；若 6/11 開團，負責人會替成員一起報名。",
       "historical_group_formation_rate": "約 60%，依 2025-10 至 2026-06 的觀察紀錄",
       "signup_method": "Signal 群組留言 +1",
+      "raw_source": "data/archive/APP_001_update_2026-06-12.md"
+    },
+    {
+      "update_date": "2026-06-05",
+      "source_posted_at": "2026-06-05 15:44",
+      "update_title": "Web3 羽球社進度更新：營運模式調整與參與方式",
       "raw_source": "data/archive/APP_001_update_2026-06-12.md"
     }
   ],
