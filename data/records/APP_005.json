@@ -16,7 +16,7 @@
     "currency": "USD"
   },
   "decision_status": "approved",
-  "current_status": "active - funding transferred",
+  "current_status": "completed - ten recommendations reported and completion article published",
   "applicant": {
     "name": "Swift Evo"
   },
@@ -30,7 +30,9 @@
     "matters_art_bank": "https://matters.town/@fab_dao_artbank",
     "matters_choice": "https://matters.town/@matters_choice",
     "metrics_spreadsheet": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
-    "fab_dao_artbank_collection": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0"
+    "fab_dao_artbank_collection": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0",
+    "completion_article": "https://matters.town/a/5vd1mntm6n8k",
+    "optimism_disbursement_transaction": "https://optimistic.etherscan.io/tx/0x8c37edba8a48538439db223aaaee4558597db82c5646c123559a26b4387ef67b"
   },
   "summary": "星光藝術計劃透過 fab_dao_artbank 與 Matters Choice，在 Matters 平台推薦藝術相關內容，並以 150 USD 快樂鼠補助金支持藝術文章作者、fab_dao_artbank 推薦工作與 Matters Choice 營運分攤。",
   "goals": [
@@ -78,13 +80,24 @@
       "status": "transferred",
       "amount": 150,
       "currency": "USDT",
-      "transfer_date": "2025-08-19",
+      "transfer_date": "2025-08-20",
+      "execution_date_utc": "2025-08-20T09:22:19Z",
       "network": "Optimism",
       "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
       "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
-      "verification_status": "maintainer_confirmed",
-      "note": "維護者確認此筆交易為星光藝術計劃 150 USDT 轉帳記錄；2026-10-18 更正所屬輪次為 Round 1。"
+      "transaction_hash": "0x8c37edba8a48538439db223aaaee4558597db82c5646c123559a26b4387ef67b",
+      "recipient_address": "0x579A2152a9675f769374734ED2f1660059CE240f",
+      "verification_status": "onchain_transfer_verified",
+      "note": "Safe 提案與新提供的交易 hash 指向同一筆 150 USDT 執行交易，不重複計數。鏈上執行日為 2025-08-20；先前維護者提供的 2025-08-19 日期保留於舊來源。2026-10-18 已確認所屬輪次為 Round 1。"
     }
+  },
+  "completion": {
+    "status": "completed_as_reported_by_maintainer_and_matters_choice",
+    "actual_period": "2025-07 to 2026-07",
+    "completion_article_published_at_utc": "2026-09-08T09:36:55Z",
+    "recommendation_count_reported": 10,
+    "source_file": "data/archive/APP_005_completion_2026-09-08.md",
+    "note": "9 月 8 日是總結文章發表日，不是已知的最後一篇推薦日期；十期推薦完成不等於每一筆後續獎勵轉帳均經鏈上核對。"
   },
   "timeline": [
     {
@@ -106,53 +119,18 @@
     "強化 Web3 與藝術社群的連結"
   ],
   "recommended_articles": [
-    {
-      "index": 1,
-      "title": "為什麼綠色是電影裡最孤獨的顏色？",
-      "url": "https://matters.town/a/xnxcrtwtrvqg"
-    },
-    {
-      "index": 2,
-      "title": "墨的兩種呼吸方式 袁慧莉.Two methods of ink respiration Yuan Hui-Li",
-      "url": "https://matters.town/a/bshvu62li42z"
-    },
-    {
-      "index": 3,
-      "title": "你可能不知道，他們才是原唱",
-      "url": "https://matters.town/a/rh6pgozvl690"
-    },
-    {
-      "index": 4,
-      "title": "星光藝術計畫好文推薦2025/12",
-      "url": "https://matters.town/a/d6vhytiyhbwe"
-    },
-    {
-      "index": 5,
-      "title": "星光藝術計畫好文推薦2026/1",
-      "url": "https://matters.town/a/407cvasaaoz5"
-    },
-    {
-      "index": 6,
-      "title": "星光藝術計畫好文推薦2026/02",
-      "url": "https://matters.town/a/iye8da91wybr"
-    },
-    {
-      "index": 7,
-      "title": "星光藝術計畫好文推薦 - fab_dao_artbank - Matters",
-      "url": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0"
-    },
-    {
-      "index": 8,
-      "title": "星光藝術計畫好文推薦2026/05 - fab_dao_artbank - Matters",
-      "url": "https://matters.town/a/j0abkqtbjb0k"
-    },
-    {
-      "index": 9,
-      "title": "星光藝術計畫好文推薦2026/05 - fab_dao_artbank - Matters",
-      "url": "https://matters.town/a/j0abkqtbjb0k",
-      "note": "維護者提供的第 9 筆與第 8 筆 URL 相同，保留原始記錄。"
-    }
+    { "index": 1, "period": "2025-07", "title": "為什麼綠色是電影裡最孤獨的顏色？", "recommendation_post_url": "https://matters.town/a/jc7q8t1yafvf", "recommended_work_url": "https://matters.town/a/xnxcrtwtrvqg" },
+    { "index": 2, "period": "2025-08", "title": "墨的兩種呼吸方式 袁慧莉", "recommendation_post_url": "https://matters.town/a/jc0jitbxgehv", "recommended_work_url": "https://matters.town/a/bshvu62li42z" },
+    { "index": 3, "period": "2025-12", "title": "izumi920319 的 Le Random 文章讀後週記", "recommendation_post_url": "https://matters.town/a/d6vhytiyhbwe" },
+    { "index": 4, "period": "2026-01", "title": "@sungwantzu 的生成式藝術學習記錄", "recommendation_post_url": "https://matters.town/a/407cvasaaoz5" },
+    { "index": 5, "period": "2026-02", "title": "The Beginning of 2026", "provided_url": "https://matters.town/a/kjqet8f6tcjy", "provided_url_role": "not_independently_verified", "previous_recorded_work_url": "https://matters.town/a/iye8da91wybr" },
+    { "index": 6, "period": "2026-03", "title": "在雲端與現場之間：數位藝術策展的感知場域", "provided_url": "https://matters.town/a/kalb1flnb5o0", "provided_url_role": "not_independently_verified" },
+    { "index": 7, "period": "2026-04", "title": "Is Cubism-Realism the Next Recognizable Art Movement in NFT Art on the Web3?", "provided_url": "https://matters.town/a/3xfv5do1wzsk", "provided_url_role": "not_independently_verified" },
+    { "index": 8, "period": "2026-05", "title": "藝術有什麼不好", "recommendation_post_url": "https://matters.town/a/j0abkqtbjb0k" },
+    { "index": 9, "period": "2026-06", "title": "輸入簡單明瞭的標題", "recommendation_post_url": "https://matters.town/a/n8b6zshonyne" },
+    { "index": 10, "period": "2026-07", "title": "MaryVentura 的 David Hockney 書評", "recommendation_post_url": "https://matters.town/a/6mi7owa1y6qq" }
   ],
+  "recommended_articles_note": "十期按維護者清單與 Matters Choice 2026-09-08 完成總結整理；舊九列混有被推薦作品、推薦貼文和合集，且 8、9 重複，原始文本仍可溯源。",
   "background_metrics": {
     "period": "2024-07 to 2025-04",
     "monthly_traffic": 200,
@@ -172,13 +150,16 @@
       "type": "grant_transfer",
       "amount": 150,
       "currency": "USDT",
-      "date": "2025-08-19",
+      "date": "2025-08-20",
+      "execution_date_utc": "2025-08-20T09:22:19Z",
       "network": "Optimism",
       "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
-      "verification_status": "maintainer_confirmed"
+      "transaction_hash": "0x8c37edba8a48538439db223aaaee4558597db82c5646c123559a26b4387ef67b",
+      "verification_status": "onchain_transfer_verified"
     }
   ],
   "raw_source": "data/archive/APP_005_full.txt",
-  "transfer_update_source": "data/archive/APP_005_transfer_2025-08-19.md"
+  "transfer_update_source": "data/archive/APP_005_transfer_2025-08-19.md",
+  "completion_update_source": "data/archive/APP_005_completion_2026-09-08.md"
 }

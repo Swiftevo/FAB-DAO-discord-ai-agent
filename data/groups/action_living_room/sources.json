@@ -333,10 +333,10 @@
     {
       "id": "app_005_transfer_update_2025_08_19",
       "type": "local_file",
-      "title": "APP_005 星光藝術計劃 2025-08-19 轉帳記錄",
+      "title": "APP_005 星光藝術計劃原轉帳記錄與 2025-08-20 鏈上日期更正",
       "path": "data/archive/APP_005_transfer_2025-08-19.md",
       "project_id": "APP_005",
-      "verification_status": "maintainer_confirmed"
+      "verification_status": "onchain_transfer_verified; original_2025_08_19_date_superseded"
     },
     {
       "id": "app_005_transfer_safe_transaction",
@@ -344,7 +344,31 @@
       "title": "APP_005 星光藝術計劃 150 USDT Safe 交易",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
       "project_id": "APP_005",
-      "verification_status": "maintainer_confirmed"
+      "verification_status": "onchain_execution_verified_2025_08_20"
+    },
+    {
+      "id": "app_005_completion_2026_09_08",
+      "type": "local_file",
+      "title": "APP_005 星光藝術計劃十期推薦與完成更新",
+      "path": "data/archive/APP_005_completion_2026-09-08.md",
+      "project_id": "APP_005",
+      "verification_status": "maintainer_confirmed_and_matters_choice_completion_article"
+    },
+    {
+      "id": "app_005_matters_choice_completion_article",
+      "type": "matters_article",
+      "title": "星光下的藝術：Matters Choice 完成總結",
+      "url": "https://matters.town/a/5vd1mntm6n8k",
+      "project_id": "APP_005",
+      "published_at_utc": "2026-09-08T09:36:55Z"
+    },
+    {
+      "id": "app_005_optimism_disbursement_transaction",
+      "type": "optimism_transaction",
+      "title": "APP_005 2025-08-20 150 USDT 執行交易",
+      "url": "https://optimistic.etherscan.io/tx/0x8c37edba8a48538439db223aaaee4558597db82c5646c123559a26b4387ef67b",
+      "project_id": "APP_005",
+      "verification_status": "onchain_transfer_verified"
     },
     {
       "id": "fab_dao_grant_application_form",
