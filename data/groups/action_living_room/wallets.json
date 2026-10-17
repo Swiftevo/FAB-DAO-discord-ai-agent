@@ -4,19 +4,22 @@
   "wallets": [
     {
       "id": "action_living_room_multisig",
+      "name": "行動客廳多簽錢包",
       "type": "Safe multisig",
       "network": "Optimism",
       "chain_prefix": "oeth",
       "address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
       "safe_url": "https://app.safe.global/home?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "explorer_tx_url_prefix": "https://optimistic.etherscan.io/tx/",
+      "native_token_symbol": "ETH",
       "threshold": 3,
       "owner_count": 5,
       "threshold_display": "3/5",
-      "monitoring": "manual",
+      "monitoring": "Safe API read-only on demand",
       "balance": null,
       "balance_last_checked_at": null,
       "last_verified_on": "2026-06-22",
-      "source": "FAB DAO maintainer-provided data"
+      "source": "FAB DAO maintainer-confirmed action living room Safe, 2026-10-17"
     }
   ]
 }

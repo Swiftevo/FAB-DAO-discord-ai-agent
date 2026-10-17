@@ -1,0 +1,18 @@
+{
+  "group_id": "art_bank",
+  "visibility": "public_governance_data",
+  "wallets": [
+    {
+      "id": "art_bank_multisig",
+      "name": "藝術銀行多簽錢包",
+      "type": "Safe multisig",
+      "network": "Optimism",
+      "chain_prefix": "oeth",
+      "address": "0x4DC816b76C7155C6b79b94174688Adc26193c169",
+      "safe_url": "https://app.safe.global/home?safe=oeth:0x4DC816b76C7155C6b79b94174688Adc26193c169",
+      "explorer_tx_url_prefix": "https://optimistic.etherscan.io/tx/",
+      "native_token_symbol": "ETH",
+      "source": "Maintainer-provided address, Optimism Safe API verified 2026-10-17"
+    }
+  ]
+}

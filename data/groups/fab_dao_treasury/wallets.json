@@ -1,0 +1,18 @@
+{
+  "group_id": "fab_dao_treasury",
+  "visibility": "public_governance_data",
+  "wallets": [
+    {
+      "id": "fab_dao_treasury_multisig",
+      "name": "FAB DAO 總金庫多簽錢包",
+      "type": "Safe multisig",
+      "network": "Optimism",
+      "chain_prefix": "oeth",
+      "address": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+      "safe_url": "https://app.safe.global/home?safe=oeth:0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+      "explorer_tx_url_prefix": "https://optimistic.etherscan.io/tx/",
+      "native_token_symbol": "ETH",
+      "source": "Maintainer-provided address, Optimism Safe API verified 2026-10-17"
+    }
+  ]
+}

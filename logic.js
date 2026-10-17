@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { OpenAI } = require('openai');
+const { handleWalletRequest } = require('./safe-wallet');
 
 // 初始化 OpenAI
 const openai = new OpenAI({
@@ -209,6 +210,9 @@ async function handleAIRequest(userPrompt, isReviewer) {
     let databaseContext = "";
 
     try {
+        const walletReply = await handleWalletRequest(userPrompt);
+        if (walletReply !== null) return walletReply;
+
         // 1. 取得基本個性設定 (來自 happy_rat.txt)
         const baseSystemContent = getPrompt('happy_rat.txt');
 

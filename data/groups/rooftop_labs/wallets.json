@@ -1,0 +1,18 @@
+{
+  "group_id": "rooftop_labs",
+  "visibility": "public_governance_data",
+  "wallets": [
+    {
+      "id": "rooftop_labs_multisig",
+      "name": "頂加實驗室多簽錢包",
+      "type": "Safe multisig",
+      "network": "Optimism",
+      "chain_prefix": "oeth",
+      "address": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+      "safe_url": "https://app.safe.global/home?safe=oeth:0x455D502e22209cD4dAd06B23268921397F0A5656",
+      "explorer_tx_url_prefix": "https://optimistic.etherscan.io/tx/",
+      "native_token_symbol": "ETH",
+      "source": "Maintainer-provided address, Optimism Safe API verified 2026-10-17"
+    }
+  ]
+}

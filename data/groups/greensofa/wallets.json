@@ -1,0 +1,18 @@
+{
+  "group_id": "greensofa",
+  "visibility": "public_governance_data",
+  "wallets": [
+    {
+      "id": "greensofa_multisig",
+      "name": "GreenSofa 多簽錢包",
+      "type": "Safe multisig",
+      "network": "Optimism",
+      "chain_prefix": "oeth",
+      "address": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+      "safe_url": "https://app.safe.global/home?safe=oeth:0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+      "explorer_tx_url_prefix": "https://optimistic.etherscan.io/tx/",
+      "native_token_symbol": "ETH",
+      "source": "Maintainer-provided address, Optimism Safe API verified 2026-10-17"
+    }
+  ]
+}

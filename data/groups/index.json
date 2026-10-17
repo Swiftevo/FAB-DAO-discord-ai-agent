@@ -24,5 +24,11 @@
     "name": "GreenSofa 綠沙發",
     "aliases": ["GreenSofa", "綠沙發"],
     "database_status": "planned"
+  },
+  {
+    "id": "fab_dao_treasury",
+    "name": "FAB DAO 總金庫",
+    "aliases": ["總金庫", "FAB DAO treasury", "FAB DAO 錢包"],
+    "database_status": "wallet_only"
   }
 ]
