@@ -64,6 +64,16 @@
       "import_status": "user_provided_text_matches_existing_record"
     },
     {
+      "id": "app_002_promotion_2026_04_21",
+      "type": "local_file",
+      "title": "拒然不要：藝評人的罷工小基金宣傳文",
+      "path": "data/archive/APP_002_promo_2026-04-21.md",
+      "project_id": "APP_002",
+      "posted_at": "2026-04-21 15:56",
+      "author": "VOL DAO - 寶成",
+      "import_status": "maintainer_provided_promotion_text"
+    },
+    {
       "id": "app_002_transfer_update_2026_06_23",
       "type": "local_file",
       "title": "APP_002 你拒絕，我給錢 1010 USDT 轉帳與錢包記錄",
