@@ -190,7 +190,15 @@
       "title": "APP_003 六月 Earth Day 160 USDC 與 144 USDC 分配核對",
       "path": "data/archive/APP_003_earth_day_funds_2026-06.md",
       "project_id": "APP_003",
-      "verification_status": "160_usdc_arbitrum_verified; 144_usdc_celo_unverified"
+      "verification_status": "160_usdc_arbitrum_verified; 144_usdc_ethereum_verified"
+    },
+    {
+      "id": "app_003_earth_day_144_usdc_ethereum_transaction",
+      "type": "ethereum_transaction",
+      "title": "APP_003 2026-06-29 收取 144 USDC 的 Ethereum 交易",
+      "url": "https://etherscan.io/tx/0xf99b9568255b4cdb43c8c68fdc25c20e1a541542912660c49611e25bffb389ac",
+      "project_id": "APP_003",
+      "verification_status": "onchain_transfer_verified"
     },
     {
       "id": "app_003_earth_day_luma",

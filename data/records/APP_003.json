@@ -315,10 +315,19 @@
       "megaweaving_share_percent": 90,
       "megaweaving_share_usdc": 144
     },
-    "megaweaving_share_status": "reported_received_2026-06-29; celo_onchain_transfer_not_verified",
-    "reported_recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
-    "reported_chain": "Celo",
-    "provided_celo_safe_transaction_url": "https://app.safe.global/transactions/tx?safe=celo:0x18c4A9Fe8347F1938DD8a9157205f46479AdF169&id=multisig_0x18c4A9Fe8347F1938DD8a9157205f46479AdF169_0xed2a4ab516e060a19efb7d0c195fe14053d10164f2f99bb7c8dd06b870e2547b",
+    "megaweaving_share_status": "144_usdc_ethereum_onchain_transfer_verified_2026-06-29",
+    "ethereum_project_disbursement": {
+      "chain": "Ethereum",
+      "amount": 144,
+      "currency": "USDC",
+      "sender_address": "0x13126B6859FB72D3956797d94c99078B40294679",
+      "recipient_address": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+      "execution_date_utc": "2026-06-29T11:50:23Z",
+      "transaction_hash": "0xf99b9568255b4cdb43c8c68fdc25c20e1a541542912660c49611e25bffb389ac",
+      "verification_status": "onchain_transfer_verified"
+    },
+    "earlier_provided_celo_safe_transaction_url": "https://app.safe.global/transactions/tx?safe=celo:0x18c4A9Fe8347F1938DD8a9157205f46479AdF169&id=multisig_0x18c4A9Fe8347F1938DD8a9157205f46479AdF169_0xed2a4ab516e060a19efb7d0c195fe14053d10164f2f99bb7c8dd06b870e2547b",
+    "earlier_celo_link_note": "Does not identify the verified 144 USDC Ethereum transfer",
     "recorded_date": "2026-10-18",
     "source_file": "data/archive/APP_003_earth_day_funds_2026-06.md"
   },
