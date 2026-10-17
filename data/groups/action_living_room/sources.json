@@ -136,6 +136,15 @@
       "import_status": "maintainer_text_preserved"
     },
     {
+      "id": "app_003_progress_update_2026_02_28_to_03_10",
+      "type": "local_file",
+      "title": "APP_003 大量交織 2026-02-28 至 03-10 原型試用與活動補充",
+      "path": "data/archive/APP_003_update_2026-02-28_to_03-10.md",
+      "project_id": "APP_003",
+      "import_status": "maintainer_provided_summary",
+      "date_precision": "period_only"
+    },
+    {
       "id": "app_003_second_round_initial_safe_transaction",
       "type": "optimism_safe_transaction",
       "title": "APP_003 第二輪 60% 啟動款 1142.802 USDT Safe 交易",
