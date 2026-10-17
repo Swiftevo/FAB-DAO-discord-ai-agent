@@ -27,7 +27,7 @@ client.once('ready', () => {
 
 async function safeReply(message, content) {
     try {
-        await message.reply(content);
+        await message.reply({ content, nonce: message.id, enforceNonce: true });
     } catch (replyError) {
         console.error("❌ Discord reply failed:", {
             code: replyError.code,
