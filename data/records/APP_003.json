@@ -264,6 +264,17 @@
       "date_precision": "period_only; individual message dates not supplied",
       "source_file": "data/archive/APP_003_update_2026-02-28_to_03-10.md",
       "summary": "團隊表示網頁原型已上線，曾邀請少量外部人士線下試用並透過問卷收集回饋；沒有提供可核實的使用人數或用量。個別回覆不公開。測試意見促成教學、通知、互動及狀態提示的調整；UX flow 與私訊仍是開發重點。當時正討論再生設計徵件，並預告與大直順在草率祭合作策展／露出，未提供活動完成證明。"
+    },
+    {
+      "reported_period": "2026-03-03 to 2026-03-31",
+      "source_file": "data/archive/APP_003_march_meetings_earth_day_2026.md",
+      "summary": "三月例會記錄：03/17 回報私訊傳送圖片功能完成，桌機版約完成 40% 並預計四月試營運；03/24 桌機版首頁設計完成；03/31 蓋板教學及依圖片比例顯示貼文縮圖標示完成。其餘桌機首頁 UI 調整未逐項標示完成。"
+    },
+    {
+      "planned_event_date": "2026-04-22",
+      "date_precision": "target date only; planning message date not supplied",
+      "source_file": "data/archive/APP_003_march_meetings_earth_day_2026.md",
+      "summary": "地球日一頁式網站預計 04/21 初稿、04/22 發布；將介紹大量交織、再生設計並邀請自願留下 Email/LINE。Green Pill Earth Week 提案申請 $50–$200，用於輕量託管及社群紀錄，擬辦 Resource Audit & Mapping 並記錄納入共享資源庫的物件數。未核實頁面發布、活動結果或資助獲批。"
     }
   ],
   "raw_source": "data/archive/APP_003_full.txt",
@@ -272,6 +283,7 @@
     "data/archive/APP_003_round2_2026-02-24.md",
     "data/archive/APP_003_update_2026-02-28.md",
     "data/archive/APP_003_update_2026-02-28_to_03-10.md",
+    "data/archive/APP_003_march_meetings_earth_day_2026.md",
     "data/archive/APP_003_wallet_2026-06-23.md",
     "data/archive/APP_003_wallet_2026-10-18.md"
   ]

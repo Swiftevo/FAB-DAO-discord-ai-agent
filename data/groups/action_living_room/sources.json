@@ -145,6 +145,22 @@
       "date_precision": "period_only"
     },
     {
+      "id": "app_003_march_meetings_earth_day_2026",
+      "type": "local_file",
+      "title": "APP_003 三月例會與地球日計畫",
+      "path": "data/archive/APP_003_march_meetings_earth_day_2026.md",
+      "project_id": "APP_003",
+      "import_status": "maintainer_provided_summary"
+    },
+    {
+      "id": "app_003_greenpill_earth_week_application",
+      "type": "web_page",
+      "title": "MEGAWEAVING x Earth Day 提案／討論串",
+      "url": "https://hub.regencoordination.xyz/t/greenpill-earth-week/413/5",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_provided_text; external_page_not_independently_read"
+    },
+    {
       "id": "app_003_second_round_initial_safe_transaction",
       "type": "optimism_safe_transaction",
       "title": "APP_003 第二輪 60% 啟動款 1142.802 USDT Safe 交易",
