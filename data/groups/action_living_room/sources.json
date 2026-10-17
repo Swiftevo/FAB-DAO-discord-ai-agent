@@ -177,6 +177,14 @@
       "import_status": "maintainer_provided_summary"
     },
     {
+      "id": "app_003_progress_update_2026_06_02_to_06_30",
+      "type": "local_file",
+      "title": "APP_003 大量交織 06/02–06/30 會議記錄摘要",
+      "path": "data/archive/APP_003_update_2026-06-02_to_06-30.md",
+      "project_id": "APP_003",
+      "import_status": "maintainer_provided_summary"
+    },
+    {
       "id": "app_003_round4_wallet_confirmation_2026_05",
       "type": "local_file",
       "title": "APP_003 五月 Round 4 收款地址與 60% 金額確認",
