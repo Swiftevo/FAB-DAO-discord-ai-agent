@@ -192,6 +192,7 @@
       "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
       "amount": 1142.802,
       "currency": "USDT",
+      "recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
       "verification_status": "maintainer_confirmed"
     }
@@ -202,6 +203,14 @@
       "recorded_date": "2026-06-23",
       "wallet_address": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04",
       "verification_status": "maintainer_confirmed"
+    },
+    {
+      "type": "recipient_wallet",
+      "recorded_date": "2026-10-18",
+      "wallet_address": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+      "chain": "Optimism",
+      "verification_status": "maintainer_provided_and_onchain_receipt_verified",
+      "note": "收到行動客廳 Safe 的 1142.802 USDT 第二輪啟動款；另有 1.868 USDT 轉帳，具體用途未確認。舊地址仍保留。"
     }
   ],
   "timeline": [
@@ -254,6 +263,7 @@
     "data/archive/APP_003_update_2026-06-23.md",
     "data/archive/APP_003_round2_2026-02-24.md",
     "data/archive/APP_003_update_2026-02-28.md",
-    "data/archive/APP_003_wallet_2026-06-23.md"
+    "data/archive/APP_003_wallet_2026-06-23.md",
+    "data/archive/APP_003_wallet_2026-10-18.md"
   ]
 }
