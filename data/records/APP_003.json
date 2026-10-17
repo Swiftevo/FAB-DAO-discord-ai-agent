@@ -199,6 +199,8 @@
       "amount": 1142.802,
       "currency": "USDT",
       "recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+      "execution_date_utc": "2026-06-02T03:38:37Z",
+      "transaction_hash": "0xf150168778d1024eea7ad81a5d87314269df1758d3ec3e13db7a0fb77ed0d103",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
       "verification_status": "maintainer_confirmed"
     }
@@ -216,7 +218,8 @@
       "wallet_address": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
       "chain": "Optimism",
       "verification_status": "maintainer_provided_and_onchain_receipt_verified",
-      "note": "收到行動客廳 Safe 的 1142.802 USDT 第二輪啟動款；另有 1.868 USDT 轉帳，具體用途未確認。舊地址仍保留。"
+      "note": "五月大量交織確認此地址為 Optimism USDT 收款地址；2026-06-02 收到行動客廳 Safe 的 1142.802 USDT Round 4 60% 啟動款。另有 1.868 USDT 轉帳，具體用途未確認。舊地址仍保留。",
+      "confirmation_source_file": "data/archive/APP_003_round4_wallet_confirmation_2026-05.md"
     }
   ],
   "timeline": [
@@ -297,10 +300,27 @@
     "approved_amount": 160,
     "currency": "USD",
     "decision_status": "approved_by_greenpill_network_as_reported_by_maintainer",
-    "claim_status": "pending_recording_submission_and_claim",
-    "payment_status": "not_verified",
+    "arbitrum_disbursement": {
+      "amount": 160,
+      "currency": "USDC",
+      "recipient_address": "0x13126B6859FB72D3956797d94c99078B40294679",
+      "recipient_attribution": "GreenSofa wallet per maintainer; not the registered GreenSofa Safe",
+      "execution_date_utc": "2026-06-03T16:05:05Z",
+      "transaction_hash": "0xcb3463c451a6084cae1748feec7e9d4d188be3b7f257b21f810800db283889fe",
+      "verification_status": "onchain_transfer_verified"
+    },
+    "allocation": {
+      "greensofa_admin_fee_percent": 10,
+      "greensofa_admin_fee_usdc": 16,
+      "megaweaving_share_percent": 90,
+      "megaweaving_share_usdc": 144
+    },
+    "megaweaving_share_status": "reported_received_2026-06-29; celo_onchain_transfer_not_verified",
+    "reported_recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+    "reported_chain": "Celo",
+    "provided_celo_safe_transaction_url": "https://app.safe.global/transactions/tx?safe=celo:0x18c4A9Fe8347F1938DD8a9157205f46479AdF169&id=multisig_0x18c4A9Fe8347F1938DD8a9157205f46479AdF169_0xed2a4ab516e060a19efb7d0c195fe14053d10164f2f99bb7c8dd06b870e2547b",
     "recorded_date": "2026-10-18",
-    "source_file": "data/archive/APP_003_earth_day_followup_2026-10-18.md"
+    "source_file": "data/archive/APP_003_earth_day_funds_2026-06.md"
   },
   "raw_source": "data/archive/APP_003_full.txt",
   "update_sources": [
@@ -311,6 +331,8 @@
     "data/archive/APP_003_march_meetings_earth_day_2026.md",
     "data/archive/APP_003_earth_day_followup_2026-10-18.md",
     "data/archive/APP_003_update_2026-04-14_to_04-28.md",
+    "data/archive/APP_003_round4_wallet_confirmation_2026-05.md",
+    "data/archive/APP_003_earth_day_funds_2026-06.md",
     "data/archive/APP_003_wallet_2026-06-23.md",
     "data/archive/APP_003_wallet_2026-10-18.md"
   ]
