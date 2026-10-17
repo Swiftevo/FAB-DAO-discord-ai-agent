@@ -12,13 +12,13 @@
 
 ## 地球日一頁式網站（當時規劃）
 
-團隊以 2026-04-22 地球日為目標，預計 04/21 先有初稿、04/22 正式發布一頁式網站：介紹大量交織、預告網站正式發布、分享再生設計 side project 進展、邀請有興趣的人自願留下 Email 或 LINE 供後續聯絡，並列出 FAB DAO、GreenSofa、Green Pill 等支持者／朋友。這是**預定時程**，未核實實際發布或取得聯絡資料。
+團隊以 2026-04-22 地球日為目標，預計 04/21 先有初稿、04/22 正式發布一頁式網站：介紹大量交織、預告網站正式發布、分享再生設計 side project 進展、邀請有興趣的人自願留下 Email 或 LINE 供後續聯絡，並列出 FAB DAO、GreenSofa、Green Pill 等支持者／朋友。這是當時的**預定時程**；維護者後續提供實際頁面及活動來源，見[地球日後續](APP_003_earth_day_followup_2026-10-18.md)。
 
 ## Green Pill Earth Week 資助申請內容
 
 - 維護者提供的[申請／討論串](https://hub.regencoordination.xyz/t/greenpill-earth-week/413/5)標題為「Weaving a Regenerative Future: MEGAWEAVING x Earth Day」，並提供 [Luma 活動連結](https://luma.com/ct4udwcx)。本次無法直接讀取兩個外部頁面；以下是維護者轉交文字的摘要，而非對網站現況或申請結果的獨立驗證。
 - 提案把大量交織描述為由 Facebook 資源共享社群發展成資料庫式「Share Commons」平台，並自述社群有 10,000+ 成員；這是**社群規模自述，不是平台活躍用戶數**。
 - 提案稱 REFI／再生設計為仍在原型階段的內部 side project，計畫在地球日頁面介紹其理念和進度。
-- 申請 **$50–$200** 贊助／追溯資助，用於 teaser 階段的輕量資料庫託管及社群紀錄；原文未明示貨幣，亦未提供獲批或收款證據。
+- 當時申請 **$50–$200** 贊助／追溯資助，用於 teaser 階段的輕量資料庫託管及社群紀錄；原文未明示貨幣。維護者後續確認獲批 160 USD，但尚待憑錄影申領；見[地球日後續](APP_003_earth_day_followup_2026-10-18.md)。
 - 提案擬辦「Resource Audit & Mapping」：讓參與者登記閒置工具或物料，並在地球日期間記錄納入共享資源庫的物件數量。這是**計畫的衡量方式**，不是已公布的實際數據。
-- 提案感謝 FAB DAO、Green Pill Network、GreenSofa。這是申請文列出的支持者／朋友，不代表這筆 Earth Week 資助由任何一方核准。
+- 提案感謝 FAB DAO、Green Pill Network、GreenSofa。這是申請文列出的支持者／朋友，本身不構成核准證明；維護者後續確認 Greenpill Network 核准 160 USD，見[地球日後續](APP_003_earth_day_followup_2026-10-18.md)。

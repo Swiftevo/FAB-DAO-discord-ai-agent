@@ -161,6 +161,44 @@
       "verification_status": "maintainer_provided_text; external_page_not_independently_read"
     },
     {
+      "id": "app_003_earth_day_followup_2026_10_18",
+      "type": "local_file",
+      "title": "APP_003 地球日活動與 Greenpill 資助後續",
+      "path": "data/archive/APP_003_earth_day_followup_2026-10-18.md",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_confirmed_funding_approval; payment_not_verified"
+    },
+    {
+      "id": "app_003_earth_day_luma",
+      "type": "web_page",
+      "title": "MEGAWEAVING x Earth Day Luma 活動頁",
+      "url": "https://luma.com/ct4udwcx",
+      "project_id": "APP_003"
+    },
+    {
+      "id": "app_003_earth_day_facebook_post",
+      "type": "facebook_post",
+      "title": "大量交織 2026-04-22 地球日社團貼文",
+      "url": "https://www.facebook.com/share/p/1KTo5RQQme/?mibextid=wwXIfr",
+      "project_id": "APP_003"
+    },
+    {
+      "id": "app_003_earth_day_site",
+      "type": "web_page",
+      "title": "大量交織 Earth Day 一頁式網站",
+      "url": "https://megaweave.net/earthday",
+      "project_id": "APP_003",
+      "verification_status": "maintainer_provided_url; current_reachability_not_verified"
+    },
+    {
+      "id": "app_003_earth_day_recordings_folder",
+      "type": "google_drive_folder",
+      "title": "大量交織 Earth Day 活動錄影資料夾",
+      "url": "https://drive.google.com/drive/folders/1rIntIjDU93zulwJWkGb2Qi9Rp9CMZ38T",
+      "project_id": "APP_003",
+      "verification_status": "three_video_files_listed; contents_and_submission_not_verified"
+    },
+    {
       "id": "app_003_second_round_initial_safe_transaction",
       "type": "optimism_safe_transaction",
       "title": "APP_003 第二輪 60% 啟動款 1142.802 USDT Safe 交易",
