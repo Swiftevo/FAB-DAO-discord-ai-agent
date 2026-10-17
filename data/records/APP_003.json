@@ -285,6 +285,12 @@
       "recorded_date": "2026-10-18",
       "source_file": "data/archive/APP_003_earth_day_followup_2026-10-18.md",
       "summary": "維護者補充 Earth Day Luma、社團貼文、網站 URL 及錄影資料夾；Drive 資料夾可列出 3 個影片檔，但未觀看或確認已提交。維護者確認 Greenpill Network 通過 160 USD 資助，仍待憑錄影申領；沒有已收款證據。"
+    },
+    {
+      "reported_period": "2026-04-14 to 2026-04-28",
+      "date_precision": "meeting period; individual item dates mostly not supplied",
+      "source_file": "data/archive/APP_003_update_2026-04-14_to_04-28.md",
+      "summary": "團隊回報 04/22 地球日頁面發布、04/23 約 40–60 個獨立 IP 單日訪問；UI/RWD、卡片與桌機功能持續調整，用戶頁、整體私訊及搜尋框仍待完成。成員與親友建立真實 Entry 測試並移除假資料；再生設計小組已建立外部聯繫群組，但先暫停招募。Greenpill 160 USD 已核准，未確認收款。"
     }
   ],
   "earth_day_funding": {
@@ -304,6 +310,7 @@
     "data/archive/APP_003_update_2026-02-28_to_03-10.md",
     "data/archive/APP_003_march_meetings_earth_day_2026.md",
     "data/archive/APP_003_earth_day_followup_2026-10-18.md",
+    "data/archive/APP_003_update_2026-04-14_to_04-28.md",
     "data/archive/APP_003_wallet_2026-06-23.md",
     "data/archive/APP_003_wallet_2026-10-18.md"
   ]
