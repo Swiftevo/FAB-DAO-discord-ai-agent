@@ -5,11 +5,13 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "你拒絕，我給錢",
+  "full_title": "你拒絕，我給錢：文字勞動者（藝評）支持計畫",
   "aliases": ["拒然不要", "拒然不要-文字勞動者藝評支持計畫"],
   "round": 1,
   "declared_tier": { "name": "小鼠", "amount": "30,000 NTD" },
   "fab_dao_contact": { "name": "FL YANG" },
   "links": {
+    "user_provided_proposal": "https://docs.google.com/document/d/18XqZbVii3MBO8SVTw8aF_L-BmO0kMFO8jNKwEF3fd3k/edit?tab=t.0",
     "original_proposal": "https://drive.google.com/file/d/16GDNT65ouVBH0UbyPMAmlfCNA5clIiEs/view",
     "discord_channel": "https://discord.com/channels/909473182598193272/1366787419906506823",
     "matters_account": "https://matters.town/@zysbot"

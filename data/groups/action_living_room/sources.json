@@ -56,6 +56,14 @@
       "verification_status": "maintainer_confirmed"
     },
     {
+      "id": "app_002_user_provided_proposal",
+      "type": "google_document",
+      "title": "你拒絕，我給錢：文字勞動者（藝評）支持計畫",
+      "url": "https://docs.google.com/document/d/18XqZbVii3MBO8SVTw8aF_L-BmO0kMFO8jNKwEF3fd3k/edit?tab=t.0",
+      "project_id": "APP_002",
+      "import_status": "user_provided_text_matches_existing_record"
+    },
+    {
       "id": "app_002_transfer_update_2026_06_23",
       "type": "local_file",
       "title": "APP_002 你拒絕，我給錢 1010 USDT 轉帳與錢包記錄",
