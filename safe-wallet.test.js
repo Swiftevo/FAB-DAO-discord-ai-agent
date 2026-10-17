@@ -66,3 +66,28 @@ test('accepts a registered wallet address as the group selector', async () => {
     });
     assert.match(result, /藝術銀行/);
 });
+
+for (const [name, address] of [
+    ['FAB DAO 總金庫', '0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b'],
+    ['GreenSofa', '0x18c4A9Fe8347F1938DD8a9157205f46479AdF169'],
+    ['藝術銀行', artSafe],
+    ['頂加實驗室', '0x455D502e22209cD4dAd06B23268921397F0A5656']
+]) {
+    test(`${name} routes balance, recent and specified-hash queries to its Safe`, async () => {
+        const fetcher = async url => {
+            assert.match(url, /\/tx-service\/oeth\/api\//);
+            assert.ok(url.toLowerCase().includes(address.toLowerCase()));
+            if (url.includes('/balances/')) return response({ results: [
+                { tokenAddress: null, balance: '1000000000000000000' }
+            ] });
+            return response({ next: null, results: [{
+                txHash: hash, executionDate: '2026-10-09T15:06:51Z',
+                transfers: [{ from: address, to: actionSafe, value: '1000000000000000000', tokenAddress: null }]
+            }] });
+        };
+        const options = { apiKey: 'test-key', fetcher };
+        assert.match(await handleWalletRequest(`${name} 錢包餘額`, options), /1 ETH/);
+        assert.match(await handleWalletRequest(`${name} 最近交易`, options), new RegExp(hash));
+        assert.match(await handleWalletRequest(`${name} 查詢交易 ${hash}`, options), /指定交易/);
+    });
+}

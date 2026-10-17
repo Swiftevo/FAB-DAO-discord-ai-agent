@@ -53,7 +53,13 @@
 - [ ] 定期核對 Optimism Safe 的餘額、owner、3/5 threshold 與重要交易
 - [ ] 在 `wallets.json` 更新 `balance_last_checked_at` 與核對結果
 
-## P3 - Discord 語音會議 AI 記錄
+## Safe API 唯讀查詢驗收（當前）
+
+- [x] 2026-10-17 已核對 FAB DAO 總金庫、GreenSofa、藝術銀行、頂加實驗室的 Safe 狀態、餘額、最近交易及指定交易 hash；不把浮動餘額寫成固定預期值。
+- [ ] 在 Discord 逐一驗證上述四個小組的餘額及交易回覆。
+- [ ] 上述接入測試完成後，顯示交易對手地址與已登記錢包名稱；已登記 DAO 錢包之間標為「內部轉帳」，其他只標「流入／流出」，不自動判定會計收入或支出。
+
+## P3 - Discord 語音會議 AI 記錄（凍結）
 
 - [ ] 制定錄音前的參與者知情與同意流程
 - [ ] 選定 Discord 語音錄音與轉錄方式
