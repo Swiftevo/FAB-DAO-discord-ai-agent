@@ -6,8 +6,8 @@
   "governance_body_id": "grant_committee",
   "project_name": "星光藝術計劃",
   "full_title": "「星光藝術計劃」—— Web3 藝術創作內容激勵方案",
-  "round": 4,
-  "round_source_conflict": "Notion 行動客廳 GRANTS 索引列為 Round 1；維護者確認的 2025-08-19 Safe 轉帳記錄列為 Round 4。未核對前保留既有 Round 4 記錄，不將索引標籤當作撥款核定證據。",
+  "round": 1,
+  "round_source_note": "2026-10-18 維護者確認本案為 Round 1，與 Notion 行動客廳 GRANTS 索引一致；先前轉帳記錄中的 Round 4 為輪次誤記。",
   "declared_tier": {
     "id": "happy_rat",
     "name": "快樂鼠",
@@ -83,7 +83,7 @@
       "safe_address": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
       "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x814d35275702b49d0ee92d8011cbb4c2a49d5cc1e410190c9e0994b1c7b7a9c6",
       "verification_status": "maintainer_confirmed",
-      "note": "維護者確認此筆交易為星光藝術計劃 Round 4 快樂鼠 150 USDT 轉帳記錄。"
+      "note": "維護者確認此筆交易為星光藝術計劃 150 USDT 轉帳記錄；2026-10-18 更正所屬輪次為 Round 1。"
     }
   },
   "timeline": [
