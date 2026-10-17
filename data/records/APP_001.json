@@ -5,6 +5,13 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "Web3 羽球社",
+  "round": 1,
+  "declared_tier": { "name": "小鼠", "amount": "30,000 NTD" },
+  "fab_dao_contact": { "name": "Yipin" },
+  "links": {
+    "original_proposal": "https://drive.google.com/open?id=1iDcKzsPLWG_20OkqTNzvzH5OixItTqCS&authuser=5",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1366787138011664414"
+  },
   "project_lead": {
     "display_name": "MN",
     "legal_or_chinese_name": "明恩",

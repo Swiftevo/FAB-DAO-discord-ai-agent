@@ -7,6 +7,7 @@
   "project_name": "星光藝術計劃",
   "full_title": "「星光藝術計劃」—— Web3 藝術創作內容激勵方案",
   "round": 4,
+  "round_source_conflict": "Notion 行動客廳 GRANTS 索引列為 Round 1；維護者確認的 2025-08-19 Safe 轉帳記錄列為 Round 4。未核對前保留既有 Round 4 記錄，不將索引標籤當作撥款核定證據。",
   "declared_tier": {
     "id": "happy_rat",
     "name": "快樂鼠",
@@ -24,6 +25,9 @@
     "role": "於 Matters Choice 推薦藝術相關文章，並補償閱讀及推薦工作"
   },
   "links": {
+    "original_proposal": "https://docs.google.com/document/d/1VgDb_sxcHVteLdlZUlhot468p2i4BnbpmtBD5AIVdBw/edit?usp=sharing",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1389312283548844183",
+    "matters_art_bank": "https://matters.town/@fab_dao_artbank",
     "matters_choice": "https://matters.town/@matters_choice",
     "metrics_spreadsheet": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
     "fab_dao_artbank_collection": "https://matters.town/@fab_dao_artbank/collections/Q29sbGVjdGlvbjo1Njk0"

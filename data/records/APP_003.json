@@ -6,6 +6,7 @@
   "governance_body_id": "grant_committee",
   "project_name": "大量交織+地球公物",
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
+  "fab_dao_contact": { "name": "Stanley" },
   "decision_status": "approved",
   "current_status": "active - second round approved and 60 percent disbursed",
   "applicant": {
@@ -15,7 +16,12 @@
     "wallet_address": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04"
   },
   "links": {
-    "facebook_group": "https://www.facebook.com/share/g/14DuoMUvodr/"
+    "facebook_group": "https://www.facebook.com/share/g/14DuoMUvodr/",
+    "original_proposal": "https://drive.google.com/file/d/1DerBu3OG9lOqYBoVGhslBWjnKiasaooB/view",
+    "round_4_proposal": "https://drive.google.com/file/d/1yIkOcQudgS6nV9vOHMRw6ml6i5lvZXWB/view",
+    "web_evolution_proposal": "https://drive.google.com/file/d/1jTorpuHm-fJjxLViEg4-DO9MCOYs3S5P/view",
+    "discord_channel": "https://discord.com/channels/909473182598193272/1389312165298569237",
+    "website": "https://megaweaving.net/"
   },
   "summary": "大量交織+地球公物旨在將 Facebook 資源共享社群轉化為可搜尋、具資料庫架構的手機優先平台，讓共享物件可被標籤、查詢、借用，並將部分物件註冊為鏈上 Earth Goods，永久保存其捐贈、借用與公共活動故事。",
   "goals": [

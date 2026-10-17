@@ -2,6 +2,14 @@
   "group_id": "action_living_room",
   "sources": [
     {
+      "id": "fab_dao_grants_notion_index",
+      "type": "notion_page",
+      "title": "行動客廳 GRANTS 補助金公開索引",
+      "url": "https://app.notion.com/p/GRANTS-3504cfa7e663809daaabecce478a6686",
+      "project_ids": ["APP_001", "APP_002", "APP_003", "APP_004", "APP_005", "APP_006", "APP_007"],
+      "note": "索引提供輪次標籤、專案聯絡人與公開連結；不以索引標籤單獨推定核准或撥款。APP_005 輪次與既有維護者確認的轉帳記錄不同，待核對。"
+    },
+    {
       "id": "legacy_meeting_records_notion",
       "type": "notion_database",
       "title": "舊有行動客廳會議記錄",
