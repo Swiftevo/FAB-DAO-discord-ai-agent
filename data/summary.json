@@ -171,12 +171,12 @@
     "tier": "快樂鼠",
     "total_milestones": 2,
     "current_phase": 1,
-    "status": "Active",
-    "budget": "Round 4 快樂鼠 150 U",
+    "status": "Active - 60% initial funding disbursed",
+    "budget": "Round 4 快樂鼠 150 U；行動客廳 Optimism Safe 於 2026-05-26 已轉出 90 USDT（60% 啟動款），鏈上交易 0x767152c6002634fcb1a441c918172b319d1c4fb4eb623adc0b98b1cfb318af29；截至 2026-10-22 快照，未見後續 40% 的對應備註；50 USDT 專案聯絡人 Bounty 不計入 Grant。",
     "timeline": "申請通過後立即啟動；約 3 - 6 個月，每 1 - 2 月預計推薦 1 篇",
     "current_stage": "Matters Choice 台灣 Public Goods 文章推薦與獎勵機制",
     "latest_update_date": "2026-06-23",
-    "latest_update_summary": "計劃透過 Matters Choice 推薦台灣 Public Goods 文章，150 U 分為作者獎勵、推薦者獎勵與 Matters Choice 營運分攤。2026 年 5 月更新後，文章發掘不再限於百岳 NFT holders，仍開放 FAB DAO 成員參與。",
+    "latest_update_summary": "計劃透過 Matters Choice 推薦台灣 Public Goods 文章，150 U 分為作者獎勵、推薦者獎勵與 Matters Choice 營運分攤。2026 年 5 月更新後，文章發掘不再限於百岳 NFT holders，仍開放 FAB DAO 成員參與。撥款資料另已核實：2026-05-26 行動客廳 Safe 成功轉出 90 USDT，Safe Note 標為 Round 4 孤勇者計畫 60%；Note 是鏈下用途標籤，轉帳本身由鏈上核實。",
     "milestone_summary": "M1: 建立 Matters Choice 推薦與獎勵流程; M2: 推動至少 10 篇台灣 Public Goods 文章被推薦，並同步公開於 Matters 與 FAB DAO Discord。"
   }
 ]

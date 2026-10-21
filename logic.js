@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { OpenAI } = require('openai');
 const { handleWalletRequest } = require('./safe-wallet');
+const { getGrantTransactionContext } = require('./safe-snapshot');
 
 // 初始化 OpenAI
 const openai = new OpenAI({
@@ -178,7 +179,7 @@ function getGroupContext(userPrompt) {
 }
 
 function isGrantSourceRequired(userPrompt) {
-    return /補助金|grant|申請規範|申請方法|申請辦法|申請表|級距|審核|撥款|成果報告/i.test(userPrompt);
+    return /申請規範|申請方法|申請辦法|申請表|如何申請|怎樣申請|級距|審核規則|審核方法|撥款規則|撥款方式|撥款流程|成果報告規則/i.test(userPrompt);
 }
 
 function ensureGrantSources(userPrompt, replyContent) {
@@ -225,6 +226,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
 
         // 2.6 依問題取得 FAB DAO 工作組脈絡
         const groupContext = getGroupContext(userPrompt);
+        const grantTransactionContext = getGrantTransactionContext(userPrompt);
 
         // --- 第一層：讀取基礎摘要 (固定載入) ---
         const summaryPath = path.join(__dirname, 'data', 'summary.json');
@@ -271,7 +273,7 @@ async function handleAIRequest(userPrompt, isReviewer) {
             messages: [
                 { 
                     role: "system", 
-                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### FAB DAO 里程碑文件資料庫(必須優先參考):\n${fipContext}\n\n### FAB DAO 工作組資料庫(依問題載入):\n${groupContext}\n\n### 實時資料庫內容：\n${databaseContext}`
+                    content: `${baseSystemContent}\n\n### 組織背景資訊(必須優先參考):\n${orgContext}\n\n### FAB DAO 里程碑文件資料庫(必須優先參考):\n${fipContext}\n\n### FAB DAO 工作組資料庫(依問題載入):\n${groupContext}\n\n### 已收錄的相關 Safe 交易（僅限符合問題的紀錄）：\n${grantTransactionContext}\n\n### 實時資料庫內容：\n${databaseContext}`
                 },
                 { role: "user", content: userPrompt }
             ],

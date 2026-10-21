@@ -419,6 +419,14 @@
       "verification_status": "maintainer_confirmed"
     },
     {
+      "id": "app_007_initial_disbursement_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "APP_007 孤勇者計劃 Round 4 60% 啟動款 90 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x65867b0fe8919493b8f04f9ad8314c530c4546afd5b1b9907f8a9b9da878027d",
+      "project_id": "APP_007",
+      "verification_status": "safe_api_execution_and_note_verified_2026-10-22"
+    },
+    {
       "id": "app_007_lone_brave_proposal",
       "type": "google_drive_file",
       "title": "孤勇者計劃原企劃書",

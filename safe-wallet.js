@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { findSnapshotTransaction, snapshotTransactionSummary } = require('./safe-snapshot');
 
 const GROUPS_DIR = path.join(__dirname, 'data', 'groups');
 const API_ORIGIN = 'https://api.safe.global';
@@ -72,6 +73,17 @@ function tokenAmount(transfer, wallet) {
     return `${formatUnits(transfer.value, decimals)} ${symbol}`;
 }
 
+function transactionNote(tx) {
+    try {
+        const origin = typeof tx.origin === 'string' ? JSON.parse(tx.origin) : tx.origin;
+        const note = origin?.note;
+        return typeof note === 'string' && note.trim()
+            ? note.replace(/\s+/g, ' ').replace(/@/g, '＠').slice(0, 200) : null;
+    } catch {
+        return null;
+    }
+}
+
 function transactionSummary(tx, wallet) {
     const address = wallet.address.toLowerCase();
     const transfers = (tx.transfers || []).filter(item =>
@@ -83,7 +95,10 @@ function transactionSummary(tx, wallet) {
     const hash = tx.transactionHash || tx.txHash || tx.safeTxHash;
     const explorer = wallet.explorer_tx_url_prefix && hash
         ? `${wallet.explorer_tx_url_prefix}${hash}` : wallet.safe_url;
-    return `${timestamp(tx.executionDate)}｜${description}\n交易：${hash || '未提供'}\n${explorer}`;
+    const note = transactionNote(tx);
+    return `${timestamp(tx.executionDate)}｜${description}` +
+        `${note ? `\nSafe 備註（鏈下標籤）：${note}` : ''}` +
+        `\n交易：${hash || '未提供'}\n${explorer}`;
 }
 
 async function readBalances(group, wallet, fetcher, apiKey) {
@@ -152,6 +167,12 @@ async function handleWalletRequest(prompt, options = {}) {
     }
     if (!BALANCE_PATTERN.test(prompt) && !HISTORY_PATTERN.test(prompt) && !requestedHash) {
         return `可查詢「${selectedGroup.name} 錢包餘額」、「${selectedGroup.name} 最近交易」，或提供交易 hash。\n${wallet.safe_url}`;
+    }
+    if (requestedHash) {
+        const saved = findSnapshotTransaction(wallet, requestedHash);
+        if (saved) {
+            return `【${selectedGroup.name}｜指定交易（已收錄快照）】\n${snapshotTransactionSummary(saved, wallet)}`;
+        }
     }
     const apiKey = options.apiKey ?? process.env.SAFE_API_KEY;
     if (!apiKey) return 'Safe 查詢尚未啟用：請維護者在部署環境設定 SAFE_API_KEY。';

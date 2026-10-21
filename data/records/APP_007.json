@@ -71,7 +71,23 @@
         "currency": "USDT",
         "description": "Swift Evo / Matters Choice 營運支援"
       }
-    ]
+    ],
+    "verified_disbursements": [
+      {
+        "executed_at": "2026-05-26T14:38:37Z",
+        "network": "Optimism",
+        "from_safe": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+        "recipient": "0x579A2152a9675f769374734ED2f1660059CE240f",
+        "amount": "90 USDT",
+        "phase": "60% 啟動款",
+        "safe_note": "GRANTS round4 孤勇者計畫 (60%)",
+        "safe_tx_hash": "0x65867b0fe8919493b8f04f9ad8314c530c4546afd5b1b9907f8a9b9da878027d",
+        "transaction_hash": "0x767152c6002634fcb1a441c918172b319d1c4fb4eb623adc0b98b1cfb318af29",
+        "safe_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x65867b0fe8919493b8f04f9ad8314c530c4546afd5b1b9907f8a9b9da878027d",
+        "verification": "Safe API 已確認執行及轉帳；計畫用途依 Safe 提案者填寫的鏈下 Note 辨識"
+      }
+    ],
+    "remaining_funding_note": "截至 2026-10-22 行動客廳 Safe 匯出快照，未找到孤勇者計劃後續 40%（60 USDT）的對應備註；不能因此斷言其他錢包沒有撥款。另有 50 USDT 孤勇者專案聯絡人 Bounty，與本案 150 U Grant 分開計算。"
   },
   "timeline": [
     {

@@ -1,6 +1,6 @@
 # 行動客廳 Current Summary
 
-最後更新：2026-10-18（Notion 公開索引核對；專案進度日期未變）
+最後更新：2026-10-22（行動客廳 Safe 備註與執行紀錄核對；專案進度日期未變）
 
 ## 當前重點
 
@@ -15,7 +15,7 @@
 - `APP_004` 是 Round 4 小鼠「事水」，以 IG 水環境自媒體為核心；目前記錄為 active，60% 啟動資金 361.89 USDT 尚未轉帳。
 - `APP_005` 是 Round 1 快樂鼠「星光藝術計劃」，FAB DAO 專案聯絡人 Swift，透過 fab_dao_artbank 與 Matters Choice 推薦藝術類文章，與孤勇者計劃不同。維護者及 Matters Choice 2026-09-08 總結確認 2025-07 至 2026-07 共十期推薦完成；總結發表日不是已知的結案決議日。行動客廳 Optimism Safe **2025-08-20** 鏈上轉帳 150 USDT；先前的 08-19 是舊維護者日期，Safe 提案與新提供的鏈上 hash 為同一筆交易。2026-10-18 維護者確認 Round 1，先前 Round 4 為輪次誤記。十期推薦不等於每筆作者獎勵已逐一驗證。
 - `APP_006` 是已核准的 Round 5 累鼠「Ghost Object 不可能物件_2026 展覽計畫」，Grant 核定額為 1,600 USDT，已撥付 960 USDT 啟動資金；藝術銀行焦點討論與購藏合作尚未核定。
-- `APP_007` 是 Round 4 快樂鼠「孤勇者計劃」，透過 Matters Choice 推薦台灣 Public Goods 文章並發放作者、推薦者及營運獎勵；它與 `APP_005` 星光藝術計劃是兩個不同計劃。
+- `APP_007` 是 Round 4 快樂鼠「孤勇者計劃」，透過 Matters Choice 推薦台灣 Public Goods 文章並發放作者、推薦者及營運獎勵；它與 `APP_005` 星光藝術計劃是兩個不同計劃。行動客廳 Optimism Safe 於 **2026-05-26** 成功轉出 **90 USDT** 至 `0x579A2152a9675f769374734ED2f1660059CE240f`，Safe Note 標示「GRANTS round4 孤勇者計畫 (60%)」，即核准 150 U 的 60% 啟動款；[Safe 交易](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x65867b0fe8919493b8f04f9ad8314c530c4546afd5b1b9907f8a9b9da878027d)。截至 2026-10-22 Safe 匯出快照，未見後續 40% 的對應備註。另有 50 USDT「孤勇者專案聯絡人」Bounty，不能計入此 Grant。Note 是鏈下用途標籤，鏈上轉帳只證明金額、地址及執行。
 - 舊有會議記錄位於 Notion，待匯出 Markdown / CSV 後匯入本地知識庫。
 - Discord 語音會議的 AI 會議記錄流程尚待設計。
 
