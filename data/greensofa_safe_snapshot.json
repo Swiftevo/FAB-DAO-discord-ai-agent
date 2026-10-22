@@ -1,0 +1,3279 @@
+{
+  "wallet": "oeth:0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+  "group_id": "greensofa",
+  "snapshot_at": "2026-10-22T08:37:12.277Z",
+  "source_transactions": "https://api.safe.global/tx-service/oeth/api/v2/safes/0x18c4A9Fe8347F1938DD8a9157205f46479AdF169/all-transactions/",
+  "source_transfer_export": "https://api.safe.global/tx-service/oeth/api/v1/safes/0x18c4A9Fe8347F1938DD8a9157205f46479AdF169/export/",
+  "transaction_count": 146,
+  "transfer_count": 162,
+  "transactions": [
+    {
+      "executed_at": "2026-10-09T15:06:51Z",
+      "transaction_hash": "0x8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [
+        "客廳＋綠沙發＋頂加 活動費＋聯絡人工作費"
+      ],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b99"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-09-25T09:55:57Z",
+      "transaction_hash": "0x0d9acd55b786c3a2b7ee8d556b4ede15e535dc6cac6bba04d0561ef5e058d633",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18C461F2116cC8762F8EDd2446823ae0d640f169",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1",
+          "asset_symbol": "EṬH",
+          "asset_address": "0xfAf5fCe33B906F289dB974Efdbf7bf77d5Fe7F31",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e0d9acd55b786c3a2b7ee8d556b4ede15e535dc6cac6bba04d0561ef5e058d633165"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-07-19T05:59:31Z",
+      "transaction_hash": "0x563fe72485eae2b680eb061e94f9a72360f8744e6eae18b556a58a241193f2fd",
+      "safe_tx_hash": "0x22bf011278af9784b079d259ce5214ed00c561cbc0b0bd4bb675ddb92dcbdb90",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-07-09T01:21:45Z",
+      "transaction_hash": "0x07ddb156298a4d8ad3556f1e86a68a516e1ee65aef8b634fe6e5ca7abafc62f9",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5F5C8159894E2d86994Dc5799D3fFFAda016518d",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2772000000000000000000",
+          "asset_symbol": "www.base1.cfd",
+          "asset_address": "0xd1b4ed662a8849A00B6d20675ed9bc5DD59Bb799",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e07ddb156298a4d8ad3556f1e86a68a516e1ee65aef8b634fe6e5ca7abafc62f91178"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-07-08T21:11:01Z",
+      "transaction_hash": "0x9d69753fd419427f504e663ee3da958984eabde0845d707340f8f6e8e0f711ef",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x97FBe8D10d84DdbF842A04750970a6F06F663c8F",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1148000000000000000000",
+          "asset_symbol": "www.base1.cfd",
+          "asset_address": "0x3cb008c23075e3A8B3769096f42B5FC6CfcE9114",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9d69753fd419427f504e663ee3da958984eabde0845d707340f8f6e8e0f711ef4490"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-07-07T05:04:11Z",
+      "transaction_hash": "0x9ff290940962236cbc519393f19f0e2eff61c86f0d5f861acd35e315d28c5376",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xaA0fB5936fe3cD796E4feA053c32a8F5D2e86C65",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2064000000000000000000",
+          "asset_symbol": "www.base1.cfd",
+          "asset_address": "0x06F426457471C07093cfE2be1C1Dc03EA806A5cD",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9ff290940962236cbc519393f19f0e2eff61c86f0d5f861acd35e315d28c53761555"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-05-11T11:36:47Z",
+      "transaction_hash": "0xba22ddf7003e6e08deb140a0bd623936ea712f508c5db92930bc323bacda984b",
+      "safe_tx_hash": "0x8dc78c31cd1e95310ecd6cd5d8b23a2db2b4466c3f449120b87469845fd0f343",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "amount_raw": "32008070921707808420",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eba22ddf7003e6e08deb140a0bd623936ea712f508c5db92930bc323bacda984b108"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-20T11:30:59Z",
+      "transaction_hash": "0x155208dbffe6801fd37e6e35b808f9fc1e4bdadc6be2ce4542285104a5aecd84",
+      "safe_tx_hash": "0x55563b22c527af14e982f7b534e6f2966dec275a0dcb1ed8d00daaeef5488ac3",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "137652594726982068",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i155208dbffe6801fd37e6e35b808f9fc1e4bdadc6be2ce4542285104a5aecd84314"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "319101710446175459345",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e155208dbffe6801fd37e6e35b808f9fc1e4bdadc6be2ce4542285104a5aecd84281"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-20T11:28:07Z",
+      "transaction_hash": "0x74d8df9ec8cc7d2751559bd9a94b7f61297afcab8e24aa08353a14be074f8e9a",
+      "safe_tx_hash": "0x064686b9a36df0704f726a64e66fedb4a1b9454475acbea2e73b36d89ecffd2b",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "107845112554181663",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i74d8df9ec8cc7d2751559bd9a94b7f61297afcab8e24aa08353a14be074f8e9a318"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "250000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e74d8df9ec8cc7d2751559bd9a94b7f61297afcab8e24aa08353a14be074f8e9a137"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-20T11:21:51Z",
+      "transaction_hash": "0x1f74fed4ed1d0de4ebf04483485224552303d17d4e9b601b705b82f7c287a507",
+      "safe_tx_hash": "0x58cbfd9c03ed05578ea37f74a86621ef5e9fb31a6fae18f3131bba2d7b22cc9b",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "200000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1f74fed4ed1d0de4ebf04483485224552303d17d4e9b601b705b82f7c287a50740"
+        },
+        {
+          "from": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "86397834843223513",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i1f74fed4ed1d0de4ebf04483485224552303d17d4e9b601b705b82f7c287a50761"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-20T11:12:13Z",
+      "transaction_hash": "0xd53ee483cb6f857ec96e0177e9bb1050cbbbbe4709dc329193e49e51736e0a80",
+      "safe_tx_hash": "0x1e313b9992dbef0d50562c271ec62debea2c95f5814f8a7e1937e2eb78fb189a",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "43161390425949585",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "id53ee483cb6f857ec96e0177e9bb1050cbbbbe4709dc329193e49e51736e0a8065"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "100000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ed53ee483cb6f857ec96e0177e9bb1050cbbbbe4709dc329193e49e51736e0a8044"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-20T11:00:43Z",
+      "transaction_hash": "0x132304a7d94559aea5aef041901c2f02d98e70d87ea8eeb07f750fd75da846b3",
+      "safe_tx_hash": "0xab54accd9762f363c49b3f80f684378b33ebaf2283ae3caa9d5c2e99d0b3fbef",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "432012078438229",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i132304a7d94559aea5aef041901c2f02d98e70d87ea8eeb07f750fd75da846b3121"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e132304a7d94559aea5aef041901c2f02d98e70d87ea8eeb07f750fd75da846b3103"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-13T11:29:13Z",
+      "transaction_hash": "0xdda5ddf570143a0e0957f779cb41d31fead766d051da34961535882a32eb41d8",
+      "safe_tx_hash": "0x4be5d665fd3f6d56236efeaceee035c01e1a1bd326b23ea829f11fbd1078f004",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-04-13T11:19:41Z",
+      "transaction_hash": "0x036e7061d7fb0e335b34b38a95b584dd17cf15dfd516a4d914727fee4393bf27",
+      "safe_tx_hash": "0x42b3a81724e6d57791cafd1dca2582c2d94225d8d924f684d0cce240c7b47f4e",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "頂加實驗室 hypercert dashboard development 第一期經費"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "1000000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e036e7061d7fb0e335b34b38a95b584dd17cf15dfd516a4d914727fee4393bf27263"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-06T10:52:29Z",
+      "transaction_hash": "0xca6d5b068807e340f7bd608633ebca0dfb0ab050308a2c9efa4c59ff5b3f7330",
+      "safe_tx_hash": "0xfa3f9c4907cf25fa4c19c20c35225b7a5fb9d29f1d783445ba76972c0c5d55da",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-04-06T09:50:13Z",
+      "transaction_hash": "0x1617077cb8d2e9ae5407b13cadb7aff681cc50b9d04f4e8dde95436f620fcdb5",
+      "safe_tx_hash": "0xf39317c6d3ff0552cef2fff49d84a9d1f3e2f16081665d83fddcd23925935acf",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "2026月3月份台南零時代資金池 $3000 台幣報銷"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "110000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1617077cb8d2e9ae5407b13cadb7aff681cc50b9d04f4e8dde95436f620fcdb5209"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-03-02T11:10:15Z",
+      "transaction_hash": "0x4a40db4cd685e504ee70fba7d907ff0bea82f15b4115833c41d3ccf61369fc4f",
+      "safe_tx_hash": "0x8a6c09dcfa9c8c0fa915c7f1ec843dcf47d7e9a368cd883b117c85f866d73e7e",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "bridge"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e4a40db4cd685e504ee70fba7d907ff0bea82f15b4115833c41d3ccf61369fc4f200"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-02-02T15:07:49Z",
+      "transaction_hash": "0x826e01fc0a52f8a5a8e42746bc50dd7f76e15ff7bf51b5aad50989a8336e9d5b",
+      "safe_tx_hash": "0xae43cc3b57fc4fff4d29a4d42942863ef37d7b1f9f5ecff08e55622820ada977",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "Web3Matters第二輪追蹤問卷 bounty"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x26AC7BB9A703CB9605397b5Cdb627a72C84D6e5a",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e826e01fc0a52f8a5a8e42746bc50dd7f76e15ff7bf51b5aad50989a8336e9d5b154"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e826e01fc0a52f8a5a8e42746bc50dd7f76e15ff7bf51b5aad50989a8336e9d5b155"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-02-02T15:06:15Z",
+      "transaction_hash": "0xc27d68bbfd0ea25509c4edcdf036e78404939a2a75f9a4f61239f95d3a71dd77",
+      "safe_tx_hash": "0x307d42bf38002e70a425e69b72490768e2e09ac81161c4bcd34d9f4530ca09db",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "傳DAO士 Frank 來化緣-Denken 追蹤問卷第二期 bounty"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x47DD80070672545781C507aC813e3cB0969a1575",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec27d68bbfd0ea25509c4edcdf036e78404939a2a75f9a4f61239f95d3a71dd7735"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec27d68bbfd0ea25509c4edcdf036e78404939a2a75f9a4f61239f95d3a71dd7736"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-01-21T16:11:13Z",
+      "transaction_hash": "0x9d5c2cb9860ea06696867abbdfa1c0d7185e1524ac2b72ad5d2f88f35deb1182",
+      "safe_tx_hash": "0xc8bbdce0b48e4472fd6d3059c0d5d43604ca797c70720c8ee247f46330e5cdf2",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "追蹤問卷第二期"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x8605Ad47bD35cafEdc05Cd35C70b286bfd5fa791",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9d5c2cb9860ea06696867abbdfa1c0d7185e1524ac2b72ad5d2f88f35deb1182170"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x8ef1E170BC6BfbDd50A36939203c9BFcc5E6CeD9",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9d5c2cb9860ea06696867abbdfa1c0d7185e1524ac2b72ad5d2f88f35deb1182171"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-01-21T16:07:35Z",
+      "transaction_hash": "0xe130dfb427757d7d75c776202ee5c898758a677457e3ae9c16e8e03cf711864f",
+      "safe_tx_hash": "0xf90861982c94e5fc142fd968587cd972dc4664648e74d5ac885eead31a7ffffd",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "Drawing to be NFT-爪哇因javaing 第二期追蹤協訪者與受訪者 bounty"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee130dfb427757d7d75c776202ee5c898758a677457e3ae9c16e8e03cf711864f97"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x7fF3c36212F5B10846B7A2569b7b8a822a900050",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee130dfb427757d7d75c776202ee5c898758a677457e3ae9c16e8e03cf711864f96"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-31T18:59:53Z",
+      "transaction_hash": "0xf50a7f1b46809e364f55f841e63e9799bf2c1334e7797034a3c3054321e42fde",
+      "safe_tx_hash": "0xe0805e0ff926a4fa771e492c9915aec3635a900332cc972565d4f0e13d59e13e",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "厭學者引路協會第二輪追蹤問卷730演講"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x362deCEAfcBAD7d8BfCa75C8086a1423567741EC",
+          "amount_raw": "40000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ef50a7f1b46809e364f55f841e63e9799bf2c1334e7797034a3c3054321e42fde111"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-30T11:45:11Z",
+      "transaction_hash": "0x24f033141da7e34bb954d66fc6783a23ec036145e5658857c6fb353a82cc560c",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x378c60a27736ECcd2f46431dF17cF9dE18fa508B",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "9000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e24f033141da7e34bb954d66fc6783a23ec036145e5658857c6fb353a82cc560c128"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-30T11:42:29Z",
+      "transaction_hash": "0x442f0b1fcc851a00c95fedb7011b41e81980d3c888a73ad6c12b273cce5e6273",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x378c60a27736ECcd2f46431dF17cF9dE18fa508B",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e442f0b1fcc851a00c95fedb7011b41e81980d3c888a73ad6c12b273cce5e6273101"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-29T05:33:49Z",
+      "transaction_hash": "0xc339e97009c4c7ced6197bc8e576d18556678f0745c4c33c69693906c38faf7c",
+      "safe_tx_hash": "0x52dda2b04b4708a9a10eb1c48e729f804135041fbfc2259f2702819dcc5c663f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "Retrospective Taiwan Hypercerts Dashboard bounty"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3DB6B5908cA5bC2b3a302980ab299C1139BbB699",
+          "amount_raw": "150000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec339e97009c4c7ced6197bc8e576d18556678f0745c4c33c69693906c38faf7c100"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-29T04:12:37Z",
+      "transaction_hash": "0xddff0ceb852d37d8939675646e9aedb928455d1be09bba0ff43a570035724ce8",
+      "safe_tx_hash": "0x84a2c625a5f9c4b972c58047e217f198d3807f8e15a10d4ca53d9843b175e198",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "Retrospective Taiwan Hypercerts Dashboard bounty"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "450000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eddff0ceb852d37d8939675646e9aedb928455d1be09bba0ff43a570035724ce8125"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-09T16:24:03Z",
+      "transaction_hash": "0xd9f87aeae13185c3cc7348b1a723939d407fdc1c43db89101bb05b18835a7cea",
+      "safe_tx_hash": "0x5c209635ef6107e4452251ae3a424f3182ae8dcefcaeb77a68d34451fd0d1d0d",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "11 月零時代資金池 $3000 台幣報銷"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "110000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ed9f87aeae13185c3cc7348b1a723939d407fdc1c43db89101bb05b18835a7cea42"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-12-08T14:27:59Z",
+      "transaction_hash": "0x03c236561bf1cb5a88c14170478735dd0fd640c02debf3015430b13774022e35",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x588E935cf4dAE4361f33aF2aADD4c3C3A06cab7d",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e03c236561bf1cb5a88c14170478735dd0fd640c02debf3015430b13774022e351"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-09-29T11:09:29Z",
+      "transaction_hash": "0x6f941507b35ea17369599539cc811b1d7c087bebc4fb67b6d61b32e5522952cd",
+      "safe_tx_hash": "0xacf14a1ec104db21d3d7d305cdc76b062237122ffe63fe5c418c22525f4bcaef",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "2025年9月份g0vtw零世代資金池贊助"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "110000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e6f941507b35ea17369599539cc811b1d7c087bebc4fb67b6d61b32e5522952cd65"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-09-28T08:40:17Z",
+      "transaction_hash": "0x99ca319caf1a3edc3fb09e3a29459462c3bbb4dbe1349e928edaff2da68f8411",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "40000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e99ca319caf1a3edc3fb09e3a29459462c3bbb4dbe1349e928edaff2da68f84113"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-09-22T11:32:35Z",
+      "transaction_hash": "0x3637ac603b05cdda8cb70f629ee4c77362ee6f33af75fda79e3e2345c8b22655",
+      "safe_tx_hash": "0xe62ed85fef10b60f659cf612b854ed3176aac417b2e7031567da3bde1e2fe2b1",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x663A903c62Bd8F5d3A7971091f6324c8a847c36d",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e3637ac603b05cdda8cb70f629ee4c77362ee6f33af75fda79e3e2345c8b22655172"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e3637ac603b05cdda8cb70f629ee4c77362ee6f33af75fda79e3e2345c8b22655175"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x936099EBc71d37a94A62CcF4d4D9b0aE949Baefd",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e3637ac603b05cdda8cb70f629ee4c77362ee6f33af75fda79e3e2345c8b22655174"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e3637ac603b05cdda8cb70f629ee4c77362ee6f33af75fda79e3e2345c8b22655173"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-09-22T11:22:53Z",
+      "transaction_hash": "0xe91eb9d70fae4d7012e9d010eaadba7e8847b6d7b458cda7f0ca22f8a02a8770",
+      "safe_tx_hash": "0x8a7ce0f68325be1249deb0c6426585687faa10cc4b5ff1a3e9657aa53f3a520f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x378c60a27736ECcd2f46431dF17cF9dE18fa508B",
+          "amount_raw": "40000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee91eb9d70fae4d7012e9d010eaadba7e8847b6d7b458cda7f0ca22f8a02a8770242"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x5312214940df4425328Df83754D76Cb224f6b039",
+          "amount_raw": "40000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee91eb9d70fae4d7012e9d010eaadba7e8847b6d7b458cda7f0ca22f8a02a8770241"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x2A2f3845c2Cf4b9a6fBcec27a9778329988DFe04",
+          "amount_raw": "40000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee91eb9d70fae4d7012e9d010eaadba7e8847b6d7b458cda7f0ca22f8a02a8770240"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-09-09T18:52:03Z",
+      "transaction_hash": "0xef91b6d98ec13ac54ce7970437225bd977185af1e41358e26a416d4c210fe261",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x371edAf99fD60eEbda7d8Cf72e11086ED67C9561",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "Lilpepe",
+          "asset_address": "0x6e86024b10288259ecc2D5CD3fff3B5755B951a4",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eef91b6d98ec13ac54ce7970437225bd977185af1e41358e26a416d4c210fe261565"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-07-23T05:54:35Z",
+      "transaction_hash": "0x9f41453f5156b41cae25cda86f022187b1334bcdf363d26846da9b1de992518c",
+      "safe_tx_hash": "0xf4c661aa63bffb8490922d645939886bd848b6e408384b9d81eabd69f749ab9f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "206900000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9f41453f5156b41cae25cda86f022187b1334bcdf363d26846da9b1de992518c9"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-07-03T10:28:41Z",
+      "transaction_hash": "0x2a85ad55157450e63495af7d5ff2a2e494f94061e23f4cbd41db21118edde324",
+      "safe_tx_hash": "0xb043e22cdf48e1b02386b38be9751dce758987ad264e81faa5ea726ab2cfaff8",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "資助 100U - g0v 2025年7月零世代資金池"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "110000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e2a85ad55157450e63495af7d5ff2a2e494f94061e23f4cbd41db21118edde3241021"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-07-03T10:27:51Z",
+      "transaction_hash": "0xfa107eea4fd19af0f9f802d250a3e46fd8a88bdd8aa2988d59b775e2d9bb8301",
+      "safe_tx_hash": "0x28459557edef15f10fdfb049d421818026fd8351479b1a244eccbf9c853a9d3b",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "實體綠沙發 by denken"
+      ],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "75000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "efa107eea4fd19af0f9f802d250a3e46fd8a88bdd8aa2988d59b775e2d9bb8301540"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-06-02T10:30:39Z",
+      "transaction_hash": "0x00990c6aa51224beb27d03a683ef317d39910808b394c513fd44d62d2f10320b",
+      "safe_tx_hash": "0x182a33af997539e53005aaa4c32482dfdf9ba0f8264f196a7861790d439c114a",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2025-04-28T11:47:19Z",
+      "transaction_hash": "0x517b3bde0c03c7bb4e266d591b96cfe3d44dbbd00e5da1dd9201c9b35a03caab",
+      "safe_tx_hash": "0xc1321ff1290f8f97f470aea03c6744095204b526a1223d9cec9ff37c3fc03be2",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x5d3f7C09c0132C2c5A78ec2E654b9068f5550954",
+          "amount_raw": "1650000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e517b3bde0c03c7bb4e266d591b96cfe3d44dbbd00e5da1dd9201c9b35a03caab58"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-04-28T11:42:33Z",
+      "transaction_hash": "0x239481c8db2311e241333e79b8f995e9712b9121641e96491bb0305cef74c203",
+      "safe_tx_hash": "0x8ad8190e0794cfa8f95dffcef54857d97066e3d05bc786b9be47b167572a99f6",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x5d3f7C09c0132C2c5A78ec2E654b9068f5550954",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e239481c8db2311e241333e79b8f995e9712b9121641e96491bb0305cef74c20389"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-03-06T14:06:33Z",
+      "transaction_hash": "0x64d8eedf1d060e2fc93f6cac928fc6ac58e874cc0b46c46beee1610bb9428dc9",
+      "safe_tx_hash": "0x11bae1a7b417d908284409e0e7c30bc8c6929a5711b6fa5cb11dbb78a34f8b04",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x6A54F75e31eeeB7cC1A82326E465bA86d18472ae",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "6900000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i64d8eedf1d060e2fc93f6cac928fc6ac58e874cc0b46c46beee1610bb9428dc9394"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-02-04T22:37:21Z",
+      "transaction_hash": "0x43af870cf70f21c095f95eab80de651d9420203e79283585b834bd6f34c0db88",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3C2aCA0c287FC5B27C392914D204703aD3d43b19",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "100676332774366003200",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e43af870cf70f21c095f95eab80de651d9420203e79283585b834bd6f34c0db8899"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-29T04:11:13Z",
+      "transaction_hash": "0x4158405c4990281814bb1513ac9e5de948b757e3e86243291ea9aecb785de8f0",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e4158405c4990281814bb1513ac9e5de948b757e3e86243291ea9aecb785de8f0120"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-28T16:13:49Z",
+      "transaction_hash": "0xd35914c14023364845fc3a97d1d8444bd2c2043867cf35fb0174b344d8155e5a",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "27000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ed35914c14023364845fc3a97d1d8444bd2c2043867cf35fb0174b344d8155e5a67"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-28T14:37:43Z",
+      "transaction_hash": "0x904c1d71358b9e5816d560169f5f9f494acec8d0079ac2cff22edfb37d4517f1",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e904c1d71358b9e5816d560169f5f9f494acec8d0079ac2cff22edfb37d4517f1532"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-27T17:54:11Z",
+      "transaction_hash": "0x44489e9cc840e5346c87943e8d826636856b96970853cbcaec0254687e93c5f8",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e44489e9cc840e5346c87943e8d826636856b96970853cbcaec0254687e93c5f857"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-27T12:19:35Z",
+      "transaction_hash": "0xef353654fbe1a09102a5d06e6e827fea24c1424f24d06ea40ae98be2836c9d2f",
+      "safe_tx_hash": "0xde22fe94b9b5dca526b9e1f9b3d828c197a6cbd5410dec5edf6968143b4d3d18",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "GreenPill Cookei Jar "
+      ],
+      "transfers": [
+        {
+          "from": "0x6A54F75e31eeeB7cC1A82326E465bA86d18472ae",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "6900000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ief353654fbe1a09102a5d06e6e827fea24c1424f24d06ea40ae98be2836c9d2f56"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-27T11:47:15Z",
+      "transaction_hash": "0x063d924ced39a9ccd3794bc0e8be8726c87170777e0dfdb136202dbfbc68fa2b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e063d924ced39a9ccd3794bc0e8be8726c87170777e0dfdb136202dbfbc68fa2b10"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-27T10:48:23Z",
+      "transaction_hash": "0x26a04147c1d5e5e3a358198776a9c5c3d48903fab1e6097c30154ce548f61c53",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e26a04147c1d5e5e3a358198776a9c5c3d48903fab1e6097c30154ce548f61c5330"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-26T22:27:39Z",
+      "transaction_hash": "0xe7362e2b00e52624c38b931693261dc7ae099a337b8f2c27a3cd5b5649b97939",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3C2aCA0c287FC5B27C392914D204703aD3d43b19",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "530000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ie7362e2b00e52624c38b931693261dc7ae099a337b8f2c27a3cd5b5649b9793927"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-25T11:44:51Z",
+      "transaction_hash": "0xf5240564b349af1641827dc0577ee63bc8c13fd9578ae8f4efb98046dfd7c937",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1100000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ef5240564b349af1641827dc0577ee63bc8c13fd9578ae8f4efb98046dfd7c93794"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-25T09:18:03Z",
+      "transaction_hash": "0x7d2e6cd311b0b2250e194635fdafa4e16ea3fa577d9bf79d5f7804b71545a814",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e7d2e6cd311b0b2250e194635fdafa4e16ea3fa577d9bf79d5f7804b71545a81446"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-24T09:43:19Z",
+      "transaction_hash": "0x30c13e3abc3a9029f8decd06aa8d0818f4160ba6c3c192b87dc186d1091ebb1a",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e30c13e3abc3a9029f8decd06aa8d0818f4160ba6c3c192b87dc186d1091ebb1a159"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-23T17:39:19Z",
+      "transaction_hash": "0x4afae13b710c9ae334266f0a0070ade99ee9f9e53805647084cf76544ff8b125",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1130000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e4afae13b710c9ae334266f0a0070ade99ee9f9e53805647084cf76544ff8b125114"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-23T17:33:51Z",
+      "transaction_hash": "0x1bebc283ef06798ca8a8d0618a42eff6339d8fa984ba03349b1ec8b4e6c617ca",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "600000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1bebc283ef06798ca8a8d0618a42eff6339d8fa984ba03349b1ec8b4e6c617ca127"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-21T02:24:23Z",
+      "transaction_hash": "0x754ab51ddf59be33d857fbd6e84ee25bc872abd84cd1474a45275832c02a9a17",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3C2aCA0c287FC5B27C392914D204703aD3d43b19",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i754ab51ddf59be33d857fbd6e84ee25bc872abd84cd1474a45275832c02a9a1729"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-19T10:14:29Z",
+      "transaction_hash": "0x0d11f2283121b6f6ebee87b1dfe6371c722dc8518c5ff3ea26b3c3cca734c72b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3C2aCA0c287FC5B27C392914D204703aD3d43b19",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i0d11f2283121b6f6ebee87b1dfe6371c722dc8518c5ff3ea26b3c3cca734c72b77"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-18T07:48:29Z",
+      "transaction_hash": "0xeaf7b7c13cfc1146fd9a8b36da9a56bede201bccc8a23a03f9be62a574fa7e13",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1100000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eeaf7b7c13cfc1146fd9a8b36da9a56bede201bccc8a23a03f9be62a574fa7e13168"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-17T19:49:11Z",
+      "transaction_hash": "0xca128731a9f785f0c7c4fff90187cf9007356fef72956cdfe054b6bef1358909",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eca128731a9f785f0c7c4fff90187cf9007356fef72956cdfe054b6bef135890974"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-17T14:04:47Z",
+      "transaction_hash": "0xe5b7f3587dd8ec3e0cd99e63d6b888519e6d5cff4eea578b2093c35f8916b2b3",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee5b7f3587dd8ec3e0cd99e63d6b888519e6d5cff4eea578b2093c35f8916b2b367"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-16T20:39:19Z",
+      "transaction_hash": "0x7bf4c414f5d3ba29c59a329c1a0af5b69047cbaadaf68518bb0c29b20768dafb",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3C2aCA0c287FC5B27C392914D204703aD3d43b19",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "399360000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i7bf4c414f5d3ba29c59a329c1a0af5b69047cbaadaf68518bb0c29b20768dafb79"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-16T14:21:39Z",
+      "transaction_hash": "0xb9e5657bcb50333765d0fc1eb8ed514be6cae5b873857c211e7f50b253e7c277",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "330000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eb9e5657bcb50333765d0fc1eb8ed514be6cae5b873857c211e7f50b253e7c27719"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-16T02:41:51Z",
+      "transaction_hash": "0xaed7cd18b33a1a10dfe262eb093d4db27eda4fbb3f106aaf2307512b67f0c536",
+      "safe_tx_hash": "0x95071bf975ca71a2af88ae9895d54a1cbcf15e4550a27dff574bb6a90f72cc68",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "amount_raw": "84600000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "iaed7cd18b33a1a10dfe262eb093d4db27eda4fbb3f106aaf2307512b67f0c53643,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-06T12:22:51Z",
+      "transaction_hash": "0x910ae71318fc1206be627f57139fdcca7c9ece24b5dd6df4c56bc5225e27a383",
+      "safe_tx_hash": "0x51769092f0cae3e32d016c150a50d98abf7504d92a9d112d7369a749dabaabf1",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "116000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e910ae71318fc1206be627f57139fdcca7c9ece24b5dd6df4c56bc5225e27a38316"
+        }
+      ]
+    },
+    {
+      "executed_at": "2025-01-06T12:18:55Z",
+      "transaction_hash": "0x8b970f65690058c81f929994a501a2551af4bbf9c33b56224ae082077886c8e3",
+      "safe_tx_hash": "0x2aaf939d92390772763ffad0108acf3a233a04dceca1c4771af2e09a305900bb",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "116000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e8b970f65690058c81f929994a501a2551af4bbf9c33b56224ae082077886c8e362"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-12-06T14:19:41Z",
+      "transaction_hash": "0x2dbcb9c36cc231071cbfcf00ef6372b481f66583c1d618e4972e81beb42bae4b",
+      "safe_tx_hash": "0x5ae96f673b5c3dd707d1c0fc4410eb58a2d2676c9e1abdd1e07bbb16af851d91",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "10000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i2dbcb9c36cc231071cbfcf00ef6372b481f66583c1d618e4972e81beb42bae4b42,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-10-01T21:13:59Z",
+      "transaction_hash": "0xcc49d5763622e7b23c97475069c8f7fdf301d6e48368ddc30280b2f40e9d26a5",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xeec3725cd5E58a86437743a520C09e832B112F8A",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "70006539111187344",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "icc49d5763622e7b23c97475069c8f7fdf301d6e48368ddc30280b2f40e9d26a5118"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-26T17:42:51Z",
+      "transaction_hash": "0xf4a852a233e312b536b12b577c5a9bbeac5c42265f9ac789630b435998e4e3ae",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xeec3725cd5E58a86437743a520C09e832B112F8A",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "700000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "if4a852a233e312b536b12b577c5a9bbeac5c42265f9ac789630b435998e4e3ae108"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-24T08:21:25Z",
+      "transaction_hash": "0xf47b6b5637faa8751f76bdb3c93d9059762dae6f739464790f20fd869ba544fa",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xeec3725cd5E58a86437743a520C09e832B112F8A",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "if47b6b5637faa8751f76bdb3c93d9059762dae6f739464790f20fd869ba544fa87"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-23T12:29:11Z",
+      "transaction_hash": "0x79d2ac58e1ee7536d806f6b56ee64d89ba1f4b350e3716120f8fa68afaf931e3",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e79d2ac58e1ee7536d806f6b56ee64d89ba1f4b350e3716120f8fa68afaf931e3103"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-23T06:45:21Z",
+      "transaction_hash": "0x20ee12b550fdedb9b8058fa6f3a7cc53f7cbbe4296f9b813fbec391032b4f3a1",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e20ee12b550fdedb9b8058fa6f3a7cc53f7cbbe4296f9b813fbec391032b4f3a1181"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-19T22:25:45Z",
+      "transaction_hash": "0x8044148361d145fa570c66f1c5b2ccbfbabd7147f2c9b12701d0d5272754f798",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1686079358898430000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e8044148361d145fa570c66f1c5b2ccbfbabd7147f2c9b12701d0d5272754f798175"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-18T15:39:55Z",
+      "transaction_hash": "0x1e41e7c138408c35fa12d8d8071e839d4e49505f8f71f634b2ebb03ddc6d8228",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xeec3725cd5E58a86437743a520C09e832B112F8A",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "900000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i1e41e7c138408c35fa12d8d8071e839d4e49505f8f71f634b2ebb03ddc6d822822"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-18T10:48:59Z",
+      "transaction_hash": "0x09e08716fb9dbf33038c2db00e21d9454b2bd873f39fc8ec00c31de330e268fe",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e09e08716fb9dbf33038c2db00e21d9454b2bd873f39fc8ec00c31de330e268fe64"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-17T07:36:47Z",
+      "transaction_hash": "0x01e017bdde94650f7de54a9f754563adb6d48ffa6710f97fb67cc2f67ecf9d80",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3000000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e01e017bdde94650f7de54a9f754563adb6d48ffa6710f97fb67cc2f67ecf9d8031"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-17T05:43:13Z",
+      "transaction_hash": "0x4a4434ccc1002419576cf1a53ba12571e3878f631dad0f2ec8997f87b70a559f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e4a4434ccc1002419576cf1a53ba12571e3878f631dad0f2ec8997f87b70a559f19"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-16T03:38:35Z",
+      "transaction_hash": "0x774594576ac89664f2541e5f11478bde95c4c629782e2c034820ccc361e43e83",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "700000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e774594576ac89664f2541e5f11478bde95c4c629782e2c034820ccc361e43e8315"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T23:04:55Z",
+      "transaction_hash": "0xbe600a8618e949d2b00a198c185d6fcb89b7dbd4c8c81db490b759a9a322fcc1",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3010000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ebe600a8618e949d2b00a198c185d6fcb89b7dbd4c8c81db490b759a9a322fcc122"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T16:46:09Z",
+      "transaction_hash": "0x9cc01cc1cf63136fdba37c404343bd162590f4df453fe5bc158ee9263ce3a087",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1180000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i9cc01cc1cf63136fdba37c404343bd162590f4df453fe5bc158ee9263ce3a08744"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T15:39:05Z",
+      "transaction_hash": "0x1991a5ffc45ad5e243c1c7ac8c4ea7faa6129fe2de2dd2ff47f683cb669a95f9",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3010000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1991a5ffc45ad5e243c1c7ac8c4ea7faa6129fe2de2dd2ff47f683cb669a95f942"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T13:15:19Z",
+      "transaction_hash": "0x9a7270dba663d4115d121735bed5d7371fb93c96feee6ceac16d58b7cda2c7e6",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2300000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9a7270dba663d4115d121735bed5d7371fb93c96feee6ceac16d58b7cda2c7e668"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T12:52:57Z",
+      "transaction_hash": "0xf66185a103d4c181bb3480f9da37a427a84ad0bdc35b84b324aa7eeeb95e40d3",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "18000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ef66185a103d4c181bb3480f9da37a427a84ad0bdc35b84b324aa7eeeb95e40d340"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T12:20:31Z",
+      "transaction_hash": "0x66c7f46689030c6e8f8877667ecf2830462940b143addcf5f3f76e601bce5c65",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i66c7f46689030c6e8f8877667ecf2830462940b143addcf5f3f76e601bce5c65109"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T08:56:23Z",
+      "transaction_hash": "0xd2074a479da81f09c1e14fcce7cbbf834673a9f2f246987e195b60c5fd29e83f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "100000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "id2074a479da81f09c1e14fcce7cbbf834673a9f2f246987e195b60c5fd29e83f45"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-21T06:50:59Z",
+      "transaction_hash": "0xc9f60b25e329b474de1e9cc688176b2964d3a6b4946799243c020bf8d616c83e",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "10000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec9f60b25e329b474de1e9cc688176b2964d3a6b4946799243c020bf8d616c83e1560"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-20T21:04:59Z",
+      "transaction_hash": "0x6d6b6fc1aae4f34f1ca7914ddb645559d23289e6483ec59034e95ae071f3523c",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "5000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i6d6b6fc1aae4f34f1ca7914ddb645559d23289e6483ec59034e95ae071f3523c53"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-20T15:04:05Z",
+      "transaction_hash": "0xdb3a0758324ef0c8feb5805ffee5b89d5f219219a8f9373f42da098023ee3e5f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1200000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "idb3a0758324ef0c8feb5805ffee5b89d5f219219a8f9373f42da098023ee3e5f47"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-20T13:22:49Z",
+      "transaction_hash": "0x30b847b532d380835418be5bddf58f956935f4c275ecd081a7c5d37431c0d0ad",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e30b847b532d380835418be5bddf58f956935f4c275ecd081a7c5d37431c0d0ad90"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-20T08:52:53Z",
+      "transaction_hash": "0xc50f7ba611264b2755b35294605ea6ccb6b103a9a55b1189186274e1afe71038",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "30000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec50f7ba611264b2755b35294605ea6ccb6b103a9a55b1189186274e1afe7103836"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-20T05:39:51Z",
+      "transaction_hash": "0x71bbf09bc72641462f5d18ee60a217cd635dc61b10ceaf726b23443ca9ca80f3",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "4000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i71bbf09bc72641462f5d18ee60a217cd635dc61b10ceaf726b23443ca9ca80f314"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T19:11:53Z",
+      "transaction_hash": "0x59b6fe20ab83117cbe2b63d5182e124b9922dbd97a056c990ee66f51e97a13da",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3100000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e59b6fe20ab83117cbe2b63d5182e124b9922dbd97a056c990ee66f51e97a13da48"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T16:57:53Z",
+      "transaction_hash": "0x7b93eedebe4a8160b5945831bfe14f4e2dc2cac8751dc492f303d41e7ef87250",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "36000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e7b93eedebe4a8160b5945831bfe14f4e2dc2cac8751dc492f303d41e7ef87250183"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T08:43:25Z",
+      "transaction_hash": "0xae4279bfe7fb42b73e4c987d11379e9f11707107c5869cf63f309f14310ddf6b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2300000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eae4279bfe7fb42b73e4c987d11379e9f11707107c5869cf63f309f14310ddf6b38"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T08:41:03Z",
+      "transaction_hash": "0x154a9c0d58796074b5294f282edc720e937bc52df04932a9dbc12238baa5f24f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2300000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e154a9c0d58796074b5294f282edc720e937bc52df04932a9dbc12238baa5f24f274"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T08:33:17Z",
+      "transaction_hash": "0xa49ac33d097228d29c00d0b01f118258caf4a7ddd5c46d1d5817a8ecb4174091",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ea49ac33d097228d29c00d0b01f118258caf4a7ddd5c46d1d5817a8ecb41740912593"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-19T06:50:11Z",
+      "transaction_hash": "0x1632a1a2f72ff6fa888f0f61fd66958ade59ef60bf40afeb20d1f53162a55fab",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i1632a1a2f72ff6fa888f0f61fd66958ade59ef60bf40afeb20d1f53162a55fab9"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-18T16:34:57Z",
+      "transaction_hash": "0x33b16f79ed5b789d25ea3ca5c073371a42f20960b97eed9b7c6a599b9ec3de04",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "10000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i33b16f79ed5b789d25ea3ca5c073371a42f20960b97eed9b7c6a599b9ec3de0441"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-18T08:04:03Z",
+      "transaction_hash": "0x00ca7d66dc6d83b4f9485fb66fa1d533431292af96f4f6341b90e08bf214c0f2",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i00ca7d66dc6d83b4f9485fb66fa1d533431292af96f4f6341b90e08bf214c0f28"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-18T05:37:41Z",
+      "transaction_hash": "0xea5245d2e39f3714d6cf8ed37b55ae8867b9a0e78dd26926fca82ac299c55379",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1200000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "iea5245d2e39f3714d6cf8ed37b55ae8867b9a0e78dd26926fca82ac299c5537920"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-17T13:26:15Z",
+      "transaction_hash": "0x05656d5545b6136623a59529c33ac1d3c52435a50477c9dcd674c1b28484f273",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3100000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e05656d5545b6136623a59529c33ac1d3c52435a50477c9dcd674c1b28484f273206"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-17T07:21:27Z",
+      "transaction_hash": "0xce8fe0752ae5ccf6b6f60baaa543fb1f29ce55b1ffb22dc0ef882a0d3b7d6005",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1300000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ice8fe0752ae5ccf6b6f60baaa543fb1f29ce55b1ffb22dc0ef882a0d3b7d6005556"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-17T05:33:57Z",
+      "transaction_hash": "0x7158b4f3359f0fbd0835648350695b92dcc8f98922396c78ca00c4e07db66128",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1400000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i7158b4f3359f0fbd0835648350695b92dcc8f98922396c78ca00c4e07db6612834"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-17T02:48:01Z",
+      "transaction_hash": "0x0cc35c06f936de2fa6798ed2506620a6a16c044c29da56fe04ca864126167fe8",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i0cc35c06f936de2fa6798ed2506620a6a16c044c29da56fe04ca864126167fe832"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-16T10:51:53Z",
+      "transaction_hash": "0x9d521906a5cd15e6baf227185deabcb2ec3b15bb867e31f886729bd6b785f2b8",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "100000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9d521906a5cd15e6baf227185deabcb2ec3b15bb867e31f886729bd6b785f2b88"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-16T06:33:33Z",
+      "transaction_hash": "0xf0cbbde05cdddc904e7328dff4fae2b2ae267b7ba50f88080ac34e0862536692",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "if0cbbde05cdddc904e7328dff4fae2b2ae267b7ba50f88080ac34e086253669220"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-16T03:41:03Z",
+      "transaction_hash": "0xeb5368d1304d277960dce2018f70837a15bbf4a10da10151e1ed1ade4934eb87",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3100000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eeb5368d1304d277960dce2018f70837a15bbf4a10da10151e1ed1ade4934eb87174"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-15T17:07:15Z",
+      "transaction_hash": "0x36467b181af9e12cf134778ac86f906e5cb714243ab9e3dabf2d5816297495ed",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i36467b181af9e12cf134778ac86f906e5cb714243ab9e3dabf2d5816297495ed36"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-15T15:19:17Z",
+      "transaction_hash": "0x71fbfaa8da5da251e5554ec937660c89d2d43a94d5ecb2f6c01b16eaa01e9756",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i71fbfaa8da5da251e5554ec937660c89d2d43a94d5ecb2f6c01b16eaa01e97569"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-15T13:21:53Z",
+      "transaction_hash": "0x5205d4ed1bcabbe23cf1f8aef8dc79cc55c81130145846b8fa4de3fa16542b3e",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i5205d4ed1bcabbe23cf1f8aef8dc79cc55c81130145846b8fa4de3fa16542b3e4"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-15T12:26:35Z",
+      "transaction_hash": "0x51c64f03bce1df7bac69e28a7e84bae5e5817991a7559318887bdc23dae129bc",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e51c64f03bce1df7bac69e28a7e84bae5e5817991a7559318887bdc23dae129bc20"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-15T05:27:45Z",
+      "transaction_hash": "0x7fbb8a7c1797efb78cec574a5255afd8f12d208bc47f4235423d2c4a37db4982",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1290000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i7fbb8a7c1797efb78cec574a5255afd8f12d208bc47f4235423d2c4a37db498279"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-14T13:51:41Z",
+      "transaction_hash": "0xb3d4a95b43c480f9d562537f721c4b528a66a91cc62c6e7061d5bce3f9d96871",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1500000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ib3d4a95b43c480f9d562537f721c4b528a66a91cc62c6e7061d5bce3f9d9687118"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-13T10:45:13Z",
+      "transaction_hash": "0xf055474f6f3b5473d002deee61687e7b39cd8506e464cd1393db8158827203f2",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ef055474f6f3b5473d002deee61687e7b39cd8506e464cd1393db8158827203f223"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-12T12:53:43Z",
+      "transaction_hash": "0x1c513b2237d0a3b371ffe364509ac53457eb43ee3bed3c1425e9622bd3adcf2d",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "3000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1c513b2237d0a3b371ffe364509ac53457eb43ee3bed3c1425e9622bd3adcf2d1043"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-12T04:55:53Z",
+      "transaction_hash": "0xd386312bcc19a97220083536ce9661fd806b2621b161e42f7287c7fbaeb28aa4",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1200000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "id386312bcc19a97220083536ce9661fd806b2621b161e42f7287c7fbaeb28aa453"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-12T01:56:59Z",
+      "transaction_hash": "0x62b72534d43735cbe782f1bf2bcae1d2a18e9b18b8683e9c2839d2d38126ad13",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "600000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i62b72534d43735cbe782f1bf2bcae1d2a18e9b18b8683e9c2839d2d38126ad1328"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-11T08:18:47Z",
+      "transaction_hash": "0x60c5fdb0487b2c6eb5858c6ff59a166e7b6af547828ec2a89c85953397cdd665",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "690000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e60c5fdb0487b2c6eb5858c6ff59a166e7b6af547828ec2a89c85953397cdd66569"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-10T02:24:27Z",
+      "transaction_hash": "0xb8ff230fe5e1a30ce1389a1e92682c30cdcf884bb56888ffc8f13a762003b926",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xb436c7b79feaa7D1b071eBb5BA5Ee3C2785B716F",
+          "amount_raw": "100000001",
+          "asset_symbol": "UЅDС",
+          "asset_address": "0xD113F3ED33F697a732b0B6268eA6e6EAEF5EB139",
+          "asset_decimals": 6,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eb8ff230fe5e1a30ce1389a1e92682c30cdcf884bb56888ffc8f13a762003b9267"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-10T02:24:01Z",
+      "transaction_hash": "0xdf8beb4d5e9e98e325f8367455cd019adad0d513b0b89d4fa1de024f68012b25",
+      "safe_tx_hash": "0x00306a7029eeb5c8066a09d58235f9a1bdf91d250716043a86f57f05e425bd8f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB4320e003b382223187a521361B64f45255b716F",
+          "amount_raw": "100000000",
+          "asset_symbol": "USDC",
+          "asset_address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+          "asset_decimals": 6,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "edf8beb4d5e9e98e325f8367455cd019adad0d513b0b89d4fa1de024f68012b2513"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-09T23:25:37Z",
+      "transaction_hash": "0x0de04b9968b98f1ba0a65a5926d715b3e03e7b69d92fa63258e4998814a53f96",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "20000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i0de04b9968b98f1ba0a65a5926d715b3e03e7b69d92fa63258e4998814a53f9629"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-09T13:38:09Z",
+      "transaction_hash": "0x40b4eb01b42ce334cdd80f8d9dfa298c32f7551a21112b0998554711bc098815",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "4000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i40b4eb01b42ce334cdd80f8d9dfa298c32f7551a21112b0998554711bc09881531"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-09T08:06:17Z",
+      "transaction_hash": "0xe91b946ce8fad1d913fba47b611c28974ed9b37abd0711af0b4c3dc5d969e16e",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1100000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ee91b946ce8fad1d913fba47b611c28974ed9b37abd0711af0b4c3dc5d969e16e42"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-09T05:18:09Z",
+      "transaction_hash": "0x0efd81e38f0f77a53f64a4a30bbadb431b33e7ee986b3516bb474309b93cc4ed",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "4000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i0efd81e38f0f77a53f64a4a30bbadb431b33e7ee986b3516bb474309b93cc4ed11"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-09T04:08:03Z",
+      "transaction_hash": "0x301f75a013c8f4b7f99e92c70e645911e8cdd3c8d6e28661db10da0cab26dd14",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1200000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i301f75a013c8f4b7f99e92c70e645911e8cdd3c8d6e28661db10da0cab26dd1417"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-08T14:31:33Z",
+      "transaction_hash": "0xddd2bd705ec1706ca298066e63f86969e696727796fd617b94fd20ef0757321c",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "5000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "iddd2bd705ec1706ca298066e63f86969e696727796fd617b94fd20ef0757321c24"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-08T06:22:43Z",
+      "transaction_hash": "0x0352443cb292828ef096672b0370328a81549b49253904a682b31afc24e3cae7",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "900000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e0352443cb292828ef096672b0370328a81549b49253904a682b31afc24e3cae713"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-07T23:33:27Z",
+      "transaction_hash": "0xac39e5f0a7b828812f16e52664ca025d15e30b47bb8a79579909148d029d89ff",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x09B14Fe9786afdFcbB8AD8512715E5eCB6443DB4",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "iac39e5f0a7b828812f16e52664ca025d15e30b47bb8a79579909148d029d89ff54"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-14T16:23:13Z",
+      "transaction_hash": "0x62fd012942c62ed6dc94e35cee50136796a8424f3ffd96262d82002fdeb69b9b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255A4ccd332f4444D90BD0D8949E28d25185AD5F",
+          "amount_raw": "5000000000000000000",
+          "asset_symbol": " DАI ",
+          "asset_address": "0xb177DaE1b6c43E6bcC380B74322945fF194F5711",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e62fd012942c62ed6dc94e35cee50136796a8424f3ffd96262d82002fdeb69b9b164"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3dB146395B4a1a6Cbd739C42865fa10CEfbbb699",
+          "amount_raw": "137000000000000000000",
+          "asset_symbol": " DАI ",
+          "asset_address": "0xb177DaE1b6c43E6bcC380B74322945fF194F5711",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e62fd012942c62ed6dc94e35cee50136796a8424f3ffd96262d82002fdeb69b9b165"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-10T12:46:27Z",
+      "transaction_hash": "0x7e096750cfde386451e6a42a0047e5bd1776ddd1300d4c79fcfac6d8bac5cab7",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "100000000",
+          "asset_symbol": "USDC",
+          "asset_address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+          "asset_decimals": 6,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e7e096750cfde386451e6a42a0047e5bd1776ddd1300d4c79fcfac6d8bac5cab7105"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-08T11:55:01Z",
+      "transaction_hash": "0x3660e697c4446c4c2911b781ecc4464a3dd316236b7a63d56246051651aec81c",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x41E492873b7f4605028C70F239333ca1BB95543b",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "2001738147341805220",
+          "asset_symbol": "USDGLO",
+          "asset_address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e3660e697c4446c4c2911b781ecc4464a3dd316236b7a63d56246051651aec81c13"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-06-26T11:13:29Z",
+      "transaction_hash": "0x9d999bb4bd5ca0f514933ef326ab062bfc5527cfa3caaf5ff52e2406223ea6f0",
+      "safe_tx_hash": "0xfb2e0652673770c209b4cfdbf833568be2514583a3b0e8d845149e8ebaa7158e",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xCb1355ff08Ab38bBCE60111F1bb2B784bE25D7e8",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "673436229863531840630",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e9d999bb4bd5ca0f514933ef326ab062bfc5527cfa3caaf5ff52e2406223ea6f015"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-15T11:52:17Z",
+      "transaction_hash": "0xd500c18e3b6b52c5f29b08a611495c58b60921a4ffa5e3b574426fa150816596",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "331141474395400368056",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ed500c18e3b6b52c5f29b08a611495c58b60921a4ffa5e3b574426fa15081659613"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-15T11:50:11Z",
+      "transaction_hash": "0xb14f737eb2c154db5a25df054ebf77d1943423e9bae081f4be3280123000ab60",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eb14f737eb2c154db5a25df054ebf77d1943423e9bae081f4be3280123000ab6055"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-15T10:53:59Z",
+      "transaction_hash": "0x1f507cf259e4d3633f9138901e0005aedcdc94b19dc035a92c915efa07c1143b",
+      "safe_tx_hash": "0x608253501a771d903602dc7cdef663168411e94313134295c2936baf53570157",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "amount_raw": "115050000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i1f507cf259e4d3633f9138901e0005aedcdc94b19dc035a92c915efa07c1143b163,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-15T10:46:27Z",
+      "transaction_hash": "0x0ab8e0664ce2c653923d3480519c879773b51022fccaf94cd7d1199b85e53c29",
+      "safe_tx_hash": "0x0c7e1fccb129a4fc06b72077feaf112e568b561456eb45dc277dcb241170bd63",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-05-08T13:48:43Z",
+      "transaction_hash": "0x16afd3943f095b79973a0ba070e772bd0dcb6166cb5b72539af184d42e4c3372",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e16afd3943f095b79973a0ba070e772bd0dcb6166cb5b72539af184d42e4c337227"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:39:35Z",
+      "transaction_hash": "0x1cf52123ff8c00f5eb5a2ac633f48b7750aeee85c0ebfe3bea02c35428b1df12",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x15fa08599EB017F89c1712d0Fe76138899FdB9db",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e1cf52123ff8c00f5eb5a2ac633f48b7750aeee85c0ebfe3bea02c35428b1df1234"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:22:59Z",
+      "transaction_hash": "0xbb59a94b462d21673716dfc61dfdbc7c29acb6d9ca0339fae6de1efb8da3bfae",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255A4ccd332f4444D90BD0D8949E28d25185AD5F",
+          "amount_raw": "5000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0x8B26eD84f101D49b43F082834a4080E6d5615F9D",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ebb59a94b462d21673716dfc61dfdbc7c29acb6d9ca0339fae6de1efb8da3bfae60"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:21:57Z",
+      "transaction_hash": "0x64750c933e53171e4e1a19d61a788cd70043dcdc124b5f6384677aee006320d1",
+      "safe_tx_hash": "0xf1562c0f362ee5abdfefa940c035cfbc1f5074a31428a8a5f7e080189a005e55",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "5000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e64750c933e53171e4e1a19d61a788cd70043dcdc124b5f6384677aee006320d175"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:20:09Z",
+      "transaction_hash": "0xbc5fca6291c98916a85923f90b58b0b2a3fb3b273329e1b4e7a618d1d7117c84",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3dB146395B4a1a6Cbd739C42865fa10CEfbbb699",
+          "amount_raw": "137000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0x8B26eD84f101D49b43F082834a4080E6d5615F9D",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ebc5fca6291c98916a85923f90b58b0b2a3fb3b273329e1b4e7a618d1d7117c8487"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:19:17Z",
+      "transaction_hash": "0x4190f4012bed10efb0df441e5fabafdde46b246f251571389ee896fc12aa8535",
+      "safe_tx_hash": "0x11ab9b38e9f47f5e023d35824aa8bce0ee83a8e64849d46c6934ddbbb13ebed7",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3DB6B5908cA5bC2b3a302980ab299C1139BbB699",
+          "amount_raw": "137000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e4190f4012bed10efb0df441e5fabafdde46b246f251571389ee896fc12aa8535141"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-01T11:15:43Z",
+      "transaction_hash": "0x831278b5bd3f90c72ae8ec88feaf18c4ac9cea08c0cf13de639c2faac43e9957",
+      "safe_tx_hash": "0x4890f5c2b5f95a3f827d2b3e110f4dc3b7b36d6c1e2acd621cb74c24536b39a8",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-04-24T16:15:25Z",
+      "transaction_hash": "0xc26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b51",
+      "safe_tx_hash": "0x70f84214c8994a1e33b0ea132bbc186784ab57a920ebf67b53e712cf9f1afb0f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x255f7D91B2ddDAbBe044C64840460A1B7285ad5F",
+          "amount_raw": "20000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5188"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x5d3f7C09c0132C2c5A78ec2E654b9068f5550954",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5191"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3DB6B5908cA5bC2b3a302980ab299C1139BbB699",
+          "amount_raw": "20000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5190"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+          "amount_raw": "20000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5189"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x3DB6B5908cA5bC2b3a302980ab299C1139BbB699",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5187"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xE550D3Ad3fe49CFCc2Dc9da1b8a73b92c8b275e6",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5186"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0xcFB9FC585eD11Bb8A6E79547920d825B6666Bf55",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5185"
+        },
+        {
+          "from": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "to": "0x7fF3c36212F5B10846B7A2569b7b8a822a900050",
+          "amount_raw": "10000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ec26f77ea93455c725220c3fa0becf534dfe58746db968ef496fe70dc88be3b5184"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-04-11T22:18:47Z",
+      "transaction_hash": "0x7a8a61451d9c8d92d5ef9bb9408923d52c3f0ceaad48ebb35b7be83596647dfd",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "345000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i7a8a61451d9c8d92d5ef9bb9408923d52c3f0ceaad48ebb35b7be83596647dfd17"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-04-11T22:07:41Z",
+      "transaction_hash": "0xb0b86d3ccdf83c72042993dcf04c97f0466880232ac474a95b6dd5d806289deb",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "25000000000000000000",
+          "asset_symbol": "OP",
+          "asset_address": "0x4200000000000000000000000000000000000042",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "eb0b86d3ccdf83c72042993dcf04c97f0466880232ac474a95b6dd5d806289deb14"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-04-11T21:58:23Z",
+      "transaction_hash": "0xfc1bb99751ed47f3dd68aae0e9b1d757e62603b537fa80617b726dd54c5cf8d2",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "415924647288813250659",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "efc1bb99751ed47f3dd68aae0e9b1d757e62603b537fa80617b726dd54c5cf8d256"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-04-11T21:55:25Z",
+      "transaction_hash": "0x11a3c7d0c39aa54cd0e4da466b096a630aabd2e8b1236cffad6534fe6de28751",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x13126B6859FB72D3956797d94c99078B40294679",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "DAI",
+          "asset_address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e11a3c7d0c39aa54cd0e4da466b096a630aabd2e8b1236cffad6534fe6de2875193"
+        }
+      ]
+    }
+  ]
+}

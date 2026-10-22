@@ -47,7 +47,7 @@ test('finds a requested executed transaction in its group', async () => {
             return response({ next: null, results: [{
                 txHash: hash,
                 executionDate: '2026-10-09T15:06:51Z',
-                transfers: [{ from: artSafe, to: actionSafe, value: '2500000', tokenAddress: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58', tokenInfo: { symbol: 'USDT', decimals: 6 } }]
+                transfers: [{ from: artSafe, to: actionSafe, value: '2500000', tokenAddress: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58', tokenInfo: { symbol: 'USDT', decimals: 6, trusted: true } }]
             }] });
         }
     });
@@ -106,9 +106,11 @@ test('grant context excludes a Safe note explicitly marked as test', () => {
     assert.doesNotMatch(result, /1\.868 USDT/);
 });
 
-test('does not fetch without a Safe API key', async () => {
+test('reads the GreenSofa snapshot without a Safe API key', async () => {
     const result = await handleWalletRequest('GreenSofa 最近交易', { apiKey: '', fetcher: () => { throw new Error('must not fetch'); } });
-    assert.match(result, /SAFE_API_KEY/);
+    assert.match(result, /最近已收錄交易/);
+    assert.match(result, /客廳＋綠沙發＋頂加/);
+    assert.match(result, /快照日期：2026-10-22/);
 });
 
 test('accepts a registered wallet address as the group selector', async () => {
@@ -118,14 +120,16 @@ test('accepts a registered wallet address as the group selector', async () => {
     assert.match(result, /藝術銀行/);
 });
 
-for (const [name, address] of [
-    ['FAB DAO 總金庫', '0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b'],
-    ['GreenSofa', '0x18c4A9Fe8347F1938DD8a9157205f46479AdF169'],
-    ['藝術銀行', artSafe],
-    ['頂加實驗室', '0x455D502e22209cD4dAd06B23268921397F0A5656']
+for (const [name, address, savedHash] of [
+    ['FAB DAO 總金庫', '0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b', '0x513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417'],
+    ['GreenSofa', '0x18c4A9Fe8347F1938DD8a9157205f46479AdF169', '0x8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b'],
+    ['藝術銀行', artSafe, '0x513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417'],
+    ['頂加實驗室', '0x455D502e22209cD4dAd06B23268921397F0A5656', '0x8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b']
 ]) {
-    test(`${name} routes balance, recent and specified-hash queries to its Safe`, async () => {
+    test(`${name} serves history locally but reads balances and explicitly live history from Safe`, async () => {
+        const calls = [];
         const fetcher = async url => {
+            calls.push(url);
             assert.match(url, /\/tx-service\/oeth\/api\//);
             assert.ok(url.toLowerCase().includes(address.toLowerCase()));
             if (url.includes('/balances/')) return response({ results: [
@@ -138,7 +142,48 @@ for (const [name, address] of [
         };
         const options = { apiKey: 'test-key', fetcher };
         assert.match(await handleWalletRequest(`${name} 錢包餘額`, options), /1 ETH/);
-        assert.match(await handleWalletRequest(`${name} 最近交易`, options), new RegExp(hash));
+        const callsAfterBalance = calls.length;
+        assert.match(await handleWalletRequest(`${name} 最近交易`, options), new RegExp(savedHash));
+        assert.match(await handleWalletRequest(`${name} 查詢交易 ${savedHash}`, options), /已收錄快照/);
+        assert.equal(calls.length, callsAfterBalance);
+        assert.match(await handleWalletRequest(`${name} 即時最近交易`, options), new RegExp(hash));
         assert.match(await handleWalletRequest(`${name} 查詢交易 ${hash}`, options), /指定交易/);
+        assert.equal(calls.length, callsAfterBalance + 2);
     });
 }
+
+test('preserves two identical transfers in one Safe operation', async () => {
+    const result = await handleWalletRequest('FAB DAO 總金庫 查詢交易 0x513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417', {
+        apiKey: '', fetcher: () => { throw new Error('must not fetch'); }
+    });
+    assert.equal((result.match(/支出 2\.5 ETH/g) || []).length, 2);
+    assert.match(result, /藝術銀行活動＋聯絡人工作費/);
+});
+
+test('marks unsolicited assets as untrusted', async () => {
+    const result = await handleWalletRequest('GreenSofa 最近交易', {
+        apiKey: '', fetcher: () => { throw new Error('must not fetch'); }
+    });
+    assert.match(result, /未核實代幣/);
+    assert.doesNotMatch(result, /www\.base1\.cfd/);
+});
+
+test('searches saved Safe notes locally by keyword', async () => {
+    const result = await handleWalletRequest('頂加實驗室 備註 hypercert dashboard', {
+        apiKey: '', fetcher: () => { throw new Error('must not fetch'); }
+    });
+    assert.match(result, /頂加實驗室 hypercert dashboard development 第一期經費/);
+    assert.match(result, /0x036e7061d7fb0e335b34b38a95b584dd17cf15dfd516a4d914727fee4393bf27/);
+    assert.doesNotMatch(result, /Jan 2026 Taiwan Hypercerts Dashboard management cost/);
+});
+
+test('recorded history and notes fit one Discord message for all five wallets', async () => {
+    for (const name of ['行動客廳', 'FAB DAO 總金庫', '頂加實驗室', 'GreenSofa', '藝術銀行']) {
+        for (const query of ['最近交易', '備註']) {
+            const result = await handleWalletRequest(`${name} ${query}`, {
+                apiKey: '', fetcher: () => { throw new Error('must not fetch'); }
+            });
+            assert.ok(result.length < 2000, `${name} ${query} is too long for Discord`);
+        }
+    }
+});

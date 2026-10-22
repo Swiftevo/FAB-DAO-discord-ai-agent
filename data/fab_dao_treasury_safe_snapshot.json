@@ -1,0 +1,740 @@
+{
+  "wallet": "oeth:0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+  "group_id": "fab_dao_treasury",
+  "snapshot_at": "2026-10-22T08:36:05.761Z",
+  "source_transactions": "https://api.safe.global/tx-service/oeth/api/v2/safes/0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b/all-transactions/",
+  "source_transfer_export": "https://api.safe.global/tx-service/oeth/api/v1/safes/0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b/export/",
+  "transaction_count": 37,
+  "transfer_count": 33,
+  "transactions": [
+    {
+      "executed_at": "2026-10-09T15:22:49Z",
+      "transaction_hash": "0x7447c299f1642dc5f72525c7a02edffd877fe832a6d1f590ce71e77bc893d304",
+      "safe_tx_hash": "0x215ab1ef18efd9346c47bacf8ef4d3a510110a6c1640c5b6a0ee095983905f21",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-10-09T15:11:15Z",
+      "transaction_hash": "0xb784b554322e08aba8a2d7f8b95dbeb7f433dbc2c9c06a41cb0612270aa355c6",
+      "safe_tx_hash": "0x2b036f1eadac1a9d8dc03a0ba512b6514400a6d65bf1ded47f668bf2572682bb",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-10-09T15:06:51Z",
+      "transaction_hash": "0x8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b",
+      "safe_tx_hash": "0x42533412f6c382244b38677216ae6c4b4533451c9eb017d1edd42d95ba6f73b1",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "客廳＋綠沙發＋頂加 活動費＋聯絡人工作費"
+      ],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b100"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x18c4A9Fe8347F1938DD8a9157205f46479AdF169",
+          "amount_raw": "1000000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b99"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+          "amount_raw": "4500000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b98"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-10-09T15:06:07Z",
+      "transaction_hash": "0x513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417",
+      "safe_tx_hash": "0x9b81287edcf83834a961d12ad20f3311773557ca7c111e0aedfa79c837982058",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "藝術銀行活動＋聯絡人工作費"
+      ],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4DC816b76C7155C6b79b94174688Adc26193c169",
+          "amount_raw": "2500000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417208,0"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4DC816b76C7155C6b79b94174688Adc26193c169",
+          "amount_raw": "2500000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i513337fe83951f8c7e5f4b080305098761662812bd5293280f2b70598133a417209"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-09-26T13:51:25Z",
+      "transaction_hash": "0xd61e809985425e01502328fb5e19c2afe0211892d7836ff422c89e6e67c2989c",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A327867Dfb811E4764b18b2E19e6F6d399CD97b",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "1",
+          "asset_symbol": "EṬH",
+          "asset_address": "0xfAf5fCe33B906F289dB974Efdbf7bf77d5Fe7F31",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ed61e809985425e01502328fb5e19c2afe0211892d7836ff422c89e6e67c2989c101"
+        }
+      ]
+    },
+    {
+      "executed_at": "2026-04-09T16:37:21Z",
+      "transaction_hash": "0x0affb5fba48c9e0e948d184d5c4b0a95762184fbcb7bd6c6294ac1dcd618e992",
+      "safe_tx_hash": "0x9b4f16c5b45a113bade7104cf4be36a3c7ee020d68ad8d1566a09d35107a31b6",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "藝術銀行聯絡人2,3月工作費"
+      ],
+      "transfers": []
+    },
+    {
+      "executed_at": "2025-02-19T02:04:41Z",
+      "transaction_hash": "0xf15b7f80187c6d4896e72ed617a63f8c258d6f3d46b06d27f495391ae009e8fe",
+      "safe_tx_hash": "0x9aefcab6d3b6600143b2607e1bb91c70ff47037512a430249a2ac1c300dd2db6",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [
+        "hypercert lab team"
+      ],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "160000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "if15b7f80187c6d4896e72ed617a63f8c258d6f3d46b06d27f495391ae009e8fe32"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "160000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "if15b7f80187c6d4896e72ed617a63f8c258d6f3d46b06d27f495391ae009e8fe31,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-10-30T15:37:27Z",
+      "transaction_hash": "0x05383d1325385e0b963abf79bf2d551b8d2af0d20d12977a21c499ecd8eae243",
+      "safe_tx_hash": "0x3dae5aa30c8d6eca2ff70c3dbac15c73c85062c0dbe34ee7d39d736cb9780517",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "586130000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i05383d1325385e0b963abf79bf2d551b8d2af0d20d12977a21c499ecd8eae24374"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "586130000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i05383d1325385e0b963abf79bf2d551b8d2af0d20d12977a21c499ecd8eae24373,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-23T15:09:11Z",
+      "transaction_hash": "0xd4ac2c4cb2c2f629613295e2edc06e96515c3cd8e8d5cb649a3668b99e7208d3",
+      "safe_tx_hash": "0xee74d515377a1de80db8f2fd92652c384655de747167ef1988647413b207e553",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4DC816b76C7155C6b79b94174688Adc26193c169",
+          "amount_raw": "3330000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "id4ac2c4cb2c2f629613295e2edc06e96515c3cd8e8d5cb649a3668b99e7208d386"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4DC816b76C7155C6b79b94174688Adc26193c169",
+          "amount_raw": "3330000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "id4ac2c4cb2c2f629613295e2edc06e96515c3cd8e8d5cb649a3668b99e7208d385,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-09-07T09:55:07Z",
+      "transaction_hash": "0xa6d6c47ef9457074caf768bf011ff39ca3c54e21c184a6dc5354edd00c466914",
+      "safe_tx_hash": "0xdb96a635a4e0b98aac712b7920505ebf65a89efb1a8e66e33b00488749001017",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-09-07T09:51:33Z",
+      "transaction_hash": "0x583ac53dbed12ac34a609e902a3f4d41e739bfbffde8843198a5fe03f628f1ca",
+      "safe_tx_hash": "0xc49622bb55a622467f9b6820d0493c499ee63c04330b4ec3147d0b6abea30c2f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-09-01T11:53:41Z",
+      "transaction_hash": "0xde798838206f92a0081bf8f46363f20e5f1ea9b8c1f9e6324d9f8e524a1b6207",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xacD03D601e5bB1B275Bb94076fF46ED9D753435A",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "1",
+          "asset_symbol": "Acces debridgether.com",
+          "asset_address": "0x342C32CD9AeDEbfeFF2838F18785f52AcC55e723",
+          "asset_decimals": 0,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ede798838206f92a0081bf8f46363f20e5f1ea9b8c1f9e6324d9f8e524a1b620713"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-08-05T14:35:45Z",
+      "transaction_hash": "0x062859ca140f9574811b6a266bf987828ef5dbf689539b2e3b8a70ee32db6727",
+      "safe_tx_hash": "0x570422f9fd530a3840dc0153f6b86dfddc31a28a96822802e16aacf5ac247714",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-08-05T14:28:59Z",
+      "transaction_hash": "0xb1f4ac9325fda8ef2f5658d431fdebd0ae4511c73ab0aa9e9ac53405029cbe8e",
+      "safe_tx_hash": "0xf97a9fc0aad32ab060f4bc1ed6904382ddac150b5f20889f71c8323bfcb51a8a",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-08-05T06:23:35Z",
+      "transaction_hash": "0x462f9081b37b6f5ce2f8552f5ba15bf33167479c26825c4707c5c4918aad6f89",
+      "safe_tx_hash": "0x0b1cba99616b0de725b4ea672463efd994234a2758119b6648f4ac7b1c243786",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-08-05T06:20:47Z",
+      "transaction_hash": "0xe6e0856a974872a2203134ae00531b632d2eda8716b05d98f0b9dfc2e0773aba",
+      "safe_tx_hash": "0x73938647e5d346b4e08333dd74884a64ee95a4ac8e10bd4c29e993b2d6a8bddf",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-07-27T04:51:43Z",
+      "transaction_hash": "0x478ba10747cfb18a4bebc562a1e33a7209640095aaea66848727dfdb478565fe",
+      "safe_tx_hash": "0xa63c61be4e463640e10089b241194abb4a24db933c20b99de59232f2a55fdfca",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0xBEB01AAb5167402a5e89D057a714FabfF94C3112",
+          "amount_raw": "145000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i478ba10747cfb18a4bebc562a1e33a7209640095aaea66848727dfdb478565fe6,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-26T11:54:25Z",
+      "transaction_hash": "0x2b32c23bb8e2e59a6a9049dfc7d3787c321689569bfc9811d5224453dda60ecf",
+      "safe_tx_hash": "0x37a5e3f2729c250b5d394aa98c126ab6fe3f5c037b9af63034dd8e2c74dc6f1e",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x5d3f7C09c0132C2c5A78ec2E654b9068f5550954",
+          "amount_raw": "145000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i2b32c23bb8e2e59a6a9049dfc7d3787c321689569bfc9811d5224453dda60ecf26,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-26T11:53:37Z",
+      "transaction_hash": "0xe9a06ec3ef2cdd3066b8418afe18b89dd5e68d5c56ca15ef4074161116e2ccc8",
+      "safe_tx_hash": "0xce8a840f1d9c6a73d2a504b9a655a6e2cf6432bfbb56b87c962262206024cf80",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0xC40dd2e85459e841021DD84F550645901aA337F9",
+          "amount_raw": "145000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ie9a06ec3ef2cdd3066b8418afe18b89dd5e68d5c56ca15ef4074161116e2ccc818,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-26T11:53:03Z",
+      "transaction_hash": "0x3e0a10317ad24a4f4fe5f2f69c6f4f6715cbce36df3c45315b231b3a69f9a059",
+      "safe_tx_hash": "0x3cba55bb96926c408bb6ade3bcb80c7a5087b8405d9c7abd164fd21471b4356d",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x1F6C07A5a25faf5c8315826827C15a8340f30767",
+          "amount_raw": "145000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i3e0a10317ad24a4f4fe5f2f69c6f4f6715cbce36df3c45315b231b3a69f9a05923,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-25T10:23:45Z",
+      "transaction_hash": "0x7647ffdd9c57b61667fcf34fa008c4587c441f4e45885de12651319c737f8d13",
+      "safe_tx_hash": "0x7d1e6510ca811bfda8897bf5699d8a3111a84e86dc56d3b0b6eb1476da1a33a4",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-07-25T09:00:33Z",
+      "transaction_hash": "0x44306f17d152f81573ac0458ee1450c3333c73dd7246757bba4b161dbcccc043",
+      "safe_tx_hash": "0x93e41464e9652d6ad83982f07502d98be37f38651ed4df7d5b09d74f0b6d6808",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-07-25T08:59:01Z",
+      "transaction_hash": "0x6feb5d4924a1cc889c85d0bfd4a215ad7d51d0efe57c88157759280b99aa1dcd",
+      "safe_tx_hash": "0xedd9a9b86bd3b2c2ec7a79107bebd5be6ab0bb3c24de6f1526bc40abb05d92b0",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2024-07-25T08:55:57Z",
+      "transaction_hash": "0x30d2075c0933bca1a9d8fe753dd6a483bc356783962b8ca7179874bd3cfb625d",
+      "safe_tx_hash": "0xe53c10eab32314352424210aef0ffaf791d5d2a516ef75e63929a68e069d652f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x47DD80070672545781C507aC813e3cB0969a1575",
+          "amount_raw": "290000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i30d2075c0933bca1a9d8fe753dd6a483bc356783962b8ca7179874bd3cfb625d14,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-25T08:52:45Z",
+      "transaction_hash": "0x6daf88b7cad133d48a1d3965818de69d14f96517d1c45c6769601dc677feb44d",
+      "safe_tx_hash": "0x73e6235c726394c057488348f5186e2c191cc3290bb926f506391e509fd2042a",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "580000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i6daf88b7cad133d48a1d3965818de69d14f96517d1c45c6769601dc677feb44d9"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x455D502e22209cD4dAd06B23268921397F0A5656",
+          "amount_raw": "580000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i6daf88b7cad133d48a1d3965818de69d14f96517d1c45c6769601dc677feb44d8,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-07-19T05:55:43Z",
+      "transaction_hash": "0x53bbf260ecc4df96965bf24d5dc9d1a80ad9c24f43ca68f4b19095e1b831ee0d",
+      "safe_tx_hash": "0xd648cd3d78fec9933ca45da893510de88db9eabe6e99a5c9d82f52476a2ee808",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+          "amount_raw": "3900000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i53bbf260ecc4df96965bf24d5dc9d1a80ad9c24f43ca68f4b19095e1b831ee0d13"
+        },
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+          "amount_raw": "3900000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i53bbf260ecc4df96965bf24d5dc9d1a80ad9c24f43ca68f4b19095e1b831ee0d12,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-21T14:19:49Z",
+      "transaction_hash": "0x0da46a5acbecaade74d5702cb0822a725ca5c75007cbaa7fb0a6cea52be2a17e",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "2400",
+          "asset_symbol": "oeth.cash",
+          "asset_address": "0x1B6903D3149E7a33cE19465D3F222bA15Bac9d00",
+          "asset_decimals": 2,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e0da46a5acbecaade74d5702cb0822a725ca5c75007cbaa7fb0a6cea52be2a17e180"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-05-07T15:22:11Z",
+      "transaction_hash": "0x85bdde8b10c4f711b3e64dc98b82e8db2925fe048d50ee19f9c084d89c31b2d5",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x3A326De86fbC731fC3e0823da5a46A23bE65C836",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "7000000",
+          "asset_symbol": "# dhedge.io",
+          "asset_address": "0xe91Ef3679EB289bf170807b030345d98cD8E20ea",
+          "asset_decimals": 2,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e85bdde8b10c4f711b3e64dc98b82e8db2925fe048d50ee19f9c084d89c31b2d5174"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-04-04T03:26:13Z",
+      "transaction_hash": "0xb6f9e99d0d621d8c2f3dadf27b411cd0dbdbe968e2a5ca7bfcd1b913552e0a86",
+      "safe_tx_hash": "0xecd44a0afdfd8c54d2ab4c9fb2037268bf0ccdb3a9c814f2b7701bf5ad95ecb5",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0xB4320e003b382223187a521361B64f45255b716F",
+          "amount_raw": "750000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "ib6f9e99d0d621d8c2f3dadf27b411cd0dbdbe968e2a5ca7bfcd1b913552e0a86153,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-03-21T08:06:29Z",
+      "transaction_hash": "0x56fc1e7ccbe4f0c650bce1d6294330364dd914c3037bc60da9dc849ff50b1b3b",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "10000000000000000000000",
+          "asset_symbol": "OPT",
+          "asset_address": "0x88888888CCda9A4b85c531b4a18247FCe9F8abA5",
+          "asset_decimals": 18,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e56fc1e7ccbe4f0c650bce1d6294330364dd914c3037bc60da9dc849ff50b1b3b114"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-03-18T23:13:17Z",
+      "transaction_hash": "0xa70c739329dba11c4cdbbe0641eb63083642f54612707d112b513f642e4e701e",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "43767",
+          "asset_symbol": "! AAVE.asia",
+          "asset_address": "0x87f4b57E2d3c8C9dCD85aD9dA80129f92754b19f",
+          "asset_decimals": 0,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "ea70c739329dba11c4cdbbe0641eb63083642f54612707d112b513f642e4e701e136"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-03-18T16:38:07Z",
+      "transaction_hash": "0x592b3210fd7cf975e0bf7b48520065eedf6280b101ff20a3558ab0acc5ebd4ad",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x4200000000000000000000000000000000000042",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "43767",
+          "asset_symbol": "BRC-20.WS",
+          "asset_address": "0x109390594d0ef9B40B4B745Cac6ceCf37a179417",
+          "asset_decimals": 0,
+          "asset_trusted": false,
+          "asset_type": "ERC20_TRANSFER",
+          "transfer_id": "e592b3210fd7cf975e0bf7b48520065eedf6280b101ff20a3558ab0acc5ebd4ad127"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-03-18T16:37:55Z",
+      "transaction_hash": "0x3935ce729a683c124bd97dffa3b3f138f994b3aa065314b74bbf74ad97308999",
+      "safe_tx_hash": "0x3636264d3bf3824589f3867dc1e910e08cb5546d1856a41935296c71ba91c9af",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0xab51AD23d222fD0afB4e29F3244402af9aa3C420",
+          "amount_raw": "15000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i3935ce729a683c124bd97dffa3b3f138f994b3aa065314b74bbf74ad9730899913,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-02-15T16:23:53Z",
+      "transaction_hash": "0x03fbe5f2f8fdeb111bd2595e330f39954943ff2b7f4b2e50b5f3c8adcbbc4d1f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x952936E60B9a9E2E9B2950599694aFE9Ff8a8a4a",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "39300000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i03fbe5f2f8fdeb111bd2595e330f39954943ff2b7f4b2e50b5f3c8adcbbc4d1f0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-02-15T16:22:05Z",
+      "transaction_hash": "0x4130faa7db8f55414455e9f9ca8350f411907e70a9ab8bee2c5e1c33eafd4570",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x952936E60B9a9E2E9B2950599694aFE9Ff8a8a4a",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "100000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i4130faa7db8f55414455e9f9ca8350f411907e70a9ab8bee2c5e1c33eafd45709"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-01-28T13:29:03Z",
+      "transaction_hash": "0x52c369c8f28c25f5ee821359113933bab252e09df08ce48bd19f3dd91a00e770",
+      "safe_tx_hash": "0x716e4e36f72bb6605dc5891f27ad9d10f1a08ee9a7b1b72a704a86e7a8e7bc8c",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "to": "0x8D2c159f6aE11900caAd46CBFE46674629EF3A4b",
+          "amount_raw": "1000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i52c369c8f28c25f5ee821359113933bab252e09df08ce48bd19f3dd91a00e770188,0"
+        }
+      ]
+    },
+    {
+      "executed_at": "2024-01-28T13:18:31Z",
+      "transaction_hash": "0x06cc76dcac9d1f1d039bf75c1b24ed1ec4bfe2cd7496e00ab9810d11ba27042f",
+      "safe_tx_hash": null,
+      "tx_type": "ETHEREUM_TRANSACTION",
+      "is_successful": null,
+      "notes": [],
+      "transfers": [
+        {
+          "from": "0x8D2c159f6aE11900caAd46CBFE46674629EF3A4b",
+          "to": "0x5A3200fbcB70b64475d63D73e5439c1F0c7ad97b",
+          "amount_raw": "5000000000000000",
+          "asset_symbol": "ETH",
+          "asset_address": null,
+          "asset_decimals": 18,
+          "asset_trusted": true,
+          "asset_type": "ETHER_TRANSFER",
+          "transfer_id": "i06cc76dcac9d1f1d039bf75c1b24ed1ec4bfe2cd7496e00ab9810d11ba27042f23"
+        }
+      ]
+    }
+  ]
+}

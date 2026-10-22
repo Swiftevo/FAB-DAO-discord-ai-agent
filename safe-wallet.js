@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { findSnapshotTransaction, snapshotTransactionSummary } = require('./safe-snapshot');
+const { findSnapshotTransaction, snapshotTransactionSummary, snapshotRecentTransactions, snapshotNoteSearch } = require('./safe-snapshot');
 
 const GROUPS_DIR = path.join(__dirname, 'data', 'groups');
 const API_ORIGIN = 'https://api.safe.global';
@@ -8,6 +8,8 @@ const HASH_PATTERN = /0x[a-fA-F0-9]{64}\b/;
 const WALLET_PATTERN = /錢包|多簽|safe|wallet/i;
 const BALANCE_PATTERN = /餘額|結餘|資金|資產|balance|還有多少|有幾多/i;
 const HISTORY_PATTERN = /交易|出入|收支|轉帳|流水|transaction|\btx\b|history/i;
+const NOTE_PATTERN = /備註|note/i;
+const LIVE_HISTORY_PATTERN = /即時|實時|实时|live\s*(?:transaction|tx|history)|real.?time/i;
 
 function getConfiguredGroups() {
     const groups = JSON.parse(fs.readFileSync(path.join(GROUPS_DIR, 'index.json'), 'utf8'));
@@ -69,7 +71,8 @@ function tokenAmount(transfer, wallet) {
     const native = !transfer.tokenAddress;
     const decimals = native ? 18 : transfer.tokenInfo?.decimals;
     const symbol = native ? (wallet.native_token_symbol || '原生代幣')
-        : (transfer.tokenInfo?.symbol || transfer.tokenAddress);
+        : transfer.tokenInfo?.trusted === true ? (transfer.tokenInfo?.symbol || transfer.tokenAddress)
+            : '未核實代幣';
     return `${formatUnits(transfer.value, decimals)} ${symbol}`;
 }
 
@@ -147,7 +150,7 @@ async function handleWalletRequest(prompt, options = {}) {
     const group = identifyGroup(prompt, groups);
     const requestedHash = prompt.match(HASH_PATTERN)?.[0];
     const isWalletQuestion = WALLET_PATTERN.test(prompt) ||
-        (group && (BALANCE_PATTERN.test(prompt) || HISTORY_PATTERN.test(prompt))) ||
+        (group && (BALANCE_PATTERN.test(prompt) || HISTORY_PATTERN.test(prompt) || NOTE_PATTERN.test(prompt))) ||
         (requestedHash && (HISTORY_PATTERN.test(prompt) || /查詢|找|搜尋/.test(prompt)));
     if (!isWalletQuestion) return null;
 
@@ -165,14 +168,25 @@ async function handleWalletRequest(prompt, options = {}) {
     if (selectedGroup.visibility !== 'public_governance_data') {
         return `${selectedGroup.name} 的錢包資料尚未標記為可公開查詢。`;
     }
-    if (!BALANCE_PATTERN.test(prompt) && !HISTORY_PATTERN.test(prompt) && !requestedHash) {
-        return `可查詢「${selectedGroup.name} 錢包餘額」、「${selectedGroup.name} 最近交易」，或提供交易 hash。\n${wallet.safe_url}`;
+    if (!BALANCE_PATTERN.test(prompt) && !HISTORY_PATTERN.test(prompt) && !NOTE_PATTERN.test(prompt) && !requestedHash) {
+        return `可查詢「${selectedGroup.name} 錢包餘額」、「${selectedGroup.name} 最近交易」、「${selectedGroup.name} 備註 關鍵字」，或提供交易 hash。\n${wallet.safe_url}`;
     }
     if (requestedHash) {
         const saved = findSnapshotTransaction(wallet, requestedHash);
         if (saved) {
             return `【${selectedGroup.name}｜指定交易（已收錄快照）】\n${snapshotTransactionSummary(saved, wallet)}`;
         }
+    }
+    if (NOTE_PATTERN.test(prompt)) {
+        const keyword = (prompt.match(/(?:備註|note)\s*[:：]?\s*([^\n]*)/i)?.[1] || '')
+            .replace(/[？?。！!]+$/, '').replace(/^(?:查詢|搜尋|找|關於)\s*/, '')
+            .replace(/(?:有哪些|有什麼|是什麼|是甚麼|嗎|呢)$/, '').trim();
+        const saved = snapshotNoteSearch(wallet, keyword);
+        if (saved) return `【${selectedGroup.name}｜已收錄 Safe 備註${keyword ? `：${keyword}` : ''}】\n${saved}`;
+    }
+    if (!requestedHash && HISTORY_PATTERN.test(prompt) && !LIVE_HISTORY_PATTERN.test(prompt)) {
+        const saved = snapshotRecentTransactions(wallet);
+        if (saved) return `【${selectedGroup.name}｜最近已收錄交易】\n${saved}`;
     }
     const apiKey = options.apiKey ?? process.env.SAFE_API_KEY;
     if (!apiKey) return 'Safe 查詢尚未啟用：請維護者在部署環境設定 SAFE_API_KEY。';
