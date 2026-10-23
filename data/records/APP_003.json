@@ -7,6 +7,18 @@
   "project_name": "大量交織+地球公物",
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
   "fab_dao_contact": { "name": "Stanley" },
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "notes": [
+      "02/03 例會、02/05 貼文把 FL YANG 與大量交織及 200 U 專案聯絡人待撥款並列；與現有 Stanley 聯絡人欄位不同，作歷史資料保留，不推斷人事更替或已付款。",
+      "05/12 貼文列 Round 4 60% 啟動款 1142.802 USDT 待撥；05/26 分享 Safe 連結，實際於 06/02 成功執行。",
+      "10/06 貼文稱測試款 1.686 USDT，實際 10/09 鏈上成功轉出 1.868 USDT，Safe Note 含 test；不計作正式 40% 撥款。貼文另稱後續 760 + 1010，尚未從本快照確認執行。"
+    ],
+    "related_safe_tx_hashes": [
+      "0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
+      "0xfab07f01d1f60b756e59c8524b3938c27be269f19e4a27de3baab21670553712"
+    ]
+  },
   "decision_status": "approved",
   "current_status": "active - second round approved and 60 percent disbursed",
   "applicant": {
@@ -218,7 +230,7 @@
       "wallet_address": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
       "chain": "Optimism",
       "verification_status": "maintainer_provided_and_onchain_receipt_verified",
-      "note": "五月大量交織確認此地址為 Optimism USDT 收款地址；2026-06-02 收到行動客廳 Safe 的 1142.802 USDT Round 4 60% 啟動款。另有 1.868 USDT 轉帳，具體用途未確認。舊地址仍保留。",
+      "note": "五月大量交織確認此地址為 Optimism USDT 收款地址；2026-06-02 收到行動客廳 Safe 的 1142.802 USDT Round 4 60% 啟動款。另有 2026-10-09 的 1.868 USDT 轉帳，Safe Note 含 (40%) test；10/06 貼文稱 1.686 USDT，金額不符，不計正式 40%。舊地址仍保留。",
       "confirmation_source_file": "data/archive/APP_003_round4_wallet_confirmation_2026-05.md"
     }
   ],

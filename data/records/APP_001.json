@@ -8,6 +8,10 @@
   "round": 1,
   "declared_tier": { "name": "小鼠", "amount": "30,000 NTD" },
   "fab_dao_contact": { "name": "Yipin" },
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "note": "02/03 例會、02/05 貼文把很睏宜品與 Web3 羽球社、拒然不要及 400 U 並列，稱專案聯絡人尚有 8 個月待撥、流程待重議。400 U 如何分到兩個專案未明；不是新的已付款證據。"
+  },
   "links": {
     "original_proposal": "https://drive.google.com/open?id=1iDcKzsPLWG_20OkqTNzvzH5OixItTqCS&authuser=5",
     "discord_channel": "https://discord.com/channels/909473182598193272/1366787138011664414"

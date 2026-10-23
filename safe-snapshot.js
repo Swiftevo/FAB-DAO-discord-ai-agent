@@ -116,20 +116,30 @@ function snapshotNoteSearch(wallet, keyword = '') {
 }
 
 function getGrantTransactionContext(prompt) {
-    if (!/撥款|補助|資助|轉帳|支付|發放|grant|funding/i.test(prompt)) return '';
+    if (!/撥款|補助|資助|轉帳|支付|發放|交易|資金|經費|測試|bounty|懸賞|grant|funding/i.test(prompt)) return '';
     const projects = [
         { prompt: /APP_003|大量交織/i, note: /大量交織/ },
+        { prompt: /APP_004|事水/i, note: /事水/ },
         { prompt: /APP_006|不可能物件|ghost.object/i, note: /不可能物件/ },
-        { prompt: /APP_007|孤勇者/i, note: /孤勇者/ }
+        { prompt: /APP_007|孤勇者/i, note: /孤勇者/ },
+        { prompt: /desci.onboarding.hub/i, note: /desci-onboarding-hub/i },
+        { prompt: /desci.taiwan/i, note: /desci-Taiwan/i },
+        { prompt: /FIP.?3/i, note: /FIP\s*-?\s*3/i }
     ];
     const project = projects.find(item => item.prompt.test(prompt));
     if (!project) return '';
 
     const snapshot = snapshots.action_living_room;
+    const wantsBounty = /聯絡人|bounty|懸賞|FIP.?3/i.test(prompt);
+    const wantsTest = /測試|\btest\b/i.test(prompt);
     const entries = snapshot.transactions.flatMap(transaction => {
-        const note = (transaction.notes || []).find(item =>
-            /^GRANTS\b/i.test(item) && !/\btest\b/i.test(item) &&
-            project.note.test(item.replace(/⼤/g, '大')));
+        const note = (transaction.notes || []).find(item => {
+            const normalized = item.replace(/⼤/g, '大');
+            return project.note.test(normalized) &&
+                ((wantsBounty && /^BOUNTY\b/i.test(item)) ||
+                (!wantsBounty && /^GRANTS\b/i.test(item) &&
+                    (wantsTest || !/\btest\b/i.test(item))));
+        });
         if (!note || transaction.is_successful === false) return [];
         return (transaction.transfers || []).filter(transfer =>
             transfer.from?.toLowerCase() === ACTION_LIVING_ROOM_SAFE &&
@@ -139,7 +149,7 @@ function getGrantTransactionContext(prompt) {
     if (!entries.length) return '';
 
     const lines = entries.map(({ transaction, transfer, note }) =>
-        `- ${transaction.executed_at}｜${formatUnits(transfer.amount_raw, transfer.asset_decimals)} USDT｜收款地址 ${transfer.to}｜Safe Note: ${safeNote(note)}｜` +
+        `- ${transaction.executed_at}｜${/^BOUNTY\b/i.test(note) ? 'Bounty' : /\btest\b/i.test(note) ? '測試轉帳（非正式分期）' : 'Grant'}｜${formatUnits(transfer.amount_raw, transfer.asset_decimals)} USDT｜收款地址 ${transfer.to}｜Safe Note: ${safeNote(note)}｜` +
         `鏈上 https://optimistic.etherscan.io/tx/${transaction.transaction_hash}` +
         `${transaction.safe_tx_hash ? `｜Safe 備註 https://app.safe.global/transactions/tx?safe=${snapshot.wallet}&id=multisig_${snapshot.wallet.split(':')[1]}_${transaction.safe_tx_hash}` : ''}`);
     return `\n【行動客廳 Safe 已執行交易快照（截至 ${snapshot.snapshot_at.slice(0, 10)}）】\n${lines.join('\n')}\n` +

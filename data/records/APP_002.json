@@ -10,6 +10,10 @@
   "round": 1,
   "declared_tier": { "name": "小鼠", "amount": "30,000 NTD" },
   "fab_dao_contact": { "name": "FL YANG" },
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "note": "02/03 例會、02/05 貼文把很睏宜品與 Web3 羽球社、拒然不要及 400 U 並列，稱專案聯絡人尚有 8 個月待撥、流程待重議。這是歷史名單，與現有 FL YANG 聯絡人欄位不同；未核實更替時間或 400 U 分配，不當作已付款。"
+  },
   "links": {
     "user_provided_proposal": "https://docs.google.com/document/d/18XqZbVii3MBO8SVTw8aF_L-BmO0kMFO8jNKwEF3fd3k/edit?tab=t.0",
     "original_proposal": "https://drive.google.com/file/d/16GDNT65ouVBH0UbyPMAmlfCNA5clIiEs/view",

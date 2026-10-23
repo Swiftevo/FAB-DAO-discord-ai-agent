@@ -1,5 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const { handleWalletRequest, formatUnits } = require('./safe-wallet');
 const { getGrantTransactionContext } = require('./safe-snapshot');
 
@@ -104,6 +106,40 @@ test('grant context excludes a Safe note explicitly marked as test', () => {
     const result = getGrantTransactionContext('大量交織已撥款了嗎？');
     assert.match(result, /1142\.802 USDT/);
     assert.doesNotMatch(result, /1\.868 USDT/);
+});
+
+test('funding context separates a test transfer, project grant and contact bounty', () => {
+    const grant = getGrantTransactionContext('大量交織已撥款了嗎？');
+    assert.match(grant, /1142\.802 USDT/);
+    assert.doesNotMatch(grant, /1\.868 USDT/);
+    const testTransfer = getGrantTransactionContext('大量交織測試交易是幾多？');
+    assert.match(testTransfer, /測試轉帳（非正式分期）｜1\.868 USDT/);
+    const bounty = getGrantTransactionContext('孤勇者聯絡人 bounty 已支付嗎？');
+    assert.match(bounty, /Bounty｜50 USDT/);
+    assert.doesNotMatch(bounty, /90 USDT/);
+});
+
+test('funding context keeps Ghost Object rounds separate and finds unindexed DeSci payments', () => {
+    const ghost = getGrantTransactionContext('不可能物件有甚麼撥款？');
+    for (const amount of ['960', '640', '870']) assert.match(ghost, new RegExp(`${amount} USDT`));
+    assert.match(ghost, /round5/);
+    assert.match(ghost, /round6/);
+    assert.match(getGrantTransactionContext('desci-Taiwan 已撥款？'), /90 USDT/);
+    assert.match(getGrantTransactionContext('FIP-3 bounty 支出？'), /263\.3 USDT/);
+});
+
+test('project funding links resolve to executed action living room transactions', () => {
+    const snapshot = require('./data/action_living_room_safe_snapshot.json');
+    const hashes = new Set(snapshot.transactions.map(item => item.safe_tx_hash?.toLowerCase()));
+    for (let i = 1; i <= 7; i++) {
+        const record = require(`./data/records/APP_00${i}.json`);
+        const notes = record.funding_discussion_2026;
+        assert.ok(notes, `${record.id} has no funding discussion note`);
+        assert.ok(fs.existsSync(path.join(__dirname, notes.source_file)));
+        for (const hash of notes.related_safe_tx_hashes || []) {
+            assert.ok(hashes.has(hash.toLowerCase()), `${record.id}: unknown Safe hash ${hash}`);
+        }
+    }
 });
 
 test('reads the GreenSofa snapshot without a Safe API key', async () => {

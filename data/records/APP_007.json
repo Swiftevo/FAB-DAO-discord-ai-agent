@@ -22,6 +22,17 @@
   "fab_dao_contact": {
     "name": "Swift"
   },
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "notes": [
+      "05/12 貼文列 Round 4 90 USDT 啟動款待撥；05/21 分享 Safe 連結，實際於 05/26 成功執行 90 USDT（60%）。",
+      "06/11 另有 50 USDT 孤勇者專案聯絡人啟動 Bounty，不計入 150 USD Grant；截至 2026-10-22 快照，未見後續 40% 的對應備註。"
+    ],
+    "related_safe_tx_hashes": [
+      "0x65867b0fe8919493b8f04f9ad8314c530c4546afd5b1b9907f8a9b9da878027d",
+      "0x73e4fd2ac1583ba3e869e56c8f57862b8c8e9a44509a1dfa5a909409dd292a1f"
+    ]
+  },
   "links": {
     "original_proposal": "https://drive.google.com/file/d/19Yyuduo46GikwU6kbs4AC61lFo1IVoKT/view",
     "discord_channel": "https://discord.com/channels/909473182598193272/1477867744530792529",

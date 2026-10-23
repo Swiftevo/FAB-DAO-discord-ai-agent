@@ -8,6 +8,10 @@
   "full_title": "「星光藝術計劃」—— Web3 藝術創作內容激勵方案",
   "round": 1,
   "round_source_note": "2026-10-18 維護者確認本案為 Round 1，與 Notion 行動客廳 GRANTS 索引一致；先前轉帳記錄中的 Round 4 為輪次誤記。",
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "note": "02/03 例會、02/05 貼文把心之俳句-Stanley 與星光藝術計畫及 200 U 專案聯絡人待撥款並列；是當時的聯絡人與待議款項，不是星光的 150 USDT Grant，也沒有此 200 U 已付款證據。與現有 Swift 聯絡人欄位不同，保留來源差異。"
+  },
   "declared_tier": {
     "id": "happy_rat",
     "name": "快樂鼠",

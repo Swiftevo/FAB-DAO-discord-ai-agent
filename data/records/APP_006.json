@@ -21,6 +21,20 @@
     "display_name": "FL YANG",
     "discord_user_id": "892936872567898122"
   },
+  "funding_discussion_2026": {
+    "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
+    "notes": [
+      "Round 5：05/28 分享 Safe 連結；06/09 實際撥 960 USDT（60%）；09/03 再撥 640 USDT（40%）。兩筆合計 1600 USDT，與原 Round 5 核准額相符。",
+      "Round 6：另一筆 870 USDT（Note 稱 60%）於 09/03 執行。Round 6 與 Round 5 分開，不併入原 1600 USDT 核准額；Round 6 核准總額仍待來源核對。",
+      "06/11 另有 50 USDT 專案聯絡人啟動 Bounty，不計入專案 Grant。"
+    ],
+    "related_safe_tx_hashes": [
+      "0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
+      "0xbb39c243e1bd67a6f69269b40d346d66f38641bd86522d26375418d48bbcc989",
+      "0xc797059cef792562de5420ffb4d37a2c80ef70c8cc97c2fa72151aa41e83b0b6",
+      "0xa9ed1b12210b4dd9d5dd4c201c2af8f5e101d3fbc6f06ec7300d4c997a3d7c65"
+    ]
+  },
   "links": {
     "original_proposal": "https://drive.google.com/file/d/1WUZAILvCPgqKpYV5RPtKfSqJAv0_oSaS/view?usp=drive_open",
     "discord_channel": "https://discord.com/channels/909473182598193272/1508844786948509707"
@@ -99,6 +113,24 @@
       "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x5a5f0d97443991cc7621b1b90135ecddb0780de4e721cebb28f4a43cc9c98fb5",
       "verification_status": "maintainer_confirmed"
     },
+    "round_5_final_disbursement": {
+      "status": "onchain_verified",
+      "percentage_label_in_safe_note": 40,
+      "amount": 640,
+      "token": "USDT",
+      "execution_date_utc": "2026-09-03T14:59:07Z",
+      "transaction_hash": "0xf657d0ef9d3ebb3e948d5a37e8efdbfe051b32fa8b26dd0705caa52f012cd9a6",
+      "safe_tx_hash": "0xbb39c243e1bd67a6f69269b40d346d66f38641bd86522d26375418d48bbcc989"
+    },
+    "separate_round_6_initial_disbursement": {
+      "status": "onchain_verified; approved_total_not_verified",
+      "percentage_label_in_safe_note": 60,
+      "amount": 870,
+      "token": "USDT",
+      "execution_date_utc": "2026-09-03T14:57:55Z",
+      "transaction_hash": "0xe5d3780231b01a48365e1ff507877eee2469cfdfe20dee93271c60d6265a68a7",
+      "safe_tx_hash": "0xc797059cef792562de5420ffb4d37a2c80ef70c8cc97c2fa72151aa41e83b0b6"
+    },
     "proposal_table": {
       "estimated_total_ntd": 228000,
       "fab_dao_grant_ntd": 97500,
@@ -121,7 +153,7 @@
       "artwork_acquisition": "not_approved"
     },
     "artwork_acquisition_amount": "未核定",
-    "verification_note": "補助金委員會正式核准 Grant 1,600 USDT，960 USDT 啟動資金已撥付。企劃預算表的 97,500 NTD / 3,100 USD 保留為原提案資料，不視為額外核定。藝術銀行合作及購藏尚未核定，亦不併入 Grant 核定額。"
+    "verification_note": "原 Round 5 核准 Grant 1,600 USDT，已核實轉出 960 + 640 USDT。另有不同 Round 6 Note 的 870 USDT 轉帳，核准總額未核實，須分開。企劃預算表的 97,500 NTD / 3,100 USD 保留為原提案資料，不視為額外核定。藝術銀行合作及購藏尚未核定，亦不併入 Grant 核定額。"
   },
   "expected_outputs": {
     "artists": {
