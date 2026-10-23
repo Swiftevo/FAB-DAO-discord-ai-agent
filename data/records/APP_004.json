@@ -23,7 +23,7 @@
   "funding_discussion_2026": {
     "source_file": "data/archive/action_living_room_funding_discussion_2026.md",
     "notes": [
-      "05/12 貼文列 Round 4 啟動款 361.89 USDT 待撥，計算基礎寫 19000 TWD；現有核准總額為 25000 TWD、19000 TWD 是中期預算，兩個來源口徑不一致，待委員會核對。",
+      "05/12 貼文列 Round 4 啟動款 361.89 USDT 待撥；維護者於 2026-10-23 再次確認仍未轉帳。貼文計算基礎寫 19000 TWD；現有核准總額為 25000 TWD、19000 TWD 是中期預算，兩個來源口徑不一致，待委員會核對。",
       "06/11 已執行的 50 USDT 是事水專案聯絡人啟動 Bounty，不是事水 Grant。2026-10-22 行動客廳快照沒有可直接對應 361.89 USDT 的 Grant Note。"
     ],
     "related_safe_tx_hashes": [
@@ -96,7 +96,7 @@
       "amount": 361.89,
       "currency": "USDT",
       "status": "pending_transfer",
-      "note": "維護者於 2026-06-23 確認 60% 啟動資金 361.89 USDT 仍未轉帳。"
+      "note": "維護者於 2026-06-23 及 2026-10-23 確認 60% 啟動資金 361.89 USDT 仍未轉帳。"
     }
   },
   "timeline": [
