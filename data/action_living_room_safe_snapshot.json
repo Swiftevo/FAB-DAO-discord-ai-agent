@@ -1,12 +1,59 @@
 {
   "wallet": "oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
   "group_id": "action_living_room",
-  "snapshot_at": "2026-10-22T08:37:52.041Z",
+  "snapshot_at": "2026-11-04T23:31:58Z",
   "source_transactions": "https://api.safe.global/tx-service/oeth/api/v2/safes/0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4/all-transactions/",
   "source_transfer_export": "https://api.safe.global/tx-service/oeth/api/v1/safes/0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4/export/",
-  "transaction_count": 46,
-  "transfer_count": 41,
+  "transaction_count": 51,
+  "transfer_count": 44,
   "transactions": [
+    {
+      "executed_at": "2026-10-28T14:03:35Z",
+      "transaction_hash": "0x89da0e1ca61ed0d6340cd5aab913c9a4d089f58cb3ff26d6c5065e2133bf36d8",
+      "safe_tx_hash": "0x77e0bf479c442277c3db2980439719eb089a1b89b526eadc50573e9711527d4a",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": ["GRANTS round4 ⼤量交織＋地球公物 (40%)"],
+      "transfers": [{"from":"0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4","to":"0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d","amount_raw":"760000000","asset_symbol":"USDT","asset_address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","asset_decimals":6,"asset_trusted":true,"asset_type":"ERC20_TRANSFER","transfer_id":"e89da0e1ca61ed0d6340cd5aab913c9a4d089f58cb3ff26d6c5065e2133bf36d810"}]
+    },
+    {
+      "executed_at": "2026-10-28T14:02:01Z",
+      "transaction_hash": "0x5f63f7af03561f457adddc46641b988c328fd87af2897a5ca23fb81c55d884d6",
+      "safe_tx_hash": "0x1e9d9c386e8a9c0bc6c285a8d652eed36e9aacf9c0b19db8ede4cf86efc7046c",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": ["GRANTS round1 ⼤量交織＋地球公物 (50%)"],
+      "transfers": [{"from":"0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4","to":"0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d","amount_raw":"1010000000","asset_symbol":"USDT","asset_address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","asset_decimals":6,"asset_trusted":true,"asset_type":"ERC20_TRANSFER","transfer_id":"e5f63f7af03561f457adddc46641b988c328fd87af2897a5ca23fb81c55d884d613"}]
+    },
+    {
+      "executed_at": "2026-10-28T13:58:55Z",
+      "transaction_hash": "0x05edb70058ab2316bdc3b2601179d0f2524b00abda3198c605d69c010736ae22",
+      "safe_tx_hash": "0x9088cc030c27c5aa268f48314c144904d9d20709086947cbceee04c1aaa0b4cd",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
+    {
+      "executed_at": "2026-10-28T13:48:25Z",
+      "transaction_hash": "0x424fc7488907c1721d655d0e4bd15e2d29b3cfec40ba9f7116467aaf514729ce",
+      "safe_tx_hash": "0x3fd27a5a2df3641e0574caec7889400ea214a8b12a36d6cd32194db55d70c46f",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": ["FIP-3 SWAP"],
+      "safe_native_value_raw": "2000000000000000000",
+      "safe_native_value_to": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+      "transfers": [{"from":"0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE","to":"0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4","amount_raw":"4632482351","asset_symbol":"USDT","asset_address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","asset_decimals":6,"asset_trusted":true,"asset_type":"ERC20_TRANSFER","transfer_id":"e424fc7488907c1721d655d0e4bd15e2d29b3cfec40ba9f7116467aaf514729ce248"}]
+    },
+    {
+      "executed_at": "2026-10-28T13:43:41Z",
+      "transaction_hash": "0xd5390f7fc32b5c3396be77301e0b8fc8d5670bdab29cfcf980af3d728e91ac54",
+      "safe_tx_hash": "0xc6754ac5fdf1ddd02b57a29392ed3b8d135eea22db254569391c7d74cb1d7728",
+      "tx_type": "MULTISIG_TRANSACTION",
+      "is_successful": true,
+      "notes": [],
+      "transfers": []
+    },
     {
       "executed_at": "2026-10-09T15:06:51Z",
       "transaction_hash": "0x8fe4d5495361dc226c21d85eea382ed15b7f5f61a1ff83132a226028d101907b",

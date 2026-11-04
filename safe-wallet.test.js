@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { handleWalletRequest, formatUnits } = require('./safe-wallet');
 const { getGrantTransactionContext } = require('./safe-snapshot');
+const actionSnapshot = require('./data/action_living_room_safe_snapshot.json');
 
 const actionSafe = '0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4';
 const artSafe = '0x4DC816b76C7155C6b79b94174688Adc26193c169';
@@ -76,7 +77,19 @@ test('answers a known action living room transaction from the snapshot without A
     });
     assert.match(result, /支出 90 USDT/);
     assert.match(result, /GRANTS round4 孤勇者計畫 \(60%\)/);
-    assert.match(result, /快照日期：2026-10-22/);
+    const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(actionSnapshot.snapshot_at));
+    assert.match(result, new RegExp(`快照日期：${date}`));
+});
+
+test('finds the October Megaweaving grant transfer and distinguishes the FIP-3 swap input', async () => {
+    const noFetch = { apiKey: '', fetcher: () => { throw new Error('must not fetch'); } };
+    const grant = await handleWalletRequest('行動客廳 查詢交易 0x89da0e1ca61ed0d6340cd5aab913c9a4d089f58cb3ff26d6c5065e2133bf36d8', noFetch);
+    assert.match(grant, /支出 760 USDT/);
+    assert.match(grant, /round4.*40%/i);
+    const swap = await handleWalletRequest('行動客廳 查詢交易 0x424fc7488907c1721d655d0e4bd15e2d29b3cfec40ba9f7116467aaf514729ce', noFetch);
+    assert.match(swap, /支出 2 ETH/);
+    assert.match(swap, /收入 4632\.482351 USDT/);
+    assert.match(swap, /FIP-3 SWAP/);
 });
 
 test('finds the same saved transfer by its Safe transaction hash', async () => {

@@ -46,6 +46,14 @@ function hongKongTime(value) {
     }).format(new Date(value));
 }
 
+function hongKongSnapshotDate(value) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(new Date(value));
+    const get = type => parts.find(part => part.type === type).value;
+    return `${get('year')}-${get('month')}-${get('day')}`;
+}
+
 function transferLabel(transfer, wallet, includeCounterparty) {
     const address = wallet.address.toLowerCase();
     const outgoing = transfer.from?.toLowerCase() === address;
@@ -60,13 +68,24 @@ function transferLabel(transfer, wallet, includeCounterparty) {
         (includeCounterparty && counterparty ? `｜${outgoing ? '至' : '來自'} ${counterparty}` : '');
 }
 
+function snapshotTransferLabels(transaction, wallet, includeCounterparty) {
+    const labels = [];
+    if (transaction.safe_native_value_raw && transaction.safe_native_value_to) {
+        const amount = formatUnits(transaction.safe_native_value_raw, 18);
+        labels.push(`支出 ${amount} ETH（Safe 合約呼叫的原生幣 value）` +
+            (includeCounterparty ? `｜至 ${transaction.safe_native_value_to}` : ''));
+    }
+    labels.push(...(transaction.transfers || []).map(item => transferLabel(item, wallet, includeCounterparty)));
+    return labels;
+}
+
 function snapshotTransactionSummary(match, wallet) {
     const { snapshot, transaction } = match;
-    const transfers = transaction.transfers || [];
+    const transferLabels = snapshotTransferLabels(transaction, wallet, true);
     const description = transaction.is_successful === false
         ? '執行失敗；不能當作已撥款'
-        : transfers.length
-            ? transfers.map(item => `- ${transferLabel(item, wallet, true)}`).join('\n')
+        : transferLabels.length
+            ? transferLabels.map(item => `- ${item}`).join('\n')
             : '已執行，但沒有可辨識的資產轉移；不能當作撥款。';
     const notes = (transaction.notes || []).map(note => safeNote(note)).join('；');
     const safeLink = transaction.safe_tx_hash
@@ -76,23 +95,23 @@ function snapshotTransactionSummary(match, wallet) {
         `${notes ? `\nSafe 備註（鏈下標籤）：${notes}` : ''}` +
         `\n交易：${transaction.transaction_hash}\n${wallet.explorer_tx_url_prefix}${transaction.transaction_hash}` +
         safeLink +
-        `\n快照日期：${snapshot.snapshot_at.slice(0, 10)}；快照後交易請用「即時交易」查詢。`;
+        `\n快照日期：${hongKongSnapshotDate(snapshot.snapshot_at)}；快照後交易請用「即時交易」查詢。`;
 }
 
 function snapshotRecentTransactions(wallet, limit = 5) {
     const snapshot = snapshotFor(wallet);
     if (!snapshot) return null;
     const lines = snapshot.transactions.slice(0, limit).map(transaction => {
-        const transfers = transaction.transfers || [];
+        const transferLabels = snapshotTransferLabels(transaction, wallet, false);
         const description = transaction.is_successful === false ? '執行失敗' :
-            transfers.length ? transfers.map(item => transferLabel(item, wallet, false)).join('；') :
+            transferLabels.length ? transferLabels.join('；') :
                 '無可辨識的資產轉移';
         const note = (transaction.notes || []).map(item => safeNote(item, 120)).join('；');
         return `${hongKongTime(transaction.executed_at)}｜${description}` +
             `${note ? `\nSafe 備註（鏈下標籤）：${note}` : ''}` +
             `\n交易：${transaction.transaction_hash}`;
     });
-    return `${lines.join('\n\n') || '尚無已執行交易'}\n\n快照日期：${snapshot.snapshot_at.slice(0, 10)}；` +
+    return `${lines.join('\n\n') || '尚無已執行交易'}\n\n快照日期：${hongKongSnapshotDate(snapshot.snapshot_at)}；` +
         `新交易請用「即時交易」查詢。\n來源：${wallet.safe_url}`;
 }
 
@@ -103,8 +122,9 @@ function snapshotNoteSearch(wallet, keyword = '') {
     const matches = snapshot.transactions.filter(transaction =>
         (transaction.notes || []).some(note => note.toLowerCase().includes(term)));
     const lines = matches.slice(0, 10).map(transaction => {
+        const transferLabels = snapshotTransferLabels(transaction, wallet, false);
         const description = transaction.is_successful === false ? '執行失敗' :
-            transaction.transfers.length ? transaction.transfers.map(item => transferLabel(item, wallet, false)).join('；') :
+            transferLabels.length ? transferLabels.join('；') :
                 '無可辨識的資產轉移';
         return `${hongKongTime(transaction.executed_at)}｜${description}` +
             `\nSafe 備註（鏈下標籤）：${transaction.notes.map(item => safeNote(item)).join('；')}` +
@@ -112,7 +132,7 @@ function snapshotNoteSearch(wallet, keyword = '') {
     });
     return `${lines.join('\n\n') || '未找到相符的 Safe 備註'}\n\n` +
         `相符 ${matches.length} 筆${matches.length > 10 ? '（只列出最近 10 筆）' : ''}；` +
-        `快照日期：${snapshot.snapshot_at.slice(0, 10)}。`;
+        `快照日期：${hongKongSnapshotDate(snapshot.snapshot_at)}。`;
 }
 
 function getGrantTransactionContext(prompt) {
@@ -152,7 +172,7 @@ function getGrantTransactionContext(prompt) {
         `- ${transaction.executed_at}｜${/^BOUNTY\b/i.test(note) ? 'Bounty' : /\btest\b/i.test(note) ? '測試轉帳（非正式分期）' : 'Grant'}｜${formatUnits(transfer.amount_raw, transfer.asset_decimals)} USDT｜收款地址 ${transfer.to}｜Safe Note: ${safeNote(note)}｜` +
         `鏈上 https://optimistic.etherscan.io/tx/${transaction.transaction_hash}` +
         `${transaction.safe_tx_hash ? `｜Safe 備註 https://app.safe.global/transactions/tx?safe=${snapshot.wallet}&id=multisig_${snapshot.wallet.split(':')[1]}_${transaction.safe_tx_hash}` : ''}`);
-    return `\n【行動客廳 Safe 已執行交易快照（截至 ${snapshot.snapshot_at.slice(0, 10)}）】\n${lines.join('\n')}\n` +
+    return `\n【行動客廳 Safe 已執行交易快照（截至 ${hongKongSnapshotDate(snapshot.snapshot_at)}）】\n${lines.join('\n')}\n` +
         'Note 是提案者填寫的鏈下用途標籤；轉帳金額及地址來自已執行交易。不同 Round 不合計；標為 test 的交易不當作正式分期撥款。快照沒有某筆交易不等於其他錢包沒有轉帳。\n';
 }
 

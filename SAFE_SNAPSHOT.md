@@ -1,16 +1,16 @@
 # Safe 交易快照（20 人使用範圍）
 
-截至 2026-10-22，已收錄五個 Optimism Safe：行動客廳、FAB DAO 總金庫、頂加實驗室、GreenSofa、藝術銀行。資料位於 `data/*_safe_snapshot.json`，一筆 Safe 操作可包含多筆轉帳；相同鏈上交易亦可能出現在收款與付款錢包的各自快照中，因此不可直接把各錢包筆數加總當作獨立交易數。
+截至 2026-10-22 已收錄五個 Optimism Safe，並於 2026-11-05 更新行動客廳快照：行動客廳、FAB DAO 總金庫、頂加實驗室、GreenSofa、藝術銀行。各快照的準確時間以 JSON 的 `snapshot_at` 為準。資料位於 `data/*_safe_snapshot.json`，一筆 Safe 操作可包含多筆轉帳；相同鏈上交易亦可能出現在收款與付款錢包的各自快照中，因此不可直接把各錢包筆數加總當作獨立交易數。
 
 | 錢包 | Safe 操作 | 轉帳紀錄 | 有 Note 的操作 |
 | --- | ---: | ---: | ---: |
-| 行動客廳 | 46 | 41 | 19 |
+| 行動客廳 | 51 | 44 | 22 |
 | FAB DAO 總金庫 | 37 | 33 | 4 |
 | 頂加實驗室 | 65 | 69 | 10 |
 | GreenSofa | 146 | 162 | 16 |
 | 藝術銀行 | 31 | 21 | 9 |
 
-來源是 Safe 官方 Transaction Service 的 `all-transactions` 與 `export`，均已翻頁讀取至結尾。只收錄已執行的操作，並保留交易 hash、Safe 交易 hash、時間、轉帳明細、Note 及代幣可信標記。Note 是鏈下用途標籤，不單獨證明已撥款；無可辨識資產轉移的操作亦不能視作撥款。快照保留未核實代幣紀錄，但 bot 不會把它當可信資金顯示。
+來源是 Safe 官方 Transaction Service 的 `all-transactions` 與 `export`，均已翻頁讀取至結尾。只收錄已執行的操作，並保留交易 hash、Safe 交易 hash、時間、轉帳明細、Note 及代幣可信標記。Note 是鏈下用途標籤，不單獨證明已撥款；無可辨識資產轉移的操作亦不能視作撥款。快照保留未核實代幣紀錄，但 bot 不會把它當可信資金顯示。Safe `export` 對合約 swap 可能只列收到的代幣；2026-10-28 的 FIP-3 SWAP 同筆 Safe 交易還帶有 2 ETH 的原生幣 `value`，對帳時不能把 4,632.482351 USDT 當成新增捐款。
 
 Discord 查詢例子：
 

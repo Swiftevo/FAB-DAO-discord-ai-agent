@@ -9,8 +9,8 @@
     "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
     "round_1_final_reserved_usdt": 1010,
     "round_4_final_reserved_usdt": 761.868,
-    "status": "reserved_at_that_date_not_verified_as_formal_disbursement",
-    "test_transfer_note": "2026-10-09 的 1.868 USDT 是測試款；761.868 - 1.868 = 760，與後續貼文所說的 760 相符，但是否在正式尾款中抵扣尚待確認。"
+    "status": "round_1_1010_and_round_4_760_executed_2026-10-28; earlier_reservation_historical",
+    "test_transfer_note": "2026-10-09 的 1.868 USDT 是測試款；2026-10-28 已正式標籤轉出 760 USDT。761.868 - 1.868 = 760；測試款是否抵扣正式尾款尚待人類決議。"
   },
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
   "fab_dao_contact": { "name": "Stanley" },
@@ -19,7 +19,7 @@
     "notes": [
       "02/03 例會、02/05 貼文把 FL YANG 與大量交織及 200 U 專案聯絡人待撥款並列；與現有 Stanley 聯絡人欄位不同，作歷史資料保留，不推斷人事更替或已付款。",
       "05/12 貼文列 Round 4 60% 啟動款 1142.802 USDT 待撥；05/26 分享 Safe 連結，實際於 06/02 成功執行。",
-      "10/06 貼文將測試款誤寫為 1.686 USDT；維護者於 2026-10-23 確認是筆誤，正確金額為 10/09 鏈上成功轉出的 1.868 USDT。Safe Note 含 test，不計作正式 40% 撥款。貼文另稱後續 760 + 1010，尚未從本快照確認執行。"
+      "10/06 貼文將測試款誤寫為 1.686 USDT；維護者於 2026-10-23 確認是筆誤，正確金額為 10/09 鏈上成功轉出的 1.868 USDT。Safe Note 含 test，不計作正式 40% 撥款。貼文所稱的後續 760 + 1010 已於 2026-10-28 從行動客廳 Safe 執行；兩筆 Safe Note 分別標示 Round 4 40% 及 Round 1 50%。"
     ],
     "related_safe_tx_hashes": [
       "0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
@@ -27,7 +27,7 @@
     ]
   },
   "decision_status": "approved",
-  "current_status": "active - second round approved and 60 percent disbursed",
+  "current_status": "active - Round 1 two 1010 USDT transfers verified; Round 4 1142.802 and 760 USDT formal-label transfers plus separate 1.868 USDT test verified",
   "applicant": {
     "name": "蕭有志",
     "english_name": "Yu-Chih Hsiao",
@@ -222,6 +222,32 @@
       "transaction_hash": "0xf150168778d1024eea7ad81a5d87314269df1758d3ec3e13db7a0fb77ed0d103",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
       "verification_status": "maintainer_confirmed"
+    },
+    {
+      "round": "first_round_second_50_percent_safe_note",
+      "chain": "Optimism",
+      "amount": 1010,
+      "currency": "USDT",
+      "recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+      "execution_date_utc": "2026-10-28T14:02:01Z",
+      "transaction_hash": "0x5f63f7af03561f457adddc46641b988c328fd87af2897a5ca23fb81c55d884d6",
+      "safe_tx_hash": "0x1e9d9c386e8a9c0bc6c285a8d652eed36e9aacf9c0b19db8ede4cf86efc7046c",
+      "safe_note": "GRANTS round1 ⼤量交織＋地球公物 (50%)",
+      "source_file": "data/archive/APP_003_funding_update_2026-10-28.md",
+      "verification_status": "safe_executed_and_note_verified"
+    },
+    {
+      "round": "second_round_40_percent_safe_note",
+      "chain": "Optimism",
+      "amount": 760,
+      "currency": "USDT",
+      "recipient_wallet": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
+      "execution_date_utc": "2026-10-28T14:03:35Z",
+      "transaction_hash": "0x89da0e1ca61ed0d6340cd5aab913c9a4d089f58cb3ff26d6c5065e2133bf36d8",
+      "safe_tx_hash": "0x77e0bf479c442277c3db2980439719eb089a1b89b526eadc50573e9711527d4a",
+      "safe_note": "GRANTS round4 ⼤量交織＋地球公物 (40%)",
+      "source_file": "data/archive/APP_003_funding_update_2026-10-28.md",
+      "verification_status": "safe_executed_and_note_verified"
     }
   ],
   "wallet_records": [
