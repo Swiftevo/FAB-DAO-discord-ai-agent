@@ -1,0 +1,48 @@
+{
+  "id": "APP_009",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
+  "project_name": "DeSci Taiwan 社群行動與生態連結計畫",
+  "aliases": ["DeSci Taiwan", "desci-Taiwan"],
+  "round": 6,
+  "declared_tier": "快樂鼠（申請書）",
+  "decision_status": "formal_approval_record_not_provided",
+  "current_status": "60_percent_initial_transfer_verified; project_outcomes_not_provided",
+  "organizer": "DeSci Taiwan working group",
+  "proposal": {
+    "source_file": "data/archive/APP_009_proposal_summary_2026-11-05.md",
+    "source_type": "maintainer_provided_pdf",
+    "requested_amount": 150,
+    "currency": "USD",
+    "duration_weeks": 12,
+    "goal": "延續 DeSci Taiwan monthly meetup，維繫社群並連結 Web3、科學及研究生態。",
+    "planned_meetups": {"total": 3, "online": 2, "offline": 1, "minimum_completed": 2},
+    "planned_budget": [
+      {"item": "Working group 任務型貢獻補助", "amount_usd": 80},
+      {"item": "線下 Meetup 餐費", "amount_usd": 50},
+      {"item": "線上 Meetup 與社群工具", "amount_usd": 20}
+    ],
+    "other_expected_outputs": ["至少一次外部生態活動或社群連結", "至少五則相關更新", "至少三位成員有明確任務與交付", "一次內部回顧"]
+  },
+  "funding_transfers": [
+    {
+      "type": "grant_initial_transfer",
+      "executed_at_utc": "2026-10-09T14:28:33Z",
+      "network": "Optimism",
+      "amount": 90,
+      "currency": "USDT",
+      "from_safe": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "recipient_address": "0x924817F545a3a2C0dF03329e881a961e136d72c6",
+      "safe_note": "GRANTS round6 desci-Taiwan (60%)",
+      "safe_tx_hash": "0xa4843e774998bee851a16c2959662347bd2671eab51463b0729a2aa3609321ae",
+      "transaction_hash": "0x69665e84446d06ba7c5cd72ab912bfc53dbfb9d6de06509d7241964e2fef3750",
+      "verification": "2026-10-22 行動客廳 Safe 快照顯示交易成功執行；專案用途依 Safe 鏈下 Note 辨識。"
+    }
+  ],
+  "remaining_funding_note": "申請額 150 USD 的 40% 為 60 USD；截至 2026-10-22 行動客廳 Safe 快照未見對應尾款。正式核准決議、成果及受款後支出仍待補。",
+  "project_contact_funding_note": "2026-09-02 貼文（標示 09-12 更新）列 DeSci Taiwan 專案聯絡人很睏宜品 50 USDT 啟動款待撥；這是聯絡人費用，不計入本案 150 USD Grant，亦不是已執行證據。來源：data/archive/action_living_room_funding_reservations_2026.md。",
+  "distinct_from_project_id": "APP_008",
+  "distinct_from_note": "DeSci Taiwan 雖是 APP_008 DeSci Onboarding Hub 的協辦方，本申請書和 90 USDT Safe 交易屬另一個 Round 6 專案。"
+}

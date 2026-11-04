@@ -5,6 +5,14 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "事水",
+  "funding_reservation_2026_08_26": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "initial_reserved_usdt": 361.89,
+    "final_reserved_usdt": 241.26,
+    "total_reserved_usdt": 603.15,
+    "status": "reserved_not_paid",
+    "chart_difference_note": "前次圖表列 623.15 U，比本次預留合計多 20 U；與現有 25000 TWD 核准總額的換算口徑亦待核對。"
+  },
   "round": 4,
   "declared_tier": {
     "name": "小鼠",

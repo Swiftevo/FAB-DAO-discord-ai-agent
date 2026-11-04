@@ -5,6 +5,13 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "星光藝術計劃",
+  "project_contact_pending_2026_09_12": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "amount_usdt": 100,
+    "contact": "Swift Evo",
+    "purpose": "啟動與結案聯絡人費",
+    "status": "pending_at_that_date_not_grant_disbursement"
+  },
   "full_title": "「星光藝術計劃」—— Web3 藝術創作內容激勵方案",
   "round": 1,
   "round_source_note": "2026-10-18 維護者確認本案為 Round 1，與 Notion 行動客廳 GRANTS 索引一致；先前轉帳記錄中的 Round 4 為輪次誤記。",

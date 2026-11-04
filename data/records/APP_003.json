@@ -5,6 +5,13 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "大量交織+地球公物",
+  "funding_reservation_2026_08_26": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "round_1_final_reserved_usdt": 1010,
+    "round_4_final_reserved_usdt": 761.868,
+    "status": "reserved_at_that_date_not_verified_as_formal_disbursement",
+    "test_transfer_note": "2026-10-09 的 1.868 USDT 是測試款；761.868 - 1.868 = 760，與後續貼文所說的 760 相符，但是否在正式尾款中抵扣尚待確認。"
+  },
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
   "fab_dao_contact": { "name": "Stanley" },
   "funding_discussion_2026": {

@@ -8,7 +8,7 @@
 - 05/12 21:34 貼文：Round 4 啟動款當時待撥：大量交織 1,142.802 USDT（60,000 TWD 的估算 60%）、孤勇者 90 USDT（150 USD 的 60%）、事水 361.89 USDT。維護者於 2026-10-23 再次確認事水的 361.89 USDT **仍未轉帳**。貼文以 19,000 TWD 計算事水；現有 APP_004 核准總額記為 25,000 TWD、其中 19,000 TWD 是中期預算，來源口徑不一致，待委員會核對；不得改寫既有核准額。
 - 05/19 21:59 貼文：列行動客廳當時的多簽管理人；姓名見 `data/groups/action_living_room/contacts.json`。原文中「天天晴朗 - penghui」與「青苔Yian」排版相連。這不是各人的鏈上 owner 地址配對證據。
 - 05/21、05/26、05/28、06/09、08/12、08/25、10/06 的貼文提供 Safe 提案連結；實際執行日期以下表為準，不以貼文日期代替。
-- 10/06 貼文將大量交織測試款寫作 **1.686 USDT**；維護者於 2026-10-23 確認這是筆誤，正確金額為 10/09 已執行的 **1.868 USDT**，Safe Note 含 `test`，**不是正式 40% 撥款**。貼文另稱確認後再撥 760 + 1010；截至 2026-10-22 的行動客廳快照，這兩個宣布的後續額度沒有可直接對應的正式撥款紀錄，不得計入已付款。
+- 10/06 貼文將大量交織測試款寫作 **1.686 USDT**；維護者於 2026-10-23 確認這是筆誤，正確金額為 10/09 已執行的 **1.868 USDT**，Safe Note 含 `test`，**不是正式 40% 撥款**。貼文另稱確認後再撥 760 + 1010；較早的 08/26 訊息已把 Round 1 尾款 1010 與 Round 4 尾款 761.868 列為預留，且 761.868 − 1.868 = 760，但測試款是否抵扣正式尾款未獲確認。詳 `data/archive/action_living_room_funding_reservations_2026.md`。截至 2026-10-22 的行動客廳快照，沒有可直接對應這兩個正式撥款額的交易，不得計入已付款。
 
 ## 已執行的 Grant（逐筆來源）
 
@@ -20,7 +20,7 @@
 | APP_008 DeSci Onboarding Hub／Round 6 | `0x3e7d41b6b90cbb1d9546ecbc5ca7aa1b53c58f87c4a74949df254e5bed891b3e` | 08/18 14:26 | [鏈上](https://optimistic.etherscan.io/tx/0xaafeba9fd21ef7b7366723c14eb42070bd0cf7bf673b1a7750e23e86b8af8cea) | 90 USDT；`GRANTS round6 desci-onboarding-hub (60%)`；申請書及進度見 `APP_008` |
 | APP_006 不可能物件／Round 6（與 Round 5 分開） | `0xc797059cef792562de5420ffb4d37a2c80ef70c8cc97c2fa72151aa41e83b0b6` | 09/03 14:57 | [鏈上](https://optimistic.etherscan.io/tx/0xe5d3780231b01a48365e1ff507877eee2469cfdfe20dee93271c60d6265a68a7) | 870 USDT；`GRANTS round6 ghost-object-不可能物件＿2026展覽計畫(60%)` |
 | APP_006 不可能物件／Round 5 | `0xbb39c243e1bd67a6f69269b40d346d66f38641bd86522d26375418d48bbcc989` | 09/03 14:59 | [鏈上](https://optimistic.etherscan.io/tx/0xf657d0ef9d3ebb3e948d5a37e8efdbfe051b32fa8b26dd0705caa52f012cd9a6) | 640 USDT；`GRANTS round5 ghost-object-不可能物件＿2026展覽計畫(40%)` |
-| 未編入 APP：desci-Taiwan／Round 6 | `0xa4843e774998bee851a16c2959662347bd2671eab51463b0729a2aa3609321ae` | 10/09 14:28 | [鏈上](https://optimistic.etherscan.io/tx/0x69665e84446d06ba7c5cd72ab912bfc53dbfb9d6de06509d7241964e2fef3750) | 90 USDT；`GRANTS round6 desci-Taiwan (60%)` |
+| APP_009 DeSci Taiwan／Round 6 | `0xa4843e774998bee851a16c2959662347bd2671eab51463b0729a2aa3609321ae` | 10/09 14:28 | [鏈上](https://optimistic.etherscan.io/tx/0x69665e84446d06ba7c5cd72ab912bfc53dbfb9d6de06509d7241964e2fef3750) | 90 USDT；`GRANTS round6 desci-Taiwan (60%)`；申請書摘要見 `APP_009` |
 | APP_003 大量交織／測試，不計正式 40% | `0xfab07f01d1f60b756e59c8524b3938c27be269f19e4a27de3baab21670553712` | 10/09 14:29 | [鏈上](https://optimistic.etherscan.io/tx/0xa3321562407fdb714da5978e6fba10bf005963004c14e9b9bb3875e8834f09f8) | 1.868 USDT；`GRANTS round4 ⼤量交織＋地球公物 (40%) test` |
 
 ## 已執行的 Bounty（與 Grant 分開）

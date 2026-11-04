@@ -5,6 +5,18 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "DeSci Onboarding Hub",
+  "funding_reservation_2026_08_26": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "round_6_final_amount_usdt": 60,
+    "status": "planned_for_autumn_equinox_not_verified_as_disbursed"
+  },
+  "project_contact_pending_2026_09_12": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "amount_usdt": 50,
+    "contact": "Anne",
+    "purpose": "啟動聯絡人費",
+    "status": "pending_at_that_date_not_grant_disbursement"
+  },
   "round": 6,
   "decision_status": "formal_approval_record_not_provided",
   "current_status": "60_percent_initial_transfer_verified; project_progress_reported",

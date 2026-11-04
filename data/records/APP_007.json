@@ -5,6 +5,11 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "孤勇者計劃",
+  "funding_reservation_2026_08_26": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "round_4_final_amount_usdt": 60,
+    "status": "reserved_at_that_date_not_verified_as_disbursed"
+  },
   "full_title": "「孤勇者計劃」—— Matters 優質台灣 Public Goods 創作內容激勵方案",
   "round": 4,
   "declared_tier": {

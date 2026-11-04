@@ -5,6 +5,11 @@
   "program_type": "grant",
   "governance_body_id": "grant_committee",
   "project_name": "Ghost Object 不可能物件_2026 展覽計畫",
+  "round_6_reservation_2026_08_26": {
+    "source_file": "data/archive/action_living_room_funding_reservations_2026.md",
+    "final_amount_usdt": 580,
+    "status": "planned_for_autumn_equinox_not_verified_as_disbursed"
+  },
   "round": 5,
   "declared_tier": {
     "id": "cumulative_rat",
