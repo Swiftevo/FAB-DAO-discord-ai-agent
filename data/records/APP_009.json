@@ -9,7 +9,7 @@
   "round": 6,
   "declared_tier": "快樂鼠（申請書）",
   "decision_status": "formal_approval_record_not_provided",
-  "current_status": "60_percent_initial_transfer_verified; project_outcomes_not_provided",
+  "current_status": "60_percent_initial_transfer_verified; meetup_announced_outcome_unconfirmed",
   "organizer": "DeSci Taiwan working group",
   "proposal": {
     "source_file": "data/archive/APP_009_proposal_summary_2026-11-05.md",
@@ -42,6 +42,30 @@
     }
   ],
   "remaining_funding_note": "申請額 150 USD 的 40% 為 60 USD；截至 2026-10-22 行動客廳 Safe 快照未見對應尾款。正式核准決議、成果及受款後支出仍待補。",
+  "recipient_wallet_confirmation": {
+    "date": "2026-09-28 19:57",
+    "address": "0x924817F545a3a2C0dF03329e881a961e136d72c6",
+    "source_file": "data/archive/APP_009_update_2026-09_to_10.md",
+    "note": "團隊確認此錢包地址；與 2026-10-09 90 USDT Grant 轉帳收款地址一致。"
+  },
+  "recent_updates": [
+    {
+      "posted_at": "2026-09-28 19:57",
+      "summary": "團隊預計將 Grant 經費用於 2026 年 10–12 月 meetup，當時正討論 10 月和 11 月線上活動主題。",
+      "source_file": "data/archive/APP_009_update_2026-09_to_10.md"
+    },
+    {
+      "announcement_posted_at": null,
+      "event_date": "2026-10-29",
+      "event_time": "20:00-21:30 GMT+8",
+      "event_name": "DeSci Taiwan 5th Meetup｜Funding Science Differently: Exploring Web3 Grants",
+      "venue": "DeSci Taiwan Discord；中文",
+      "status": "announced_outcome_unconfirmed",
+      "source_url": "https://x.com/DeSci_Taiwan/status/2114669876619207160?s=20",
+      "source_file": "data/archive/APP_009_update_2026-09_to_10.md"
+    }
+  ],
+  "latest_dated_progress_post_at": "2026-09-28 19:57",
   "project_contact_funding_note": "2026-09-02 貼文（標示 09-12 更新）列 DeSci Taiwan 專案聯絡人很睏宜品 50 USDT 啟動款待撥；這是聯絡人費用，不計入本案 150 USD Grant，亦不是已執行證據。來源：data/archive/action_living_room_funding_reservations_2026.md。",
   "distinct_from_project_id": "APP_008",
   "distinct_from_note": "DeSci Taiwan 雖是 APP_008 DeSci Onboarding Hub 的協辦方，本申請書和 90 USDT Safe 交易屬另一個 Round 6 專案。"
