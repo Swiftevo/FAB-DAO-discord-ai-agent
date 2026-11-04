@@ -1,0 +1,55 @@
+{
+  "id": "APP_008",
+  "owner_group_id": "action_living_room",
+  "funding_program_id": "fab_dao_grant",
+  "program_type": "grant",
+  "governance_body_id": "grant_committee",
+  "project_name": "DeSci Onboarding Hub",
+  "round": 6,
+  "decision_status": "formal_approval_record_not_provided",
+  "current_status": "60_percent_initial_transfer_verified; project_progress_reported",
+  "organizers": ["DeSci Asia", "DeSci Taiwan（協辦）"],
+  "separate_project_note": "DeSci Taiwan 雖是本案協辦方，行動客廳 Safe 另有一筆名為 desci-Taiwan 的 Round 6 90 USDT Grant；目前缺少該案申請資料，不能與 APP_008 合併。",
+  "team_members_in_proposal": ["Swift Evo", "Megan", "Anne", "Fred"],
+  "proposal": {
+    "source_url": "https://docs.google.com/document/d/1W_1ypbYJtNKBLYi0km6wiHYVzdua0mzofMVrv6pOWeU/edit?tab=t.0#heading=h.8b7g7p584f66",
+    "source_file": "data/archive/APP_008_proposal_summary_2026-07-02.md",
+    "requested_amount": 150,
+    "currency": "USD",
+    "planned_budget": [
+      {"item": "手冊編寫與核心資料調研", "amount_usd": 100},
+      {"item": "生態調研與協作推進", "amount_usd": 50}
+    ],
+    "goal": "開源編寫《DeSci 自學手冊》，降低研究人員、學生和大眾接觸去中心化科學的門檻；目標在一年內完成正式初稿。",
+    "handbook_url": "https://equable-mountain-09d.notion.site/DeSci-3523ad5edf5c80809d20e9591cbaf8c8"
+  },
+  "funding_transfers": [
+    {
+      "type": "grant_initial_transfer",
+      "executed_at_utc": "2026-08-18T14:26:59Z",
+      "network": "Optimism",
+      "amount": 90,
+      "currency": "USDT",
+      "from_safe": "0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4",
+      "recipient_address": "0xD668477136600EEC56B79dd83890516d7f7fcf0e",
+      "recipient_address_note": "團隊於 2026-08-12 稱此地址為其 Optimism 多簽錢包；本次僅核對 Safe 快照的收款地址與團隊提供者相同。",
+      "safe_note": "GRANTS round6 desci-onboarding-hub (60%)",
+      "safe_tx_hash": "0x3e7d41b6b90cbb1d9546ecbc5ca7aa1b53c58f87c4a74949df254e5bed891b3e",
+      "transaction_hash": "0xaafeba9fd21ef7b7366723c14eb42070bd0cf7bf673b1a7750e23e86b8af8cea",
+      "safe_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x3e7d41b6b90cbb1d9546ecbc5ca7aa1b53c58f87c4a74949df254e5bed891b3e",
+      "verification": "2026-10-22 行動客廳 Safe 快照顯示交易已執行、90 USDT 轉至團隊提供的地址；60% 用途依 Safe 鏈下 Note 辨識。"
+    }
+  ],
+  "remaining_funding_note": "申請額 150 USD 的 40% 為 60 USD；截至 2026-10-22 快照未見對應的 60 USDT 轉帳。正式核准決議及尾款狀態仍待補，不能僅因申請書和 Safe Note 判定已完成全部核准或結案。",
+  "progress_updates": [
+    {"date": null, "date_precision": "not_provided", "summary": "團隊回報《DeSci 自學手冊》撰寫進度約 70%；此為自述比例，未獨立驗收。"},
+    {"date": null, "date_precision": "not_provided", "summary": "團隊回報在 Monad 黑客松初步完成 Zealy 社區任務池及 DeSci Contributor Path 鏈上貢獻憑證 DApp。", "links": ["https://zealy.io/cw/descionboardinghub/", "https://descimod.vercel.app/"]},
+    {"date": "2026-08-25", "summary": "Anne 回報已提交 Artizen Season 6 影響報告，包含成果圖集、口述訪談及階段小結。"},
+    {"date": "2026-09-08", "summary": "團隊回報補充手冊第 8 章 ENS 錢包應用情境，並重整第 10 章 DAO 貢獻與聲譽內容。"},
+    {"date": "2026-09-28", "summary": "團隊回報於 DeSci Asia 的學術出版及同儕審查線上 AMA 分享手冊進度，並與 DeSci Taiwan、DeSci Asia 達成部分章節共建與校對合作。"}
+  ],
+  "latest_progress_date": "2026-09-28",
+  "other_shared_link": "https://x.com/DeSciHubSpace/status/2104558438210834742?s=20",
+  "other_shared_link_note": "使用者標示 2026-09-29 18:05；未提供貼文內容，暫不作為進度或成果證據。",
+  "progress_source_file": "data/archive/APP_008_updates_2026.md"
+}

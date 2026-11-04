@@ -186,5 +186,25 @@
     "latest_update_date": "2026-06-23",
     "latest_update_summary": "計劃透過 Matters Choice 推薦台灣 Public Goods 文章，150 U 分為作者獎勵、推薦者獎勵與 Matters Choice 營運分攤。2026 年 5 月更新後，文章發掘不再限於百岳 NFT holders，仍開放 FAB DAO 成員參與。撥款資料另已核實：2026-05-26 行動客廳 Safe 成功轉出 90 USDT，Safe Note 標為 Round 4 孤勇者計畫 60%；Note 是鏈下用途標籤，轉帳本身由鏈上核實。",
     "milestone_summary": "M1: 建立 Matters Choice 推薦與獎勵流程; M2: 推動至少 10 篇台灣 Public Goods 文章被推薦，並同步公開於 Matters 與 FAB DAO Discord。"
+  },
+  {
+    "id": "APP_008",
+    "owner_group_id": "action_living_room",
+    "funding_program_id": "fab_dao_grant",
+    "program_type": "grant",
+    "governance_body_id": "grant_committee",
+    "project": "DeSci Onboarding Hub",
+    "round": 6,
+    "organizers": "DeSci Asia 主辦、DeSci Taiwan 協辦",
+    "separate_project_note": "Safe 快照另有獨立的 Round 6 desci-Taiwan 90 USDT 轉帳，不能因 DeSci Taiwan 協辦本案而合併兩案。",
+    "status": "60% initial transfer verified; formal approval record not provided",
+    "budget": "申請 150 USD，用於手冊編寫與資料調研 100 USD、生態調研與協作 50 USD；行動客廳 Optimism Safe 於 2026-08-18 已轉出 90 USDT，Safe Note 稱 Round 6 60%。截至 2026-10-22 快照未見對應 40% 尾款。",
+    "proposal_url": "https://docs.google.com/document/d/1W_1ypbYJtNKBLYi0km6wiHYVzdua0mzofMVrv6pOWeU/edit?tab=t.0#heading=h.8b7g7p584f66",
+    "handbook_url": "https://equable-mountain-09d.notion.site/DeSci-3523ad5edf5c80809d20e9591cbaf8c8",
+    "safe_transaction_hash": "0xaafeba9fd21ef7b7366723c14eb42070bd0cf7bf673b1a7750e23e86b8af8cea",
+    "latest_update_date": "2026-09-28",
+    "latest_update_summary": "團隊回報已於 DeSci Asia 學術出版與同儕審查 AMA 分享中文手冊進度，並與 DeSci Taiwan、DeSci Asia 達成部分章節共建與校對合作。另自述手冊撰寫約 70%，但未提供該比例的更新日期或獨立驗收。",
+    "source_files": ["data/archive/APP_008_proposal_summary_2026-07-02.md", "data/archive/APP_008_updates_2026.md"],
+    "milestone_summary": "持續公開編寫《DeSci 自學手冊》，完成基礎章節、專題章節與文獻校對，目標一年內形成正式初稿。"
   }
 ]
