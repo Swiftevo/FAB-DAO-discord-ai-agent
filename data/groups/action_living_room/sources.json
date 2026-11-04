@@ -462,6 +462,20 @@
       "title": "Matters Choice 過往數據佐證",
       "url": "https://docs.google.com/spreadsheets/d/1yZfLSuTCPkIdCiFnr0SrgsGQw710GVDT8FtQwON_CC4/edit?usp=sharing",
       "project_id": "APP_007"
+    },
+    {
+      "id": "web3_defense_guide_curated_record",
+      "type": "local_file",
+      "title": "Web3 戍衛指南／戍衛轉型指南申請、成果與多簽撥款對照",
+      "path": "data/groups/action_living_room/records/web3_defense_guide_2024_2025.md",
+      "source_status": "maintainer_supplied_discord_posts_and_verified_safe_api"
+    },
+    {
+      "id": "web3_defense_guide_safe_transaction",
+      "type": "optimism_safe_transaction",
+      "title": "Web3 戍衛指南 0.26 ETH 行動客廳 Safe 撥款；Note：The Will of D",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xb1bea7aab730db4894568bacfbed8e76ca4969fcc502c242dac13fc7f744f811",
+      "verification_status": "safe_api_execution_and_note_verified_2026-11-05"
     }
   ]
 }
