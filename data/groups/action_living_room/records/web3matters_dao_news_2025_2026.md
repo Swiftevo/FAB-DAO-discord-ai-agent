@@ -19,7 +19,7 @@
 
 - 行動客廳 Optimism Safe 於 **2025-09-16 22:45:27 香港時間**成功轉出 **100 USDT** 至申請書指定地址 `0x26AC7BB9A703CB9605397b5Cdb627a72C84D6e5a`；[Safe 交易](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x23e43e125d3937ba9da10a0bd25517b0e94a907b8c5141a361888e91f8562de3)、[鏈上交易](https://optimistic.etherscan.io/tx/0xa0bdcbf4807e02fb4ab43d7dc50883ef9ca4adccb062d19481e3fb8e76cd69ea)。Safe Note 為空。
 - [Web3Matters About 頁](https://web3matters.substack.com/about)亦公開列出同一地址。申請書指定地址、鏈上收款地址、2026-05-20「已撥款 100 U」貼文三者相符，因此記為本合作的**已執行 100 USDT 撥款**。付款於 2025 年發生；不能從 2026 年貼文推算另一筆同額付款。
-- 2025-09-16 同日另有 **500 USDT** 無 Note 交易，現有證據未將其歸入本合作，仍待查；後續款項及兩種 TWD 預算與 100 USDT 之間的換算／結算也待補。
+- 2025-09-16 同日另有 **500 USDT** 無 Note 交易，已由提案及撥款貼文對照為《Peer to Peer: The Commons Manifesto》繁體電子版 Bounty，**不屬本合作**；本合作的後續款項及兩種 TWD 預算與 100 USDT 之間的換算／結算仍待補。
 
 ## 資料來源
 

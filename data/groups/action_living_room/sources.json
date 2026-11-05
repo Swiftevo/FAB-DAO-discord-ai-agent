@@ -521,6 +521,28 @@
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x23e43e125d3937ba9da10a0bd25517b0e94a907b8c5141a361888e91f8562de3",
       "related_record": "data/groups/action_living_room/records/web3matters_dao_news_2025_2026.md",
       "verification_status": "safe_execution_and_application_recipient_match_2026_11_05"
+    },
+    {
+      "id": "p2p_commons_traditional_ebook_bounty_2025",
+      "type": "local_file",
+      "title": "P2P 共享資源宣言繁體電子版 Bounty 申請、成果與撥款",
+      "path": "data/groups/action_living_room/records/p2p_commons_manifesto_traditional_ebook_2025.md",
+      "source_status": "maintainer_supplied_discord_thread_safe_snapshot_and_public_ebook"
+    },
+    {
+      "id": "p2p_commons_traditional_ebook_safe_payment_2025_09_16",
+      "type": "optimism_safe_transaction",
+      "title": "P2P 繁體電子版 Bounty 500 USDT 行動客廳撥款",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xa80f0e52672604e20484e6cd29125b37493a4fae98f3846ca0ee44b61be76bbc",
+      "related_record": "data/groups/action_living_room/records/p2p_commons_manifesto_traditional_ebook_2025.md",
+      "verification_status": "safe_execution_and_maintainer_supplied_approval_post_match_2026_11_05"
+    },
+    {
+      "id": "p2p_commons_traditional_ebook_3ook",
+      "type": "public_ebook_page",
+      "title": "3ook P2P 共享資源宣言繁體電子版",
+      "url": "https://3ook.com/store/0x54ef012c45ea5146cbc7fac4a1b064ffe0d4f45f",
+      "related_record": "data/groups/action_living_room/records/p2p_commons_manifesto_traditional_ebook_2025.md"
     }
   ]
 }
