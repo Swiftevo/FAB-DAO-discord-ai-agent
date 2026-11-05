@@ -506,6 +506,21 @@
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x4392ef2f0af40488c3766fe6c8843cf71130646658295daaf2523de764706a1b",
       "related_record": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md",
       "verification_status": "safe_execution_verified_purpose_maintainer_confirmed_2026_11_05"
+    },
+    {
+      "id": "web3matters_dao_news_2025_2026",
+      "type": "local_file",
+      "title": "Web3Matters DAO 新聞合作申請、進度及付款對照",
+      "path": "data/groups/action_living_room/records/web3matters_dao_news_2025_2026.md",
+      "source_status": "maintainer_supplied_posts_safe_snapshot_and_public_articles"
+    },
+    {
+      "id": "web3matters_dao_news_safe_payment_2025_09_16",
+      "type": "optimism_safe_transaction",
+      "title": "Web3Matters DAO 新聞合作 100 USDT 行動客廳 Safe 撥款",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x23e43e125d3937ba9da10a0bd25517b0e94a907b8c5141a361888e91f8562de3",
+      "related_record": "data/groups/action_living_room/records/web3matters_dao_news_2025_2026.md",
+      "verification_status": "safe_execution_and_application_recipient_match_2026_11_05"
     }
   ]
 }
