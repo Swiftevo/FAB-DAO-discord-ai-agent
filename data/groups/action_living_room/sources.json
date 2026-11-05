@@ -476,6 +476,20 @@
       "title": "Web3 戍衛指南 0.26 ETH 行動客廳 Safe 撥款；Note：The Will of D",
       "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xb1bea7aab730db4894568bacfbed8e76ca4969fcc502c242dac13fc7f744f811",
       "verification_status": "safe_api_execution_and_note_verified_2026-11-05"
+    },
+    {
+      "id": "co_keeping_cleanup_meetup_2025",
+      "type": "local_file",
+      "title": "CO-Keeping 大掃除工作小聚申請與討論紀錄",
+      "path": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md",
+      "source_status": "maintainer_supplied_discord_posts_and_google_slides"
+    },
+    {
+      "id": "co_keeping_presentation_2025",
+      "type": "google_presentation",
+      "title": "FAB DAO co-keeping 討論紀錄",
+      "url": "https://docs.google.com/presentation/d/1AQWtirz0v3U6c5FVc847XHVpDuuFPG0ao1xPV4-wDQ0/edit?usp=sharing",
+      "related_record": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md"
     }
   ]
 }
