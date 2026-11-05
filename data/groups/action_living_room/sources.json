@@ -115,9 +115,24 @@
       "id": "app_003_first_round_safe_transaction",
       "type": "optimism_safe_transaction",
       "title": "APP_003 1010 USDT 第一輪資助 Safe 交易",
-      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9b0585bfbccf4f83d9a95f118a2e2e7a444b0a60b603e50f8fb6eec6985926f8",
       "project_id": "APP_003",
-      "verification_status": "maintainer_confirmed"
+      "verification_status": "safe_api_execution_verified_2026_11_05"
+    },
+    {
+      "id": "grant_funding_conversion_2025_07_20",
+      "type": "local_file",
+      "title": "2025-07-20 行動客廳四項 Grant 撥款前換幣對照",
+      "path": "data/groups/action_living_room/records/grant_funding_conversion_2025-07-20.md",
+      "source_status": "maintainer_supplied_discord_posts_and_verified_safe_snapshot"
+    },
+    {
+      "id": "grant_funding_conversion_safe_transaction_2025_07_20",
+      "type": "optimism_safe_transaction",
+      "title": "行動客廳 1 ETH 換得 3,531.284190 USDT 的 Safe 交易；不是單一 Grant 撥款",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x10bff2bf1f3b7765d21d396b5fa7c80bad1bf3d4ca259ffa8b575e76cd689f4f",
+      "related_record": "data/groups/action_living_room/records/grant_funding_conversion_2025-07-20.md",
+      "verification_status": "safe_execution_verified_purpose_contemporaneous_posts_2026_11_05"
     },
     {
       "id": "app_003_round2_application_2026_02_24",
