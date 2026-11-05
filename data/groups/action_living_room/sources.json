@@ -490,6 +490,22 @@
       "title": "FAB DAO co-keeping 討論紀錄",
       "url": "https://docs.google.com/presentation/d/1AQWtirz0v3U6c5FVc847XHVpDuuFPG0ao1xPV4-wDQ0/edit?usp=sharing",
       "related_record": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md"
+    },
+    {
+      "id": "co_keeping_safe_payment_64_211456_2025_12_25",
+      "type": "optimism_safe_transaction",
+      "title": "CO-Keeping 64.211456 USDT 行動客廳 Safe 撥款",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9dbe962b14332e081de1cdb568fe63ca1a71b79ee6efdac2822ee349e452d599",
+      "related_record": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md",
+      "verification_status": "safe_execution_verified_purpose_maintainer_confirmed_2026_11_05"
+    },
+    {
+      "id": "co_keeping_safe_payment_116_383264_2025_12_25",
+      "type": "optimism_safe_transaction",
+      "title": "CO-Keeping 116.383264 USDT 行動客廳 Safe 撥款",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x4392ef2f0af40488c3766fe6c8843cf71130646658295daaf2523de764706a1b",
+      "related_record": "data/groups/action_living_room/records/co_keeping_cleanup_meetup_2025.md",
+      "verification_status": "safe_execution_verified_purpose_maintainer_confirmed_2026_11_05"
     }
   ]
 }

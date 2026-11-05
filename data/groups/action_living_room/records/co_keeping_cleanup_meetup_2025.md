@@ -1,11 +1,11 @@
 # CO-Keeping 大掃除工作小聚（2025）
 
-最後整理：2026-11-05。此為行動客廳工作小聚的申請與討論資料；目前沒有核准決議或可確認的多簽付款，不列作已支出，也不編入 FAB DAO Grant 輪次。
+最後整理：2026-11-05。此為行動客廳工作小聚的申請、討論及撥款對照資料；已有維護者確認的兩筆多簽付款，但目前沒有獨立的核准決議或費用分攤憑證，不編入 FAB DAO Grant 輪次。
 
 ## 申請與預算
 
 - **2025-07-29 21:12，原申請貼文：** 邀請 FAB DAO 各組交流近況、討論後續計畫及 FAB DAO 副刊，預定 **2025-08-16 13:30–16:30** 舉辦。提出場地「小樹屋」**2,625 NTD**、食物 **1,000 NTD**、文字及照片紀錄；原帖「共申請 NTD」未填總額，紀錄費用亦未填金額。預期討論各組更新、FIP-3 草稿、Grant Round 4、帳本交接、聯絡人交接及多簽輪替。
-- **2025-08-14 14:41，修訂申請貼文：** 建議場地 **2,625 NTD**、食物 **1,000 NTD**、討論重點紀錄 **1,000 NTD**、籌備推動 **1,000 NTD**，合計 **5,625 NTD**。貼文請當時的多簽管理人審核；不能據此推定核准或撥款。
+- **2025-08-14 14:41，修訂申請貼文：** 建議場地 **2,625 NTD**、食物 **1,000 NTD**、討論重點紀錄 **1,000 NTD**、籌備推動 **1,000 NTD**，合計 **5,625 NTD**。貼文請當時的多簽管理人審核；這則貼文本身不是核准或撥款證據。
 
 ## 討論資料
 
@@ -14,9 +14,11 @@
 
 ## Safe 對照狀態
 
-- 已核對現有行動客廳 Optimism Safe 快照中 2025-07-29 至 2025-09-30 的已執行交易。2025-08-20 的已知支出屬其他 Grant，另有換幣性質的操作；2025-09-16 的 [100 USDT](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x23e43e125d3937ba9da10a0bd25517b0e94a907b8c5141a361888e91f8562de3) 與 [500 USDT](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xa80f0e52672604e20484e6cd29125b37493a4fae98f3846ca0ee44b61be76bbc) 無 Note，但其金額、時間及收款地址均不能直接對應這份 **5,625 NTD** 申請。**目前沒有可確證的小聚付款交易**，該兩筆仍留在待查名單。
-- 若日後提供多簽提案或鏈上交易 hash，再按執行金額、收款地址及付款目的補上對照；不要僅按活動日期或近似匯率認列支出。
+- **2025-12-25 11:48:45 香港時間：** Safe 成功轉出 **64.211456 USDT** 至 `0x5d3f7C09c0132C2c5A78ec2E654b9068f5550954`；[Safe 交易](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9dbe962b14332e081de1cdb568fe63ca1a71b79ee6efdac2822ee349e452d599)、[鏈上交易](https://optimistic.etherscan.io/tx/0x3fb96fb015fadf831c3cde61380e08eb30328f3e09d874b98f9b9257edac21a4)。Safe Note 為空。
+- **2025-12-25 11:49:29 香港時間：** Safe 成功轉出 **116.383264 USDT** 至 `0x6849A5173dd8b6F2B315570331e13d1eCbd2d638`；[Safe 交易](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x4392ef2f0af40488c3766fe6c8843cf71130646658295daaf2523de764706a1b)、[鏈上交易](https://optimistic.etherscan.io/tx/0x6fd4c271bad9a97dd00ec0ecd2b4403b9968dd5b78e65c6ce07839a02aa9da9b)。Safe Note 為空。
+- 兩筆合計 **180.594720 USDT**。**2026-11-05 維護者確認**這兩筆對應 CO-Keeping 小聚，因此可作為此活動已由行動客廳撥款的紀錄；這項用途歸屬來自維護者，不是鏈上或 Safe Note 本身所寫。合計金額與申請的 **5,625 NTD** 之間隱含約 **31.1471 NTD/USDT**；沒有換匯憑證，亦未確認各收款地址分別負責哪個預算項目或款項是否由其轉交供應商。
+- **2025-12-25 同日另有 100 USDT** 無 Note 交易，維護者未將其歸入本活動，仍待查。2025-09-16 的 [100 USDT](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x23e43e125d3937ba9da10a0bd25517b0e94a907b8c5141a361888e91f8562de3) 與 [500 USDT](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xa80f0e52672604e20484e6cd29125b37493a4fae98f3846ca0ee44b61be76bbc) 亦不因本次確認而歸入 CO-Keeping。
 
 ## 資料來源
 
-維護者提供的 2025-07-29、08-14、12-19 Discord 貼文文字；上述 Google Slides 簡報；本地行動客廳 Safe 已執行交易快照。原 Discord 訊息連結未提供，貼文日期沿用維護者提供的時間。
+維護者提供的 2025-07-29、08-14、12-19 Discord 貼文文字及 2026-11-05 對兩筆交易用途的確認；上述 Google Slides 簡報；本地行動客廳 Safe 官方 API 已執行交易快照。原 Discord 訊息連結未提供，貼文日期沿用維護者提供的時間。
