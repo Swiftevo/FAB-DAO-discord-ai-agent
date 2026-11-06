@@ -558,6 +558,36 @@
       "title": "3ook P2P 共享資源宣言繁體電子版",
       "url": "https://3ook.com/store/0x54ef012c45ea5146cbc7fac4a1b064ffe0d4f45f",
       "related_record": "data/groups/action_living_room/records/p2p_commons_manifesto_traditional_ebook_2025.md"
+    },
+    {
+      "id": "yipin_two_grants_contact_fee_2025_12_25",
+      "type": "local_file",
+      "title": "宜品負責 Web3 羽球社與你拒絕我給錢兩個月的共用專案聯絡人費",
+      "path": "data/groups/action_living_room/records/project_contact_fee_yipin_2025-12-25.md",
+      "project_ids": ["APP_001", "APP_002"],
+      "source_status": "safe_execution_verified_purpose_maintainer_confirmed_2026_11_07"
+    },
+    {
+      "id": "yipin_two_grants_contact_fee_safe_transaction_2025_12_25",
+      "type": "optimism_safe_transaction",
+      "title": "宜品兩項 Grant 共用聯絡人工作費 100 USDT 行動客廳 Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x75778d1893e8de11dbba400954656974d18a14ee22a2b497e75b9f341d78a310",
+      "project_ids": ["APP_001", "APP_002"],
+      "verification_status": "safe_execution_verified_purpose_maintainer_confirmed_2026_11_07"
+    },
+    {
+      "id": "grant_funding_conversion_2025_08_20",
+      "type": "local_file",
+      "title": "行動客廳剩餘 Grant 資金 ETH 換 USDT 對照",
+      "path": "data/groups/action_living_room/records/grant_funding_conversion_2025-08-20.md",
+      "source_status": "maintainer_supplied_posts_and_safe_api_execution_verified"
+    },
+    {
+      "id": "grant_funding_conversion_safe_transaction_2025_08_20",
+      "type": "optimism_safe_transaction",
+      "title": "2025-08-20 行動客廳 1.2775 ETH 換入 5,347.192041 USDT Safe 交易",
+      "url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0xff20061832d52f9bb0267104789f76fa0ea8afed6f367c229b799bf5a1d241e7",
+      "verification_status": "safe_api_execution_verified_2026_11_07"
     }
   ]
 }
