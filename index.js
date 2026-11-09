@@ -13,6 +13,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const { OpenAI } = require('openai');const fs = require('fs');
 const path = require('path');
 const { handleAIRequest } = require('./logic');
+const { parseIngestCommand, handleIngestCommand, handleIngestConfirmation } = require('./discord-ingest');
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -55,6 +56,18 @@ client.on('messageCreate', async (message) => {
         try {
             // 確認使用者是否有管理員權限
             const isReviewer = message.member?.roles.cache.some(role => role.name === REVIEWER_ROLE_NAME) || false;
+
+            if (userPrompt === '確認收錄') {
+                await safeReply(message, await handleIngestConfirmation(message, isReviewer));
+                return;
+            }
+
+            const ingestCommand = parseIngestCommand(userPrompt);
+            if (ingestCommand) {
+                const ingestResponse = await handleIngestCommand(message, ingestCommand, isReviewer);
+                await safeReply(message, ingestResponse);
+                return;
+            }
 
             // 🧠 將邏輯外包給 logic.js 處理
             const response = await handleAIRequest(userPrompt, isReviewer);
