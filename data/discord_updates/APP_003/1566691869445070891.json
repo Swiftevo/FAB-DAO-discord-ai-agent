@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_id": "APP_003",
+  "project_name": "大量交織+地球公物",
+  "source_type": "discord_messages",
+  "source_channel_id": "1389312165298569237",
+  "source_message_ids": [
+    "1566691869445070891"
+  ],
+  "range_start": "2026-11-02T05:54:09.403Z",
+  "range_end": "2026-11-02T05:54:09.403Z",
+  "captured_at": "2026-11-09T15:33:25.889Z",
+  "status": "source_posts_not_independently_verified",
+  "entries": [
+    {
+      "message_id": "1566691869445070891",
+      "posted_at": "2026-11-02T05:54:09.403Z",
+      "source_url": "https://discord.com/channels/909473182598193272/1389312165298569237/1566691869445070891",
+      "content": "<@892936872567898122>  有！確認已收到 1010 + 760 USDT 尾款～謝謝FL"
+    }
+  ]
+}
