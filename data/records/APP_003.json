@@ -10,7 +10,7 @@
     "round_1_final_reserved_usdt": 1010,
     "round_4_final_reserved_usdt": 761.868,
     "status": "round_1_1010_and_round_4_760_executed_2026-10-28; earlier_reservation_historical",
-    "test_transfer_note": "2026-10-09 的 1.868 USDT 是測試款；2026-10-28 已正式標籤轉出 760 USDT。761.868 - 1.868 = 760；測試款是否抵扣正式尾款尚待人類決議。"
+    "test_transfer_note": "2026-10-09 的 1.868 USDT 原為測試轉帳；2026-10-28 已轉出 Safe Note 標示 Round 4 40% 的 760 USDT。維護者於 2026-11-10 確認測試款可抵扣原預留尾款：1.868 + 760 = 761.868 USDT；Round 4 資金正式結清。"
   },
   "full_title": "大量交織+地球公物:透過區塊鏈設計橋接共享資源並實現公共化",
   "fab_dao_contact": { "name": "Stanley" },
@@ -19,7 +19,7 @@
     "notes": [
       "02/03 例會、02/05 貼文把 FL YANG 與大量交織及 200 U 專案聯絡人待撥款並列；與現有 Stanley 聯絡人欄位不同，作歷史資料保留，不推斷人事更替或已付款。",
       "05/12 貼文列 Round 4 60% 啟動款 1142.802 USDT 待撥；05/26 分享 Safe 連結，實際於 06/02 成功執行。",
-      "10/06 貼文將測試款誤寫為 1.686 USDT；維護者於 2026-10-23 確認是筆誤，正確金額為 10/09 鏈上成功轉出的 1.868 USDT。Safe Note 含 test，不計作正式 40% 撥款。貼文所稱的後續 760 + 1010 已於 2026-10-28 從行動客廳 Safe 執行；兩筆 Safe Note 分別標示 Round 4 40% 及 Round 1 50%。"
+      "10/06 貼文將測試款誤寫為 1.686 USDT；維護者於 2026-10-23 確認是筆誤，正確金額為 10/09 鏈上成功轉出的 1.868 USDT。Safe Note 含 test，保留原交易性質；維護者於 2026-11-10 另確認可將其抵扣 Round 4 原預留尾款。貼文所稱的後續 760 + 1010 已於 2026-10-28 從行動客廳 Safe 執行；兩筆 Safe Note 分別標示 Round 4 40% 及 Round 1 50%。"
     ],
     "related_safe_tx_hashes": [
       "0x9ef19d23481bd7b27388ed64c599754de46efe393da702746610cb39387591f4",
@@ -27,7 +27,18 @@
     ]
   },
   "decision_status": "approved",
-  "current_status": "active - Round 1 two 1010 USDT transfers verified; Round 4 1142.802 and 760 USDT formal-label transfers plus separate 1.868 USDT test verified",
+  "current_status": "active - Round 1 2020 USDT paid; Round 4 1904.67 USDT fully settled, including 1.868 USDT test transfer credited to final balance by maintainer confirmation on 2026-11-10",
+  "round_4_settlement": {
+    "confirmed_date": "2026-11-10",
+    "confirmation_source": "maintainer_confirmation_in_chat",
+    "approved_total_usdt": 1904.67,
+    "initial_60_percent_usdt": 1142.802,
+    "test_transfer_credited_usdt": 1.868,
+    "final_transfer_usdt": 760,
+    "outstanding_usdt": 0,
+    "status": "fully_settled",
+    "note": "維護者確認 2026-10-09 原標示 test 的 1.868 USDT 可抵扣 Round 4 尾款；交易的 Safe Note 仍為 test，結清是後續帳務認定，並非 Safe Note 被更改。"
+  },
   "applicant": {
     "name": "蕭有志",
     "english_name": "Yu-Chih Hsiao",
@@ -266,7 +277,7 @@
       "wallet_address": "0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d",
       "chain": "Optimism",
       "verification_status": "maintainer_provided_and_onchain_receipt_verified",
-      "note": "五月大量交織確認此地址為 Optimism USDT 收款地址；2026-06-02 收到行動客廳 Safe 的 1142.802 USDT Round 4 60% 啟動款。另有 2026-10-09 的 1.868 USDT 測試轉帳，Safe Note 含 (40%) test；10/06 貼文的 1.686 USDT 已由維護者確認為筆誤，不計正式 40%。舊地址仍保留。",
+      "note": "五月大量交織確認此地址為 Optimism USDT 收款地址；2026-06-02 收到行動客廳 Safe 的 1142.802 USDT Round 4 60% 啟動款。另有 2026-10-09 的 1.868 USDT 測試轉帳，Safe Note 含 (40%) test；10/06 貼文的 1.686 USDT 已由維護者確認為筆誤。維護者於 2026-11-10 確認 1.868 USDT 可抵扣 Round 4 尾款；舊地址仍保留。",
       "confirmation_source_file": "data/archive/APP_003_round4_wallet_confirmation_2026-05.md"
     }
   ],
@@ -407,3 +418,4 @@
     "data/archive/APP_003_wallet_2026-10-18.md"
   ]
 }
+
