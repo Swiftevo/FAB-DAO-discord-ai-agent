@@ -2,6 +2,8 @@
 
 資料版本：2026-04-21 修定
 
+2026-11-03 修正中草案已收錄，**尚未確認定稿或生效**。現行申請規則仍以本頁及 2026-04-21 原文為準。草案新增「同一專案歷輪累積申請上限 3,200 USD」、由委員會認定同一專案，並把「長期性」加入審核標準；這些變動不得當成已生效規則。草案存於 `data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-11-03_draft.md`。
+
 ## 主旨
 
 FAB DAO Grant 鼓勵與 FAB DAO 願景貼合的行動真實發生，讓有行動力的夥伴推動專案啟動，促進 Web3 Public Goods 與各種符合 FAB DAO 宗旨的提案。
@@ -64,3 +66,4 @@ Agent 只負責回答 FAQ、檢查資料完整度及整理資訊，不得代替�
 ## 原始資料
 
 完整原文保存於 `data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-04-21.md`。
+

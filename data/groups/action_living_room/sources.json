@@ -403,6 +403,17 @@
       "summary_file": "data/groups/action_living_room/grant_program.md"
     },
     {
+      "id": "fab_dao_grant_rules_2026_11_03_draft",
+      "type": "maintainer_supplied_document_text",
+      "title": "FAB DAO Grant 行動客廳補助金｜申請辦法（修正中）",
+      "url": "https://docs.google.com/document/d/1kLIC6qiF-Zf5JcbMedd2OiMI2Wmq2zLmeZmzg6dSzB0/edit?tab=t.0",
+      "document_version": "2026-11-03",
+      "provided_date": "2026-11-12",
+      "status": "draft_not_effective",
+      "import_status": "maintainer_text_preserved_not_live_verified",
+      "raw_file": "data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-11-03_draft.md"
+    },
+    {
       "id": "app_006_ghost_object_proposal",
       "type": "google_drive_file",
       "title": "Ghost Object 不可能物件_2026 展覽計畫原企劃書",
@@ -591,3 +602,4 @@
     }
   ]
 }
+
