@@ -8,6 +8,12 @@
       "governance_body_id": "grant_committee",
       "status": "active",
       "rules_version": "2026-04-21",
+      "pending_rules_draft": {
+        "version": "2026-11-03",
+        "status": "revision_in_progress_not_effective",
+        "source": "maintainer_pasted_text_2026-11-12",
+        "file": "data/groups/action_living_room/raw/FAB_DAO_Grant_application_rules_2026-11-03_draft.md"
+      },
       "total_budget_usd": 1600,
       "maximum_per_project_usd": 1600,
       "tier_boundary_note": "官方原文在 150 USD 與 900 USD 邊界有重疊；邊界個案需由補助金委員會確認。",
@@ -64,3 +70,4 @@
     }
   ]
 }
+
