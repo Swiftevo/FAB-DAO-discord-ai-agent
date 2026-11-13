@@ -1,13 +1,15 @@
 # 行動客廳 Current Summary
 
-最後更新：2026-11-10（維護者確認大量交織 Round 4 測試款可抵扣尾款；行動客廳 Safe 快照已更新，總金庫快照仍截至 2026-10-22）
+最後更新：2026-11-13（新增 Round 7 與快樂鼠第二期 Bounty 的 Safe 狀態；完整已執行交易快照仍截至 2026-11-05，總金庫快照仍截至 2026-10-22）
 
 ## 當前重點
 
 - 跟進 FAB DAO Grant 補助金專案。
 - 跟進任務懸賞 Bounty；詳細項目資料待補。
 - 維護行動客廳 Optimism 多簽錢包及管理人資料。
-- 現有 `APP_001` 至 `APP_009` 已歸類為行動客廳轄下的 FAB DAO Grant 專案。
+- 現有 `APP_001` 至 `APP_009` 已歸類為行動客廳轄下的 FAB DAO Grant 專案。新提供的 Round 7 專案未有申請書及核准資料，暫不編新 APP 編號。
+- **2026-11-13 Safe 查核：** Round 7 `desci-asia-irl-grant` 的 **360 USDT** 已成功轉出至 `0x67AC18D03b7F10481D24bf18ae97193ae31A1446`，Note 標為 60%；[Safe 提案](https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x9e35fe06358c20802ef10cd3522b3e05d35f79eb180a1e44205c095e4a50dce5)、[鏈上交易](https://optimistic.etherscan.io/tx/0x657542dff58157fb80e6298e5270711f6ad03f1de95c1fdb03e516b7d310bb5d)。`阿嬤，這不是老鼠會！` **149.9 USDT** 及 Ghost Object Round 7 **90 USDT** 均仍為 **2/3 簽名、待執行**，不能當作已撥款。三案的正式核准總額未核實；不能從 Note 的 60% 反推。詳 `data/groups/action_living_room/records/round7_and_happy_rat_bounty_safe_2026-11-13.md`。
+- **快樂鼠 AI 管家第二期：** 行動客廳 Safe 的 Bounty 提案為 **180 USDT** 至 `swiftevo.eth`，2026-11-13 查核為 **2/3 簽名、待執行**；不是已付款，也不計入任何 Grant。本筆用途、收款地址及狀態見同一 Round 7／Bounty 核對記錄。
 - `APP_001` 是「Web3 羽球社」，Notion 索引列 Round 1 小鼠 30,000 NTD、FAB DAO 專案聯絡人 Yipin；負責人 MN / 明恩，已記錄負責人錢包與 1010 USDT Safe 轉帳。2025-12-25 另有與 `APP_002` 共用的一筆 **100 USDT** 宜品兩個月聯絡人費，**不計入 Grant 本金**。
 - `APP_002` 是「你拒絕，我給錢」，Notion 索引名稱「拒然不要-文字勞動者藝評支持計畫」，列 Round 1 小鼠 30,000 NTD、FAB DAO 專案聯絡人 FL YANG；負責人寶成，已記錄負責人錢包與 1010 USDT Safe 轉帳。2025-12-25 宜品的兩個月聯絡人費與 `APP_001` **共用同一筆 100 USDT**，不能重複計算；見 `data/groups/action_living_room/records/project_contact_fee_yipin_2025-12-25.md`。
 - `APP_003` 是「大量交織+地球公物」，Notion 索引列 Round 1 與 Round 4、FAB DAO 專案聯絡人 Stanley；第一份申請書預算為 60,000 NTD，已記錄第一輪資助 1010 USDT，按 2025-07-19 匯率約 30,011.14 TWD，屬部分資助而非全額撥款；第二份申請通過 60,000 TWD，Round 4 的 60% 啟動款 1142.802 USDT 已於 2026-06-02 在 Optimism 轉入團隊五月確認的地址 `0x4203e77F2951E4190961BcB448e3AAfbFb64Bd3d`。04/14–04/28 會議摘要回報 04/22 地球日頁面發布、04/23 約 40–60 個獨立 IP 單日訪問（非活躍用戶數）。Greenpill 160 USDC 已於 Arbitrum 轉至維護者稱為 GreenSofa 錢包的 `0x13126B…4679`；該地址於 2026-06-29 在 **Ethereum** 主網向大量交織轉出 144 USDC，鏈上已核實。06/02–06/30 例會摘要另稱「第三期資金申請未通過」，申請編號與決議文件未提供，故不影響前述已核實資金；06/30 核對各期達成率和進帳率，但未提供數值。先前 Celo Safe 連結不是這筆入帳。舊錢包記錄保留，未確認是否被取代。
