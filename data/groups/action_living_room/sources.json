@@ -2,6 +2,13 @@
   "group_id": "action_living_room",
   "sources": [
     {
+      "id": "round7_and_happy_rat_bounty_safe_2026_11_13",
+      "type": "local_file",
+      "title": "Round 7 三項 Grant 與快樂鼠第二期 Bounty 的 Safe 執行狀態",
+      "path": "data/groups/action_living_room/records/round7_and_happy_rat_bounty_safe_2026-11-13.md",
+      "verification_status": "safe_ui_checked_2026_11_13_one_executed_three_queued"
+    },
+    {
       "id": "fab_dao_grants_notion_index",
       "type": "notion_page",
       "title": "行動客廳 GRANTS 補助金公開索引",

@@ -10,6 +10,18 @@
     "final_amount_usdt": 580,
     "status": "planned_for_autumn_equinox_not_verified_as_disbursed"
   },
+  "round_7_safe_proposal_2026_11_13": {
+    "safe_note": "GRANTS round7 ghost-object-不可能物件＿2026展覽計畫(60%)",
+    "amount": 90,
+    "currency": "USDT",
+    "recipient_wallet": "0x23C80576eBd82e99c6F4781c0A8F93688956E6E4",
+    "safe_tx_hash": "0x6e7ce249951bdf685b0ca46456a64631d4be6435786fb4dd99443cff9d9bedcd",
+    "safe_transaction_url": "https://app.safe.global/transactions/tx?safe=oeth:0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4&id=multisig_0x4B04936DE3bb0a32DfeDb73816E231CFeF0707C4_0x6e7ce249951bdf685b0ca46456a64631d4be6435786fb4dd99443cff9d9bedcd",
+    "status_as_of_2026_11_13": "queued_2_of_3_signatures_not_executed",
+    "approved_total_status": "not_verified",
+    "source_file": "data/groups/action_living_room/records/round7_and_happy_rat_bounty_safe_2026-11-13.md",
+    "note": "此提案與 Round 5／6 分開；沒有執行交易 hash，不能列入已撥款。"
+  },
   "round": 5,
   "declared_tier": {
     "id": "cumulative_rat",
