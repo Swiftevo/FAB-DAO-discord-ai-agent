@@ -225,6 +225,10 @@ async function handleIngestCommand(message, command, isReviewer, options = {}) {
     const allowedIds = String(process.env.DISCORD_INGEST_CHANNEL_IDS || '').split(',').map(id => id.trim()).filter(Boolean);
     const project = resolveProject(command.projectName, options.projects);
     if (!project) return '找不到唯一的專案或小組名稱。請使用 APP_### 或資料庫中的名稱。';
+    if (project.id === 'greensofa') {
+        const greensofaChannelId = String(process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID || '').trim();
+        if (greensofaChannelId) allowedIds.push(greensofaChannelId);
+    }
     if (!isAllowedChannel(message.channel, project, allowedIds)) return '這個頻道未獲准收錄到該專案或小組。';
     try {
         const entries = await collectMessages(message, command.mode);
