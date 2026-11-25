@@ -222,13 +222,11 @@ async function createDraftPullRequest(record, commandId, config = {}) {
 async function handleIngestCommand(message, command, isReviewer, options = {}) {
     if (!isReviewer) return '只有「行動客廳小組」可提交收錄。';
     if (process.env.DISCORD_INGEST_ENABLED !== 'true') return 'Discord 收錄尚未啟用；需要先設定允許的頻道與 GitHub 寫入憑證。';
-    const allowedIds = String(process.env.DISCORD_INGEST_CHANNEL_IDS || '').split(',').map(id => id.trim()).filter(Boolean);
     const project = resolveProject(command.projectName, options.projects);
     if (!project) return '找不到唯一的專案或小組名稱。請使用 APP_### 或資料庫中的名稱。';
-    if (project.id === 'greensofa') {
-        const greensofaChannelId = String(process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID || '').trim();
-        if (greensofaChannelId) allowedIds.push(greensofaChannelId);
-    }
+    const allowedIds = project.id === 'greensofa'
+        ? [String(process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID || '').trim()].filter(Boolean)
+        : String(process.env.DISCORD_INGEST_CHANNEL_IDS || '').split(',').map(id => id.trim()).filter(Boolean);
     if (!isAllowedChannel(message.channel, project, allowedIds)) return '這個頻道未獲准收錄到該專案或小組。';
     try {
         const entries = await collectMessages(message, command.mode);
