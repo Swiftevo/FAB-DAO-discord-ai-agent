@@ -121,16 +121,19 @@ Railway 曾經使用過，但目前已過期，不再是正式部署平台。代
 
 詳見 [TODO.md](TODO.md)。目前最高優先是：成功把快樂鼠 agent 加入 FAB DAO Discord，並完成最小可用測試。
 
-## Discord 指定留言收錄（待部署啟用）
+## Discord 指定留言收錄
 
-這項功能只接受具備 `行動客廳小組` 角色的成員，在已登記且允許收錄的專案頻道使用：
+這項功能只接受具備 `行動客廳小組` 角色的成員，在已登記且允許收錄的專案或小組頻道使用：
 
 1. 回覆一則專案更新，輸入 `@快樂鼠 收錄到 APP_003`（也可用唯一的專案名稱）。
 2. 在專案討論串輸入 `@快樂鼠 收錄這串到 APP_003`，擷取指令之前最多 20 則文字留言。
+   綠沙發頻道同樣可用 `@快樂鼠 收錄到 綠沙發` 或 `@快樂鼠 收錄這串到 綠沙發`；收錄至綠沙發小組資料，不歸入任何 Grant 專案。
 3. 快樂鼠顯示來源與內容預覽。確認可放進公開 GitHub 後，回覆該預覽並輸入 `@快樂鼠 確認收錄`。
-4. 快樂鼠建立 GitHub 草稿 PR。維護者核對專案、資料真偽及可公開內容，合併後 bot 才會把這些留言當作查詢來源。留言陳述不等同獨立核實的撥款或成果。
+4. 快樂鼠建立 GitHub 草稿 PR。維護者核對資料對應、真偽及可公開內容，合併後 bot 才會把這些留言當作查詢來源。留言陳述不等同獨立核實的撥款或成果。
 
 Render 環境變數需設定 `DISCORD_INGEST_ENABLED=true`、`DISCORD_INGEST_CHANNEL_IDS`（逗號分隔、明確允許的專案頻道 ID）、`GITHUB_INGEST_TOKEN`，以及視需要設定 `GITHUB_INGEST_REPOSITORY`、`GITHUB_INGEST_BASE_BRANCH`。GitHub 憑證僅給該 repository 的 Contents、Pull requests 寫入權限，勿貼在 Discord 或提交到 Git。預設關閉；啟用前確認所列頻道內容適合提交至公開 repository。這個流程只讀取 Discord 文字，附件及外部連結不會自動讀入。
+
+綠沙發測試需在現有 `DISCORD_INGEST_CHANNEL_IDS` 值後追加 `1145697520148824075`，保留原有大量交織頻道 ID。頻道 ID 必須同時列在環境變數與 `data/groups/index.json`，才允許收錄。
 
 Render 免費服務的執行中檔案不是持久儲存。正式資料以合併後的 GitHub 檔案為準，收錄後部署到 Render 才會用於回答。本功能使用專案名稱和檔案檢索，沒有向量資料庫。
 
