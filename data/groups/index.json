@@ -24,6 +24,7 @@
     "name": "GreenSofa 綠沙發",
     "aliases": ["GreenSofa", "綠沙發"],
     "database_status": "active",
+    "discord_channel_url": "https://discord.com/channels/909473182598193272/1145697520148824075",
     "summary_file": "data/groups/greensofa/summary.md"
   },
   {

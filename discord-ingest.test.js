@@ -36,6 +36,32 @@ test('uses registered project channels from detailed records when the summary la
     assert.equal(isAllowedChannel({ id: 'other' }, shishui, ['1477867968380796969']), false);
 });
 
+test('GreenSofa channel resolves to group records without opening other channels', () => {
+    const greensofa = resolveProject('綠沙發');
+    const channelId = '1145697520148824075';
+    assert.equal(greensofa.id, 'greensofa');
+    assert.equal(isAllowedChannel({ id: channelId }, greensofa, [channelId]), true);
+    assert.equal(isAllowedChannel({ id: '123' }, greensofa, [channelId, '123']), false);
+    assert.equal(isAllowedChannel({ id: channelId }, project, [channelId]), false);
+
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), 'fab-discord-'));
+    try {
+        const entry = {
+            message_id: '456', posted_at: '2026-11-25T10:00:00.000Z',
+            source_url: `https://discord.com/channels/999/${channelId}/456`, content: '綠沙發例會更新'
+        };
+        const record = buildRecord(greensofa, { channelId }, [entry]);
+        assert.equal(recordPath(record), 'data/discord_updates/greensofa/456.json');
+        const filePath = path.join(root, recordPath(record));
+        fs.mkdirSync(path.dirname(filePath), { recursive: true });
+        fs.writeFileSync(filePath, JSON.stringify(record));
+        assert.match(relevantUpdates('綠沙發最近進度', undefined, path.join(root, 'data')), /綠沙發例會更新/);
+        assert.equal(relevantUpdates('大量交織最近進度', [project], path.join(root, 'data')), '');
+    } finally {
+        fs.rmSync(root, { recursive: true, force: true });
+    }
+});
+
 test('reply capture uses only the referenced message; thread capture has a fixed bound', async () => {
     const original = source('456', '網站測試已完成');
     const command = {
