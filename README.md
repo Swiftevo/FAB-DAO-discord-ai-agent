@@ -133,7 +133,7 @@ Railway 曾經使用過，但目前已過期，不再是正式部署平台。代
 
 Render 環境變數需設定 `DISCORD_INGEST_ENABLED=true`、`DISCORD_INGEST_CHANNEL_IDS`（逗號分隔、明確允許的專案頻道 ID）、`GITHUB_INGEST_TOKEN`，以及視需要設定 `GITHUB_INGEST_REPOSITORY`、`GITHUB_INGEST_BASE_BRANCH`。GitHub 憑證僅給該 repository 的 Contents、Pull requests 寫入權限，勿貼在 Discord 或提交到 Git。預設關閉；啟用前確認所列頻道內容適合提交至公開 repository。這個流程只讀取 Discord 文字，附件及外部連結不會自動讀入。
 
-綠沙發測試需在現有 `DISCORD_INGEST_CHANNEL_IDS` 值後追加 `1145697520148824075`，保留原有大量交織頻道 ID。頻道 ID 必須同時列在環境變數與 `data/groups/index.json`，才允許收錄。
+綠沙發測試使用獨立的 `DISCORD_INGEST_GREENSOFA_CHANNEL_ID=1145697520148824075`。保留現有 `DISCORD_INGEST_CHANNEL_IDS`，不用重複建立同名變數。綠沙發頻道 ID 必須與 `data/groups/index.json` 一致，才允許收錄。
 
 Render 免費服務的執行中檔案不是持久儲存。正式資料以合併後的 GitHub 檔案為準，收錄後部署到 Render 才會用於回答。本功能使用專案名稱和檔案檢索，沒有向量資料庫。
 
