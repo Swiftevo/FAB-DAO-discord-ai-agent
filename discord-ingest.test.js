@@ -36,13 +36,38 @@ test('uses registered project channels from detailed records when the summary la
     assert.equal(isAllowedChannel({ id: 'other' }, shishui, ['1477867968380796969']), false);
 });
 
-test('GreenSofa channel resolves to group records without opening other channels', () => {
+test('GreenSofa channel resolves to group records without opening other channels', async () => {
     const greensofa = resolveProject('綠沙發');
     const channelId = '1145697520148824075';
     assert.equal(greensofa.id, 'greensofa');
     assert.equal(isAllowedChannel({ id: channelId }, greensofa, [channelId]), true);
     assert.equal(isAllowedChannel({ id: '123' }, greensofa, [channelId, '123']), false);
     assert.equal(isAllowedChannel({ id: channelId }, project, [channelId]), false);
+
+    const oldEnabled = process.env.DISCORD_INGEST_ENABLED;
+    const oldChannels = process.env.DISCORD_INGEST_CHANNEL_IDS;
+    const oldGreensofa = process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID;
+    process.env.DISCORD_INGEST_ENABLED = 'true';
+    process.env.DISCORD_INGEST_CHANNEL_IDS = `123,${channelId}`;
+    process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID = channelId;
+    try {
+        const message = {
+            id: '789', channelId, channel: { id: channelId },
+            reference: { messageId: '456' },
+            fetchReference: async () => ({ ...source('456', '綠沙發例會更新'), channelId })
+        };
+        const command = parseIngestCommand('收錄到 綠沙發');
+        assert.match(await handleIngestCommand(message, command, true), /待審收錄/);
+        delete process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID;
+        assert.match(await handleIngestCommand(message, command, true), /未獲准/);
+    } finally {
+        if (oldEnabled === undefined) delete process.env.DISCORD_INGEST_ENABLED;
+        else process.env.DISCORD_INGEST_ENABLED = oldEnabled;
+        if (oldChannels === undefined) delete process.env.DISCORD_INGEST_CHANNEL_IDS;
+        else process.env.DISCORD_INGEST_CHANNEL_IDS = oldChannels;
+        if (oldGreensofa === undefined) delete process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID;
+        else process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID = oldGreensofa;
+    }
 
     const root = fs.mkdtempSync(path.join(os.tmpdir(), 'fab-discord-'));
     try {
