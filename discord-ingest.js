@@ -13,7 +13,7 @@ function normalized(value) {
 
 function loadProjects() {
     const projects = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'summary.json'), 'utf8'));
-    return projects.map(project => {
+    const grantProjects = projects.map(project => {
         const recordFile = path.join(DATA_DIR, 'records', `${project.id}.json`);
         if (!fs.existsSync(recordFile)) return project;
         const record = JSON.parse(fs.readFileSync(recordFile, 'utf8'));
@@ -24,6 +24,14 @@ function loadProjects() {
             discord_channel_url: project.discord_channel_url || record.links?.discord_channel
         };
     });
+    const groups = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'groups', 'index.json'), 'utf8'));
+    const allowedGroups = groups.filter(group => group.discord_channel_url).map(group => ({
+        id: group.id,
+        project: group.name,
+        aliases: group.aliases || [],
+        discord_channel_url: group.discord_channel_url
+    }));
+    return [...grantProjects, ...allowedGroups];
 }
 
 function projectNames(project) {
@@ -216,8 +224,8 @@ async function handleIngestCommand(message, command, isReviewer, options = {}) {
     if (process.env.DISCORD_INGEST_ENABLED !== 'true') return 'Discord 收錄尚未啟用；需要先設定允許的頻道與 GitHub 寫入憑證。';
     const allowedIds = String(process.env.DISCORD_INGEST_CHANNEL_IDS || '').split(',').map(id => id.trim()).filter(Boolean);
     const project = resolveProject(command.projectName, options.projects);
-    if (!project) return '找不到唯一的專案名稱。請使用 APP_### 或資料庫中的專案名稱。';
-    if (!isAllowedChannel(message.channel, project, allowedIds)) return '這個頻道未獲准收錄到該專案。';
+    if (!project) return '找不到唯一的專案或小組名稱。請使用 APP_### 或資料庫中的名稱。';
+    if (!isAllowedChannel(message.channel, project, allowedIds)) return '這個頻道未獲准收錄到該專案或小組。';
     try {
         const entries = await collectMessages(message, command.mode);
         const record = buildRecord(project, message, entries);
