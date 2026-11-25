@@ -48,7 +48,7 @@ test('GreenSofa channel resolves to group records without opening other channels
     const oldChannels = process.env.DISCORD_INGEST_CHANNEL_IDS;
     const oldGreensofa = process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID;
     process.env.DISCORD_INGEST_ENABLED = 'true';
-    process.env.DISCORD_INGEST_CHANNEL_IDS = '123';
+    process.env.DISCORD_INGEST_CHANNEL_IDS = `123,${channelId}`;
     process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID = channelId;
     try {
         const message = {
