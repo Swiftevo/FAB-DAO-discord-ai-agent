@@ -23,7 +23,9 @@ function source(id, content) {
 
 test('recognizes only explicit collection commands and unique project names', () => {
     assert.deepEqual(parseIngestCommand('收錄到 大量交織'), { projectName: '大量交織', mode: 'reply' });
+    assert.deepEqual(parseIngestCommand('收錄到綠沙發'), { projectName: '綠沙發', mode: 'reply' });
     assert.deepEqual(parseIngestCommand('收錄這串到 APP_003'), { projectName: 'APP_003', mode: 'thread' });
+    assert.deepEqual(parseIngestCommand('收錄這串到綠沙發'), { projectName: '綠沙發', mode: 'thread' });
     assert.equal(parseIngestCommand('大量交織最近更新是甚麼？'), null);
     assert.equal(resolveProject('大量交織', [project]).id, 'APP_003');
     assert.equal(resolveProject('不存在', [project]), null);
@@ -56,7 +58,7 @@ test('GreenSofa channel resolves to group records without opening other channels
             reference: { messageId: '456' },
             fetchReference: async () => ({ ...source('456', '綠沙發例會更新'), channelId })
         };
-        const command = parseIngestCommand('收錄到 綠沙發');
+        const command = parseIngestCommand('收錄到綠沙發');
         assert.match(await handleIngestCommand(message, command, true), /待審收錄/);
         delete process.env.DISCORD_INGEST_GREENSOFA_CHANNEL_ID;
         assert.match(await handleIngestCommand(message, command, true), /未獲准/);
