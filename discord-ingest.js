@@ -48,9 +48,10 @@ function resolveProject(name, projects = loadProjects()) {
 
 function parseIngestCommand(prompt) {
     const text = String(prompt || '').trim();
-    let match = text.match(/^(?:收錄|更新)(?:到|至)?\s+(.+?)\s*$/i);
+    let match = text.match(/^(?:收錄|更新)(?:到|至)\s*(.+?)\s*$/i)
+        || text.match(/^(?:收錄|更新)\s+(.+?)\s*$/i);
     if (match) return { projectName: match[1].trim(), mode: 'reply' };
-    match = text.match(/^(?:收錄|更新)這串到\s+(.+?)\s*$/i);
+    match = text.match(/^(?:收錄|更新)這串到\s*(.+?)\s*$/i);
     if (match) return { projectName: match[1].trim(), mode: 'thread' };
     return null;
 }
